@@ -47,10 +47,10 @@ class ProductionModeDataset(Dataset):
 #                                                                              or ("pt" in x) or ("production" in x)) and \
 #                                                                              ("gen" not in x))]
 #         print(str(data_list))
-        print(self.events.keys())
-        data_list = self.events["ttBar_treeVariables_step8;5;1"].keys()
+        key = self.events.keys()[0]
+        data_list = self.events[key].keys()
     
-        self.events_array = np.array([self.events["ttBar_treeVariables_step8;5;1" + "/" + k].array(library="np") for k in data_list])
+        self.events_array = np.array([self.events[key + "/" + k].array(library="np") for k in data_list])
         print(data_list)
     
         self.events_array = np.transpose(self.events_array)   # turn to columns of data
