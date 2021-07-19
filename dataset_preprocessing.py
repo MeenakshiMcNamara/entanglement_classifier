@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 import numpy as np
 import os
@@ -10,7 +10,7 @@ import uproot
 from torch.utils.data import Dataset
 
 
-# In[13]:
+# In[3]:
 
 class ProductionModeDataset(Dataset):
     """
@@ -103,14 +103,15 @@ class ProductionModeDataset(Dataset):
                 #print('ori_a =',ori_a)
                 min_a = np.min(self.events_array[:,i])#min
                 max_a = np.max(self.events_array[:,i])#max
-                range_a = max_a - min_a#range
+                range_a = max_a - min_a #range
                 #print('range =',range_a)
                 self.events_array[:, i] = (ori_a - min_a) / (range_a) #normalized list. i dont know what to do with it.
 #                 print('normalized =', np.max(self.events_array[:,i]))
                 
-            #range_a.append(max_a - min_a)
-            
-            #print(min_a)
+            # normalize the weights here:
+            n = len(self.events_array[0,:])-2
+            self.events_array[:,n] /= np.max(self.events_array[:,n])
+        
         
         # split here        
         if split:
@@ -141,28 +142,4 @@ class ProductionModeDataset(Dataset):
     def get_eval_data(self):
         return self.eval_array
 
-
-# In[ ]:
-
-
-
-
-# In[1]:
-
-# root_path = "/depot/darkmatter/data/jupyterhub/Physics_Undergrads/Steve/things"
-
-# file = root_path + "/all_2.root"
-
-# ProductionModeDataset(file)
-
-
-# In[15]:
-
-# data_o = ProductionModeDataset(file)
-
-
-# In[18]:
-
-# data = data_o.get_eval_data()
-# data
 
