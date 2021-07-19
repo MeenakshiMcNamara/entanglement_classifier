@@ -8,11 +8,11 @@ import os
 import numpy as np
 import math
 import sys
-import torchvision.transforms as transforms
-from torchvision.utils import save_image
+#import torchvision.transforms as transforms
+#from torchvision.utils import save_image
 
 from torch.utils.data import DataLoader
-from torchvision import datasets
+#from torchvision import datasets
 from torch.autograd import Variable
 
 import torch.nn as nn
@@ -61,6 +61,28 @@ class Classifier(nn.Module):
             nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
             nn.Linear(256, 3),   # last layer
             nn.LeakyReLU(0.2, inplace=True)   # apply leaky relu
+        )
+
+    def forward(self, input):
+        """
+        applies model to input and attempts to classify
+        """
+        output = self.model(input)   # Classifies the input (at location) as gg (0) qqbar (1) or other (2)
+        return output
+class Three_Layer_Classifier(nn.Module):
+    """
+    classifier layers
+    """
+    def __init__(self):
+        super(Three_Layer_Classifier, self).__init__()   # Just uses the module constructor with name Discriminator 
+
+        self.model = nn.Sequential(
+            nn.Linear(opt.input_size, 512),   # first layer
+            nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
+            nn.Linear(512, 256),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Linear(256, 3),
+            nn.LeakyReLU(0.2, inplace=True)
         )
 
     def forward(self, input):
