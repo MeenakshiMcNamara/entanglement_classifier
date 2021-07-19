@@ -15,13 +15,21 @@ from matplotlib import pyplot as plt
 from Classifier_module import Classifier
 from torch.autograd import Variable
 
+import argparse
 
 # In[2]:
 
-################# THIS IS WHERE YOU CHOOSE WHAT TO LOAD ################################
-path_to_model = "./models/bad/twoLayerModel_bad_emu0"
+# parse command line arguments
+parser = argparse.ArgumentParser()
+parser.add_argument("--model", type=str, help="the file name of the model in directory models")
+parser.add_argument("--eventType", type=int, help="event type is 0 for ee, 1 for emu, or 2 for mumu")
+opt = parser.parse_args()
 
-event_type = "emu"  # could be ee, emu, mumu
+################# THIS IS WHERE YOU CHOOSE WHAT TO LOAD ################################
+path_to_model = "./models/" + opt.model
+
+events = ["ee", "emu", "mumu"]
+event_type = events[opt.eventType]  # could be ee, emu, mumu
 root_path = "/depot-new/cms/top/mcnama20/TopSpinCorr-Run2-Entanglement/CMSSW_10_2_22/src/TopAnalysis/Configuration/analysis/diLeptonic/three_files/Nominal"
 
 file = root_path + "/" + event_type + "_modified_root_1.root"
@@ -86,7 +94,9 @@ input_variables = events[key].keys()
 
 # In[11]:
 
-r = permutation_importance(nn, input, target,                            n_repeats=30,                            random_state=0)
+r = permutation_importance(nn, input, target, n_repeats=30, random_state=0)
+
+print("r^2 score = " + str(nn.score(input, target)))
 
 for i in r.importances_mean.argsort()[::-1]:
     if r.importances_mean[i] - 2 * r.importances_std[i] > 0:
