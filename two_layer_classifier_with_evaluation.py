@@ -120,6 +120,8 @@ optimizer = torch.optim.Adam(classifier.parameters(), lr=opt.lr, betas=(opt.b1, 
 # criterion = nn.MSELoss()   # mean squared error loss
 criterion = nn.CrossEntropyLoss()
 
+train_loss_array = np.array(())
+val_loss_array = np.array(())
 small_loss = 1e10
 #loss_array = np.array(())
 batches_done = 0   # Counter for batches
@@ -161,21 +163,24 @@ for epoch in range(opt.n_epochs):   # Loop through all epochs
             #num_batches=batches_done), loss)
         
         print("loss is " + str(loss.detach().numpy()))
-        
+        train_loss_array = np.append(train_loss_array, loss.detach().numpy())
         out = classifier(val_data)
         loss_val = criterion(out, target_val)
-        
+        val_loss_array = np.append(val_loss_array, loss_val.detach().numpy())
         print("val loss = " + str(loss_val))
         
         if small_loss > loss_val:
             small_loss = loss_val
-            torch.save(classifier.state_dict(), "./models/twoLayerModel_gpu_emu0")
+            torch.save(classifier.state_dict(), "./models/twoLayerModel_gpu_emu1_short")
             print("new smallest loss is " + str(loss_val))
             
         if epoch % 50 == 0:
             display.clear_output(True)
             figure = plt.figure()
             ax = figure.add_subplot(111)
+            np.save("./data/twoLayerModel_gpu_emu1_train_short", train_loss_array)
+            np.save("./data/twoLayerModel_gpu_emu1_validate_short", val_loss_array)
+            
 #             plt.draw()
 
             
