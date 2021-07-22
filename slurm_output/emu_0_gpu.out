@@ -1,0 +1,4354 @@
+0
+starting imports
+finished imports
+False
+['lb_delta_eta', 'lbbar_delta_eta', 'lnu_delta_eta', 'lnubar_delta_eta', 'lbarb_delta_eta', 'lbarbbar_delta_eta', 'lbarnu_delta_eta', 'lbarnubar_delta_eta', 'bnu_delta_eta', 'bnubar_delta_eta', 'bbarnu_delta_eta', 'bbarnubar_delta_eta', 'lb_delta_phi', 'lbbar_delta_phi', 'lnu_delta_phi', 'lnubar_delta_phi', 'lbarb_delta_phi', 'lbarbbar_delta_phi', 'lbarnu_delta_phi', 'lbarnubar_delta_phi', 'bnu_delta_phi', 'bnubar_delta_phi', 'bbarnu_delta_phi', 'bbarnubar_delta_phi', 'wplusb_delta_eta', 'wplusbbar_delta_eta', 'wminusb_delta_eta', 'wminusbbar_delta_eta', 'wplusb_delta_phi', 'wplusbbar_delta_phi', 'wminusb_delta_phi', 'wminusbbar_delta_phi', 'top_eta', 'top_boosted_eta', 'tbar_eta', 'tbar_boosted_eta', 'ttbar_delta_eta', 'ttbar_eta', 'llbar_delta_eta', 'bbbar_delta_eta', 'nunubar_delta_eta', 'top_phi', 'tbar_phi', 'ttbar_phi', 'ttbar_delta_phi', 'llbar_phi', 'llbar_delta_phi', 'bbbar_phi', 'bbbar_delta_phi', 'nunubar_phi', 'nunubar_delta_phi', 'l_eta', 'lbar_eta', 'l_phi', 'lbar_phi', 'b_eta', 'bbar_eta', 'b_phi', 'bbar_phi', 'nu_eta', 'nubar_eta', 'nu_phi', 'nubar_phi', 'wplus_eta', 'wminus_eta', 'wplus_phi', 'wminus_phi', 'top_pt', 'tbar_pt', 'l_pt', 'b_pt', 'bbar_pt', 'nu_pt', 'nubar_pt', 'met_pt', 'ttbar_pt', 'ttbar_boosted_pt', 'wplus_pt', 'wminus_pt', 'ttbar_mass', 'production_mode', 'eventWeight', '__index__']
+num qqbar = 27098
+training (65848, 83)
+evaluating (15446, 83)
+done
+['lb_delta_eta', 'lbbar_delta_eta', 'lnu_delta_eta', 'lnubar_delta_eta', 'lbarb_delta_eta', 'lbarbbar_delta_eta', 'lbarnu_delta_eta', 'lbarnubar_delta_eta', 'bnu_delta_eta', 'bnubar_delta_eta', 'bbarnu_delta_eta', 'bbarnubar_delta_eta', 'lb_delta_phi', 'lbbar_delta_phi', 'lnu_delta_phi', 'lnubar_delta_phi', 'lbarb_delta_phi', 'lbarbbar_delta_phi', 'lbarnu_delta_phi', 'lbarnubar_delta_phi', 'bnu_delta_phi', 'bnubar_delta_phi', 'bbarnu_delta_phi', 'bbarnubar_delta_phi', 'wplusb_delta_eta', 'wplusbbar_delta_eta', 'wminusb_delta_eta', 'wminusbbar_delta_eta', 'wplusb_delta_phi', 'wplusbbar_delta_phi', 'wminusb_delta_phi', 'wminusbbar_delta_phi', 'top_eta', 'top_boosted_eta', 'tbar_eta', 'tbar_boosted_eta', 'ttbar_delta_eta', 'ttbar_eta', 'llbar_delta_eta', 'bbbar_delta_eta', 'nunubar_delta_eta', 'top_phi', 'tbar_phi', 'ttbar_phi', 'ttbar_delta_phi', 'llbar_phi', 'llbar_delta_phi', 'bbbar_phi', 'bbbar_delta_phi', 'nunubar_phi', 'nunubar_delta_phi', 'l_eta', 'lbar_eta', 'l_phi', 'lbar_phi', 'b_eta', 'bbar_eta', 'b_phi', 'bbar_phi', 'nu_eta', 'nubar_eta', 'nu_phi', 'nubar_phi', 'wplus_eta', 'wminus_eta', 'wplus_phi', 'wminus_phi', 'top_pt', 'tbar_pt', 'l_pt', 'b_pt', 'bbar_pt', 'nu_pt', 'nubar_pt', 'met_pt', 'ttbar_pt', 'ttbar_boosted_pt', 'wplus_pt', 'wminus_pt', 'ttbar_mass', 'production_mode', 'eventWeight', '__index__']
+num qqbar = 27098
+training (65848, 83)
+evaluating (15446, 83)
+loss is 1.0844306
+val loss = tensor(1.0853, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0853, grad_fn=<NllLossBackward>)
+[2KQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-mcnama20'
+[2Kloss is 1.0563084
+val loss = tensor(1.0508, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0508, grad_fn=<NllLossBackward>)
+loss is 1.0410502
+val loss = tensor(1.0415, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0415, grad_fn=<NllLossBackward>)
+loss is 1.0414729
+val loss = tensor(1.0354, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0354, grad_fn=<NllLossBackward>)
+loss is 1.0470343
+val loss = tensor(1.0316, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0316, grad_fn=<NllLossBackward>)
+loss is 1.0300707
+val loss = tensor(1.0287, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0287, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 1.0189631
+val loss = tensor(1.0274, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0274, grad_fn=<NllLossBackward>)
+loss is 1.0132462
+val loss = tensor(1.0279, grad_fn=<NllLossBackward>)
+loss is 1.0404582
+val loss = tensor(1.0242, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0242, grad_fn=<NllLossBackward>)
+loss is 1.0183948
+val loss = tensor(1.0237, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0237, grad_fn=<NllLossBackward>)
+loss is 1.0209061
+val loss = tensor(1.0211, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0211, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 1.0086393
+val loss = tensor(1.0239, grad_fn=<NllLossBackward>)
+loss is 1.0175246
+val loss = tensor(1.0189, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0189, grad_fn=<NllLossBackward>)
+loss is 1.0180382
+val loss = tensor(1.0180, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0180, grad_fn=<NllLossBackward>)
+loss is 1.0263675
+val loss = tensor(1.0203, grad_fn=<NllLossBackward>)
+loss is 1.0075799
+val loss = tensor(1.0151, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0151, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 1.0273011
+val loss = tensor(1.0141, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0141, grad_fn=<NllLossBackward>)
+loss is 1.0065545
+val loss = tensor(1.0131, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0131, grad_fn=<NllLossBackward>)
+loss is 1.00406
+val loss = tensor(1.0145, grad_fn=<NllLossBackward>)
+loss is 1.0000057
+val loss = tensor(1.0124, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0124, grad_fn=<NllLossBackward>)
+loss is 1.0219878
+val loss = tensor(1.0134, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 1.0175542
+val loss = tensor(1.0111, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0111, grad_fn=<NllLossBackward>)
+loss is 0.9955497
+val loss = tensor(1.0099, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0099, grad_fn=<NllLossBackward>)
+loss is 0.9909335
+val loss = tensor(1.0081, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0081, grad_fn=<NllLossBackward>)
+loss is 0.98045117
+val loss = tensor(1.0090, grad_fn=<NllLossBackward>)
+loss is 0.9986322
+val loss = tensor(1.0098, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.981404
+val loss = tensor(1.0063, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0063, grad_fn=<NllLossBackward>)
+loss is 0.97492474
+val loss = tensor(1.0076, grad_fn=<NllLossBackward>)
+loss is 1.0217799
+val loss = tensor(1.0050, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0050, grad_fn=<NllLossBackward>)
+loss is 0.9983907
+val loss = tensor(1.0116, grad_fn=<NllLossBackward>)
+loss is 1.0293425
+val loss = tensor(1.0079, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.99782246
+val loss = tensor(1.0056, grad_fn=<NllLossBackward>)
+loss is 0.99882877
+val loss = tensor(1.0056, grad_fn=<NllLossBackward>)
+loss is 1.0081726
+val loss = tensor(1.0050, grad_fn=<NllLossBackward>)
+loss is 0.9673406
+val loss = tensor(1.0066, grad_fn=<NllLossBackward>)
+loss is 0.99767447
+val loss = tensor(1.0041, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0041, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 1.0098845
+val loss = tensor(1.0007, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0007, grad_fn=<NllLossBackward>)
+loss is 0.9942107
+val loss = tensor(1.0005, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0005, grad_fn=<NllLossBackward>)
+loss is 1.0021116
+val loss = tensor(1.0003, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(1.0003, grad_fn=<NllLossBackward>)
+loss is 0.9816119
+val loss = tensor(1.0033, grad_fn=<NllLossBackward>)
+loss is 0.9998949
+val loss = tensor(1.0031, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 1.0004172
+val loss = tensor(1.0103, grad_fn=<NllLossBackward>)
+loss is 0.9887439
+val loss = tensor(0.9981, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9981, grad_fn=<NllLossBackward>)
+loss is 1.0020814
+val loss = tensor(0.9987, grad_fn=<NllLossBackward>)
+loss is 0.99846375
+val loss = tensor(0.9975, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9975, grad_fn=<NllLossBackward>)
+loss is 1.0104933
+val loss = tensor(0.9946, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9946, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.97742593
+val loss = tensor(0.9955, grad_fn=<NllLossBackward>)
+loss is 0.99227494
+val loss = tensor(0.9942, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9942, grad_fn=<NllLossBackward>)
+loss is 1.0198581
+val loss = tensor(0.9947, grad_fn=<NllLossBackward>)
+loss is 1.0012
+val loss = tensor(0.9956, grad_fn=<NllLossBackward>)
+loss is 0.9724455
+val loss = tensor(0.9974, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9886455
+val loss = tensor(0.9949, grad_fn=<NllLossBackward>)
+loss is 0.99826014
+val loss = tensor(0.9910, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9910, grad_fn=<NllLossBackward>)
+loss is 0.9775216
+val loss = tensor(0.9966, grad_fn=<NllLossBackward>)
+loss is 0.9670459
+val loss = tensor(0.9914, grad_fn=<NllLossBackward>)
+loss is 0.9727457
+val loss = tensor(0.9914, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9911183
+val loss = tensor(0.9896, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9896, grad_fn=<NllLossBackward>)
+loss is 0.98969024
+val loss = tensor(0.9883, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9883, grad_fn=<NllLossBackward>)
+loss is 0.9846511
+val loss = tensor(0.9922, grad_fn=<NllLossBackward>)
+loss is 0.9714901
+val loss = tensor(0.9912, grad_fn=<NllLossBackward>)
+loss is 0.9819807
+val loss = tensor(0.9943, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.97111684
+val loss = tensor(0.9897, grad_fn=<NllLossBackward>)
+loss is 0.99198693
+val loss = tensor(0.9871, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9871, grad_fn=<NllLossBackward>)
+loss is 0.98060274
+val loss = tensor(0.9942, grad_fn=<NllLossBackward>)
+loss is 0.9543992
+val loss = tensor(0.9880, grad_fn=<NllLossBackward>)
+loss is 0.9851952
+val loss = tensor(0.9896, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 1.0020807
+val loss = tensor(0.9847, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9847, grad_fn=<NllLossBackward>)
+loss is 0.9603985
+val loss = tensor(0.9861, grad_fn=<NllLossBackward>)
+loss is 0.9734841
+val loss = tensor(0.9885, grad_fn=<NllLossBackward>)
+loss is 0.9846156
+val loss = tensor(0.9838, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9838, grad_fn=<NllLossBackward>)
+loss is 0.98118097
+val loss = tensor(0.9841, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9380389
+val loss = tensor(0.9919, grad_fn=<NllLossBackward>)
+loss is 0.96414506
+val loss = tensor(0.9826, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9826, grad_fn=<NllLossBackward>)
+loss is 0.95909053
+val loss = tensor(0.9893, grad_fn=<NllLossBackward>)
+loss is 0.98688537
+val loss = tensor(0.9876, grad_fn=<NllLossBackward>)
+loss is 0.96814907
+val loss = tensor(0.9878, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.96329325
+val loss = tensor(0.9808, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9808, grad_fn=<NllLossBackward>)
+loss is 0.9854957
+val loss = tensor(0.9805, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9805, grad_fn=<NllLossBackward>)
+loss is 0.9496697
+val loss = tensor(0.9804, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9804, grad_fn=<NllLossBackward>)
+loss is 0.9381217
+val loss = tensor(0.9905, grad_fn=<NllLossBackward>)
+loss is 0.9712771
+val loss = tensor(0.9863, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.944194
+val loss = tensor(0.9843, grad_fn=<NllLossBackward>)
+loss is 0.9667208
+val loss = tensor(0.9820, grad_fn=<NllLossBackward>)
+loss is 0.9709279
+val loss = tensor(0.9775, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9775, grad_fn=<NllLossBackward>)
+loss is 0.9422196
+val loss = tensor(0.9775, grad_fn=<NllLossBackward>)
+loss is 0.96379304
+val loss = tensor(0.9786, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.95821196
+val loss = tensor(0.9778, grad_fn=<NllLossBackward>)
+loss is 0.9926204
+val loss = tensor(0.9770, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9770, grad_fn=<NllLossBackward>)
+loss is 0.94479275
+val loss = tensor(0.9835, grad_fn=<NllLossBackward>)
+loss is 0.97357315
+val loss = tensor(0.9765, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9765, grad_fn=<NllLossBackward>)
+loss is 0.9684185
+val loss = tensor(0.9787, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.944699
+val loss = tensor(0.9756, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9756, grad_fn=<NllLossBackward>)
+loss is 0.9402888
+val loss = tensor(0.9736, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9736, grad_fn=<NllLossBackward>)
+loss is 0.9826594
+val loss = tensor(0.9745, grad_fn=<NllLossBackward>)
+loss is 0.9595251
+val loss = tensor(0.9803, grad_fn=<NllLossBackward>)
+loss is 0.95908666
+val loss = tensor(0.9731, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9731, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.97414315
+val loss = tensor(0.9742, grad_fn=<NllLossBackward>)
+loss is 0.9486494
+val loss = tensor(0.9741, grad_fn=<NllLossBackward>)
+loss is 0.9479765
+val loss = tensor(0.9744, grad_fn=<NllLossBackward>)
+loss is 0.9526946
+val loss = tensor(0.9787, grad_fn=<NllLossBackward>)
+loss is 0.94903195
+val loss = tensor(0.9784, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9689058
+val loss = tensor(0.9824, grad_fn=<NllLossBackward>)
+loss is 0.9498984
+val loss = tensor(0.9702, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9702, grad_fn=<NllLossBackward>)
+loss is 0.9754443
+val loss = tensor(0.9814, grad_fn=<NllLossBackward>)
+loss is 0.93126774
+val loss = tensor(0.9725, grad_fn=<NllLossBackward>)
+loss is 0.9566199
+val loss = tensor(0.9722, grad_fn=<NllLossBackward>)
+[2Ktwo_layer_classifier_with_evaluation.py:177: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  figure = plt.figure()
+[2Kloss is 0.9399713
+val loss = tensor(0.9958, grad_fn=<NllLossBackward>)
+loss is 0.95198065
+val loss = tensor(0.9744, grad_fn=<NllLossBackward>)
+loss is 0.9366107
+val loss = tensor(1.0019, grad_fn=<NllLossBackward>)
+loss is 0.94458866
+val loss = tensor(0.9708, grad_fn=<NllLossBackward>)
+loss is 0.9610341
+val loss = tensor(0.9690, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9690, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.94579726
+val loss = tensor(0.9726, grad_fn=<NllLossBackward>)
+loss is 0.9651268
+val loss = tensor(0.9707, grad_fn=<NllLossBackward>)
+loss is 0.9252946
+val loss = tensor(0.9684, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9684, grad_fn=<NllLossBackward>)
+loss is 0.977724
+val loss = tensor(0.9683, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9683, grad_fn=<NllLossBackward>)
+loss is 0.9343689
+val loss = tensor(0.9694, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.95719194
+val loss = tensor(0.9662, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9662, grad_fn=<NllLossBackward>)
+loss is 0.9324224
+val loss = tensor(0.9663, grad_fn=<NllLossBackward>)
+loss is 0.9262363
+val loss = tensor(0.9745, grad_fn=<NllLossBackward>)
+loss is 0.9459426
+val loss = tensor(0.9660, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9660, grad_fn=<NllLossBackward>)
+loss is 0.9534408
+val loss = tensor(0.9669, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9153775
+val loss = tensor(0.9636, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9636, grad_fn=<NllLossBackward>)
+loss is 0.9719059
+val loss = tensor(0.9715, grad_fn=<NllLossBackward>)
+loss is 0.95089555
+val loss = tensor(0.9681, grad_fn=<NllLossBackward>)
+loss is 0.97800833
+val loss = tensor(0.9637, grad_fn=<NllLossBackward>)
+loss is 0.9464934
+val loss = tensor(0.9691, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9349985
+val loss = tensor(0.9615, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9615, grad_fn=<NllLossBackward>)
+loss is 0.92150915
+val loss = tensor(0.9671, grad_fn=<NllLossBackward>)
+loss is 0.92160344
+val loss = tensor(0.9619, grad_fn=<NllLossBackward>)
+loss is 0.9359217
+val loss = tensor(0.9623, grad_fn=<NllLossBackward>)
+loss is 0.94821906
+val loss = tensor(0.9633, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9617906
+val loss = tensor(0.9600, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9600, grad_fn=<NllLossBackward>)
+loss is 0.9451127
+val loss = tensor(0.9668, grad_fn=<NllLossBackward>)
+loss is 0.93021786
+val loss = tensor(0.9698, grad_fn=<NllLossBackward>)
+loss is 0.9330771
+val loss = tensor(0.9652, grad_fn=<NllLossBackward>)
+loss is 0.9596135
+val loss = tensor(0.9638, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9298776
+val loss = tensor(0.9606, grad_fn=<NllLossBackward>)
+loss is 0.93163586
+val loss = tensor(0.9584, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9584, grad_fn=<NllLossBackward>)
+loss is 0.9425954
+val loss = tensor(0.9733, grad_fn=<NllLossBackward>)
+loss is 0.931104
+val loss = tensor(0.9674, grad_fn=<NllLossBackward>)
+loss is 0.9157993
+val loss = tensor(0.9579, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9579, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.89839923
+val loss = tensor(0.9601, grad_fn=<NllLossBackward>)
+loss is 0.94128424
+val loss = tensor(0.9589, grad_fn=<NllLossBackward>)
+loss is 0.9177021
+val loss = tensor(0.9564, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9564, grad_fn=<NllLossBackward>)
+loss is 0.9074321
+val loss = tensor(0.9563, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9563, grad_fn=<NllLossBackward>)
+loss is 0.96510255
+val loss = tensor(0.9601, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9012458
+val loss = tensor(0.9684, grad_fn=<NllLossBackward>)
+loss is 0.9257972
+val loss = tensor(0.9585, grad_fn=<NllLossBackward>)
+loss is 0.926684
+val loss = tensor(0.9620, grad_fn=<NllLossBackward>)
+loss is 0.9088314
+val loss = tensor(0.9651, grad_fn=<NllLossBackward>)
+loss is 0.93045354
+val loss = tensor(0.9613, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9448602
+val loss = tensor(0.9575, grad_fn=<NllLossBackward>)
+loss is 0.9401075
+val loss = tensor(0.9615, grad_fn=<NllLossBackward>)
+loss is 0.9157947
+val loss = tensor(0.9633, grad_fn=<NllLossBackward>)
+loss is 0.922116
+val loss = tensor(0.9603, grad_fn=<NllLossBackward>)
+loss is 0.9113236
+val loss = tensor(0.9537, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9537, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9372212
+val loss = tensor(0.9534, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9534, grad_fn=<NllLossBackward>)
+loss is 0.93998486
+val loss = tensor(0.9812, grad_fn=<NllLossBackward>)
+loss is 0.9019272
+val loss = tensor(0.9648, grad_fn=<NllLossBackward>)
+loss is 0.9052917
+val loss = tensor(0.9627, grad_fn=<NllLossBackward>)
+loss is 0.9081911
+val loss = tensor(0.9574, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.92812383
+val loss = tensor(0.9577, grad_fn=<NllLossBackward>)
+loss is 0.93905836
+val loss = tensor(0.9520, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9520, grad_fn=<NllLossBackward>)
+loss is 0.9195126
+val loss = tensor(0.9592, grad_fn=<NllLossBackward>)
+loss is 0.9152377
+val loss = tensor(0.9532, grad_fn=<NllLossBackward>)
+loss is 0.90357065
+val loss = tensor(0.9553, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9239723
+val loss = tensor(0.9570, grad_fn=<NllLossBackward>)
+loss is 0.9409791
+val loss = tensor(0.9516, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9516, grad_fn=<NllLossBackward>)
+loss is 0.92190695
+val loss = tensor(0.9573, grad_fn=<NllLossBackward>)
+loss is 0.9327075
+val loss = tensor(0.9588, grad_fn=<NllLossBackward>)
+loss is 0.93372834
+val loss = tensor(0.9738, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9320988
+val loss = tensor(0.9683, grad_fn=<NllLossBackward>)
+loss is 0.9197915
+val loss = tensor(0.9513, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9513, grad_fn=<NllLossBackward>)
+loss is 0.9156917
+val loss = tensor(0.9531, grad_fn=<NllLossBackward>)
+loss is 0.8828863
+val loss = tensor(0.9568, grad_fn=<NllLossBackward>)
+loss is 0.9309318
+val loss = tensor(0.9552, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.89918756
+val loss = tensor(0.9583, grad_fn=<NllLossBackward>)
+loss is 0.91673905
+val loss = tensor(0.9536, grad_fn=<NllLossBackward>)
+loss is 0.91994685
+val loss = tensor(0.9495, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9495, grad_fn=<NllLossBackward>)
+loss is 0.90497994
+val loss = tensor(0.9497, grad_fn=<NllLossBackward>)
+loss is 0.8992142
+val loss = tensor(0.9508, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9082629
+val loss = tensor(0.9560, grad_fn=<NllLossBackward>)
+loss is 0.9268885
+val loss = tensor(0.9468, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9468, grad_fn=<NllLossBackward>)
+loss is 0.90807694
+val loss = tensor(0.9548, grad_fn=<NllLossBackward>)
+loss is 0.929435
+val loss = tensor(0.9533, grad_fn=<NllLossBackward>)
+loss is 0.9360276
+val loss = tensor(0.9481, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9117885
+val loss = tensor(0.9526, grad_fn=<NllLossBackward>)
+loss is 0.92215264
+val loss = tensor(0.9464, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9464, grad_fn=<NllLossBackward>)
+loss is 0.9021166
+val loss = tensor(0.9488, grad_fn=<NllLossBackward>)
+loss is 0.9115804
+val loss = tensor(0.9550, grad_fn=<NllLossBackward>)
+loss is 0.90815866
+val loss = tensor(0.9484, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9093916
+val loss = tensor(0.9474, grad_fn=<NllLossBackward>)
+loss is 0.947291
+val loss = tensor(0.9557, grad_fn=<NllLossBackward>)
+loss is 0.89303124
+val loss = tensor(0.9460, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9460, grad_fn=<NllLossBackward>)
+loss is 0.931458
+val loss = tensor(0.9459, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9459, grad_fn=<NllLossBackward>)
+loss is 0.9083069
+val loss = tensor(0.9738, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.92114335
+val loss = tensor(0.9458, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9458, grad_fn=<NllLossBackward>)
+loss is 0.93545103
+val loss = tensor(0.9486, grad_fn=<NllLossBackward>)
+loss is 0.91174966
+val loss = tensor(0.9510, grad_fn=<NllLossBackward>)
+loss is 0.9109251
+val loss = tensor(0.9459, grad_fn=<NllLossBackward>)
+loss is 0.86414915
+val loss = tensor(0.9432, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9432, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.92631173
+val loss = tensor(0.9446, grad_fn=<NllLossBackward>)
+loss is 0.90325093
+val loss = tensor(0.9443, grad_fn=<NllLossBackward>)
+loss is 0.9297276
+val loss = tensor(0.9427, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9427, grad_fn=<NllLossBackward>)
+loss is 0.91183394
+val loss = tensor(0.9415, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9415, grad_fn=<NllLossBackward>)
+loss is 0.9175218
+val loss = tensor(0.9555, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9161435
+val loss = tensor(0.9603, grad_fn=<NllLossBackward>)
+loss is 0.8890158
+val loss = tensor(0.9580, grad_fn=<NllLossBackward>)
+loss is 0.92097855
+val loss = tensor(0.9402, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9402, grad_fn=<NllLossBackward>)
+loss is 0.89459795
+val loss = tensor(0.9742, grad_fn=<NllLossBackward>)
+loss is 0.8833695
+val loss = tensor(0.9460, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8977315
+val loss = tensor(0.9844, grad_fn=<NllLossBackward>)
+loss is 0.9264663
+val loss = tensor(0.9409, grad_fn=<NllLossBackward>)
+loss is 0.9282286
+val loss = tensor(0.9497, grad_fn=<NllLossBackward>)
+loss is 0.89322245
+val loss = tensor(0.9391, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9391, grad_fn=<NllLossBackward>)
+loss is 0.8993531
+val loss = tensor(0.9399, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9087908
+val loss = tensor(0.9485, grad_fn=<NllLossBackward>)
+loss is 0.86415803
+val loss = tensor(0.9790, grad_fn=<NllLossBackward>)
+loss is 0.9118228
+val loss = tensor(0.9400, grad_fn=<NllLossBackward>)
+loss is 0.9056536
+val loss = tensor(0.9388, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9388, grad_fn=<NllLossBackward>)
+loss is 0.9085522
+val loss = tensor(0.9391, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.91454864
+val loss = tensor(0.9378, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9378, grad_fn=<NllLossBackward>)
+loss is 0.8973235
+val loss = tensor(0.9369, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9369, grad_fn=<NllLossBackward>)
+loss is 0.9055609
+val loss = tensor(0.9370, grad_fn=<NllLossBackward>)
+loss is 0.91716325
+val loss = tensor(0.9477, grad_fn=<NllLossBackward>)
+loss is 0.89771676
+val loss = tensor(0.9456, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.91777825
+val loss = tensor(0.9407, grad_fn=<NllLossBackward>)
+loss is 0.8882578
+val loss = tensor(0.9376, grad_fn=<NllLossBackward>)
+loss is 0.9010796
+val loss = tensor(0.9422, grad_fn=<NllLossBackward>)
+loss is 0.9105323
+val loss = tensor(0.9363, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9363, grad_fn=<NllLossBackward>)
+loss is 0.91240007
+val loss = tensor(0.9358, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9358, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9252266
+val loss = tensor(0.9370, grad_fn=<NllLossBackward>)
+loss is 0.9014871
+val loss = tensor(0.9374, grad_fn=<NllLossBackward>)
+loss is 0.9138512
+val loss = tensor(0.9457, grad_fn=<NllLossBackward>)
+loss is 0.9142637
+val loss = tensor(0.9356, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9356, grad_fn=<NllLossBackward>)
+loss is 0.90198755
+val loss = tensor(0.9400, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9191735
+val loss = tensor(0.9369, grad_fn=<NllLossBackward>)
+loss is 0.8864642
+val loss = tensor(0.9421, grad_fn=<NllLossBackward>)
+loss is 0.88778573
+val loss = tensor(0.9430, grad_fn=<NllLossBackward>)
+loss is 0.90435696
+val loss = tensor(0.9463, grad_fn=<NllLossBackward>)
+loss is 0.90744275
+val loss = tensor(0.9527, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.89916945
+val loss = tensor(0.9357, grad_fn=<NllLossBackward>)
+loss is 0.88785
+val loss = tensor(0.9362, grad_fn=<NllLossBackward>)
+loss is 0.89311713
+val loss = tensor(0.9595, grad_fn=<NllLossBackward>)
+loss is 0.8991896
+val loss = tensor(0.9342, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9342, grad_fn=<NllLossBackward>)
+loss is 0.9102614
+val loss = tensor(0.9709, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.91335756
+val loss = tensor(0.9394, grad_fn=<NllLossBackward>)
+loss is 0.8932491
+val loss = tensor(0.9339, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9339, grad_fn=<NllLossBackward>)
+loss is 0.88184637
+val loss = tensor(0.9345, grad_fn=<NllLossBackward>)
+loss is 0.8916913
+val loss = tensor(0.9344, grad_fn=<NllLossBackward>)
+loss is 0.9070355
+val loss = tensor(0.9538, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.92399865
+val loss = tensor(0.9402, grad_fn=<NllLossBackward>)
+loss is 0.8780552
+val loss = tensor(0.9481, grad_fn=<NllLossBackward>)
+loss is 0.8744771
+val loss = tensor(0.9361, grad_fn=<NllLossBackward>)
+loss is 0.9182639
+val loss = tensor(0.9342, grad_fn=<NllLossBackward>)
+loss is 0.9196912
+val loss = tensor(0.9437, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8834395
+val loss = tensor(0.9430, grad_fn=<NllLossBackward>)
+loss is 0.8978161
+val loss = tensor(0.9401, grad_fn=<NllLossBackward>)
+loss is 0.88532734
+val loss = tensor(0.9353, grad_fn=<NllLossBackward>)
+loss is 0.86271626
+val loss = tensor(0.9322, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9322, grad_fn=<NllLossBackward>)
+loss is 0.86773497
+val loss = tensor(0.9533, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.91942745
+val loss = tensor(0.9312, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9312, grad_fn=<NllLossBackward>)
+loss is 0.9047894
+val loss = tensor(0.9305, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9305, grad_fn=<NllLossBackward>)
+loss is 0.88622135
+val loss = tensor(0.9670, grad_fn=<NllLossBackward>)
+loss is 0.9030356
+val loss = tensor(0.9313, grad_fn=<NllLossBackward>)
+loss is 0.8982519
+val loss = tensor(0.9329, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8709275
+val loss = tensor(0.9497, grad_fn=<NllLossBackward>)
+loss is 0.90724486
+val loss = tensor(0.9456, grad_fn=<NllLossBackward>)
+loss is 0.9108599
+val loss = tensor(0.9304, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9304, grad_fn=<NllLossBackward>)
+loss is 0.9052544
+val loss = tensor(0.9364, grad_fn=<NllLossBackward>)
+loss is 0.8765858
+val loss = tensor(0.9360, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8602436
+val loss = tensor(0.9315, grad_fn=<NllLossBackward>)
+loss is 0.8820073
+val loss = tensor(0.9320, grad_fn=<NllLossBackward>)
+loss is 0.92189616
+val loss = tensor(0.9397, grad_fn=<NllLossBackward>)
+loss is 0.9282992
+val loss = tensor(0.9390, grad_fn=<NllLossBackward>)
+loss is 0.90486383
+val loss = tensor(0.9284, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9284, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9111398
+val loss = tensor(0.9327, grad_fn=<NllLossBackward>)
+loss is 0.8699581
+val loss = tensor(0.9478, grad_fn=<NllLossBackward>)
+loss is 0.87499696
+val loss = tensor(0.9314, grad_fn=<NllLossBackward>)
+loss is 0.88819057
+val loss = tensor(0.9283, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9283, grad_fn=<NllLossBackward>)
+loss is 0.87858266
+val loss = tensor(0.9874, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8993576
+val loss = tensor(0.9323, grad_fn=<NllLossBackward>)
+loss is 0.912938
+val loss = tensor(0.9372, grad_fn=<NllLossBackward>)
+loss is 0.8818511
+val loss = tensor(0.9304, grad_fn=<NllLossBackward>)
+loss is 0.9490104
+val loss = tensor(0.9286, grad_fn=<NllLossBackward>)
+loss is 0.9112895
+val loss = tensor(0.9327, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9049636
+val loss = tensor(0.9271, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9271, grad_fn=<NllLossBackward>)
+loss is 0.8883244
+val loss = tensor(0.9357, grad_fn=<NllLossBackward>)
+loss is 0.8846432
+val loss = tensor(0.9530, grad_fn=<NllLossBackward>)
+loss is 0.8838227
+val loss = tensor(0.9361, grad_fn=<NllLossBackward>)
+loss is 0.8906202
+val loss = tensor(0.9359, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8943536
+val loss = tensor(0.9352, grad_fn=<NllLossBackward>)
+loss is 0.8864421
+val loss = tensor(0.9452, grad_fn=<NllLossBackward>)
+loss is 0.89538896
+val loss = tensor(0.9264, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9264, grad_fn=<NllLossBackward>)
+loss is 0.9375587
+val loss = tensor(0.9341, grad_fn=<NllLossBackward>)
+loss is 0.9020733
+val loss = tensor(0.9255, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9255, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.859721
+val loss = tensor(0.9260, grad_fn=<NllLossBackward>)
+loss is 0.89778596
+val loss = tensor(0.9272, grad_fn=<NllLossBackward>)
+loss is 0.8942364
+val loss = tensor(0.9268, grad_fn=<NllLossBackward>)
+loss is 0.89296746
+val loss = tensor(0.9267, grad_fn=<NllLossBackward>)
+loss is 0.9031708
+val loss = tensor(0.9256, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9079813
+val loss = tensor(0.9766, grad_fn=<NllLossBackward>)
+loss is 0.88281727
+val loss = tensor(0.9413, grad_fn=<NllLossBackward>)
+loss is 0.8602072
+val loss = tensor(0.9265, grad_fn=<NllLossBackward>)
+loss is 0.882823
+val loss = tensor(0.9326, grad_fn=<NllLossBackward>)
+loss is 0.89942974
+val loss = tensor(0.9375, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8724327
+val loss = tensor(0.9311, grad_fn=<NllLossBackward>)
+loss is 0.8905876
+val loss = tensor(0.9324, grad_fn=<NllLossBackward>)
+loss is 0.86915344
+val loss = tensor(0.9288, grad_fn=<NllLossBackward>)
+loss is 0.89651835
+val loss = tensor(0.9278, grad_fn=<NllLossBackward>)
+loss is 0.87848866
+val loss = tensor(0.9284, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8627792
+val loss = tensor(0.9296, grad_fn=<NllLossBackward>)
+loss is 0.91934437
+val loss = tensor(0.9304, grad_fn=<NllLossBackward>)
+loss is 0.8643754
+val loss = tensor(0.9260, grad_fn=<NllLossBackward>)
+loss is 0.9177024
+val loss = tensor(0.9243, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9243, grad_fn=<NllLossBackward>)
+loss is 0.8773489
+val loss = tensor(0.9269, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.87344056
+val loss = tensor(0.9308, grad_fn=<NllLossBackward>)
+loss is 0.8708093
+val loss = tensor(0.9316, grad_fn=<NllLossBackward>)
+loss is 0.8894215
+val loss = tensor(0.9244, grad_fn=<NllLossBackward>)
+loss is 0.89968455
+val loss = tensor(0.9281, grad_fn=<NllLossBackward>)
+loss is 0.8777387
+val loss = tensor(0.9282, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.86716956
+val loss = tensor(0.9257, grad_fn=<NllLossBackward>)
+loss is 0.8805873
+val loss = tensor(0.9259, grad_fn=<NllLossBackward>)
+loss is 0.8951084
+val loss = tensor(0.9258, grad_fn=<NllLossBackward>)
+loss is 0.8674484
+val loss = tensor(0.9281, grad_fn=<NllLossBackward>)
+loss is 0.8935304
+val loss = tensor(0.9294, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.87343067
+val loss = tensor(0.9359, grad_fn=<NllLossBackward>)
+loss is 0.89575046
+val loss = tensor(0.9369, grad_fn=<NllLossBackward>)
+loss is 0.8797759
+val loss = tensor(0.9273, grad_fn=<NllLossBackward>)
+loss is 0.86793107
+val loss = tensor(0.9274, grad_fn=<NllLossBackward>)
+loss is 0.86816615
+val loss = tensor(0.9438, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8965201
+val loss = tensor(0.9214, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9214, grad_fn=<NllLossBackward>)
+loss is 0.8829922
+val loss = tensor(0.9237, grad_fn=<NllLossBackward>)
+loss is 0.9068015
+val loss = tensor(0.9295, grad_fn=<NllLossBackward>)
+loss is 0.8946817
+val loss = tensor(0.9259, grad_fn=<NllLossBackward>)
+loss is 0.88209665
+val loss = tensor(0.9299, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8863692
+val loss = tensor(0.9239, grad_fn=<NllLossBackward>)
+loss is 0.8633245
+val loss = tensor(0.9206, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9206, grad_fn=<NllLossBackward>)
+loss is 0.87537104
+val loss = tensor(0.9242, grad_fn=<NllLossBackward>)
+loss is 0.9006275
+val loss = tensor(0.9274, grad_fn=<NllLossBackward>)
+loss is 0.87748605
+val loss = tensor(0.9252, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.88607866
+val loss = tensor(0.9212, grad_fn=<NllLossBackward>)
+loss is 0.87212545
+val loss = tensor(0.9300, grad_fn=<NllLossBackward>)
+loss is 0.8852098
+val loss = tensor(0.9242, grad_fn=<NllLossBackward>)
+loss is 0.8854087
+val loss = tensor(0.9276, grad_fn=<NllLossBackward>)
+loss is 0.87783
+val loss = tensor(0.9199, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9199, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.892096
+val loss = tensor(0.9227, grad_fn=<NllLossBackward>)
+loss is 0.8793925
+val loss = tensor(0.9277, grad_fn=<NllLossBackward>)
+loss is 0.907075
+val loss = tensor(0.9197, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9197, grad_fn=<NllLossBackward>)
+loss is 0.8807433
+val loss = tensor(0.9253, grad_fn=<NllLossBackward>)
+loss is 0.8976676
+val loss = tensor(0.9406, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8751431
+val loss = tensor(0.9313, grad_fn=<NllLossBackward>)
+loss is 0.87570286
+val loss = tensor(0.9598, grad_fn=<NllLossBackward>)
+loss is 0.8602251
+val loss = tensor(0.9223, grad_fn=<NllLossBackward>)
+loss is 0.89004993
+val loss = tensor(0.9212, grad_fn=<NllLossBackward>)
+loss is 0.86703694
+val loss = tensor(0.9209, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8766141
+val loss = tensor(0.9189, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9189, grad_fn=<NllLossBackward>)
+loss is 0.85436314
+val loss = tensor(0.9260, grad_fn=<NllLossBackward>)
+loss is 0.8783971
+val loss = tensor(0.9407, grad_fn=<NllLossBackward>)
+loss is 0.83518803
+val loss = tensor(0.9193, grad_fn=<NllLossBackward>)
+loss is 0.87227964
+val loss = tensor(0.9190, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.916987
+val loss = tensor(0.9432, grad_fn=<NllLossBackward>)
+loss is 0.87711746
+val loss = tensor(0.9328, grad_fn=<NllLossBackward>)
+loss is 0.886224
+val loss = tensor(0.9210, grad_fn=<NllLossBackward>)
+loss is 0.8699921
+val loss = tensor(0.9225, grad_fn=<NllLossBackward>)
+loss is 0.87129253
+val loss = tensor(0.9350, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.92040807
+val loss = tensor(0.9461, grad_fn=<NllLossBackward>)
+loss is 0.8654426
+val loss = tensor(0.9279, grad_fn=<NllLossBackward>)
+loss is 0.8755979
+val loss = tensor(0.9197, grad_fn=<NllLossBackward>)
+loss is 0.8658725
+val loss = tensor(0.9234, grad_fn=<NllLossBackward>)
+loss is 0.85953057
+val loss = tensor(0.9203, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8752923
+val loss = tensor(0.9369, grad_fn=<NllLossBackward>)
+loss is 0.86849976
+val loss = tensor(0.9335, grad_fn=<NllLossBackward>)
+loss is 0.8649462
+val loss = tensor(0.9265, grad_fn=<NllLossBackward>)
+loss is 0.87569034
+val loss = tensor(0.9352, grad_fn=<NllLossBackward>)
+loss is 0.9050103
+val loss = tensor(0.9230, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.86658967
+val loss = tensor(0.9344, grad_fn=<NllLossBackward>)
+loss is 0.88284844
+val loss = tensor(0.9342, grad_fn=<NllLossBackward>)
+loss is 0.8815938
+val loss = tensor(0.9292, grad_fn=<NllLossBackward>)
+loss is 0.8817046
+val loss = tensor(0.9310, grad_fn=<NllLossBackward>)
+loss is 0.90034133
+val loss = tensor(0.9237, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8642738
+val loss = tensor(0.9190, grad_fn=<NllLossBackward>)
+loss is 0.90060943
+val loss = tensor(0.9189, grad_fn=<NllLossBackward>)
+loss is 0.8818499
+val loss = tensor(0.9206, grad_fn=<NllLossBackward>)
+loss is 0.8871498
+val loss = tensor(0.9253, grad_fn=<NllLossBackward>)
+loss is 0.87799203
+val loss = tensor(0.9280, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9248084
+val loss = tensor(0.9248, grad_fn=<NllLossBackward>)
+loss is 0.83379215
+val loss = tensor(0.9211, grad_fn=<NllLossBackward>)
+loss is 0.9066911
+val loss = tensor(0.9200, grad_fn=<NllLossBackward>)
+loss is 0.8715558
+val loss = tensor(0.9294, grad_fn=<NllLossBackward>)
+loss is 0.87074006
+val loss = tensor(0.9174, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9174, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.85434127
+val loss = tensor(0.9178, grad_fn=<NllLossBackward>)
+loss is 0.8861559
+val loss = tensor(0.9279, grad_fn=<NllLossBackward>)
+loss is 0.8914161
+val loss = tensor(0.9151, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9151, grad_fn=<NllLossBackward>)
+loss is 0.88060296
+val loss = tensor(0.9248, grad_fn=<NllLossBackward>)
+loss is 0.858527
+val loss = tensor(0.9199, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.84995526
+val loss = tensor(0.9209, grad_fn=<NllLossBackward>)
+loss is 0.85315394
+val loss = tensor(0.9157, grad_fn=<NllLossBackward>)
+loss is 0.8790809
+val loss = tensor(0.9171, grad_fn=<NllLossBackward>)
+loss is 0.83054286
+val loss = tensor(0.9160, grad_fn=<NllLossBackward>)
+loss is 0.9025126
+val loss = tensor(0.9368, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8269814
+val loss = tensor(0.9186, grad_fn=<NllLossBackward>)
+loss is 0.8928705
+val loss = tensor(0.9154, grad_fn=<NllLossBackward>)
+loss is 0.88858616
+val loss = tensor(0.9291, grad_fn=<NllLossBackward>)
+loss is 0.8833997
+val loss = tensor(0.9215, grad_fn=<NllLossBackward>)
+loss is 0.87729776
+val loss = tensor(0.9147, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9147, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.89302236
+val loss = tensor(0.9219, grad_fn=<NllLossBackward>)
+loss is 0.8264017
+val loss = tensor(0.9158, grad_fn=<NllLossBackward>)
+loss is 0.86699593
+val loss = tensor(0.9153, grad_fn=<NllLossBackward>)
+loss is 0.85870904
+val loss = tensor(0.9201, grad_fn=<NllLossBackward>)
+loss is 0.8820878
+val loss = tensor(0.9311, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8564883
+val loss = tensor(0.9181, grad_fn=<NllLossBackward>)
+loss is 0.83285844
+val loss = tensor(0.9366, grad_fn=<NllLossBackward>)
+loss is 0.8772303
+val loss = tensor(0.9241, grad_fn=<NllLossBackward>)
+loss is 0.84736496
+val loss = tensor(0.9394, grad_fn=<NllLossBackward>)
+loss is 0.8887658
+val loss = tensor(0.9143, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9143, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8300885
+val loss = tensor(0.9156, grad_fn=<NllLossBackward>)
+loss is 0.87440914
+val loss = tensor(0.9352, grad_fn=<NllLossBackward>)
+loss is 0.86565876
+val loss = tensor(0.9212, grad_fn=<NllLossBackward>)
+loss is 0.86964494
+val loss = tensor(0.9278, grad_fn=<NllLossBackward>)
+loss is 0.8663922
+val loss = tensor(0.9151, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8568639
+val loss = tensor(0.9336, grad_fn=<NllLossBackward>)
+loss is 0.86568993
+val loss = tensor(0.9218, grad_fn=<NllLossBackward>)
+loss is 0.8607368
+val loss = tensor(0.9299, grad_fn=<NllLossBackward>)
+loss is 0.86152464
+val loss = tensor(0.9131, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9131, grad_fn=<NllLossBackward>)
+loss is 0.8688926
+val loss = tensor(0.9252, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8497814
+val loss = tensor(0.9157, grad_fn=<NllLossBackward>)
+loss is 0.86706847
+val loss = tensor(0.9132, grad_fn=<NllLossBackward>)
+loss is 0.8797545
+val loss = tensor(0.9185, grad_fn=<NllLossBackward>)
+loss is 0.91003567
+val loss = tensor(0.9136, grad_fn=<NllLossBackward>)
+loss is 0.8600082
+val loss = tensor(0.9133, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.85724354
+val loss = tensor(0.9173, grad_fn=<NllLossBackward>)
+loss is 0.88068765
+val loss = tensor(0.9436, grad_fn=<NllLossBackward>)
+loss is 0.8908829
+val loss = tensor(0.9157, grad_fn=<NllLossBackward>)
+loss is 0.8999538
+val loss = tensor(0.9277, grad_fn=<NllLossBackward>)
+loss is 0.87012273
+val loss = tensor(0.9244, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.85483897
+val loss = tensor(0.9478, grad_fn=<NllLossBackward>)
+loss is 0.84712297
+val loss = tensor(0.9475, grad_fn=<NllLossBackward>)
+loss is 0.8488252
+val loss = tensor(0.9216, grad_fn=<NllLossBackward>)
+loss is 0.84856683
+val loss = tensor(0.9259, grad_fn=<NllLossBackward>)
+loss is 0.8434522
+val loss = tensor(0.9181, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.84871954
+val loss = tensor(0.9192, grad_fn=<NllLossBackward>)
+loss is 0.8731949
+val loss = tensor(0.9203, grad_fn=<NllLossBackward>)
+loss is 0.8692114
+val loss = tensor(0.9132, grad_fn=<NllLossBackward>)
+loss is 0.8583838
+val loss = tensor(0.9426, grad_fn=<NllLossBackward>)
+loss is 0.87029815
+val loss = tensor(0.9290, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8604163
+val loss = tensor(0.9178, grad_fn=<NllLossBackward>)
+loss is 0.8507843
+val loss = tensor(0.9264, grad_fn=<NllLossBackward>)
+loss is 0.82520664
+val loss = tensor(0.9112, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9112, grad_fn=<NllLossBackward>)
+loss is 0.8762064
+val loss = tensor(0.9377, grad_fn=<NllLossBackward>)
+loss is 0.8589865
+val loss = tensor(0.9160, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8350377
+val loss = tensor(0.9237, grad_fn=<NllLossBackward>)
+loss is 0.88592696
+val loss = tensor(0.9130, grad_fn=<NllLossBackward>)
+loss is 0.85351056
+val loss = tensor(0.9101, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9101, grad_fn=<NllLossBackward>)
+loss is 0.8391709
+val loss = tensor(0.9152, grad_fn=<NllLossBackward>)
+loss is 0.8665407
+val loss = tensor(0.9121, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8481305
+val loss = tensor(0.9285, grad_fn=<NllLossBackward>)
+loss is 0.86951876
+val loss = tensor(0.9094, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9094, grad_fn=<NllLossBackward>)
+loss is 0.8490631
+val loss = tensor(0.9354, grad_fn=<NllLossBackward>)
+loss is 0.8753682
+val loss = tensor(0.9226, grad_fn=<NllLossBackward>)
+loss is 0.8244774
+val loss = tensor(0.9255, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8994958
+val loss = tensor(0.9106, grad_fn=<NllLossBackward>)
+loss is 0.872715
+val loss = tensor(0.9121, grad_fn=<NllLossBackward>)
+loss is 0.8775288
+val loss = tensor(0.9128, grad_fn=<NllLossBackward>)
+loss is 0.86811
+val loss = tensor(0.9416, grad_fn=<NllLossBackward>)
+loss is 0.9031297
+val loss = tensor(0.9109, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.91120017
+val loss = tensor(0.9188, grad_fn=<NllLossBackward>)
+loss is 0.8469172
+val loss = tensor(0.9093, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9093, grad_fn=<NllLossBackward>)
+loss is 0.8471894
+val loss = tensor(0.9206, grad_fn=<NllLossBackward>)
+loss is 0.8524637
+val loss = tensor(0.9099, grad_fn=<NllLossBackward>)
+loss is 0.8590142
+val loss = tensor(0.9114, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8735897
+val loss = tensor(0.9106, grad_fn=<NllLossBackward>)
+loss is 0.9122231
+val loss = tensor(0.9172, grad_fn=<NllLossBackward>)
+loss is 0.83931106
+val loss = tensor(0.9084, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9084, grad_fn=<NllLossBackward>)
+loss is 0.8624964
+val loss = tensor(0.9431, grad_fn=<NllLossBackward>)
+loss is 0.8376074
+val loss = tensor(0.9404, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8613755
+val loss = tensor(0.9093, grad_fn=<NllLossBackward>)
+loss is 0.8421925
+val loss = tensor(0.9180, grad_fn=<NllLossBackward>)
+loss is 0.85901725
+val loss = tensor(0.9476, grad_fn=<NllLossBackward>)
+loss is 0.8888123
+val loss = tensor(0.9104, grad_fn=<NllLossBackward>)
+loss is 0.8526282
+val loss = tensor(0.9298, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.9143216
+val loss = tensor(0.9255, grad_fn=<NllLossBackward>)
+loss is 0.86966956
+val loss = tensor(0.9112, grad_fn=<NllLossBackward>)
+loss is 0.81182945
+val loss = tensor(0.9164, grad_fn=<NllLossBackward>)
+loss is 0.8410968
+val loss = tensor(0.9090, grad_fn=<NllLossBackward>)
+loss is 0.89362675
+val loss = tensor(0.9105, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.84033895
+val loss = tensor(0.9131, grad_fn=<NllLossBackward>)
+loss is 0.88152325
+val loss = tensor(0.9225, grad_fn=<NllLossBackward>)
+loss is 0.83389914
+val loss = tensor(0.9284, grad_fn=<NllLossBackward>)
+loss is 0.863707
+val loss = tensor(0.9175, grad_fn=<NllLossBackward>)
+loss is 0.85900795
+val loss = tensor(0.9129, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8608155
+val loss = tensor(0.9109, grad_fn=<NllLossBackward>)
+loss is 0.84442496
+val loss = tensor(0.9144, grad_fn=<NllLossBackward>)
+loss is 0.87051266
+val loss = tensor(0.9258, grad_fn=<NllLossBackward>)
+loss is 0.8616948
+val loss = tensor(0.9145, grad_fn=<NllLossBackward>)
+loss is 0.8706277
+val loss = tensor(0.9164, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.870427
+val loss = tensor(0.9353, grad_fn=<NllLossBackward>)
+loss is 0.8821418
+val loss = tensor(0.9306, grad_fn=<NllLossBackward>)
+loss is 0.8366254
+val loss = tensor(0.9099, grad_fn=<NllLossBackward>)
+loss is 0.8519287
+val loss = tensor(0.9161, grad_fn=<NllLossBackward>)
+loss is 0.8386714
+val loss = tensor(0.9112, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.84975016
+val loss = tensor(0.9141, grad_fn=<NllLossBackward>)
+loss is 0.8599715
+val loss = tensor(0.9203, grad_fn=<NllLossBackward>)
+loss is 0.8400767
+val loss = tensor(0.9093, grad_fn=<NllLossBackward>)
+loss is 0.85297936
+val loss = tensor(0.9200, grad_fn=<NllLossBackward>)
+loss is 0.8578582
+val loss = tensor(0.9296, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.834197
+val loss = tensor(0.9161, grad_fn=<NllLossBackward>)
+loss is 0.8611448
+val loss = tensor(0.9057, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9057, grad_fn=<NllLossBackward>)
+loss is 0.8605536
+val loss = tensor(0.9114, grad_fn=<NllLossBackward>)
+loss is 0.861843
+val loss = tensor(0.9287, grad_fn=<NllLossBackward>)
+loss is 0.83565664
+val loss = tensor(0.9248, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.86619174
+val loss = tensor(0.9200, grad_fn=<NllLossBackward>)
+loss is 0.85687315
+val loss = tensor(0.9111, grad_fn=<NllLossBackward>)
+loss is 0.8424538
+val loss = tensor(0.9120, grad_fn=<NllLossBackward>)
+loss is 0.8582959
+val loss = tensor(0.9148, grad_fn=<NllLossBackward>)
+loss is 0.8335571
+val loss = tensor(0.9062, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8465591
+val loss = tensor(0.9155, grad_fn=<NllLossBackward>)
+loss is 0.8642428
+val loss = tensor(0.9073, grad_fn=<NllLossBackward>)
+loss is 0.8863221
+val loss = tensor(0.9103, grad_fn=<NllLossBackward>)
+loss is 0.8322656
+val loss = tensor(0.9086, grad_fn=<NllLossBackward>)
+loss is 0.8045991
+val loss = tensor(0.9132, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.83723027
+val loss = tensor(0.9093, grad_fn=<NllLossBackward>)
+loss is 0.87536585
+val loss = tensor(0.9290, grad_fn=<NllLossBackward>)
+loss is 0.8443724
+val loss = tensor(0.9083, grad_fn=<NllLossBackward>)
+loss is 0.83491874
+val loss = tensor(0.9055, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9055, grad_fn=<NllLossBackward>)
+loss is 0.88844925
+val loss = tensor(0.9108, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8403489
+val loss = tensor(0.9177, grad_fn=<NllLossBackward>)
+loss is 0.8557966
+val loss = tensor(0.9095, grad_fn=<NllLossBackward>)
+loss is 0.8447783
+val loss = tensor(0.9058, grad_fn=<NllLossBackward>)
+loss is 0.8629278
+val loss = tensor(0.9151, grad_fn=<NllLossBackward>)
+loss is 0.8506385
+val loss = tensor(0.9114, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.86839813
+val loss = tensor(0.9091, grad_fn=<NllLossBackward>)
+loss is 0.8587972
+val loss = tensor(0.9118, grad_fn=<NllLossBackward>)
+loss is 0.8401969
+val loss = tensor(0.9054, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9054, grad_fn=<NllLossBackward>)
+loss is 0.83480096
+val loss = tensor(0.9241, grad_fn=<NllLossBackward>)
+loss is 0.83359534
+val loss = tensor(0.9044, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9044, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8297577
+val loss = tensor(0.9091, grad_fn=<NllLossBackward>)
+loss is 0.8428899
+val loss = tensor(0.9051, grad_fn=<NllLossBackward>)
+loss is 0.82452214
+val loss = tensor(0.9041, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9041, grad_fn=<NllLossBackward>)
+loss is 0.8427804
+val loss = tensor(0.9135, grad_fn=<NllLossBackward>)
+loss is 0.84084624
+val loss = tensor(0.9125, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.84928304
+val loss = tensor(0.9663, grad_fn=<NllLossBackward>)
+loss is 0.8433332
+val loss = tensor(0.9165, grad_fn=<NllLossBackward>)
+loss is 0.83225167
+val loss = tensor(0.9169, grad_fn=<NllLossBackward>)
+loss is 0.859824
+val loss = tensor(0.9088, grad_fn=<NllLossBackward>)
+loss is 0.8428623
+val loss = tensor(0.9173, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.88172543
+val loss = tensor(0.9060, grad_fn=<NllLossBackward>)
+loss is 0.8354815
+val loss = tensor(0.9115, grad_fn=<NllLossBackward>)
+loss is 0.8694936
+val loss = tensor(0.9095, grad_fn=<NllLossBackward>)
+loss is 0.8111778
+val loss = tensor(0.9222, grad_fn=<NllLossBackward>)
+loss is 0.8250495
+val loss = tensor(0.9071, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8402328
+val loss = tensor(0.9106, grad_fn=<NllLossBackward>)
+loss is 0.84629893
+val loss = tensor(0.9053, grad_fn=<NllLossBackward>)
+loss is 0.87774557
+val loss = tensor(0.9050, grad_fn=<NllLossBackward>)
+loss is 0.852535
+val loss = tensor(0.9037, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9037, grad_fn=<NllLossBackward>)
+loss is 0.8713727
+val loss = tensor(0.9157, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8913663
+val loss = tensor(0.9129, grad_fn=<NllLossBackward>)
+loss is 0.85070467
+val loss = tensor(0.9141, grad_fn=<NllLossBackward>)
+loss is 0.88833755
+val loss = tensor(0.9076, grad_fn=<NllLossBackward>)
+loss is 0.8632579
+val loss = tensor(0.9070, grad_fn=<NllLossBackward>)
+loss is 0.8444831
+val loss = tensor(0.9031, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9031, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8626406
+val loss = tensor(0.9039, grad_fn=<NllLossBackward>)
+loss is 0.8519023
+val loss = tensor(0.9230, grad_fn=<NllLossBackward>)
+loss is 0.88177234
+val loss = tensor(0.9447, grad_fn=<NllLossBackward>)
+loss is 0.8874244
+val loss = tensor(0.9038, grad_fn=<NllLossBackward>)
+loss is 0.8237476
+val loss = tensor(0.9079, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8435669
+val loss = tensor(0.9109, grad_fn=<NllLossBackward>)
+loss is 0.8628744
+val loss = tensor(0.9105, grad_fn=<NllLossBackward>)
+loss is 0.8458305
+val loss = tensor(0.9034, grad_fn=<NllLossBackward>)
+loss is 0.85787725
+val loss = tensor(0.9050, grad_fn=<NllLossBackward>)
+loss is 0.84689885
+val loss = tensor(0.9117, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.88710463
+val loss = tensor(0.9130, grad_fn=<NllLossBackward>)
+loss is 0.8292829
+val loss = tensor(0.9180, grad_fn=<NllLossBackward>)
+loss is 0.8209767
+val loss = tensor(0.9064, grad_fn=<NllLossBackward>)
+loss is 0.8678917
+val loss = tensor(0.9049, grad_fn=<NllLossBackward>)
+loss is 0.8564319
+val loss = tensor(0.9196, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8434508
+val loss = tensor(0.9023, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9023, grad_fn=<NllLossBackward>)
+loss is 0.8762516
+val loss = tensor(0.9038, grad_fn=<NllLossBackward>)
+loss is 0.8410701
+val loss = tensor(0.9286, grad_fn=<NllLossBackward>)
+loss is 0.8234466
+val loss = tensor(0.9042, grad_fn=<NllLossBackward>)
+loss is 0.8611139
+val loss = tensor(0.9081, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8485313
+val loss = tensor(0.9071, grad_fn=<NllLossBackward>)
+loss is 0.85012805
+val loss = tensor(0.9012, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9012, grad_fn=<NllLossBackward>)
+loss is 0.8258831
+val loss = tensor(0.9028, grad_fn=<NllLossBackward>)
+loss is 0.828815
+val loss = tensor(0.9027, grad_fn=<NllLossBackward>)
+loss is 0.83672726
+val loss = tensor(0.9066, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.84049326
+val loss = tensor(0.9022, grad_fn=<NllLossBackward>)
+loss is 0.882306
+val loss = tensor(0.9112, grad_fn=<NllLossBackward>)
+loss is 0.8449533
+val loss = tensor(0.9262, grad_fn=<NllLossBackward>)
+loss is 0.86746484
+val loss = tensor(0.9279, grad_fn=<NllLossBackward>)
+loss is 0.8441637
+val loss = tensor(0.9022, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8527266
+val loss = tensor(0.9043, grad_fn=<NllLossBackward>)
+loss is 0.86678034
+val loss = tensor(0.9006, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.9006, grad_fn=<NllLossBackward>)
+loss is 0.8795187
+val loss = tensor(0.9014, grad_fn=<NllLossBackward>)
+loss is 0.84060043
+val loss = tensor(0.9021, grad_fn=<NllLossBackward>)
+loss is 0.8294096
+val loss = tensor(0.9097, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8401443
+val loss = tensor(0.9068, grad_fn=<NllLossBackward>)
+loss is 0.8148995
+val loss = tensor(0.9014, grad_fn=<NllLossBackward>)
+loss is 0.8652125
+val loss = tensor(0.9300, grad_fn=<NllLossBackward>)
+loss is 0.8421448
+val loss = tensor(0.9051, grad_fn=<NllLossBackward>)
+loss is 0.81440383
+val loss = tensor(0.9150, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.83834434
+val loss = tensor(0.9180, grad_fn=<NllLossBackward>)
+loss is 0.79571706
+val loss = tensor(0.9015, grad_fn=<NllLossBackward>)
+loss is 0.8250719
+val loss = tensor(0.9069, grad_fn=<NllLossBackward>)
+loss is 0.8536537
+val loss = tensor(0.9057, grad_fn=<NllLossBackward>)
+loss is 0.89557856
+val loss = tensor(0.9070, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8386724
+val loss = tensor(0.9324, grad_fn=<NllLossBackward>)
+loss is 0.8483806
+val loss = tensor(0.8997, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8997, grad_fn=<NllLossBackward>)
+loss is 0.8661424
+val loss = tensor(0.9161, grad_fn=<NllLossBackward>)
+loss is 0.8243957
+val loss = tensor(0.9170, grad_fn=<NllLossBackward>)
+loss is 0.88747996
+val loss = tensor(0.9113, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80553925
+val loss = tensor(0.9297, grad_fn=<NllLossBackward>)
+loss is 0.82748175
+val loss = tensor(0.9179, grad_fn=<NllLossBackward>)
+loss is 0.848618
+val loss = tensor(0.9130, grad_fn=<NllLossBackward>)
+loss is 0.84835297
+val loss = tensor(0.9039, grad_fn=<NllLossBackward>)
+loss is 0.8024535
+val loss = tensor(0.9021, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.85897434
+val loss = tensor(0.8996, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8996, grad_fn=<NllLossBackward>)
+loss is 0.84524924
+val loss = tensor(0.9008, grad_fn=<NllLossBackward>)
+loss is 0.8673375
+val loss = tensor(0.9009, grad_fn=<NllLossBackward>)
+loss is 0.84161675
+val loss = tensor(0.9133, grad_fn=<NllLossBackward>)
+loss is 0.84528536
+val loss = tensor(0.9195, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.86547214
+val loss = tensor(0.9511, grad_fn=<NllLossBackward>)
+loss is 0.8567053
+val loss = tensor(0.9178, grad_fn=<NllLossBackward>)
+loss is 0.8398719
+val loss = tensor(0.9073, grad_fn=<NllLossBackward>)
+loss is 0.8177726
+val loss = tensor(0.9030, grad_fn=<NllLossBackward>)
+loss is 0.85252124
+val loss = tensor(0.9035, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.824157
+val loss = tensor(0.9060, grad_fn=<NllLossBackward>)
+loss is 0.8205808
+val loss = tensor(0.8995, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8995, grad_fn=<NllLossBackward>)
+loss is 0.83971685
+val loss = tensor(0.9053, grad_fn=<NllLossBackward>)
+loss is 0.8545183
+val loss = tensor(0.9120, grad_fn=<NllLossBackward>)
+loss is 0.8554888
+val loss = tensor(0.9202, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.855509
+val loss = tensor(0.9237, grad_fn=<NllLossBackward>)
+loss is 0.8697385
+val loss = tensor(0.9724, grad_fn=<NllLossBackward>)
+loss is 0.85815185
+val loss = tensor(0.9223, grad_fn=<NllLossBackward>)
+loss is 0.83973926
+val loss = tensor(0.9018, grad_fn=<NllLossBackward>)
+loss is 0.8062871
+val loss = tensor(0.9082, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8489069
+val loss = tensor(0.9359, grad_fn=<NllLossBackward>)
+loss is 0.8409878
+val loss = tensor(0.8990, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8990, grad_fn=<NllLossBackward>)
+loss is 0.8844344
+val loss = tensor(0.9025, grad_fn=<NllLossBackward>)
+loss is 0.8323392
+val loss = tensor(0.9005, grad_fn=<NllLossBackward>)
+loss is 0.8405711
+val loss = tensor(0.9737, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7897192
+val loss = tensor(0.9107, grad_fn=<NllLossBackward>)
+loss is 0.8638073
+val loss = tensor(0.9053, grad_fn=<NllLossBackward>)
+loss is 0.8684052
+val loss = tensor(0.9417, grad_fn=<NllLossBackward>)
+loss is 0.86494666
+val loss = tensor(0.9298, grad_fn=<NllLossBackward>)
+loss is 0.82486564
+val loss = tensor(0.9095, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8263055
+val loss = tensor(0.9362, grad_fn=<NllLossBackward>)
+loss is 0.8407384
+val loss = tensor(0.9170, grad_fn=<NllLossBackward>)
+loss is 0.8492314
+val loss = tensor(0.9265, grad_fn=<NllLossBackward>)
+loss is 0.83013254
+val loss = tensor(0.9109, grad_fn=<NllLossBackward>)
+loss is 0.8101526
+val loss = tensor(0.9192, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79640543
+val loss = tensor(0.9150, grad_fn=<NllLossBackward>)
+loss is 0.82432413
+val loss = tensor(0.8974, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8974, grad_fn=<NllLossBackward>)
+loss is 0.8104817
+val loss = tensor(0.9067, grad_fn=<NllLossBackward>)
+loss is 0.8338227
+val loss = tensor(0.8991, grad_fn=<NllLossBackward>)
+loss is 0.83868074
+val loss = tensor(0.9032, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8497442
+val loss = tensor(0.9025, grad_fn=<NllLossBackward>)
+loss is 0.82073796
+val loss = tensor(0.9007, grad_fn=<NllLossBackward>)
+loss is 0.85018665
+val loss = tensor(0.9273, grad_fn=<NllLossBackward>)
+loss is 0.8299521
+val loss = tensor(0.9169, grad_fn=<NllLossBackward>)
+loss is 0.8410893
+val loss = tensor(0.9177, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8333009
+val loss = tensor(0.8970, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8970, grad_fn=<NllLossBackward>)
+loss is 0.8339924
+val loss = tensor(0.8976, grad_fn=<NllLossBackward>)
+loss is 0.85969985
+val loss = tensor(0.9585, grad_fn=<NllLossBackward>)
+loss is 0.8290054
+val loss = tensor(0.9087, grad_fn=<NllLossBackward>)
+loss is 0.8454379
+val loss = tensor(0.9063, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8467271
+val loss = tensor(0.9005, grad_fn=<NllLossBackward>)
+loss is 0.8466012
+val loss = tensor(0.8966, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8966, grad_fn=<NllLossBackward>)
+loss is 0.8585826
+val loss = tensor(0.8985, grad_fn=<NllLossBackward>)
+loss is 0.81125927
+val loss = tensor(0.9010, grad_fn=<NllLossBackward>)
+loss is 0.83545
+val loss = tensor(0.9244, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8162638
+val loss = tensor(0.9012, grad_fn=<NllLossBackward>)
+loss is 0.8571112
+val loss = tensor(0.9048, grad_fn=<NllLossBackward>)
+loss is 0.82684225
+val loss = tensor(0.9015, grad_fn=<NllLossBackward>)
+loss is 0.8704978
+val loss = tensor(0.9040, grad_fn=<NllLossBackward>)
+loss is 0.84917575
+val loss = tensor(0.9022, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8428092
+val loss = tensor(0.9067, grad_fn=<NllLossBackward>)
+loss is 0.8598358
+val loss = tensor(0.9007, grad_fn=<NllLossBackward>)
+loss is 0.833407
+val loss = tensor(0.9209, grad_fn=<NllLossBackward>)
+loss is 0.8447938
+val loss = tensor(0.9162, grad_fn=<NllLossBackward>)
+loss is 0.8241496
+val loss = tensor(0.8987, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8160418
+val loss = tensor(0.9183, grad_fn=<NllLossBackward>)
+loss is 0.8857699
+val loss = tensor(0.8964, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8964, grad_fn=<NllLossBackward>)
+loss is 0.8386515
+val loss = tensor(0.9060, grad_fn=<NllLossBackward>)
+loss is 0.8024995
+val loss = tensor(0.9016, grad_fn=<NllLossBackward>)
+loss is 0.8462047
+val loss = tensor(0.9080, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8821602
+val loss = tensor(0.9074, grad_fn=<NllLossBackward>)
+loss is 0.8242336
+val loss = tensor(0.9000, grad_fn=<NllLossBackward>)
+loss is 0.8479714
+val loss = tensor(0.9136, grad_fn=<NllLossBackward>)
+loss is 0.8250256
+val loss = tensor(0.9161, grad_fn=<NllLossBackward>)
+loss is 0.85461086
+val loss = tensor(0.9039, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8138449
+val loss = tensor(0.9029, grad_fn=<NllLossBackward>)
+loss is 0.8296078
+val loss = tensor(0.9132, grad_fn=<NllLossBackward>)
+loss is 0.8081237
+val loss = tensor(0.9037, grad_fn=<NllLossBackward>)
+loss is 0.854211
+val loss = tensor(0.9096, grad_fn=<NllLossBackward>)
+loss is 0.81734324
+val loss = tensor(0.8973, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.822105
+val loss = tensor(0.9214, grad_fn=<NllLossBackward>)
+loss is 0.814556
+val loss = tensor(0.8986, grad_fn=<NllLossBackward>)
+loss is 0.86126083
+val loss = tensor(0.9077, grad_fn=<NllLossBackward>)
+loss is 0.88672495
+val loss = tensor(0.8954, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8954, grad_fn=<NllLossBackward>)
+loss is 0.80632585
+val loss = tensor(0.9200, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8720272
+val loss = tensor(0.9005, grad_fn=<NllLossBackward>)
+loss is 0.826595
+val loss = tensor(0.9195, grad_fn=<NllLossBackward>)
+loss is 0.84434766
+val loss = tensor(0.9071, grad_fn=<NllLossBackward>)
+loss is 0.79774195
+val loss = tensor(0.8954, grad_fn=<NllLossBackward>)
+loss is 0.8489755
+val loss = tensor(0.8951, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8951, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.83065003
+val loss = tensor(0.9322, grad_fn=<NllLossBackward>)
+loss is 0.8223505
+val loss = tensor(0.9168, grad_fn=<NllLossBackward>)
+loss is 0.82146657
+val loss = tensor(0.9003, grad_fn=<NllLossBackward>)
+loss is 0.86173505
+val loss = tensor(0.8979, grad_fn=<NllLossBackward>)
+loss is 0.85934246
+val loss = tensor(0.9055, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8189348
+val loss = tensor(0.8979, grad_fn=<NllLossBackward>)
+loss is 0.8404479
+val loss = tensor(0.9184, grad_fn=<NllLossBackward>)
+loss is 0.81364673
+val loss = tensor(0.9047, grad_fn=<NllLossBackward>)
+loss is 0.8650335
+val loss = tensor(0.9152, grad_fn=<NllLossBackward>)
+loss is 0.80192006
+val loss = tensor(0.9191, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82862294
+val loss = tensor(0.8970, grad_fn=<NllLossBackward>)
+loss is 0.8351419
+val loss = tensor(0.9054, grad_fn=<NllLossBackward>)
+loss is 0.8496731
+val loss = tensor(0.9150, grad_fn=<NllLossBackward>)
+loss is 0.8270717
+val loss = tensor(0.8954, grad_fn=<NllLossBackward>)
+loss is 0.8356636
+val loss = tensor(0.8961, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.85582143
+val loss = tensor(0.8952, grad_fn=<NllLossBackward>)
+loss is 0.8800469
+val loss = tensor(0.9021, grad_fn=<NllLossBackward>)
+loss is 0.8412008
+val loss = tensor(0.9400, grad_fn=<NllLossBackward>)
+loss is 0.8300604
+val loss = tensor(0.8936, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8936, grad_fn=<NllLossBackward>)
+loss is 0.81146646
+val loss = tensor(0.9151, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.85617024
+val loss = tensor(0.9125, grad_fn=<NllLossBackward>)
+loss is 0.8242766
+val loss = tensor(0.9013, grad_fn=<NllLossBackward>)
+loss is 0.7940874
+val loss = tensor(0.8934, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8934, grad_fn=<NllLossBackward>)
+loss is 0.8203726
+val loss = tensor(0.9085, grad_fn=<NllLossBackward>)
+loss is 0.8260606
+val loss = tensor(0.9181, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82403886
+val loss = tensor(0.8956, grad_fn=<NllLossBackward>)
+loss is 0.83663875
+val loss = tensor(0.9161, grad_fn=<NllLossBackward>)
+loss is 0.83689743
+val loss = tensor(0.9011, grad_fn=<NllLossBackward>)
+loss is 0.814217
+val loss = tensor(0.8997, grad_fn=<NllLossBackward>)
+loss is 0.81691456
+val loss = tensor(0.8993, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82307047
+val loss = tensor(0.8988, grad_fn=<NllLossBackward>)
+loss is 0.80403835
+val loss = tensor(0.9371, grad_fn=<NllLossBackward>)
+loss is 0.85643214
+val loss = tensor(0.8948, grad_fn=<NllLossBackward>)
+loss is 0.8319504
+val loss = tensor(0.8946, grad_fn=<NllLossBackward>)
+loss is 0.78349745
+val loss = tensor(0.9071, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8076504
+val loss = tensor(0.9208, grad_fn=<NllLossBackward>)
+loss is 0.8119125
+val loss = tensor(0.9237, grad_fn=<NllLossBackward>)
+loss is 0.83293295
+val loss = tensor(0.8947, grad_fn=<NllLossBackward>)
+loss is 0.8232234
+val loss = tensor(0.8967, grad_fn=<NllLossBackward>)
+loss is 0.8039231
+val loss = tensor(0.8982, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8228323
+val loss = tensor(0.8931, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8931, grad_fn=<NllLossBackward>)
+loss is 0.8326516
+val loss = tensor(0.8952, grad_fn=<NllLossBackward>)
+loss is 0.8452322
+val loss = tensor(0.9018, grad_fn=<NllLossBackward>)
+loss is 0.8225525
+val loss = tensor(0.9316, grad_fn=<NllLossBackward>)
+loss is 0.8244224
+val loss = tensor(0.9033, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8310683
+val loss = tensor(0.8974, grad_fn=<NllLossBackward>)
+loss is 0.80566835
+val loss = tensor(0.9233, grad_fn=<NllLossBackward>)
+loss is 0.852828
+val loss = tensor(0.9308, grad_fn=<NllLossBackward>)
+loss is 0.85516834
+val loss = tensor(0.8923, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8923, grad_fn=<NllLossBackward>)
+loss is 0.80805385
+val loss = tensor(0.8977, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.837832
+val loss = tensor(0.8957, grad_fn=<NllLossBackward>)
+loss is 0.8489854
+val loss = tensor(0.8977, grad_fn=<NllLossBackward>)
+loss is 0.8072253
+val loss = tensor(0.8957, grad_fn=<NllLossBackward>)
+loss is 0.8540973
+val loss = tensor(0.9025, grad_fn=<NllLossBackward>)
+loss is 0.8723741
+val loss = tensor(0.9001, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8358574
+val loss = tensor(0.8960, grad_fn=<NllLossBackward>)
+loss is 0.82102597
+val loss = tensor(0.8933, grad_fn=<NllLossBackward>)
+loss is 0.8450615
+val loss = tensor(0.8948, grad_fn=<NllLossBackward>)
+loss is 0.82309735
+val loss = tensor(0.8935, grad_fn=<NllLossBackward>)
+loss is 0.8005719
+val loss = tensor(0.8974, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.816655
+val loss = tensor(0.9112, grad_fn=<NllLossBackward>)
+loss is 0.8460516
+val loss = tensor(0.9056, grad_fn=<NllLossBackward>)
+loss is 0.8283493
+val loss = tensor(0.9195, grad_fn=<NllLossBackward>)
+loss is 0.82847345
+val loss = tensor(0.9212, grad_fn=<NllLossBackward>)
+loss is 0.8378522
+val loss = tensor(0.8977, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8367718
+val loss = tensor(0.8977, grad_fn=<NllLossBackward>)
+loss is 0.79686224
+val loss = tensor(0.8938, grad_fn=<NllLossBackward>)
+loss is 0.808995
+val loss = tensor(0.8924, grad_fn=<NllLossBackward>)
+loss is 0.8302533
+val loss = tensor(0.8957, grad_fn=<NllLossBackward>)
+loss is 0.829673
+val loss = tensor(0.9043, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82125413
+val loss = tensor(0.9088, grad_fn=<NllLossBackward>)
+loss is 0.80622804
+val loss = tensor(0.8949, grad_fn=<NllLossBackward>)
+loss is 0.85952204
+val loss = tensor(0.8981, grad_fn=<NllLossBackward>)
+loss is 0.8655906
+val loss = tensor(0.9095, grad_fn=<NllLossBackward>)
+loss is 0.8277008
+val loss = tensor(0.9164, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8168899
+val loss = tensor(0.9424, grad_fn=<NllLossBackward>)
+loss is 0.82956237
+val loss = tensor(0.9067, grad_fn=<NllLossBackward>)
+loss is 0.8205002
+val loss = tensor(0.8959, grad_fn=<NllLossBackward>)
+loss is 0.81421095
+val loss = tensor(0.8958, grad_fn=<NllLossBackward>)
+loss is 0.80211526
+val loss = tensor(0.8977, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8461202
+val loss = tensor(0.9060, grad_fn=<NllLossBackward>)
+loss is 0.8316483
+val loss = tensor(0.8964, grad_fn=<NllLossBackward>)
+loss is 0.8165325
+val loss = tensor(0.9056, grad_fn=<NllLossBackward>)
+loss is 0.82403713
+val loss = tensor(0.8950, grad_fn=<NllLossBackward>)
+loss is 0.84156865
+val loss = tensor(0.9119, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81498027
+val loss = tensor(0.9044, grad_fn=<NllLossBackward>)
+loss is 0.82127064
+val loss = tensor(0.8947, grad_fn=<NllLossBackward>)
+loss is 0.8545098
+val loss = tensor(0.8924, grad_fn=<NllLossBackward>)
+loss is 0.8019258
+val loss = tensor(0.9031, grad_fn=<NllLossBackward>)
+loss is 0.8246127
+val loss = tensor(0.8917, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8917, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8271128
+val loss = tensor(0.9372, grad_fn=<NllLossBackward>)
+loss is 0.82142043
+val loss = tensor(0.8999, grad_fn=<NllLossBackward>)
+loss is 0.84930485
+val loss = tensor(0.9079, grad_fn=<NllLossBackward>)
+loss is 0.80251074
+val loss = tensor(0.9000, grad_fn=<NllLossBackward>)
+loss is 0.8232467
+val loss = tensor(0.9056, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81317425
+val loss = tensor(0.9199, grad_fn=<NllLossBackward>)
+loss is 0.8046811
+val loss = tensor(0.8922, grad_fn=<NllLossBackward>)
+loss is 0.8180907
+val loss = tensor(0.8955, grad_fn=<NllLossBackward>)
+loss is 0.82533497
+val loss = tensor(0.8969, grad_fn=<NllLossBackward>)
+loss is 0.8291525
+val loss = tensor(0.8915, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8915, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8483485
+val loss = tensor(0.8916, grad_fn=<NllLossBackward>)
+loss is 0.8363191
+val loss = tensor(0.9357, grad_fn=<NllLossBackward>)
+loss is 0.7872279
+val loss = tensor(0.8924, grad_fn=<NllLossBackward>)
+loss is 0.8386247
+val loss = tensor(0.8945, grad_fn=<NllLossBackward>)
+loss is 0.83192235
+val loss = tensor(0.8940, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8252747
+val loss = tensor(0.9041, grad_fn=<NllLossBackward>)
+loss is 0.7821396
+val loss = tensor(0.8912, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8912, grad_fn=<NllLossBackward>)
+loss is 0.79173255
+val loss = tensor(0.9007, grad_fn=<NllLossBackward>)
+loss is 0.83467585
+val loss = tensor(0.8943, grad_fn=<NllLossBackward>)
+loss is 0.83134174
+val loss = tensor(0.9561, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7951982
+val loss = tensor(0.8956, grad_fn=<NllLossBackward>)
+loss is 0.81329244
+val loss = tensor(0.8987, grad_fn=<NllLossBackward>)
+loss is 0.81256175
+val loss = tensor(0.9110, grad_fn=<NllLossBackward>)
+loss is 0.85387135
+val loss = tensor(0.8920, grad_fn=<NllLossBackward>)
+loss is 0.80575573
+val loss = tensor(0.9215, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8003176
+val loss = tensor(0.8938, grad_fn=<NllLossBackward>)
+loss is 0.8302032
+val loss = tensor(0.9262, grad_fn=<NllLossBackward>)
+loss is 0.8398217
+val loss = tensor(0.9440, grad_fn=<NllLossBackward>)
+loss is 0.81616294
+val loss = tensor(0.8917, grad_fn=<NllLossBackward>)
+loss is 0.8023667
+val loss = tensor(0.9235, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81671274
+val loss = tensor(0.8993, grad_fn=<NllLossBackward>)
+loss is 0.82984823
+val loss = tensor(0.9517, grad_fn=<NllLossBackward>)
+loss is 0.851143
+val loss = tensor(0.9071, grad_fn=<NllLossBackward>)
+loss is 0.7942796
+val loss = tensor(0.9465, grad_fn=<NllLossBackward>)
+loss is 0.7898133
+val loss = tensor(0.8996, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8238238
+val loss = tensor(0.8937, grad_fn=<NllLossBackward>)
+loss is 0.82666737
+val loss = tensor(0.8939, grad_fn=<NllLossBackward>)
+loss is 0.8520551
+val loss = tensor(0.8950, grad_fn=<NllLossBackward>)
+loss is 0.7861308
+val loss = tensor(0.9103, grad_fn=<NllLossBackward>)
+loss is 0.8163021
+val loss = tensor(0.8973, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.85563827
+val loss = tensor(0.9043, grad_fn=<NllLossBackward>)
+loss is 0.82342434
+val loss = tensor(0.8937, grad_fn=<NllLossBackward>)
+loss is 0.823411
+val loss = tensor(0.9041, grad_fn=<NllLossBackward>)
+loss is 0.84380734
+val loss = tensor(0.8919, grad_fn=<NllLossBackward>)
+loss is 0.8537552
+val loss = tensor(0.8922, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78674936
+val loss = tensor(0.8990, grad_fn=<NllLossBackward>)
+loss is 0.81426406
+val loss = tensor(0.9039, grad_fn=<NllLossBackward>)
+loss is 0.7915688
+val loss = tensor(0.9289, grad_fn=<NllLossBackward>)
+loss is 0.81551695
+val loss = tensor(0.8894, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8894, grad_fn=<NllLossBackward>)
+loss is 0.82605326
+val loss = tensor(0.8889, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8889, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82836074
+val loss = tensor(0.8987, grad_fn=<NllLossBackward>)
+loss is 0.81787884
+val loss = tensor(0.8989, grad_fn=<NllLossBackward>)
+loss is 0.8338052
+val loss = tensor(0.9006, grad_fn=<NllLossBackward>)
+loss is 0.83909434
+val loss = tensor(0.8973, grad_fn=<NllLossBackward>)
+loss is 0.8564414
+val loss = tensor(0.9220, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.83085567
+val loss = tensor(0.8992, grad_fn=<NllLossBackward>)
+loss is 0.80621165
+val loss = tensor(0.9060, grad_fn=<NllLossBackward>)
+loss is 0.8625568
+val loss = tensor(0.9192, grad_fn=<NllLossBackward>)
+loss is 0.85285026
+val loss = tensor(0.9090, grad_fn=<NllLossBackward>)
+loss is 0.80610764
+val loss = tensor(0.9207, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80931616
+val loss = tensor(0.8970, grad_fn=<NllLossBackward>)
+loss is 0.83969605
+val loss = tensor(0.8917, grad_fn=<NllLossBackward>)
+loss is 0.82217604
+val loss = tensor(0.8966, grad_fn=<NllLossBackward>)
+loss is 0.8326339
+val loss = tensor(0.8952, grad_fn=<NllLossBackward>)
+loss is 0.8121307
+val loss = tensor(0.8931, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79488456
+val loss = tensor(0.9010, grad_fn=<NllLossBackward>)
+loss is 0.8646267
+val loss = tensor(0.8899, grad_fn=<NllLossBackward>)
+loss is 0.82500875
+val loss = tensor(0.8901, grad_fn=<NllLossBackward>)
+loss is 0.825868
+val loss = tensor(0.9242, grad_fn=<NllLossBackward>)
+loss is 0.80189663
+val loss = tensor(0.8957, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82845736
+val loss = tensor(0.9096, grad_fn=<NllLossBackward>)
+loss is 0.77208155
+val loss = tensor(0.9213, grad_fn=<NllLossBackward>)
+loss is 0.83528405
+val loss = tensor(0.8987, grad_fn=<NllLossBackward>)
+loss is 0.8099611
+val loss = tensor(0.8972, grad_fn=<NllLossBackward>)
+loss is 0.8351086
+val loss = tensor(0.9108, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82291526
+val loss = tensor(0.9061, grad_fn=<NllLossBackward>)
+loss is 0.80089504
+val loss = tensor(0.8900, grad_fn=<NllLossBackward>)
+loss is 0.7913968
+val loss = tensor(0.8950, grad_fn=<NllLossBackward>)
+loss is 0.8269695
+val loss = tensor(0.8886, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8886, grad_fn=<NllLossBackward>)
+loss is 0.79331625
+val loss = tensor(0.8969, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82069653
+val loss = tensor(0.9449, grad_fn=<NllLossBackward>)
+loss is 0.8437499
+val loss = tensor(0.8971, grad_fn=<NllLossBackward>)
+loss is 0.8201595
+val loss = tensor(0.9059, grad_fn=<NllLossBackward>)
+loss is 0.80983293
+val loss = tensor(0.8921, grad_fn=<NllLossBackward>)
+loss is 0.83230805
+val loss = tensor(0.9034, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8290557
+val loss = tensor(0.8947, grad_fn=<NllLossBackward>)
+loss is 0.8491741
+val loss = tensor(0.9094, grad_fn=<NllLossBackward>)
+loss is 0.7889477
+val loss = tensor(0.8906, grad_fn=<NllLossBackward>)
+loss is 0.8903863
+val loss = tensor(0.9016, grad_fn=<NllLossBackward>)
+loss is 0.7846548
+val loss = tensor(0.8901, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8295989
+val loss = tensor(0.8884, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8884, grad_fn=<NllLossBackward>)
+loss is 0.80578697
+val loss = tensor(0.8881, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8881, grad_fn=<NllLossBackward>)
+loss is 0.8430794
+val loss = tensor(0.8908, grad_fn=<NllLossBackward>)
+loss is 0.8041784
+val loss = tensor(0.8937, grad_fn=<NllLossBackward>)
+loss is 0.8341766
+val loss = tensor(0.8899, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80524725
+val loss = tensor(0.9241, grad_fn=<NllLossBackward>)
+loss is 0.8309107
+val loss = tensor(0.8942, grad_fn=<NllLossBackward>)
+loss is 0.7938156
+val loss = tensor(0.8903, grad_fn=<NllLossBackward>)
+loss is 0.81166637
+val loss = tensor(0.8934, grad_fn=<NllLossBackward>)
+loss is 0.8123006
+val loss = tensor(0.9059, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.83980286
+val loss = tensor(0.9031, grad_fn=<NllLossBackward>)
+loss is 0.8141122
+val loss = tensor(0.8991, grad_fn=<NllLossBackward>)
+loss is 0.7927141
+val loss = tensor(0.8869, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8869, grad_fn=<NllLossBackward>)
+loss is 0.82299465
+val loss = tensor(0.8928, grad_fn=<NllLossBackward>)
+loss is 0.83823186
+val loss = tensor(0.8990, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8198085
+val loss = tensor(0.8874, grad_fn=<NllLossBackward>)
+loss is 0.8117833
+val loss = tensor(0.8908, grad_fn=<NllLossBackward>)
+loss is 0.83548725
+val loss = tensor(0.8932, grad_fn=<NllLossBackward>)
+loss is 0.81583375
+val loss = tensor(0.9502, grad_fn=<NllLossBackward>)
+loss is 0.8394799
+val loss = tensor(0.9008, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8347526
+val loss = tensor(0.8925, grad_fn=<NllLossBackward>)
+loss is 0.81252193
+val loss = tensor(0.9056, grad_fn=<NllLossBackward>)
+loss is 0.8187616
+val loss = tensor(0.9005, grad_fn=<NllLossBackward>)
+loss is 0.77725774
+val loss = tensor(0.8937, grad_fn=<NllLossBackward>)
+loss is 0.81528586
+val loss = tensor(0.8977, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81322587
+val loss = tensor(0.8890, grad_fn=<NllLossBackward>)
+loss is 0.7981854
+val loss = tensor(0.8973, grad_fn=<NllLossBackward>)
+loss is 0.83331305
+val loss = tensor(0.9089, grad_fn=<NllLossBackward>)
+loss is 0.8295873
+val loss = tensor(0.9004, grad_fn=<NllLossBackward>)
+loss is 0.8299227
+val loss = tensor(0.9179, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82939065
+val loss = tensor(0.9250, grad_fn=<NllLossBackward>)
+loss is 0.8350625
+val loss = tensor(0.9334, grad_fn=<NllLossBackward>)
+loss is 0.8093635
+val loss = tensor(0.9079, grad_fn=<NllLossBackward>)
+loss is 0.8259847
+val loss = tensor(0.9320, grad_fn=<NllLossBackward>)
+loss is 0.8114098
+val loss = tensor(0.8913, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80519587
+val loss = tensor(0.8979, grad_fn=<NllLossBackward>)
+loss is 0.8379176
+val loss = tensor(0.9471, grad_fn=<NllLossBackward>)
+loss is 0.8287803
+val loss = tensor(0.8895, grad_fn=<NllLossBackward>)
+loss is 0.8338346
+val loss = tensor(0.8997, grad_fn=<NllLossBackward>)
+loss is 0.80804265
+val loss = tensor(0.8874, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7955877
+val loss = tensor(0.8870, grad_fn=<NllLossBackward>)
+loss is 0.8068768
+val loss = tensor(0.8972, grad_fn=<NllLossBackward>)
+loss is 0.7972634
+val loss = tensor(0.9089, grad_fn=<NllLossBackward>)
+loss is 0.7902847
+val loss = tensor(0.9125, grad_fn=<NllLossBackward>)
+loss is 0.8023359
+val loss = tensor(0.9073, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7985537
+val loss = tensor(0.9207, grad_fn=<NllLossBackward>)
+loss is 0.8034426
+val loss = tensor(0.9136, grad_fn=<NllLossBackward>)
+loss is 0.8068876
+val loss = tensor(0.8895, grad_fn=<NllLossBackward>)
+loss is 0.8243592
+val loss = tensor(0.9035, grad_fn=<NllLossBackward>)
+loss is 0.8010852
+val loss = tensor(0.9067, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82327837
+val loss = tensor(0.9001, grad_fn=<NllLossBackward>)
+loss is 0.8076225
+val loss = tensor(0.8923, grad_fn=<NllLossBackward>)
+loss is 0.85235584
+val loss = tensor(0.8911, grad_fn=<NllLossBackward>)
+loss is 0.8011662
+val loss = tensor(0.9076, grad_fn=<NllLossBackward>)
+loss is 0.844376
+val loss = tensor(0.9027, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7954757
+val loss = tensor(0.8960, grad_fn=<NllLossBackward>)
+loss is 0.79416287
+val loss = tensor(0.8968, grad_fn=<NllLossBackward>)
+loss is 0.81554943
+val loss = tensor(0.9129, grad_fn=<NllLossBackward>)
+loss is 0.8430108
+val loss = tensor(0.9107, grad_fn=<NllLossBackward>)
+loss is 0.80239725
+val loss = tensor(0.9295, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.83681476
+val loss = tensor(0.8883, grad_fn=<NllLossBackward>)
+loss is 0.78277373
+val loss = tensor(0.8909, grad_fn=<NllLossBackward>)
+loss is 0.83256847
+val loss = tensor(0.9222, grad_fn=<NllLossBackward>)
+loss is 0.7826404
+val loss = tensor(0.8926, grad_fn=<NllLossBackward>)
+loss is 0.81141365
+val loss = tensor(0.8998, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8322428
+val loss = tensor(0.8862, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8862, grad_fn=<NllLossBackward>)
+loss is 0.84037185
+val loss = tensor(0.8900, grad_fn=<NllLossBackward>)
+loss is 0.8200031
+val loss = tensor(0.9249, grad_fn=<NllLossBackward>)
+loss is 0.82003844
+val loss = tensor(0.8894, grad_fn=<NllLossBackward>)
+loss is 0.81878275
+val loss = tensor(0.9173, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7996487
+val loss = tensor(0.8892, grad_fn=<NllLossBackward>)
+loss is 0.81326526
+val loss = tensor(0.8890, grad_fn=<NllLossBackward>)
+loss is 0.82033026
+val loss = tensor(0.8980, grad_fn=<NllLossBackward>)
+loss is 0.79408747
+val loss = tensor(0.9058, grad_fn=<NllLossBackward>)
+loss is 0.79920954
+val loss = tensor(0.8981, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8528994
+val loss = tensor(0.8946, grad_fn=<NllLossBackward>)
+loss is 0.79261845
+val loss = tensor(0.8906, grad_fn=<NllLossBackward>)
+loss is 0.8691287
+val loss = tensor(0.9043, grad_fn=<NllLossBackward>)
+loss is 0.8006379
+val loss = tensor(0.8864, grad_fn=<NllLossBackward>)
+loss is 0.8224991
+val loss = tensor(0.9026, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8162853
+val loss = tensor(0.8992, grad_fn=<NllLossBackward>)
+loss is 0.8134783
+val loss = tensor(0.8863, grad_fn=<NllLossBackward>)
+loss is 0.79932463
+val loss = tensor(0.8926, grad_fn=<NllLossBackward>)
+loss is 0.82471323
+val loss = tensor(0.8904, grad_fn=<NllLossBackward>)
+loss is 0.8275655
+val loss = tensor(0.8933, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7926461
+val loss = tensor(0.8904, grad_fn=<NllLossBackward>)
+loss is 0.81710064
+val loss = tensor(0.9176, grad_fn=<NllLossBackward>)
+loss is 0.7851452
+val loss = tensor(0.9040, grad_fn=<NllLossBackward>)
+loss is 0.81717896
+val loss = tensor(0.8862, grad_fn=<NllLossBackward>)
+loss is 0.8304638
+val loss = tensor(0.9126, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82768804
+val loss = tensor(0.9041, grad_fn=<NllLossBackward>)
+loss is 0.83067197
+val loss = tensor(0.8895, grad_fn=<NllLossBackward>)
+loss is 0.8795611
+val loss = tensor(0.8905, grad_fn=<NllLossBackward>)
+loss is 0.82688767
+val loss = tensor(0.9309, grad_fn=<NllLossBackward>)
+loss is 0.86059564
+val loss = tensor(0.9288, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81302464
+val loss = tensor(0.8963, grad_fn=<NllLossBackward>)
+loss is 0.8016892
+val loss = tensor(0.8927, grad_fn=<NllLossBackward>)
+loss is 0.85678756
+val loss = tensor(0.8911, grad_fn=<NllLossBackward>)
+loss is 0.8099098
+val loss = tensor(0.8887, grad_fn=<NllLossBackward>)
+loss is 0.81678253
+val loss = tensor(0.9005, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8677882
+val loss = tensor(0.8912, grad_fn=<NllLossBackward>)
+loss is 0.8210889
+val loss = tensor(0.8980, grad_fn=<NllLossBackward>)
+loss is 0.8138541
+val loss = tensor(0.8890, grad_fn=<NllLossBackward>)
+loss is 0.8132566
+val loss = tensor(0.9006, grad_fn=<NllLossBackward>)
+loss is 0.8249747
+val loss = tensor(0.9130, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79029906
+val loss = tensor(0.9144, grad_fn=<NllLossBackward>)
+loss is 0.80633765
+val loss = tensor(0.8961, grad_fn=<NllLossBackward>)
+loss is 0.8029445
+val loss = tensor(0.8871, grad_fn=<NllLossBackward>)
+loss is 0.83456707
+val loss = tensor(0.9003, grad_fn=<NllLossBackward>)
+loss is 0.80530304
+val loss = tensor(0.9149, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.77820164
+val loss = tensor(0.8865, grad_fn=<NllLossBackward>)
+loss is 0.84022963
+val loss = tensor(0.9175, grad_fn=<NllLossBackward>)
+loss is 0.8082204
+val loss = tensor(0.8913, grad_fn=<NllLossBackward>)
+loss is 0.793062
+val loss = tensor(0.8917, grad_fn=<NllLossBackward>)
+loss is 0.8290189
+val loss = tensor(0.9090, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.800647
+val loss = tensor(0.8934, grad_fn=<NllLossBackward>)
+loss is 0.79977244
+val loss = tensor(0.8995, grad_fn=<NllLossBackward>)
+loss is 0.81850064
+val loss = tensor(0.8922, grad_fn=<NllLossBackward>)
+loss is 0.8217433
+val loss = tensor(0.8953, grad_fn=<NllLossBackward>)
+loss is 0.82574743
+val loss = tensor(0.8851, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8851, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80780125
+val loss = tensor(0.9509, grad_fn=<NllLossBackward>)
+loss is 0.7763263
+val loss = tensor(0.8890, grad_fn=<NllLossBackward>)
+loss is 0.82975185
+val loss = tensor(0.8980, grad_fn=<NllLossBackward>)
+loss is 0.82572347
+val loss = tensor(0.8969, grad_fn=<NllLossBackward>)
+loss is 0.8229869
+val loss = tensor(0.8999, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79902744
+val loss = tensor(0.8842, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8842, grad_fn=<NllLossBackward>)
+loss is 0.8207944
+val loss = tensor(0.8850, grad_fn=<NllLossBackward>)
+loss is 0.8238702
+val loss = tensor(0.9354, grad_fn=<NllLossBackward>)
+loss is 0.81125575
+val loss = tensor(0.9040, grad_fn=<NllLossBackward>)
+loss is 0.80868435
+val loss = tensor(0.8911, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.76453733
+val loss = tensor(0.9107, grad_fn=<NllLossBackward>)
+loss is 0.8252492
+val loss = tensor(0.8847, grad_fn=<NllLossBackward>)
+loss is 0.8534808
+val loss = tensor(0.8836, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8836, grad_fn=<NllLossBackward>)
+loss is 0.7714375
+val loss = tensor(0.9257, grad_fn=<NllLossBackward>)
+loss is 0.837679
+val loss = tensor(0.8853, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.84467775
+val loss = tensor(0.8838, grad_fn=<NllLossBackward>)
+loss is 0.82507783
+val loss = tensor(0.9025, grad_fn=<NllLossBackward>)
+loss is 0.80472535
+val loss = tensor(0.8916, grad_fn=<NllLossBackward>)
+loss is 0.82415855
+val loss = tensor(0.8918, grad_fn=<NllLossBackward>)
+loss is 0.8238958
+val loss = tensor(0.8856, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8252336
+val loss = tensor(0.8852, grad_fn=<NllLossBackward>)
+loss is 0.8312166
+val loss = tensor(0.8944, grad_fn=<NllLossBackward>)
+loss is 0.86237586
+val loss = tensor(0.9010, grad_fn=<NllLossBackward>)
+loss is 0.83746326
+val loss = tensor(0.8930, grad_fn=<NllLossBackward>)
+loss is 0.82211614
+val loss = tensor(0.8838, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7671186
+val loss = tensor(0.9006, grad_fn=<NllLossBackward>)
+loss is 0.8307249
+val loss = tensor(0.9020, grad_fn=<NllLossBackward>)
+loss is 0.84536666
+val loss = tensor(0.8916, grad_fn=<NllLossBackward>)
+loss is 0.79796296
+val loss = tensor(0.8942, grad_fn=<NllLossBackward>)
+loss is 0.82088673
+val loss = tensor(0.8910, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78239244
+val loss = tensor(0.8903, grad_fn=<NllLossBackward>)
+loss is 0.7917314
+val loss = tensor(0.8878, grad_fn=<NllLossBackward>)
+loss is 0.84271574
+val loss = tensor(0.8964, grad_fn=<NllLossBackward>)
+loss is 0.811374
+val loss = tensor(0.9002, grad_fn=<NllLossBackward>)
+loss is 0.81546736
+val loss = tensor(0.9096, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.84200937
+val loss = tensor(0.9009, grad_fn=<NllLossBackward>)
+loss is 0.8094294
+val loss = tensor(0.8992, grad_fn=<NllLossBackward>)
+loss is 0.78095967
+val loss = tensor(0.8982, grad_fn=<NllLossBackward>)
+loss is 0.8394846
+val loss = tensor(0.8927, grad_fn=<NllLossBackward>)
+loss is 0.8258067
+val loss = tensor(0.9228, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8331601
+val loss = tensor(0.8862, grad_fn=<NllLossBackward>)
+loss is 0.80009884
+val loss = tensor(0.9073, grad_fn=<NllLossBackward>)
+loss is 0.80107987
+val loss = tensor(0.8865, grad_fn=<NllLossBackward>)
+loss is 0.80795693
+val loss = tensor(0.8881, grad_fn=<NllLossBackward>)
+loss is 0.86610955
+val loss = tensor(0.8893, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8387441
+val loss = tensor(0.8944, grad_fn=<NllLossBackward>)
+loss is 0.81933624
+val loss = tensor(0.8914, grad_fn=<NllLossBackward>)
+loss is 0.8275155
+val loss = tensor(0.9243, grad_fn=<NllLossBackward>)
+loss is 0.82211554
+val loss = tensor(0.8860, grad_fn=<NllLossBackward>)
+loss is 0.8322073
+val loss = tensor(0.8838, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.83390975
+val loss = tensor(0.8886, grad_fn=<NllLossBackward>)
+loss is 0.8112811
+val loss = tensor(0.8860, grad_fn=<NllLossBackward>)
+loss is 0.81300676
+val loss = tensor(0.9407, grad_fn=<NllLossBackward>)
+loss is 0.8009543
+val loss = tensor(0.8940, grad_fn=<NllLossBackward>)
+loss is 0.79844064
+val loss = tensor(0.8870, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8361327
+val loss = tensor(0.9648, grad_fn=<NllLossBackward>)
+loss is 0.80279607
+val loss = tensor(0.9095, grad_fn=<NllLossBackward>)
+loss is 0.78335565
+val loss = tensor(0.8948, grad_fn=<NllLossBackward>)
+loss is 0.8123768
+val loss = tensor(0.8864, grad_fn=<NllLossBackward>)
+loss is 0.79383814
+val loss = tensor(0.9042, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7811167
+val loss = tensor(0.8877, grad_fn=<NllLossBackward>)
+loss is 0.8439873
+val loss = tensor(0.8911, grad_fn=<NllLossBackward>)
+loss is 0.7848583
+val loss = tensor(0.8996, grad_fn=<NllLossBackward>)
+loss is 0.79571843
+val loss = tensor(0.8825, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8825, grad_fn=<NllLossBackward>)
+loss is 0.7782672
+val loss = tensor(0.8940, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7875858
+val loss = tensor(0.8945, grad_fn=<NllLossBackward>)
+loss is 0.8468735
+val loss = tensor(0.8996, grad_fn=<NllLossBackward>)
+loss is 0.81030035
+val loss = tensor(0.8837, grad_fn=<NllLossBackward>)
+loss is 0.7900561
+val loss = tensor(0.8823, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8823, grad_fn=<NllLossBackward>)
+loss is 0.853444
+val loss = tensor(0.9069, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.845182
+val loss = tensor(0.8936, grad_fn=<NllLossBackward>)
+loss is 0.82157826
+val loss = tensor(0.8828, grad_fn=<NllLossBackward>)
+loss is 0.77980566
+val loss = tensor(0.8843, grad_fn=<NllLossBackward>)
+loss is 0.7840382
+val loss = tensor(0.9022, grad_fn=<NllLossBackward>)
+loss is 0.8024076
+val loss = tensor(0.9246, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7771777
+val loss = tensor(0.8839, grad_fn=<NllLossBackward>)
+loss is 0.79264
+val loss = tensor(0.8836, grad_fn=<NllLossBackward>)
+loss is 0.8644973
+val loss = tensor(0.9117, grad_fn=<NllLossBackward>)
+loss is 0.8084501
+val loss = tensor(0.8856, grad_fn=<NllLossBackward>)
+loss is 0.7872038
+val loss = tensor(0.8850, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8040103
+val loss = tensor(0.8871, grad_fn=<NllLossBackward>)
+loss is 0.82858515
+val loss = tensor(0.8834, grad_fn=<NllLossBackward>)
+loss is 0.7749838
+val loss = tensor(0.8881, grad_fn=<NllLossBackward>)
+loss is 0.7996813
+val loss = tensor(0.8863, grad_fn=<NllLossBackward>)
+loss is 0.7901161
+val loss = tensor(0.8936, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8130989
+val loss = tensor(0.8889, grad_fn=<NllLossBackward>)
+loss is 0.8190291
+val loss = tensor(0.8948, grad_fn=<NllLossBackward>)
+loss is 0.7970304
+val loss = tensor(0.9403, grad_fn=<NllLossBackward>)
+loss is 0.7953554
+val loss = tensor(0.9029, grad_fn=<NllLossBackward>)
+loss is 0.83540076
+val loss = tensor(0.8870, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.814176
+val loss = tensor(0.9219, grad_fn=<NllLossBackward>)
+loss is 0.8025445
+val loss = tensor(0.9205, grad_fn=<NllLossBackward>)
+loss is 0.8325293
+val loss = tensor(0.8909, grad_fn=<NllLossBackward>)
+loss is 0.7887625
+val loss = tensor(0.8852, grad_fn=<NllLossBackward>)
+loss is 0.79768413
+val loss = tensor(0.9015, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8243903
+val loss = tensor(0.8831, grad_fn=<NllLossBackward>)
+loss is 0.7856137
+val loss = tensor(0.8838, grad_fn=<NllLossBackward>)
+loss is 0.8114648
+val loss = tensor(0.9028, grad_fn=<NllLossBackward>)
+loss is 0.8559528
+val loss = tensor(0.8924, grad_fn=<NllLossBackward>)
+loss is 0.80702806
+val loss = tensor(0.8869, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.825356
+val loss = tensor(0.8895, grad_fn=<NllLossBackward>)
+loss is 0.8143104
+val loss = tensor(0.8818, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8818, grad_fn=<NllLossBackward>)
+loss is 0.83617914
+val loss = tensor(0.8854, grad_fn=<NllLossBackward>)
+loss is 0.8177019
+val loss = tensor(0.9009, grad_fn=<NllLossBackward>)
+loss is 0.8125223
+val loss = tensor(0.9074, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7934207
+val loss = tensor(0.9162, grad_fn=<NllLossBackward>)
+loss is 0.7939025
+val loss = tensor(0.8858, grad_fn=<NllLossBackward>)
+loss is 0.79298306
+val loss = tensor(0.9107, grad_fn=<NllLossBackward>)
+loss is 0.8372869
+val loss = tensor(0.8822, grad_fn=<NllLossBackward>)
+loss is 0.8144241
+val loss = tensor(0.8901, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8110281
+val loss = tensor(0.8842, grad_fn=<NllLossBackward>)
+loss is 0.81111795
+val loss = tensor(0.8854, grad_fn=<NllLossBackward>)
+loss is 0.8929916
+val loss = tensor(0.9226, grad_fn=<NllLossBackward>)
+loss is 0.8016142
+val loss = tensor(0.8911, grad_fn=<NllLossBackward>)
+loss is 0.7808379
+val loss = tensor(0.8816, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8816, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.84186554
+val loss = tensor(0.9166, grad_fn=<NllLossBackward>)
+loss is 0.8294137
+val loss = tensor(0.8970, grad_fn=<NllLossBackward>)
+loss is 0.79942113
+val loss = tensor(0.9026, grad_fn=<NllLossBackward>)
+loss is 0.81862926
+val loss = tensor(0.9037, grad_fn=<NllLossBackward>)
+loss is 0.78394616
+val loss = tensor(0.9001, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7712652
+val loss = tensor(0.8936, grad_fn=<NllLossBackward>)
+loss is 0.75976795
+val loss = tensor(0.8997, grad_fn=<NllLossBackward>)
+loss is 0.7728709
+val loss = tensor(0.8906, grad_fn=<NllLossBackward>)
+loss is 0.80593044
+val loss = tensor(0.9602, grad_fn=<NllLossBackward>)
+loss is 0.794245
+val loss = tensor(0.8870, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.84663725
+val loss = tensor(0.8915, grad_fn=<NllLossBackward>)
+loss is 0.7763941
+val loss = tensor(0.8864, grad_fn=<NllLossBackward>)
+loss is 0.7786803
+val loss = tensor(0.9015, grad_fn=<NllLossBackward>)
+loss is 0.80626214
+val loss = tensor(0.8864, grad_fn=<NllLossBackward>)
+loss is 0.83930147
+val loss = tensor(0.9088, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79109156
+val loss = tensor(0.8952, grad_fn=<NllLossBackward>)
+loss is 0.8059765
+val loss = tensor(0.8827, grad_fn=<NllLossBackward>)
+loss is 0.8123148
+val loss = tensor(0.8878, grad_fn=<NllLossBackward>)
+loss is 0.81813574
+val loss = tensor(0.9139, grad_fn=<NllLossBackward>)
+loss is 0.7899801
+val loss = tensor(0.8883, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82008773
+val loss = tensor(0.8953, grad_fn=<NllLossBackward>)
+loss is 0.81249547
+val loss = tensor(0.8867, grad_fn=<NllLossBackward>)
+loss is 0.83171564
+val loss = tensor(0.9172, grad_fn=<NllLossBackward>)
+loss is 0.7902794
+val loss = tensor(0.8845, grad_fn=<NllLossBackward>)
+loss is 0.8151489
+val loss = tensor(0.8806, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8806, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78542364
+val loss = tensor(0.8950, grad_fn=<NllLossBackward>)
+loss is 0.84499764
+val loss = tensor(0.9086, grad_fn=<NllLossBackward>)
+loss is 0.8112969
+val loss = tensor(0.8924, grad_fn=<NllLossBackward>)
+loss is 0.79918885
+val loss = tensor(0.8815, grad_fn=<NllLossBackward>)
+loss is 0.8050835
+val loss = tensor(0.8837, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8220018
+val loss = tensor(0.8983, grad_fn=<NllLossBackward>)
+loss is 0.8030616
+val loss = tensor(0.8869, grad_fn=<NllLossBackward>)
+loss is 0.83391774
+val loss = tensor(0.8850, grad_fn=<NllLossBackward>)
+loss is 0.80912495
+val loss = tensor(0.8858, grad_fn=<NllLossBackward>)
+loss is 0.8205231
+val loss = tensor(0.8858, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7935688
+val loss = tensor(0.9002, grad_fn=<NllLossBackward>)
+loss is 0.81388175
+val loss = tensor(0.8881, grad_fn=<NllLossBackward>)
+loss is 0.8210213
+val loss = tensor(0.9011, grad_fn=<NllLossBackward>)
+loss is 0.83337206
+val loss = tensor(0.9172, grad_fn=<NllLossBackward>)
+loss is 0.8071144
+val loss = tensor(0.9188, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8077448
+val loss = tensor(0.8811, grad_fn=<NllLossBackward>)
+loss is 0.8259594
+val loss = tensor(0.8972, grad_fn=<NllLossBackward>)
+loss is 0.80253077
+val loss = tensor(0.8928, grad_fn=<NllLossBackward>)
+loss is 0.82274836
+val loss = tensor(0.8811, grad_fn=<NllLossBackward>)
+loss is 0.7759179
+val loss = tensor(0.8869, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8057763
+val loss = tensor(0.8905, grad_fn=<NllLossBackward>)
+loss is 0.8241758
+val loss = tensor(0.8945, grad_fn=<NllLossBackward>)
+loss is 0.8078582
+val loss = tensor(0.8806, grad_fn=<NllLossBackward>)
+loss is 0.77318615
+val loss = tensor(0.8844, grad_fn=<NllLossBackward>)
+loss is 0.7705008
+val loss = tensor(0.9111, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.788121
+val loss = tensor(0.8851, grad_fn=<NllLossBackward>)
+loss is 0.7741443
+val loss = tensor(0.8870, grad_fn=<NllLossBackward>)
+loss is 0.7901374
+val loss = tensor(0.8982, grad_fn=<NllLossBackward>)
+loss is 0.8108555
+val loss = tensor(0.8928, grad_fn=<NllLossBackward>)
+loss is 0.7774853
+val loss = tensor(0.8860, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80774784
+val loss = tensor(0.8918, grad_fn=<NllLossBackward>)
+loss is 0.8139453
+val loss = tensor(0.8986, grad_fn=<NllLossBackward>)
+loss is 0.8244484
+val loss = tensor(0.8954, grad_fn=<NllLossBackward>)
+loss is 0.8371429
+val loss = tensor(0.9898, grad_fn=<NllLossBackward>)
+loss is 0.7739332
+val loss = tensor(0.8830, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8536164
+val loss = tensor(0.9087, grad_fn=<NllLossBackward>)
+loss is 0.81800836
+val loss = tensor(0.8800, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8800, grad_fn=<NllLossBackward>)
+loss is 0.818905
+val loss = tensor(0.8918, grad_fn=<NllLossBackward>)
+loss is 0.81228936
+val loss = tensor(0.9099, grad_fn=<NllLossBackward>)
+loss is 0.8263719
+val loss = tensor(0.9005, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82077396
+val loss = tensor(0.8795, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8795, grad_fn=<NllLossBackward>)
+loss is 0.85140485
+val loss = tensor(0.8848, grad_fn=<NllLossBackward>)
+loss is 0.78542876
+val loss = tensor(0.8879, grad_fn=<NllLossBackward>)
+loss is 0.8570318
+val loss = tensor(0.8814, grad_fn=<NllLossBackward>)
+loss is 0.8041181
+val loss = tensor(0.8919, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80371034
+val loss = tensor(0.8840, grad_fn=<NllLossBackward>)
+loss is 0.83475715
+val loss = tensor(0.9276, grad_fn=<NllLossBackward>)
+loss is 0.78995854
+val loss = tensor(0.9151, grad_fn=<NllLossBackward>)
+loss is 0.8230056
+val loss = tensor(0.8880, grad_fn=<NllLossBackward>)
+loss is 0.81620467
+val loss = tensor(0.9135, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80185896
+val loss = tensor(0.8819, grad_fn=<NllLossBackward>)
+loss is 0.80427486
+val loss = tensor(0.8945, grad_fn=<NllLossBackward>)
+loss is 0.74494183
+val loss = tensor(0.8939, grad_fn=<NllLossBackward>)
+loss is 0.7763017
+val loss = tensor(0.8798, grad_fn=<NllLossBackward>)
+loss is 0.7931133
+val loss = tensor(0.9017, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8325888
+val loss = tensor(0.8843, grad_fn=<NllLossBackward>)
+loss is 0.7979726
+val loss = tensor(0.8914, grad_fn=<NllLossBackward>)
+loss is 0.7914536
+val loss = tensor(0.8861, grad_fn=<NllLossBackward>)
+loss is 0.78705657
+val loss = tensor(0.8875, grad_fn=<NllLossBackward>)
+loss is 0.8004639
+val loss = tensor(0.8887, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81163937
+val loss = tensor(0.9006, grad_fn=<NllLossBackward>)
+loss is 0.8178349
+val loss = tensor(0.8829, grad_fn=<NllLossBackward>)
+loss is 0.8026516
+val loss = tensor(0.8839, grad_fn=<NllLossBackward>)
+loss is 0.78422165
+val loss = tensor(0.8842, grad_fn=<NllLossBackward>)
+loss is 0.8177642
+val loss = tensor(0.9246, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.76595515
+val loss = tensor(0.8947, grad_fn=<NllLossBackward>)
+loss is 0.79588974
+val loss = tensor(0.8836, grad_fn=<NllLossBackward>)
+loss is 0.8697569
+val loss = tensor(0.8792, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8792, grad_fn=<NllLossBackward>)
+loss is 0.80456084
+val loss = tensor(0.8854, grad_fn=<NllLossBackward>)
+loss is 0.7825661
+val loss = tensor(0.8816, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8021989
+val loss = tensor(0.8912, grad_fn=<NllLossBackward>)
+loss is 0.80602187
+val loss = tensor(0.8953, grad_fn=<NllLossBackward>)
+loss is 0.7913201
+val loss = tensor(0.9130, grad_fn=<NllLossBackward>)
+loss is 0.7669855
+val loss = tensor(0.9015, grad_fn=<NllLossBackward>)
+loss is 0.81740636
+val loss = tensor(0.8845, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7967963
+val loss = tensor(0.8841, grad_fn=<NllLossBackward>)
+loss is 0.799405
+val loss = tensor(0.8832, grad_fn=<NllLossBackward>)
+loss is 0.8122933
+val loss = tensor(0.8793, grad_fn=<NllLossBackward>)
+loss is 0.78987634
+val loss = tensor(0.8831, grad_fn=<NllLossBackward>)
+loss is 0.8247323
+val loss = tensor(0.8871, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8259791
+val loss = tensor(0.9139, grad_fn=<NllLossBackward>)
+loss is 0.8355764
+val loss = tensor(0.9141, grad_fn=<NllLossBackward>)
+loss is 0.8116174
+val loss = tensor(0.8822, grad_fn=<NllLossBackward>)
+loss is 0.8091392
+val loss = tensor(0.8869, grad_fn=<NllLossBackward>)
+loss is 0.84953314
+val loss = tensor(0.8893, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78454274
+val loss = tensor(0.8990, grad_fn=<NllLossBackward>)
+loss is 0.77376866
+val loss = tensor(0.9203, grad_fn=<NllLossBackward>)
+loss is 0.7872852
+val loss = tensor(0.9023, grad_fn=<NllLossBackward>)
+loss is 0.7910888
+val loss = tensor(0.8805, grad_fn=<NllLossBackward>)
+loss is 0.77902603
+val loss = tensor(0.8802, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7907198
+val loss = tensor(0.8979, grad_fn=<NllLossBackward>)
+loss is 0.8171761
+val loss = tensor(0.8813, grad_fn=<NllLossBackward>)
+loss is 0.7685317
+val loss = tensor(0.8863, grad_fn=<NllLossBackward>)
+loss is 0.8070756
+val loss = tensor(0.9091, grad_fn=<NllLossBackward>)
+loss is 0.81907094
+val loss = tensor(0.9054, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8176234
+val loss = tensor(0.9094, grad_fn=<NllLossBackward>)
+loss is 0.76741034
+val loss = tensor(0.8784, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8784, grad_fn=<NllLossBackward>)
+loss is 0.83315474
+val loss = tensor(0.8996, grad_fn=<NllLossBackward>)
+loss is 0.793262
+val loss = tensor(0.8844, grad_fn=<NllLossBackward>)
+loss is 0.78395796
+val loss = tensor(0.8920, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7685621
+val loss = tensor(0.8816, grad_fn=<NllLossBackward>)
+loss is 0.7963296
+val loss = tensor(0.9045, grad_fn=<NllLossBackward>)
+loss is 0.8142304
+val loss = tensor(0.8811, grad_fn=<NllLossBackward>)
+loss is 0.81959957
+val loss = tensor(0.9045, grad_fn=<NllLossBackward>)
+loss is 0.8094818
+val loss = tensor(0.8823, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7878026
+val loss = tensor(0.8822, grad_fn=<NllLossBackward>)
+loss is 0.7785961
+val loss = tensor(0.8803, grad_fn=<NllLossBackward>)
+loss is 0.7917564
+val loss = tensor(0.9420, grad_fn=<NllLossBackward>)
+loss is 0.8605803
+val loss = tensor(0.8817, grad_fn=<NllLossBackward>)
+loss is 0.7927373
+val loss = tensor(0.8819, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80118656
+val loss = tensor(0.8832, grad_fn=<NllLossBackward>)
+loss is 0.80152094
+val loss = tensor(0.8818, grad_fn=<NllLossBackward>)
+loss is 0.80045867
+val loss = tensor(0.8807, grad_fn=<NllLossBackward>)
+loss is 0.8052399
+val loss = tensor(0.8828, grad_fn=<NllLossBackward>)
+loss is 0.80098444
+val loss = tensor(0.8971, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8048258
+val loss = tensor(0.8856, grad_fn=<NllLossBackward>)
+loss is 0.78933394
+val loss = tensor(0.8833, grad_fn=<NllLossBackward>)
+loss is 0.7898631
+val loss = tensor(0.8819, grad_fn=<NllLossBackward>)
+loss is 0.81951445
+val loss = tensor(0.8834, grad_fn=<NllLossBackward>)
+loss is 0.82639724
+val loss = tensor(0.8935, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7649206
+val loss = tensor(0.8785, grad_fn=<NllLossBackward>)
+loss is 0.80733013
+val loss = tensor(0.8813, grad_fn=<NllLossBackward>)
+loss is 0.7832763
+val loss = tensor(0.8890, grad_fn=<NllLossBackward>)
+loss is 0.8065359
+val loss = tensor(0.9131, grad_fn=<NllLossBackward>)
+loss is 0.8069211
+val loss = tensor(0.9293, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7891855
+val loss = tensor(0.8804, grad_fn=<NllLossBackward>)
+loss is 0.8577037
+val loss = tensor(0.8821, grad_fn=<NllLossBackward>)
+loss is 0.80219996
+val loss = tensor(0.8935, grad_fn=<NllLossBackward>)
+loss is 0.7674264
+val loss = tensor(0.8928, grad_fn=<NllLossBackward>)
+loss is 0.8213661
+val loss = tensor(0.8799, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78828615
+val loss = tensor(0.8863, grad_fn=<NllLossBackward>)
+loss is 0.80624044
+val loss = tensor(0.8905, grad_fn=<NllLossBackward>)
+loss is 0.8072281
+val loss = tensor(0.8947, grad_fn=<NllLossBackward>)
+loss is 0.84179455
+val loss = tensor(0.8820, grad_fn=<NllLossBackward>)
+loss is 0.78852737
+val loss = tensor(0.8852, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7964911
+val loss = tensor(0.8795, grad_fn=<NllLossBackward>)
+loss is 0.82962584
+val loss = tensor(0.9307, grad_fn=<NllLossBackward>)
+loss is 0.82901317
+val loss = tensor(0.8957, grad_fn=<NllLossBackward>)
+loss is 0.7532674
+val loss = tensor(0.9070, grad_fn=<NllLossBackward>)
+loss is 0.7892679
+val loss = tensor(0.8913, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79728
+val loss = tensor(0.9115, grad_fn=<NllLossBackward>)
+loss is 0.7846692
+val loss = tensor(0.8914, grad_fn=<NllLossBackward>)
+loss is 0.7861059
+val loss = tensor(0.9037, grad_fn=<NllLossBackward>)
+loss is 0.82209784
+val loss = tensor(0.9061, grad_fn=<NllLossBackward>)
+loss is 0.80512524
+val loss = tensor(0.8787, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8324367
+val loss = tensor(0.8974, grad_fn=<NllLossBackward>)
+loss is 0.79639375
+val loss = tensor(0.8802, grad_fn=<NllLossBackward>)
+loss is 0.79179084
+val loss = tensor(0.8932, grad_fn=<NllLossBackward>)
+loss is 0.82365274
+val loss = tensor(0.8912, grad_fn=<NllLossBackward>)
+loss is 0.80244833
+val loss = tensor(0.8936, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7879324
+val loss = tensor(0.8831, grad_fn=<NllLossBackward>)
+loss is 0.80054814
+val loss = tensor(0.8823, grad_fn=<NllLossBackward>)
+loss is 0.8070935
+val loss = tensor(0.8900, grad_fn=<NllLossBackward>)
+loss is 0.80691344
+val loss = tensor(0.9104, grad_fn=<NllLossBackward>)
+loss is 0.759242
+val loss = tensor(0.8794, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7912215
+val loss = tensor(0.8864, grad_fn=<NllLossBackward>)
+loss is 0.8106427
+val loss = tensor(0.8864, grad_fn=<NllLossBackward>)
+loss is 0.767975
+val loss = tensor(0.8875, grad_fn=<NllLossBackward>)
+loss is 0.7875169
+val loss = tensor(0.9126, grad_fn=<NllLossBackward>)
+loss is 0.76733494
+val loss = tensor(0.8783, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8783, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.75622386
+val loss = tensor(0.8788, grad_fn=<NllLossBackward>)
+loss is 0.8030037
+val loss = tensor(0.8775, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8775, grad_fn=<NllLossBackward>)
+loss is 0.7702266
+val loss = tensor(0.8819, grad_fn=<NllLossBackward>)
+loss is 0.82630223
+val loss = tensor(0.8886, grad_fn=<NllLossBackward>)
+loss is 0.7912248
+val loss = tensor(0.9161, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8023721
+val loss = tensor(0.9142, grad_fn=<NllLossBackward>)
+loss is 0.7994528
+val loss = tensor(0.8843, grad_fn=<NllLossBackward>)
+loss is 0.7851204
+val loss = tensor(0.9038, grad_fn=<NllLossBackward>)
+loss is 0.81320846
+val loss = tensor(0.8832, grad_fn=<NllLossBackward>)
+loss is 0.8400863
+val loss = tensor(0.8958, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8255166
+val loss = tensor(0.8962, grad_fn=<NllLossBackward>)
+loss is 0.8299988
+val loss = tensor(0.8944, grad_fn=<NllLossBackward>)
+loss is 0.78750366
+val loss = tensor(0.8921, grad_fn=<NllLossBackward>)
+loss is 0.76643395
+val loss = tensor(0.9034, grad_fn=<NllLossBackward>)
+loss is 0.78511804
+val loss = tensor(0.8875, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.77713454
+val loss = tensor(0.9092, grad_fn=<NllLossBackward>)
+loss is 0.7724584
+val loss = tensor(0.8927, grad_fn=<NllLossBackward>)
+loss is 0.7887293
+val loss = tensor(0.8885, grad_fn=<NllLossBackward>)
+loss is 0.7976229
+val loss = tensor(0.8819, grad_fn=<NllLossBackward>)
+loss is 0.7668235
+val loss = tensor(0.8872, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7966549
+val loss = tensor(0.8808, grad_fn=<NllLossBackward>)
+loss is 0.79030704
+val loss = tensor(0.8774, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8774, grad_fn=<NllLossBackward>)
+loss is 0.82487345
+val loss = tensor(0.8804, grad_fn=<NllLossBackward>)
+loss is 0.79047775
+val loss = tensor(0.8925, grad_fn=<NllLossBackward>)
+loss is 0.82099956
+val loss = tensor(0.8899, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7897792
+val loss = tensor(0.8784, grad_fn=<NllLossBackward>)
+loss is 0.80853975
+val loss = tensor(0.8960, grad_fn=<NllLossBackward>)
+loss is 0.7669813
+val loss = tensor(0.9136, grad_fn=<NllLossBackward>)
+loss is 0.81494546
+val loss = tensor(0.9008, grad_fn=<NllLossBackward>)
+loss is 0.77430475
+val loss = tensor(0.8793, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8150388
+val loss = tensor(0.8911, grad_fn=<NllLossBackward>)
+loss is 0.8106502
+val loss = tensor(0.8826, grad_fn=<NllLossBackward>)
+loss is 0.78444946
+val loss = tensor(0.8893, grad_fn=<NllLossBackward>)
+loss is 0.7833865
+val loss = tensor(0.8798, grad_fn=<NllLossBackward>)
+loss is 0.834309
+val loss = tensor(0.8795, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8500699
+val loss = tensor(0.8868, grad_fn=<NllLossBackward>)
+loss is 0.8069701
+val loss = tensor(0.9124, grad_fn=<NllLossBackward>)
+loss is 0.8168721
+val loss = tensor(0.8784, grad_fn=<NllLossBackward>)
+loss is 0.7924615
+val loss = tensor(0.8784, grad_fn=<NllLossBackward>)
+loss is 0.782885
+val loss = tensor(0.8824, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.83374953
+val loss = tensor(0.8787, grad_fn=<NllLossBackward>)
+loss is 0.78014654
+val loss = tensor(0.8910, grad_fn=<NllLossBackward>)
+loss is 0.7979134
+val loss = tensor(0.8986, grad_fn=<NllLossBackward>)
+loss is 0.7690446
+val loss = tensor(0.9103, grad_fn=<NllLossBackward>)
+loss is 0.7956519
+val loss = tensor(0.8972, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7930441
+val loss = tensor(0.9097, grad_fn=<NllLossBackward>)
+loss is 0.81373894
+val loss = tensor(0.8875, grad_fn=<NllLossBackward>)
+loss is 0.7724456
+val loss = tensor(0.9143, grad_fn=<NllLossBackward>)
+loss is 0.778777
+val loss = tensor(0.8907, grad_fn=<NllLossBackward>)
+loss is 0.78928167
+val loss = tensor(0.8854, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.83276165
+val loss = tensor(0.8895, grad_fn=<NllLossBackward>)
+loss is 0.8170403
+val loss = tensor(0.8794, grad_fn=<NllLossBackward>)
+loss is 0.8000155
+val loss = tensor(0.8950, grad_fn=<NllLossBackward>)
+loss is 0.7896385
+val loss = tensor(0.8947, grad_fn=<NllLossBackward>)
+loss is 0.84179026
+val loss = tensor(0.8909, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.77385736
+val loss = tensor(0.8796, grad_fn=<NllLossBackward>)
+loss is 0.77796245
+val loss = tensor(0.8959, grad_fn=<NllLossBackward>)
+loss is 0.79346883
+val loss = tensor(0.9002, grad_fn=<NllLossBackward>)
+loss is 0.81574714
+val loss = tensor(0.8876, grad_fn=<NllLossBackward>)
+loss is 0.7987221
+val loss = tensor(0.8993, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79249185
+val loss = tensor(0.8810, grad_fn=<NllLossBackward>)
+loss is 0.8536287
+val loss = tensor(0.9246, grad_fn=<NllLossBackward>)
+loss is 0.8026664
+val loss = tensor(0.8944, grad_fn=<NllLossBackward>)
+loss is 0.7977592
+val loss = tensor(0.8779, grad_fn=<NllLossBackward>)
+loss is 0.78289276
+val loss = tensor(0.9400, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78719133
+val loss = tensor(0.9155, grad_fn=<NllLossBackward>)
+loss is 0.75930166
+val loss = tensor(0.8877, grad_fn=<NllLossBackward>)
+loss is 0.8015972
+val loss = tensor(0.8805, grad_fn=<NllLossBackward>)
+loss is 0.8173111
+val loss = tensor(0.8833, grad_fn=<NllLossBackward>)
+loss is 0.77387655
+val loss = tensor(0.8819, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8008319
+val loss = tensor(0.8833, grad_fn=<NllLossBackward>)
+loss is 0.7695774
+val loss = tensor(0.8877, grad_fn=<NllLossBackward>)
+loss is 0.76517063
+val loss = tensor(0.9064, grad_fn=<NllLossBackward>)
+loss is 0.82192206
+val loss = tensor(0.8826, grad_fn=<NllLossBackward>)
+loss is 0.8234413
+val loss = tensor(0.8944, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79228526
+val loss = tensor(0.8876, grad_fn=<NllLossBackward>)
+loss is 0.78598636
+val loss = tensor(0.9130, grad_fn=<NllLossBackward>)
+loss is 0.8028926
+val loss = tensor(0.8788, grad_fn=<NllLossBackward>)
+loss is 0.78773314
+val loss = tensor(0.9070, grad_fn=<NllLossBackward>)
+loss is 0.79670084
+val loss = tensor(0.8988, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8102164
+val loss = tensor(0.8994, grad_fn=<NllLossBackward>)
+loss is 0.79245526
+val loss = tensor(0.8829, grad_fn=<NllLossBackward>)
+loss is 0.7832718
+val loss = tensor(0.9014, grad_fn=<NllLossBackward>)
+loss is 0.8423953
+val loss = tensor(0.8767, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8767, grad_fn=<NllLossBackward>)
+loss is 0.7825318
+val loss = tensor(0.8968, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7985279
+val loss = tensor(0.8804, grad_fn=<NllLossBackward>)
+loss is 0.8228542
+val loss = tensor(0.9105, grad_fn=<NllLossBackward>)
+loss is 0.7314151
+val loss = tensor(0.9010, grad_fn=<NllLossBackward>)
+loss is 0.80349284
+val loss = tensor(0.8827, grad_fn=<NllLossBackward>)
+loss is 0.78989494
+val loss = tensor(0.8932, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8149841
+val loss = tensor(0.8867, grad_fn=<NllLossBackward>)
+loss is 0.7843357
+val loss = tensor(0.8895, grad_fn=<NllLossBackward>)
+loss is 0.78839445
+val loss = tensor(0.8799, grad_fn=<NllLossBackward>)
+loss is 0.81457835
+val loss = tensor(0.8954, grad_fn=<NllLossBackward>)
+loss is 0.7759291
+val loss = tensor(0.8788, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78999996
+val loss = tensor(0.8792, grad_fn=<NllLossBackward>)
+loss is 0.7817389
+val loss = tensor(0.8807, grad_fn=<NllLossBackward>)
+loss is 0.75906676
+val loss = tensor(0.8783, grad_fn=<NllLossBackward>)
+loss is 0.7981556
+val loss = tensor(0.8808, grad_fn=<NllLossBackward>)
+loss is 0.79401165
+val loss = tensor(0.8766, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8766, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81906605
+val loss = tensor(0.9026, grad_fn=<NllLossBackward>)
+loss is 0.7929073
+val loss = tensor(0.8787, grad_fn=<NllLossBackward>)
+loss is 0.8250586
+val loss = tensor(0.9146, grad_fn=<NllLossBackward>)
+loss is 0.8016164
+val loss = tensor(0.9010, grad_fn=<NllLossBackward>)
+loss is 0.8041441
+val loss = tensor(0.8849, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.75354934
+val loss = tensor(0.8957, grad_fn=<NllLossBackward>)
+loss is 0.7827235
+val loss = tensor(0.8847, grad_fn=<NllLossBackward>)
+loss is 0.790985
+val loss = tensor(0.8752, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8752, grad_fn=<NllLossBackward>)
+loss is 0.8056526
+val loss = tensor(0.8922, grad_fn=<NllLossBackward>)
+loss is 0.7941192
+val loss = tensor(0.8817, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7942558
+val loss = tensor(0.8872, grad_fn=<NllLossBackward>)
+loss is 0.79536295
+val loss = tensor(0.8764, grad_fn=<NllLossBackward>)
+loss is 0.8100616
+val loss = tensor(0.8787, grad_fn=<NllLossBackward>)
+loss is 0.78730136
+val loss = tensor(0.9199, grad_fn=<NllLossBackward>)
+loss is 0.8066
+val loss = tensor(0.8977, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82511914
+val loss = tensor(0.8809, grad_fn=<NllLossBackward>)
+loss is 0.7958766
+val loss = tensor(0.9063, grad_fn=<NllLossBackward>)
+loss is 0.8069178
+val loss = tensor(0.9008, grad_fn=<NllLossBackward>)
+loss is 0.80132437
+val loss = tensor(0.8764, grad_fn=<NllLossBackward>)
+loss is 0.8190304
+val loss = tensor(0.8822, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7875342
+val loss = tensor(0.8782, grad_fn=<NllLossBackward>)
+loss is 0.7990969
+val loss = tensor(0.8783, grad_fn=<NllLossBackward>)
+loss is 0.7460691
+val loss = tensor(0.8902, grad_fn=<NllLossBackward>)
+loss is 0.828855
+val loss = tensor(0.9003, grad_fn=<NllLossBackward>)
+loss is 0.7935347
+val loss = tensor(0.8998, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7529299
+val loss = tensor(0.8774, grad_fn=<NllLossBackward>)
+loss is 0.78467965
+val loss = tensor(0.8817, grad_fn=<NllLossBackward>)
+loss is 0.81186676
+val loss = tensor(0.8792, grad_fn=<NllLossBackward>)
+loss is 0.77590954
+val loss = tensor(0.8949, grad_fn=<NllLossBackward>)
+loss is 0.80098504
+val loss = tensor(0.8940, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7724503
+val loss = tensor(0.8830, grad_fn=<NllLossBackward>)
+loss is 0.80712384
+val loss = tensor(0.8849, grad_fn=<NllLossBackward>)
+loss is 0.7311041
+val loss = tensor(0.8935, grad_fn=<NllLossBackward>)
+loss is 0.8159874
+val loss = tensor(0.8800, grad_fn=<NllLossBackward>)
+loss is 0.7958439
+val loss = tensor(0.9134, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7852079
+val loss = tensor(0.8917, grad_fn=<NllLossBackward>)
+loss is 0.7401972
+val loss = tensor(0.9009, grad_fn=<NllLossBackward>)
+loss is 0.7637309
+val loss = tensor(0.8835, grad_fn=<NllLossBackward>)
+loss is 0.77349496
+val loss = tensor(0.8829, grad_fn=<NllLossBackward>)
+loss is 0.80643886
+val loss = tensor(0.8844, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.789749
+val loss = tensor(0.8759, grad_fn=<NllLossBackward>)
+loss is 0.8186291
+val loss = tensor(0.8857, grad_fn=<NllLossBackward>)
+loss is 0.7937255
+val loss = tensor(0.8910, grad_fn=<NllLossBackward>)
+loss is 0.764099
+val loss = tensor(0.8783, grad_fn=<NllLossBackward>)
+loss is 0.79867023
+val loss = tensor(0.8784, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7754519
+val loss = tensor(0.8860, grad_fn=<NllLossBackward>)
+loss is 0.8022344
+val loss = tensor(0.8844, grad_fn=<NllLossBackward>)
+loss is 0.8339496
+val loss = tensor(0.9317, grad_fn=<NllLossBackward>)
+loss is 0.765516
+val loss = tensor(0.8748, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8748, grad_fn=<NllLossBackward>)
+loss is 0.812398
+val loss = tensor(0.9024, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7847058
+val loss = tensor(0.8967, grad_fn=<NllLossBackward>)
+loss is 0.8031402
+val loss = tensor(0.8856, grad_fn=<NllLossBackward>)
+loss is 0.76170325
+val loss = tensor(0.8746, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8746, grad_fn=<NllLossBackward>)
+loss is 0.78148586
+val loss = tensor(0.8871, grad_fn=<NllLossBackward>)
+loss is 0.7609998
+val loss = tensor(0.8891, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7913795
+val loss = tensor(0.8773, grad_fn=<NllLossBackward>)
+loss is 0.8008979
+val loss = tensor(0.8778, grad_fn=<NllLossBackward>)
+loss is 0.8190789
+val loss = tensor(0.8794, grad_fn=<NllLossBackward>)
+loss is 0.77718455
+val loss = tensor(0.8843, grad_fn=<NllLossBackward>)
+loss is 0.8025848
+val loss = tensor(0.8908, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8113214
+val loss = tensor(0.8802, grad_fn=<NllLossBackward>)
+loss is 0.7789186
+val loss = tensor(0.8762, grad_fn=<NllLossBackward>)
+loss is 0.78805965
+val loss = tensor(0.8763, grad_fn=<NllLossBackward>)
+loss is 0.8049033
+val loss = tensor(0.8754, grad_fn=<NllLossBackward>)
+loss is 0.8020707
+val loss = tensor(0.8764, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78203595
+val loss = tensor(0.8834, grad_fn=<NllLossBackward>)
+loss is 0.76825196
+val loss = tensor(0.8752, grad_fn=<NllLossBackward>)
+loss is 0.76996356
+val loss = tensor(0.8751, grad_fn=<NllLossBackward>)
+loss is 0.7958802
+val loss = tensor(0.8952, grad_fn=<NllLossBackward>)
+loss is 0.8249717
+val loss = tensor(0.9255, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79171926
+val loss = tensor(0.8838, grad_fn=<NllLossBackward>)
+loss is 0.76116884
+val loss = tensor(0.8763, grad_fn=<NllLossBackward>)
+loss is 0.78260493
+val loss = tensor(0.8936, grad_fn=<NllLossBackward>)
+loss is 0.8013836
+val loss = tensor(0.8781, grad_fn=<NllLossBackward>)
+loss is 0.78263617
+val loss = tensor(0.8758, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.76445645
+val loss = tensor(0.8776, grad_fn=<NllLossBackward>)
+loss is 0.7433329
+val loss = tensor(0.8921, grad_fn=<NllLossBackward>)
+loss is 0.7660669
+val loss = tensor(0.8896, grad_fn=<NllLossBackward>)
+loss is 0.7846205
+val loss = tensor(0.8978, grad_fn=<NllLossBackward>)
+loss is 0.7754237
+val loss = tensor(0.8874, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.76445866
+val loss = tensor(0.8900, grad_fn=<NllLossBackward>)
+loss is 0.81793284
+val loss = tensor(0.8786, grad_fn=<NllLossBackward>)
+loss is 0.8357713
+val loss = tensor(0.8769, grad_fn=<NllLossBackward>)
+loss is 0.783929
+val loss = tensor(0.8820, grad_fn=<NllLossBackward>)
+loss is 0.7648188
+val loss = tensor(0.9077, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81131124
+val loss = tensor(0.8997, grad_fn=<NllLossBackward>)
+loss is 0.8293354
+val loss = tensor(0.8770, grad_fn=<NllLossBackward>)
+loss is 0.80600286
+val loss = tensor(0.8742, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8742, grad_fn=<NllLossBackward>)
+loss is 0.79847294
+val loss = tensor(0.8741, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8741, grad_fn=<NllLossBackward>)
+loss is 0.74722177
+val loss = tensor(0.8771, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7611493
+val loss = tensor(0.8776, grad_fn=<NllLossBackward>)
+loss is 0.75290066
+val loss = tensor(0.8739, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8739, grad_fn=<NllLossBackward>)
+loss is 0.77483475
+val loss = tensor(0.8773, grad_fn=<NllLossBackward>)
+loss is 0.82058024
+val loss = tensor(0.8972, grad_fn=<NllLossBackward>)
+loss is 0.8049453
+val loss = tensor(0.8741, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81583536
+val loss = tensor(1.0022, grad_fn=<NllLossBackward>)
+loss is 0.7906172
+val loss = tensor(0.8752, grad_fn=<NllLossBackward>)
+loss is 0.7722831
+val loss = tensor(0.8862, grad_fn=<NllLossBackward>)
+loss is 0.7598595
+val loss = tensor(0.9376, grad_fn=<NllLossBackward>)
+loss is 0.78766906
+val loss = tensor(0.8806, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78014743
+val loss = tensor(0.8836, grad_fn=<NllLossBackward>)
+loss is 0.8088361
+val loss = tensor(0.8742, grad_fn=<NllLossBackward>)
+loss is 0.8250003
+val loss = tensor(0.8861, grad_fn=<NllLossBackward>)
+loss is 0.7623653
+val loss = tensor(0.8981, grad_fn=<NllLossBackward>)
+loss is 0.7813401
+val loss = tensor(0.8756, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.76891196
+val loss = tensor(0.8746, grad_fn=<NllLossBackward>)
+loss is 0.90776896
+val loss = tensor(0.9140, grad_fn=<NllLossBackward>)
+loss is 0.7699442
+val loss = tensor(0.8782, grad_fn=<NllLossBackward>)
+loss is 0.8128108
+val loss = tensor(0.8799, grad_fn=<NllLossBackward>)
+loss is 0.7811877
+val loss = tensor(0.9131, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.76581204
+val loss = tensor(0.8819, grad_fn=<NllLossBackward>)
+loss is 0.7742232
+val loss = tensor(0.8926, grad_fn=<NllLossBackward>)
+loss is 0.7641634
+val loss = tensor(0.8882, grad_fn=<NllLossBackward>)
+loss is 0.8057065
+val loss = tensor(0.8852, grad_fn=<NllLossBackward>)
+loss is 0.8005074
+val loss = tensor(0.8749, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7966312
+val loss = tensor(0.8794, grad_fn=<NllLossBackward>)
+loss is 0.8109822
+val loss = tensor(0.8843, grad_fn=<NllLossBackward>)
+loss is 0.84322023
+val loss = tensor(0.8759, grad_fn=<NllLossBackward>)
+loss is 0.8007868
+val loss = tensor(0.8900, grad_fn=<NllLossBackward>)
+loss is 0.79409665
+val loss = tensor(0.8859, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.767573
+val loss = tensor(0.9069, grad_fn=<NllLossBackward>)
+loss is 0.79479605
+val loss = tensor(0.8846, grad_fn=<NllLossBackward>)
+loss is 0.7972838
+val loss = tensor(0.8798, grad_fn=<NllLossBackward>)
+loss is 0.74995035
+val loss = tensor(0.8756, grad_fn=<NllLossBackward>)
+loss is 0.7397027
+val loss = tensor(0.8812, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8311522
+val loss = tensor(0.8744, grad_fn=<NllLossBackward>)
+loss is 0.79228395
+val loss = tensor(0.8778, grad_fn=<NllLossBackward>)
+loss is 0.7636347
+val loss = tensor(0.8831, grad_fn=<NllLossBackward>)
+loss is 0.8251694
+val loss = tensor(0.8798, grad_fn=<NllLossBackward>)
+loss is 0.76121515
+val loss = tensor(0.8780, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.77403754
+val loss = tensor(0.8871, grad_fn=<NllLossBackward>)
+loss is 0.76249146
+val loss = tensor(0.8814, grad_fn=<NllLossBackward>)
+loss is 0.8086514
+val loss = tensor(0.8849, grad_fn=<NllLossBackward>)
+loss is 0.80336344
+val loss = tensor(0.8775, grad_fn=<NllLossBackward>)
+loss is 0.7630851
+val loss = tensor(0.8735, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8735, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8541963
+val loss = tensor(0.8875, grad_fn=<NllLossBackward>)
+loss is 0.77696204
+val loss = tensor(0.8761, grad_fn=<NllLossBackward>)
+loss is 0.801207
+val loss = tensor(0.8886, grad_fn=<NllLossBackward>)
+loss is 0.78871983
+val loss = tensor(0.8789, grad_fn=<NllLossBackward>)
+loss is 0.8250111
+val loss = tensor(0.8752, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7750594
+val loss = tensor(0.8953, grad_fn=<NllLossBackward>)
+loss is 0.8423745
+val loss = tensor(0.8802, grad_fn=<NllLossBackward>)
+loss is 0.78336114
+val loss = tensor(0.8735, grad_fn=<NllLossBackward>)
+loss is 0.781516
+val loss = tensor(0.8838, grad_fn=<NllLossBackward>)
+loss is 0.8082116
+val loss = tensor(0.8755, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7826553
+val loss = tensor(0.8853, grad_fn=<NllLossBackward>)
+loss is 0.80757666
+val loss = tensor(0.9008, grad_fn=<NllLossBackward>)
+loss is 0.8128588
+val loss = tensor(0.8891, grad_fn=<NllLossBackward>)
+loss is 0.7780054
+val loss = tensor(0.8840, grad_fn=<NllLossBackward>)
+loss is 0.80265945
+val loss = tensor(0.8950, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7644033
+val loss = tensor(0.8919, grad_fn=<NllLossBackward>)
+loss is 0.7741698
+val loss = tensor(0.8906, grad_fn=<NllLossBackward>)
+loss is 0.79591894
+val loss = tensor(0.8732, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8732, grad_fn=<NllLossBackward>)
+loss is 0.79765487
+val loss = tensor(0.8784, grad_fn=<NllLossBackward>)
+loss is 0.7925048
+val loss = tensor(0.8757, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8301254
+val loss = tensor(0.8932, grad_fn=<NllLossBackward>)
+loss is 0.80786234
+val loss = tensor(0.8836, grad_fn=<NllLossBackward>)
+loss is 0.80150425
+val loss = tensor(0.8861, grad_fn=<NllLossBackward>)
+loss is 0.8225954
+val loss = tensor(0.8928, grad_fn=<NllLossBackward>)
+loss is 0.75329024
+val loss = tensor(0.8879, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.77832144
+val loss = tensor(0.8853, grad_fn=<NllLossBackward>)
+loss is 0.76686454
+val loss = tensor(0.8896, grad_fn=<NllLossBackward>)
+loss is 0.83116156
+val loss = tensor(0.9084, grad_fn=<NllLossBackward>)
+loss is 0.79868394
+val loss = tensor(0.9114, grad_fn=<NllLossBackward>)
+loss is 0.79969364
+val loss = tensor(0.9171, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81048405
+val loss = tensor(0.9011, grad_fn=<NllLossBackward>)
+loss is 0.7644742
+val loss = tensor(0.8817, grad_fn=<NllLossBackward>)
+loss is 0.7472013
+val loss = tensor(0.8775, grad_fn=<NllLossBackward>)
+loss is 0.80340445
+val loss = tensor(0.8798, grad_fn=<NllLossBackward>)
+loss is 0.76823956
+val loss = tensor(0.8883, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7827884
+val loss = tensor(0.8725, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8725, grad_fn=<NllLossBackward>)
+loss is 0.80604035
+val loss = tensor(0.8799, grad_fn=<NllLossBackward>)
+loss is 0.8041189
+val loss = tensor(0.8781, grad_fn=<NllLossBackward>)
+loss is 0.7837988
+val loss = tensor(0.8914, grad_fn=<NllLossBackward>)
+loss is 0.7659385
+val loss = tensor(0.9266, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7632398
+val loss = tensor(0.8920, grad_fn=<NllLossBackward>)
+loss is 0.80380553
+val loss = tensor(0.8801, grad_fn=<NllLossBackward>)
+loss is 0.8047202
+val loss = tensor(0.8789, grad_fn=<NllLossBackward>)
+loss is 0.82340807
+val loss = tensor(0.8724, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8724, grad_fn=<NllLossBackward>)
+loss is 0.81777185
+val loss = tensor(0.8731, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7842106
+val loss = tensor(0.8833, grad_fn=<NllLossBackward>)
+loss is 0.78167164
+val loss = tensor(0.8736, grad_fn=<NllLossBackward>)
+loss is 0.7729009
+val loss = tensor(0.8782, grad_fn=<NllLossBackward>)
+loss is 0.84617454
+val loss = tensor(0.9046, grad_fn=<NllLossBackward>)
+loss is 0.80420035
+val loss = tensor(0.8814, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.76963425
+val loss = tensor(0.8885, grad_fn=<NllLossBackward>)
+loss is 0.76229894
+val loss = tensor(0.8830, grad_fn=<NllLossBackward>)
+loss is 0.8036987
+val loss = tensor(0.8879, grad_fn=<NllLossBackward>)
+loss is 0.76959217
+val loss = tensor(0.8914, grad_fn=<NllLossBackward>)
+loss is 0.7621689
+val loss = tensor(0.8970, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81457895
+val loss = tensor(0.8755, grad_fn=<NllLossBackward>)
+loss is 0.785932
+val loss = tensor(0.8850, grad_fn=<NllLossBackward>)
+loss is 0.76844865
+val loss = tensor(0.8733, grad_fn=<NllLossBackward>)
+loss is 0.7991046
+val loss = tensor(0.8726, grad_fn=<NllLossBackward>)
+loss is 0.79275167
+val loss = tensor(0.8737, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8154321
+val loss = tensor(0.8747, grad_fn=<NllLossBackward>)
+loss is 0.7958124
+val loss = tensor(0.8759, grad_fn=<NllLossBackward>)
+loss is 0.7546678
+val loss = tensor(0.8831, grad_fn=<NllLossBackward>)
+loss is 0.8442315
+val loss = tensor(0.9103, grad_fn=<NllLossBackward>)
+loss is 0.7873171
+val loss = tensor(0.8905, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7798566
+val loss = tensor(0.8719, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8719, grad_fn=<NllLossBackward>)
+loss is 0.7821167
+val loss = tensor(0.8968, grad_fn=<NllLossBackward>)
+loss is 0.7937012
+val loss = tensor(0.8899, grad_fn=<NllLossBackward>)
+loss is 0.7817991
+val loss = tensor(0.8774, grad_fn=<NllLossBackward>)
+loss is 0.79357105
+val loss = tensor(0.8809, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7717659
+val loss = tensor(0.8812, grad_fn=<NllLossBackward>)
+loss is 0.77959776
+val loss = tensor(0.8744, grad_fn=<NllLossBackward>)
+loss is 0.7583468
+val loss = tensor(0.8780, grad_fn=<NllLossBackward>)
+loss is 0.7819256
+val loss = tensor(0.8823, grad_fn=<NllLossBackward>)
+loss is 0.77188146
+val loss = tensor(0.8726, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7974941
+val loss = tensor(0.8794, grad_fn=<NllLossBackward>)
+loss is 0.7914556
+val loss = tensor(0.8834, grad_fn=<NllLossBackward>)
+loss is 0.7849414
+val loss = tensor(0.9116, grad_fn=<NllLossBackward>)
+loss is 0.7678337
+val loss = tensor(0.8746, grad_fn=<NllLossBackward>)
+loss is 0.7746779
+val loss = tensor(0.9201, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81779104
+val loss = tensor(0.8800, grad_fn=<NllLossBackward>)
+loss is 0.8215607
+val loss = tensor(0.8723, grad_fn=<NllLossBackward>)
+loss is 0.7564428
+val loss = tensor(0.8785, grad_fn=<NllLossBackward>)
+loss is 0.7811733
+val loss = tensor(0.8797, grad_fn=<NllLossBackward>)
+loss is 0.8092714
+val loss = tensor(0.8754, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7463861
+val loss = tensor(0.8758, grad_fn=<NllLossBackward>)
+loss is 0.79336107
+val loss = tensor(0.8927, grad_fn=<NllLossBackward>)
+loss is 0.82834184
+val loss = tensor(0.8915, grad_fn=<NllLossBackward>)
+loss is 0.7684608
+val loss = tensor(0.8873, grad_fn=<NllLossBackward>)
+loss is 0.80508107
+val loss = tensor(0.8943, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7136379
+val loss = tensor(0.8839, grad_fn=<NllLossBackward>)
+loss is 0.79643947
+val loss = tensor(0.8902, grad_fn=<NllLossBackward>)
+loss is 0.7915467
+val loss = tensor(0.8812, grad_fn=<NllLossBackward>)
+loss is 0.79169834
+val loss = tensor(0.8772, grad_fn=<NllLossBackward>)
+loss is 0.77367955
+val loss = tensor(0.8882, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7943033
+val loss = tensor(0.8755, grad_fn=<NllLossBackward>)
+loss is 0.7745967
+val loss = tensor(0.8895, grad_fn=<NllLossBackward>)
+loss is 0.7926793
+val loss = tensor(0.8885, grad_fn=<NllLossBackward>)
+loss is 0.77175665
+val loss = tensor(0.9279, grad_fn=<NllLossBackward>)
+loss is 0.74799794
+val loss = tensor(0.8830, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8299099
+val loss = tensor(0.8710, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8710, grad_fn=<NllLossBackward>)
+loss is 0.79314435
+val loss = tensor(0.9215, grad_fn=<NllLossBackward>)
+loss is 0.8051233
+val loss = tensor(0.8755, grad_fn=<NllLossBackward>)
+loss is 0.81285757
+val loss = tensor(0.9153, grad_fn=<NllLossBackward>)
+loss is 0.76917887
+val loss = tensor(0.8985, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7686153
+val loss = tensor(0.8719, grad_fn=<NllLossBackward>)
+loss is 0.78526455
+val loss = tensor(0.8766, grad_fn=<NllLossBackward>)
+loss is 0.7725344
+val loss = tensor(0.8897, grad_fn=<NllLossBackward>)
+loss is 0.78967077
+val loss = tensor(0.8718, grad_fn=<NllLossBackward>)
+loss is 0.7742196
+val loss = tensor(0.8728, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8009306
+val loss = tensor(0.8729, grad_fn=<NllLossBackward>)
+loss is 0.7711006
+val loss = tensor(0.8722, grad_fn=<NllLossBackward>)
+loss is 0.8147995
+val loss = tensor(0.8752, grad_fn=<NllLossBackward>)
+loss is 0.79251295
+val loss = tensor(0.8801, grad_fn=<NllLossBackward>)
+loss is 0.7786599
+val loss = tensor(0.8919, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7996316
+val loss = tensor(0.8718, grad_fn=<NllLossBackward>)
+loss is 0.81303626
+val loss = tensor(0.8836, grad_fn=<NllLossBackward>)
+loss is 0.7812969
+val loss = tensor(0.8851, grad_fn=<NllLossBackward>)
+loss is 0.7714246
+val loss = tensor(0.9035, grad_fn=<NllLossBackward>)
+loss is 0.8233042
+val loss = tensor(0.8886, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78491807
+val loss = tensor(0.8746, grad_fn=<NllLossBackward>)
+loss is 0.79199046
+val loss = tensor(0.8803, grad_fn=<NllLossBackward>)
+loss is 0.8334321
+val loss = tensor(0.8733, grad_fn=<NllLossBackward>)
+loss is 0.78609335
+val loss = tensor(0.8920, grad_fn=<NllLossBackward>)
+loss is 0.8089949
+val loss = tensor(0.8727, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8149746
+val loss = tensor(0.8859, grad_fn=<NllLossBackward>)
+loss is 0.76724404
+val loss = tensor(0.8788, grad_fn=<NllLossBackward>)
+loss is 0.7804601
+val loss = tensor(0.8813, grad_fn=<NllLossBackward>)
+loss is 0.7744282
+val loss = tensor(0.8807, grad_fn=<NllLossBackward>)
+loss is 0.76514745
+val loss = tensor(0.8719, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8107442
+val loss = tensor(0.9162, grad_fn=<NllLossBackward>)
+loss is 0.78620803
+val loss = tensor(0.8781, grad_fn=<NllLossBackward>)
+loss is 0.82534194
+val loss = tensor(0.8776, grad_fn=<NllLossBackward>)
+loss is 0.8275767
+val loss = tensor(0.8715, grad_fn=<NllLossBackward>)
+loss is 0.812421
+val loss = tensor(0.9038, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7715419
+val loss = tensor(0.8736, grad_fn=<NllLossBackward>)
+loss is 0.8298522
+val loss = tensor(0.9056, grad_fn=<NllLossBackward>)
+loss is 0.7788444
+val loss = tensor(0.8724, grad_fn=<NllLossBackward>)
+loss is 0.7842822
+val loss = tensor(0.8934, grad_fn=<NllLossBackward>)
+loss is 0.7878507
+val loss = tensor(0.8898, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7644526
+val loss = tensor(0.8842, grad_fn=<NllLossBackward>)
+loss is 0.8400894
+val loss = tensor(0.9194, grad_fn=<NllLossBackward>)
+loss is 0.75112873
+val loss = tensor(0.8754, grad_fn=<NllLossBackward>)
+loss is 0.7765585
+val loss = tensor(0.8740, grad_fn=<NllLossBackward>)
+loss is 0.7933966
+val loss = tensor(0.8728, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8061463
+val loss = tensor(0.8781, grad_fn=<NllLossBackward>)
+loss is 0.79312885
+val loss = tensor(0.8717, grad_fn=<NllLossBackward>)
+loss is 0.84206396
+val loss = tensor(0.8936, grad_fn=<NllLossBackward>)
+loss is 0.78980356
+val loss = tensor(0.8775, grad_fn=<NllLossBackward>)
+loss is 0.7897533
+val loss = tensor(0.8927, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78761566
+val loss = tensor(0.8864, grad_fn=<NllLossBackward>)
+loss is 0.81707233
+val loss = tensor(0.8752, grad_fn=<NllLossBackward>)
+loss is 0.79309833
+val loss = tensor(0.9106, grad_fn=<NllLossBackward>)
+loss is 0.7742747
+val loss = tensor(0.8775, grad_fn=<NllLossBackward>)
+loss is 0.78104883
+val loss = tensor(0.8909, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.75328827
+val loss = tensor(0.8708, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8708, grad_fn=<NllLossBackward>)
+loss is 0.8461463
+val loss = tensor(0.8820, grad_fn=<NllLossBackward>)
+loss is 0.7762372
+val loss = tensor(0.8731, grad_fn=<NllLossBackward>)
+loss is 0.7507718
+val loss = tensor(0.8902, grad_fn=<NllLossBackward>)
+loss is 0.8077752
+val loss = tensor(0.9253, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7790561
+val loss = tensor(0.9048, grad_fn=<NllLossBackward>)
+loss is 0.8015389
+val loss = tensor(0.8753, grad_fn=<NllLossBackward>)
+loss is 0.81260234
+val loss = tensor(0.9136, grad_fn=<NllLossBackward>)
+loss is 0.7830238
+val loss = tensor(0.8807, grad_fn=<NllLossBackward>)
+loss is 0.80209833
+val loss = tensor(0.8711, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7497606
+val loss = tensor(0.8709, grad_fn=<NllLossBackward>)
+loss is 0.7743242
+val loss = tensor(0.8921, grad_fn=<NllLossBackward>)
+loss is 0.76926327
+val loss = tensor(0.8852, grad_fn=<NllLossBackward>)
+loss is 0.7873176
+val loss = tensor(0.8890, grad_fn=<NllLossBackward>)
+loss is 0.77064127
+val loss = tensor(0.8795, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78568065
+val loss = tensor(0.8753, grad_fn=<NllLossBackward>)
+loss is 0.8143291
+val loss = tensor(0.8718, grad_fn=<NllLossBackward>)
+loss is 0.76205194
+val loss = tensor(0.9083, grad_fn=<NllLossBackward>)
+loss is 0.7690125
+val loss = tensor(0.8713, grad_fn=<NllLossBackward>)
+loss is 0.7826863
+val loss = tensor(0.8719, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7769636
+val loss = tensor(0.8713, grad_fn=<NllLossBackward>)
+loss is 0.79635406
+val loss = tensor(0.8883, grad_fn=<NllLossBackward>)
+loss is 0.80593383
+val loss = tensor(0.8805, grad_fn=<NllLossBackward>)
+loss is 0.77518505
+val loss = tensor(0.8745, grad_fn=<NllLossBackward>)
+loss is 0.7621443
+val loss = tensor(0.8790, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78444535
+val loss = tensor(0.8716, grad_fn=<NllLossBackward>)
+loss is 0.81952816
+val loss = tensor(0.8751, grad_fn=<NllLossBackward>)
+loss is 0.7983321
+val loss = tensor(0.8805, grad_fn=<NllLossBackward>)
+loss is 0.7746217
+val loss = tensor(0.8781, grad_fn=<NllLossBackward>)
+loss is 0.7712221
+val loss = tensor(0.9034, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7535051
+val loss = tensor(0.8889, grad_fn=<NllLossBackward>)
+loss is 0.8249306
+val loss = tensor(0.8897, grad_fn=<NllLossBackward>)
+loss is 0.7869928
+val loss = tensor(0.8726, grad_fn=<NllLossBackward>)
+loss is 0.8121712
+val loss = tensor(0.9099, grad_fn=<NllLossBackward>)
+loss is 0.79019487
+val loss = tensor(0.8772, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79576236
+val loss = tensor(0.8779, grad_fn=<NllLossBackward>)
+loss is 0.7827899
+val loss = tensor(0.9062, grad_fn=<NllLossBackward>)
+loss is 0.78261644
+val loss = tensor(0.8749, grad_fn=<NllLossBackward>)
+loss is 0.80839723
+val loss = tensor(0.8970, grad_fn=<NllLossBackward>)
+loss is 0.801813
+val loss = tensor(0.8725, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.74266356
+val loss = tensor(0.8837, grad_fn=<NllLossBackward>)
+loss is 0.8066667
+val loss = tensor(0.8742, grad_fn=<NllLossBackward>)
+loss is 0.7919496
+val loss = tensor(0.8785, grad_fn=<NllLossBackward>)
+loss is 0.7626226
+val loss = tensor(0.8767, grad_fn=<NllLossBackward>)
+loss is 0.7803445
+val loss = tensor(0.8802, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79731673
+val loss = tensor(0.8855, grad_fn=<NllLossBackward>)
+loss is 0.80549943
+val loss = tensor(0.8709, grad_fn=<NllLossBackward>)
+loss is 0.7770133
+val loss = tensor(0.8706, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8706, grad_fn=<NllLossBackward>)
+loss is 0.7936484
+val loss = tensor(0.8791, grad_fn=<NllLossBackward>)
+loss is 0.7538911
+val loss = tensor(0.8704, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8704, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.82789993
+val loss = tensor(0.9127, grad_fn=<NllLossBackward>)
+loss is 0.7675803
+val loss = tensor(0.8702, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8702, grad_fn=<NllLossBackward>)
+loss is 0.7902381
+val loss = tensor(0.8714, grad_fn=<NllLossBackward>)
+loss is 0.79439855
+val loss = tensor(0.8704, grad_fn=<NllLossBackward>)
+loss is 0.817527
+val loss = tensor(0.8962, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7694805
+val loss = tensor(0.8724, grad_fn=<NllLossBackward>)
+loss is 0.75762916
+val loss = tensor(0.8712, grad_fn=<NllLossBackward>)
+loss is 0.8107369
+val loss = tensor(0.8842, grad_fn=<NllLossBackward>)
+loss is 0.79496914
+val loss = tensor(0.8943, grad_fn=<NllLossBackward>)
+loss is 0.79669446
+val loss = tensor(0.8759, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7930735
+val loss = tensor(0.8734, grad_fn=<NllLossBackward>)
+loss is 0.7579574
+val loss = tensor(0.8984, grad_fn=<NllLossBackward>)
+loss is 0.7842471
+val loss = tensor(0.8838, grad_fn=<NllLossBackward>)
+loss is 0.7910546
+val loss = tensor(0.8775, grad_fn=<NllLossBackward>)
+loss is 0.88228256
+val loss = tensor(0.9947, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8052213
+val loss = tensor(0.8894, grad_fn=<NllLossBackward>)
+loss is 0.8007601
+val loss = tensor(0.8731, grad_fn=<NllLossBackward>)
+loss is 0.7874799
+val loss = tensor(0.9136, grad_fn=<NllLossBackward>)
+loss is 0.7721123
+val loss = tensor(0.8794, grad_fn=<NllLossBackward>)
+loss is 0.7976696
+val loss = tensor(0.8715, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79517215
+val loss = tensor(0.9068, grad_fn=<NllLossBackward>)
+loss is 0.74578685
+val loss = tensor(0.8708, grad_fn=<NllLossBackward>)
+loss is 0.7725933
+val loss = tensor(0.8833, grad_fn=<NllLossBackward>)
+loss is 0.7308828
+val loss = tensor(0.8872, grad_fn=<NllLossBackward>)
+loss is 0.7675314
+val loss = tensor(0.8720, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8061275
+val loss = tensor(0.8760, grad_fn=<NllLossBackward>)
+loss is 0.77897984
+val loss = tensor(0.8718, grad_fn=<NllLossBackward>)
+loss is 0.73337203
+val loss = tensor(0.8758, grad_fn=<NllLossBackward>)
+loss is 0.8798346
+val loss = tensor(0.9039, grad_fn=<NllLossBackward>)
+loss is 0.80754757
+val loss = tensor(0.8822, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79700583
+val loss = tensor(0.8756, grad_fn=<NllLossBackward>)
+loss is 0.7841404
+val loss = tensor(0.8948, grad_fn=<NllLossBackward>)
+loss is 0.79541266
+val loss = tensor(0.8716, grad_fn=<NllLossBackward>)
+loss is 0.8144833
+val loss = tensor(0.8937, grad_fn=<NllLossBackward>)
+loss is 0.780663
+val loss = tensor(0.8980, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.75998557
+val loss = tensor(0.8725, grad_fn=<NllLossBackward>)
+loss is 0.847183
+val loss = tensor(0.9040, grad_fn=<NllLossBackward>)
+loss is 0.78318036
+val loss = tensor(0.8827, grad_fn=<NllLossBackward>)
+loss is 0.76659745
+val loss = tensor(0.8810, grad_fn=<NllLossBackward>)
+loss is 0.7921452
+val loss = tensor(0.8697, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8697, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.84962434
+val loss = tensor(0.9235, grad_fn=<NllLossBackward>)
+loss is 0.779498
+val loss = tensor(0.8911, grad_fn=<NllLossBackward>)
+loss is 0.8201556
+val loss = tensor(0.8922, grad_fn=<NllLossBackward>)
+loss is 0.7354965
+val loss = tensor(0.8770, grad_fn=<NllLossBackward>)
+loss is 0.7973003
+val loss = tensor(0.8724, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7570849
+val loss = tensor(0.8716, grad_fn=<NllLossBackward>)
+loss is 0.82464
+val loss = tensor(0.9269, grad_fn=<NllLossBackward>)
+loss is 0.81204116
+val loss = tensor(0.8692, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8692, grad_fn=<NllLossBackward>)
+loss is 0.8006255
+val loss = tensor(0.8698, grad_fn=<NllLossBackward>)
+loss is 0.80294883
+val loss = tensor(0.8720, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8092499
+val loss = tensor(0.8693, grad_fn=<NllLossBackward>)
+loss is 0.7902387
+val loss = tensor(0.9030, grad_fn=<NllLossBackward>)
+loss is 0.7902041
+val loss = tensor(0.8742, grad_fn=<NllLossBackward>)
+loss is 0.7736407
+val loss = tensor(0.8815, grad_fn=<NllLossBackward>)
+loss is 0.7853568
+val loss = tensor(0.8790, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8132515
+val loss = tensor(0.8742, grad_fn=<NllLossBackward>)
+loss is 0.7816985
+val loss = tensor(0.8898, grad_fn=<NllLossBackward>)
+loss is 0.77494884
+val loss = tensor(0.8751, grad_fn=<NllLossBackward>)
+loss is 0.7988403
+val loss = tensor(0.8733, grad_fn=<NllLossBackward>)
+loss is 0.75653934
+val loss = tensor(0.8762, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79196423
+val loss = tensor(0.8787, grad_fn=<NllLossBackward>)
+loss is 0.772099
+val loss = tensor(0.8887, grad_fn=<NllLossBackward>)
+loss is 0.7681006
+val loss = tensor(0.8751, grad_fn=<NllLossBackward>)
+loss is 0.77631825
+val loss = tensor(0.8731, grad_fn=<NllLossBackward>)
+loss is 0.80241925
+val loss = tensor(0.8909, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7680189
+val loss = tensor(0.8826, grad_fn=<NllLossBackward>)
+loss is 0.77669704
+val loss = tensor(0.8704, grad_fn=<NllLossBackward>)
+loss is 0.76166975
+val loss = tensor(0.8717, grad_fn=<NllLossBackward>)
+loss is 0.76030874
+val loss = tensor(0.8844, grad_fn=<NllLossBackward>)
+loss is 0.7991238
+val loss = tensor(0.8852, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8119895
+val loss = tensor(0.9199, grad_fn=<NllLossBackward>)
+loss is 0.78118944
+val loss = tensor(0.8865, grad_fn=<NllLossBackward>)
+loss is 0.7484288
+val loss = tensor(0.8748, grad_fn=<NllLossBackward>)
+loss is 0.7746538
+val loss = tensor(0.8823, grad_fn=<NllLossBackward>)
+loss is 0.7978001
+val loss = tensor(0.8775, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7788848
+val loss = tensor(0.8725, grad_fn=<NllLossBackward>)
+loss is 0.757055
+val loss = tensor(0.8763, grad_fn=<NllLossBackward>)
+loss is 0.7649383
+val loss = tensor(0.8860, grad_fn=<NllLossBackward>)
+loss is 0.7742459
+val loss = tensor(0.9436, grad_fn=<NllLossBackward>)
+loss is 0.774968
+val loss = tensor(0.8691, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8691, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7754652
+val loss = tensor(0.8754, grad_fn=<NllLossBackward>)
+loss is 0.7700441
+val loss = tensor(0.9108, grad_fn=<NllLossBackward>)
+loss is 0.74564946
+val loss = tensor(0.8809, grad_fn=<NllLossBackward>)
+loss is 0.7801776
+val loss = tensor(0.9689, grad_fn=<NllLossBackward>)
+loss is 0.8091347
+val loss = tensor(0.8951, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7990019
+val loss = tensor(0.8787, grad_fn=<NllLossBackward>)
+loss is 0.7869453
+val loss = tensor(0.8836, grad_fn=<NllLossBackward>)
+loss is 0.8297502
+val loss = tensor(0.8691, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8691, grad_fn=<NllLossBackward>)
+loss is 0.803232
+val loss = tensor(0.8794, grad_fn=<NllLossBackward>)
+loss is 0.73862565
+val loss = tensor(0.8726, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8016896
+val loss = tensor(0.8907, grad_fn=<NllLossBackward>)
+loss is 0.73784906
+val loss = tensor(0.8693, grad_fn=<NllLossBackward>)
+loss is 0.78475386
+val loss = tensor(0.8891, grad_fn=<NllLossBackward>)
+loss is 0.7932669
+val loss = tensor(0.8819, grad_fn=<NllLossBackward>)
+loss is 0.8265977
+val loss = tensor(0.8861, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.781429
+val loss = tensor(0.8774, grad_fn=<NllLossBackward>)
+loss is 0.7538532
+val loss = tensor(0.8974, grad_fn=<NllLossBackward>)
+loss is 0.8003468
+val loss = tensor(0.8837, grad_fn=<NllLossBackward>)
+loss is 0.7842962
+val loss = tensor(0.8891, grad_fn=<NllLossBackward>)
+loss is 0.7811266
+val loss = tensor(0.8784, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.73647
+val loss = tensor(0.8814, grad_fn=<NllLossBackward>)
+loss is 0.82128775
+val loss = tensor(0.8805, grad_fn=<NllLossBackward>)
+loss is 0.7941276
+val loss = tensor(0.8737, grad_fn=<NllLossBackward>)
+loss is 0.75549537
+val loss = tensor(0.8720, grad_fn=<NllLossBackward>)
+loss is 0.75813675
+val loss = tensor(0.9000, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78564906
+val loss = tensor(0.8701, grad_fn=<NllLossBackward>)
+loss is 0.7867789
+val loss = tensor(0.8928, grad_fn=<NllLossBackward>)
+loss is 0.76161253
+val loss = tensor(0.8954, grad_fn=<NllLossBackward>)
+loss is 0.77839315
+val loss = tensor(0.8712, grad_fn=<NllLossBackward>)
+loss is 0.78711987
+val loss = tensor(0.8699, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78798425
+val loss = tensor(0.9013, grad_fn=<NllLossBackward>)
+loss is 0.75927204
+val loss = tensor(0.8791, grad_fn=<NllLossBackward>)
+loss is 0.7796386
+val loss = tensor(0.8780, grad_fn=<NllLossBackward>)
+loss is 0.7602321
+val loss = tensor(0.8719, grad_fn=<NllLossBackward>)
+loss is 0.77505845
+val loss = tensor(0.8701, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7770938
+val loss = tensor(0.8721, grad_fn=<NllLossBackward>)
+loss is 0.83100104
+val loss = tensor(0.9029, grad_fn=<NllLossBackward>)
+loss is 0.7732197
+val loss = tensor(0.8774, grad_fn=<NllLossBackward>)
+loss is 0.8017293
+val loss = tensor(0.8766, grad_fn=<NllLossBackward>)
+loss is 0.7520384
+val loss = tensor(0.8854, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80502987
+val loss = tensor(0.8770, grad_fn=<NllLossBackward>)
+loss is 0.7955994
+val loss = tensor(0.8891, grad_fn=<NllLossBackward>)
+loss is 0.7929902
+val loss = tensor(0.8803, grad_fn=<NllLossBackward>)
+loss is 0.75632775
+val loss = tensor(0.8767, grad_fn=<NllLossBackward>)
+loss is 0.791939
+val loss = tensor(0.9021, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7591924
+val loss = tensor(0.8688, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8688, grad_fn=<NllLossBackward>)
+loss is 0.74157757
+val loss = tensor(0.8740, grad_fn=<NllLossBackward>)
+loss is 0.7911699
+val loss = tensor(0.8738, grad_fn=<NllLossBackward>)
+loss is 0.8151887
+val loss = tensor(0.8687, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8687, grad_fn=<NllLossBackward>)
+loss is 0.7793651
+val loss = tensor(0.8835, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7788856
+val loss = tensor(0.8699, grad_fn=<NllLossBackward>)
+loss is 0.7821452
+val loss = tensor(0.8738, grad_fn=<NllLossBackward>)
+loss is 0.76317185
+val loss = tensor(0.8947, grad_fn=<NllLossBackward>)
+loss is 0.78689516
+val loss = tensor(0.8687, grad_fn=<NllLossBackward>)
+loss is 0.77326155
+val loss = tensor(0.8891, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7626623
+val loss = tensor(0.8754, grad_fn=<NllLossBackward>)
+loss is 0.81585824
+val loss = tensor(0.8702, grad_fn=<NllLossBackward>)
+loss is 0.7600546
+val loss = tensor(0.8703, grad_fn=<NllLossBackward>)
+loss is 0.7620861
+val loss = tensor(0.8752, grad_fn=<NllLossBackward>)
+loss is 0.76285833
+val loss = tensor(0.8829, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7756456
+val loss = tensor(0.8707, grad_fn=<NllLossBackward>)
+loss is 0.7842188
+val loss = tensor(0.8887, grad_fn=<NllLossBackward>)
+loss is 0.82810074
+val loss = tensor(0.8719, grad_fn=<NllLossBackward>)
+loss is 0.76914585
+val loss = tensor(0.9024, grad_fn=<NllLossBackward>)
+loss is 0.78019434
+val loss = tensor(0.9045, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7641196
+val loss = tensor(0.8861, grad_fn=<NllLossBackward>)
+loss is 0.8013893
+val loss = tensor(0.8697, grad_fn=<NllLossBackward>)
+loss is 0.7758522
+val loss = tensor(0.8800, grad_fn=<NllLossBackward>)
+loss is 0.74607944
+val loss = tensor(0.8786, grad_fn=<NllLossBackward>)
+loss is 0.7758984
+val loss = tensor(0.8784, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.76325524
+val loss = tensor(0.9402, grad_fn=<NllLossBackward>)
+loss is 0.79963636
+val loss = tensor(0.8688, grad_fn=<NllLossBackward>)
+loss is 0.76506764
+val loss = tensor(0.8814, grad_fn=<NllLossBackward>)
+loss is 0.7915841
+val loss = tensor(0.8705, grad_fn=<NllLossBackward>)
+loss is 0.7994569
+val loss = tensor(0.9686, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7891565
+val loss = tensor(0.8780, grad_fn=<NllLossBackward>)
+loss is 0.7824521
+val loss = tensor(0.8716, grad_fn=<NllLossBackward>)
+loss is 0.77924037
+val loss = tensor(0.9084, grad_fn=<NllLossBackward>)
+loss is 0.793025
+val loss = tensor(0.8772, grad_fn=<NllLossBackward>)
+loss is 0.7789799
+val loss = tensor(0.8692, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7982215
+val loss = tensor(0.8717, grad_fn=<NllLossBackward>)
+loss is 0.7850457
+val loss = tensor(0.8714, grad_fn=<NllLossBackward>)
+loss is 0.7701836
+val loss = tensor(0.9120, grad_fn=<NllLossBackward>)
+loss is 0.77245057
+val loss = tensor(0.8851, grad_fn=<NllLossBackward>)
+loss is 0.7588374
+val loss = tensor(0.8731, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7748194
+val loss = tensor(0.8760, grad_fn=<NllLossBackward>)
+loss is 0.7915237
+val loss = tensor(0.8735, grad_fn=<NllLossBackward>)
+loss is 0.7345558
+val loss = tensor(0.8693, grad_fn=<NllLossBackward>)
+loss is 0.7395109
+val loss = tensor(0.8689, grad_fn=<NllLossBackward>)
+loss is 0.7855771
+val loss = tensor(0.8790, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.832005
+val loss = tensor(0.8725, grad_fn=<NllLossBackward>)
+loss is 0.7648741
+val loss = tensor(0.8732, grad_fn=<NllLossBackward>)
+loss is 0.755046
+val loss = tensor(0.8833, grad_fn=<NllLossBackward>)
+loss is 0.7800511
+val loss = tensor(0.8708, grad_fn=<NllLossBackward>)
+loss is 0.8018432
+val loss = tensor(0.8732, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.81279016
+val loss = tensor(0.8746, grad_fn=<NllLossBackward>)
+loss is 0.81424254
+val loss = tensor(0.8683, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8683, grad_fn=<NllLossBackward>)
+loss is 0.77038497
+val loss = tensor(0.8742, grad_fn=<NllLossBackward>)
+loss is 0.7965566
+val loss = tensor(0.8712, grad_fn=<NllLossBackward>)
+loss is 0.7550621
+val loss = tensor(0.8731, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80989134
+val loss = tensor(0.9143, grad_fn=<NllLossBackward>)
+loss is 0.8384993
+val loss = tensor(0.9163, grad_fn=<NllLossBackward>)
+loss is 0.8059221
+val loss = tensor(0.8840, grad_fn=<NllLossBackward>)
+loss is 0.7839336
+val loss = tensor(0.8772, grad_fn=<NllLossBackward>)
+loss is 0.79074
+val loss = tensor(0.8763, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.74527746
+val loss = tensor(0.8702, grad_fn=<NllLossBackward>)
+loss is 0.79105747
+val loss = tensor(0.8686, grad_fn=<NllLossBackward>)
+loss is 0.8078501
+val loss = tensor(0.8729, grad_fn=<NllLossBackward>)
+loss is 0.77293885
+val loss = tensor(0.8771, grad_fn=<NllLossBackward>)
+loss is 0.8056938
+val loss = tensor(0.8737, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80941886
+val loss = tensor(0.8716, grad_fn=<NllLossBackward>)
+loss is 0.77929735
+val loss = tensor(0.8854, grad_fn=<NllLossBackward>)
+loss is 0.8376159
+val loss = tensor(0.9132, grad_fn=<NllLossBackward>)
+loss is 0.7684844
+val loss = tensor(0.8762, grad_fn=<NllLossBackward>)
+loss is 0.7800388
+val loss = tensor(0.8769, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7662559
+val loss = tensor(0.8717, grad_fn=<NllLossBackward>)
+loss is 0.803006
+val loss = tensor(0.8801, grad_fn=<NllLossBackward>)
+loss is 0.77644396
+val loss = tensor(0.8684, grad_fn=<NllLossBackward>)
+loss is 0.7447015
+val loss = tensor(0.8880, grad_fn=<NllLossBackward>)
+loss is 0.7898001
+val loss = tensor(0.8954, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.75242925
+val loss = tensor(0.8833, grad_fn=<NllLossBackward>)
+loss is 0.7740492
+val loss = tensor(0.9133, grad_fn=<NllLossBackward>)
+loss is 0.77656245
+val loss = tensor(0.8959, grad_fn=<NllLossBackward>)
+loss is 0.7595913
+val loss = tensor(0.8956, grad_fn=<NllLossBackward>)
+loss is 0.7524108
+val loss = tensor(0.9255, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7851653
+val loss = tensor(0.8678, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8678, grad_fn=<NllLossBackward>)
+loss is 0.7995118
+val loss = tensor(0.8723, grad_fn=<NllLossBackward>)
+loss is 0.8170793
+val loss = tensor(0.9109, grad_fn=<NllLossBackward>)
+loss is 0.7509111
+val loss = tensor(0.8932, grad_fn=<NllLossBackward>)
+loss is 0.79283166
+val loss = tensor(0.8689, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.78636074
+val loss = tensor(0.9011, grad_fn=<NllLossBackward>)
+loss is 0.76858526
+val loss = tensor(0.8861, grad_fn=<NllLossBackward>)
+loss is 0.7581264
+val loss = tensor(0.8992, grad_fn=<NllLossBackward>)
+loss is 0.7582876
+val loss = tensor(0.8816, grad_fn=<NllLossBackward>)
+loss is 0.7910466
+val loss = tensor(0.8887, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.74935865
+val loss = tensor(0.8883, grad_fn=<NllLossBackward>)
+loss is 0.769566
+val loss = tensor(0.8685, grad_fn=<NllLossBackward>)
+loss is 0.75877804
+val loss = tensor(0.8737, grad_fn=<NllLossBackward>)
+loss is 0.7448354
+val loss = tensor(0.8706, grad_fn=<NllLossBackward>)
+loss is 0.77853566
+val loss = tensor(0.8824, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.79317915
+val loss = tensor(0.8674, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8674, grad_fn=<NllLossBackward>)
+loss is 0.71848875
+val loss = tensor(0.9276, grad_fn=<NllLossBackward>)
+loss is 0.80781144
+val loss = tensor(0.8689, grad_fn=<NllLossBackward>)
+loss is 0.7821985
+val loss = tensor(0.8677, grad_fn=<NllLossBackward>)
+loss is 0.77698547
+val loss = tensor(0.8754, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7989442
+val loss = tensor(0.8804, grad_fn=<NllLossBackward>)
+loss is 0.74906987
+val loss = tensor(0.8997, grad_fn=<NllLossBackward>)
+loss is 0.7546913
+val loss = tensor(0.8806, grad_fn=<NllLossBackward>)
+loss is 0.7754284
+val loss = tensor(0.9068, grad_fn=<NllLossBackward>)
+loss is 0.80281
+val loss = tensor(0.8982, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7679698
+val loss = tensor(0.8761, grad_fn=<NllLossBackward>)
+loss is 0.7978997
+val loss = tensor(0.8748, grad_fn=<NllLossBackward>)
+loss is 0.77241105
+val loss = tensor(0.8741, grad_fn=<NllLossBackward>)
+loss is 0.7435754
+val loss = tensor(0.8778, grad_fn=<NllLossBackward>)
+loss is 0.7507625
+val loss = tensor(0.8786, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7443855
+val loss = tensor(0.8803, grad_fn=<NllLossBackward>)
+loss is 0.7782573
+val loss = tensor(0.8798, grad_fn=<NllLossBackward>)
+loss is 0.79922944
+val loss = tensor(0.8832, grad_fn=<NllLossBackward>)
+loss is 0.7962058
+val loss = tensor(0.8837, grad_fn=<NllLossBackward>)
+loss is 0.77845335
+val loss = tensor(0.8710, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7813685
+val loss = tensor(0.9044, grad_fn=<NllLossBackward>)
+loss is 0.7634391
+val loss = tensor(0.8735, grad_fn=<NllLossBackward>)
+loss is 0.7644675
+val loss = tensor(0.8858, grad_fn=<NllLossBackward>)
+loss is 0.77638865
+val loss = tensor(0.8796, grad_fn=<NllLossBackward>)
+loss is 0.75495976
+val loss = tensor(0.8723, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8222726
+val loss = tensor(0.8806, grad_fn=<NllLossBackward>)
+loss is 0.76575583
+val loss = tensor(0.8731, grad_fn=<NllLossBackward>)
+loss is 0.77668035
+val loss = tensor(0.9066, grad_fn=<NllLossBackward>)
+loss is 0.7724059
+val loss = tensor(0.8780, grad_fn=<NllLossBackward>)
+loss is 0.76790124
+val loss = tensor(0.8680, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8030454
+val loss = tensor(0.9105, grad_fn=<NllLossBackward>)
+loss is 0.81906176
+val loss = tensor(0.8709, grad_fn=<NllLossBackward>)
+loss is 0.7459126
+val loss = tensor(0.8684, grad_fn=<NllLossBackward>)
+loss is 0.7537256
+val loss = tensor(0.8712, grad_fn=<NllLossBackward>)
+loss is 0.7863276
+val loss = tensor(0.8959, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7671914
+val loss = tensor(0.8814, grad_fn=<NllLossBackward>)
+loss is 0.76443785
+val loss = tensor(0.8767, grad_fn=<NllLossBackward>)
+loss is 0.7618532
+val loss = tensor(0.8715, grad_fn=<NllLossBackward>)
+loss is 0.75007397
+val loss = tensor(0.8734, grad_fn=<NllLossBackward>)
+loss is 0.77526176
+val loss = tensor(0.8983, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7865747
+val loss = tensor(0.9108, grad_fn=<NllLossBackward>)
+loss is 0.750033
+val loss = tensor(0.8761, grad_fn=<NllLossBackward>)
+loss is 0.76528925
+val loss = tensor(0.8767, grad_fn=<NllLossBackward>)
+loss is 0.7821637
+val loss = tensor(0.8846, grad_fn=<NllLossBackward>)
+loss is 0.7678331
+val loss = tensor(0.8844, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.76349056
+val loss = tensor(0.8854, grad_fn=<NllLossBackward>)
+loss is 0.7930166
+val loss = tensor(0.8889, grad_fn=<NllLossBackward>)
+loss is 0.7729606
+val loss = tensor(0.8833, grad_fn=<NllLossBackward>)
+loss is 0.81603247
+val loss = tensor(0.8672, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8672, grad_fn=<NllLossBackward>)
+loss is 0.75313777
+val loss = tensor(0.8710, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.75580966
+val loss = tensor(0.8695, grad_fn=<NllLossBackward>)
+loss is 0.75036556
+val loss = tensor(0.8881, grad_fn=<NllLossBackward>)
+loss is 0.7502092
+val loss = tensor(0.8836, grad_fn=<NllLossBackward>)
+loss is 0.7851274
+val loss = tensor(0.9140, grad_fn=<NllLossBackward>)
+loss is 0.7854784
+val loss = tensor(0.8794, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7683592
+val loss = tensor(0.8987, grad_fn=<NllLossBackward>)
+loss is 0.77551776
+val loss = tensor(0.8669, grad_fn=<NllLossBackward>)
+new smallest loss is tensor(0.8669, grad_fn=<NllLossBackward>)
+loss is 0.79840577
+val loss = tensor(0.8709, grad_fn=<NllLossBackward>)
+loss is 0.7845906
+val loss = tensor(0.8739, grad_fn=<NllLossBackward>)
+loss is 0.7618158
+val loss = tensor(0.9265, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7692156
+val loss = tensor(0.8692, grad_fn=<NllLossBackward>)
+loss is 0.7797869
+val loss = tensor(0.8679, grad_fn=<NllLossBackward>)
+loss is 0.7797315
+val loss = tensor(0.8817, grad_fn=<NllLossBackward>)
+loss is 0.80498093
+val loss = tensor(0.8737, grad_fn=<NllLossBackward>)
+loss is 0.79146415
+val loss = tensor(0.8832, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.73237026
+val loss = tensor(0.8864, grad_fn=<NllLossBackward>)
+loss is 0.79043347
+val loss = tensor(0.8785, grad_fn=<NllLossBackward>)
+loss is 0.784291
+val loss = tensor(0.9067, grad_fn=<NllLossBackward>)
+loss is 0.79435706
+val loss = tensor(0.9057, grad_fn=<NllLossBackward>)
+loss is 0.785298
+val loss = tensor(0.8860, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80586874
+val loss = tensor(0.8699, grad_fn=<NllLossBackward>)
+loss is 0.7745218
+val loss = tensor(0.9095, grad_fn=<NllLossBackward>)
+loss is 0.7983729
+val loss = tensor(0.8855, grad_fn=<NllLossBackward>)
+loss is 0.77189416
+val loss = tensor(0.8736, grad_fn=<NllLossBackward>)
+loss is 0.7773451
+val loss = tensor(0.8722, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.83198845
+val loss = tensor(0.8792, grad_fn=<NllLossBackward>)
+loss is 0.77400005
+val loss = tensor(0.9031, grad_fn=<NllLossBackward>)
+loss is 0.77050424
+val loss = tensor(0.8714, grad_fn=<NllLossBackward>)
+loss is 0.8143795
+val loss = tensor(0.8878, grad_fn=<NllLossBackward>)
+loss is 0.78733695
+val loss = tensor(0.9093, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7858711
+val loss = tensor(0.8680, grad_fn=<NllLossBackward>)
+loss is 0.77231354
+val loss = tensor(0.8696, grad_fn=<NllLossBackward>)
+loss is 0.7627564
+val loss = tensor(0.8971, grad_fn=<NllLossBackward>)
+loss is 0.79414463
+val loss = tensor(0.8895, grad_fn=<NllLossBackward>)
+loss is 0.80291086
+val loss = tensor(0.8703, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7975456
+val loss = tensor(0.8714, grad_fn=<NllLossBackward>)
+loss is 0.7901192
+val loss = tensor(0.8915, grad_fn=<NllLossBackward>)
+loss is 0.75717294
+val loss = tensor(0.8793, grad_fn=<NllLossBackward>)
+loss is 0.7916531
+val loss = tensor(0.8736, grad_fn=<NllLossBackward>)
+loss is 0.77354336
+val loss = tensor(0.8931, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.80497354
+val loss = tensor(0.8676, grad_fn=<NllLossBackward>)
+loss is 0.7533958
+val loss = tensor(0.8835, grad_fn=<NllLossBackward>)
+loss is 0.76169354
+val loss = tensor(0.9090, grad_fn=<NllLossBackward>)
+loss is 0.7768854
+val loss = tensor(0.8742, grad_fn=<NllLossBackward>)
+loss is 0.7799271
+val loss = tensor(0.8720, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.8103541
+val loss = tensor(0.8839, grad_fn=<NllLossBackward>)
+loss is 0.77248216
+val loss = tensor(0.8691, grad_fn=<NllLossBackward>)
+loss is 0.78205985
+val loss = tensor(0.8688, grad_fn=<NllLossBackward>)
+loss is 0.82488376
+val loss = tensor(0.9155, grad_fn=<NllLossBackward>)
+loss is 0.7919718
+val loss = tensor(0.8821, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7798559
+val loss = tensor(0.8900, grad_fn=<NllLossBackward>)
+loss is 0.77600884
+val loss = tensor(0.8831, grad_fn=<NllLossBackward>)
+loss is 0.7556639
+val loss = tensor(0.8699, grad_fn=<NllLossBackward>)
+loss is 0.7829098
+val loss = tensor(0.9050, grad_fn=<NllLossBackward>)
+loss is 0.77998084
+val loss = tensor(0.8689, grad_fn=<NllLossBackward>)
+[2K[2Kloss is 0.7761073
+val loss = tensor(0.9012, grad_fn=<NllLossBackward>)
+loss is 0.7581092
+val loss = tensor(0.8697, grad_fn=<NllLossBackward>)
+loss is 0.75339764
+val loss = tensor(0.8839, grad_fn=<NllLossBackward>)
+loss is 0.768158
+val loss = tensor(0.8721, grad_fn=<NllLossBackward>)
+loss is 0.80118805
+val loss = tensor(0.9335, grad_fn=<NllLossBackward>)
+[2Kslurmstepd: error: *** JOB 92434 ON scholar-g001 CANCELLED AT 2021-07-18T21:11:44 DUE TO TIME LIMIT ***

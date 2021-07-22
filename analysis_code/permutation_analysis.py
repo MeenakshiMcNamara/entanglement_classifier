@@ -2,8 +2,10 @@
 # coding: utf-8
 
 # In[1]:
+import sys
+sys.path.append("..")   # this allows us to import from sibling directory
 
-from dataset_preprocessing import ProductionModeDataset
+from code_to_import.dataset_preprocessing import ProductionModeDataset
 
 import torch
 from sklearn.inspection import permutation_importance
@@ -12,7 +14,7 @@ import uproot
 import torch.nn as nn
 from matplotlib import pyplot as plt
 
-from Classifier_module import Classifier
+from code_to_import.Classifier_module import Classifier
 from torch.autograd import Variable
 
 import argparse
@@ -26,7 +28,7 @@ parser.add_argument("--eventType", type=int, help="event type is 0 for ee, 1 for
 opt = parser.parse_args()
 
 ################# THIS IS WHERE YOU CHOOSE WHAT TO LOAD ################################
-path_to_model = "./models/" + opt.model
+path_to_model = "../models/" + opt.model
 
 events = ["ee", "emu", "mumu"]
 event_type = events[opt.eventType]  # could be ee, emu, mumu

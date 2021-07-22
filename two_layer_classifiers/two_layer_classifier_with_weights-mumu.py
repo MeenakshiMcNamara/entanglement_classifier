@@ -1,9 +1,17 @@
 
 # coding: utf-8
 
-# In[32]:
+# In[9]:
 
-from dataset_preprocessing import ProductionModeDataset
+print("starting imports")
+
+import sys
+sys.path.append("..")   # this allows us to import from sibling directory
+
+
+from code_to_import.dataset_preprocessing import ProductionModeDataset
+
+
 import argparse
 import os
 import numpy as np
@@ -24,15 +32,15 @@ import torch
 from matplotlib import pyplot as plt
 from IPython import display
 
-
+print("finished imports")
 print(torch.cuda.is_available())
 
 
-# In[33]:
+# In[3]:
 
 class opt():   # Class used for optimizers in the future. Defines all variables and stuff needed.
-    save_weights = True
-    n_epochs = 30000   # an epoch is the number of times it works through the entire training set
+    save_weights = False
+    n_epochs = 25000   # an epoch is the number of times it works through the entire training set
     batch_size = 5000   # the training set is broken up into batches, 
                         # and the average loss is used from a given batch for back propagation
     lr = 0.001   # learning rate (how much to change based on error)
@@ -42,9 +50,11 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     data_file = "/data"
     config_dir = "."
     save_location = config_dir + data_file
-    root_path = "/depot/darkmatter/data/jupyterhub/Physics_Undergrads/Steve/things"
+    root_path = "/depot-new/cms/top/mcnama20/TopSpinCorr-Run2-Entanglement/CMSSW_10_2_22/src/TopAnalysis/Configuration/analysis/diLeptonic/three_files/Nominal"
 
-    file = root_path + "/all_1.root"
+    file = root_path + "/mumu_modified_root_1.root"
+    print(file)
+
 
     #n_cpu = 2    not used rn
 
@@ -86,7 +96,7 @@ if cuda:
     
 
 # # Configure data loader - CHANGE
-os.makedirs("./data/", exist_ok=True)
+os.makedirs("../data/two_layers/", exist_ok=True)
 dataloader = torch.utils.data.DataLoader(
     ProductionModeDataset(opt.file),
     batch_size=opt.batch_size,
@@ -95,13 +105,31 @@ dataloader = torch.utils.data.DataLoader(
 print('done')
 
 
-# In[34]:
+# In[5]:
+
+# load data for evaluation of model (not training set) and separate weights and target
+validation_data = ProductionModeDataset(opt.file).get_eval_data()
+
+w_val = validation_data[:,81]
+w_val = Variable(torch.from_numpy(w_val).type(torch.FloatTensor))
+target_val = validation_data[:,80]
+target_val = Variable(torch.from_numpy(target_val).type(torch.LongTensor))
+y_val = np.transpose(validation_data)
+y_val = np.delete(y_val, [80, 81, 82], 0)
+y_val = np.transpose(y_val)
+val_data = Variable(torch.from_numpy(y_val).type(torch.Tensor))
+
+
+# In[ ]:
 
 optimizer = torch.optim.Adam(classifier.parameters(), lr=opt.lr, betas=(opt.b1, opt.b2)) 
 # criterion = nn.MSELoss()   # mean squared error loss
-criterion = nn.CrossEntropyLoss()
+criterion = nn.CrossEntropyLoss(reduce=False)
 
-loss_array = np.array(())
+train_loss_array = np.array(())
+val_loss_array = np.array(())
+small_loss = 1e10
+#loss_array = np.array(())
 batches_done = 0   # Counter for batches
 for epoch in range(opt.n_epochs):   # Loop through all epochs
     for i, x in enumerate(dataloader): # x is a batch
@@ -109,6 +137,7 @@ for epoch in range(opt.n_epochs):   # Loop through all epochs
         # Configure input
         weight = x[:,81]
         target = x[:,80]
+        weight = Variable(weight.type(torch.FloatTensor))
         target = Variable(target.type(torch.LongTensor))
         x = np.transpose(x)
         x = np.delete(x, [80, 81, 82], 0)
@@ -131,6 +160,7 @@ for epoch in range(opt.n_epochs):   # Loop through all epochs
 
         # Calculate loss 
         loss = criterion(output, target) 
+        loss = torch.dot(weight,loss)
         loss.backward()   # Do back propagation 
         optimizer.step()   # Update parameters based on gradients for individuals
         batches_done += 1
@@ -140,23 +170,25 @@ for epoch in range(opt.n_epochs):   # Loop through all epochs
         #np.save('{file_name}/{num_batches}.npy'.format(file_name=opt.data_file, \
             #num_batches=batches_done), loss)
         
-        print(loss.detach().numpy())
-        #loss_array = np.append(loss_array, loss.detach().numpy())
+        print("loss is " + str(loss.detach().numpy()))
+        train_loss_array = np.append(train_loss_array, loss.detach().numpy())
+        out = classifier(val_data)
+        loss_val = torch.dot(w_val, criterion(out, target_val))
+        val_loss_array = np.append(val_loss_array, loss_val.detach().numpy())
+        print("val loss = " + str(loss_val))
         
-#         line1.set_ydata(loss_array)
-#         line1.set_xdata(np.array(list(range(int(epoch/10)+1))))
-        #if epoch % 50 == 0:
-            #display.clear_output(True)
-            #figure = plt.figure()
-            #ax = figure.add_subplot(111)
-            #ax.plot(10 * np.array(list(range(int(epoch/10)+1))), loss_array)
+        if small_loss > loss_val:
+            small_loss = loss_val
+            torch.save(classifier.state_dict(), "../models/two_layers/twoLayerModel_weights_gpu_mumu1")
+            print("new smallest loss is " + str(loss_val))
+            
+        if epoch % 50 == 0:
+            display.clear_output(True)
+            figure = plt.figure()
+            ax = figure.add_subplot(111)
+            np.save("../data/two_layers/twoLayerModel_weights_gpu_mumu1_train", train_loss_array)
+            np.save("../data/two_layers/twoLayerModel_weights_gpu_mumu1_val", val_loss_array)
+            
 #             plt.draw()
 
-            #plt.show()
-
-if opt.save_weights:
-    torch.save(classifier.state_dict(), opt.config_dir + "/models/twoLayerModel_slurm1.pt")
-
-
-
-
+            

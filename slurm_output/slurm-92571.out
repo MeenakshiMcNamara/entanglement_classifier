@@ -1,0 +1,5122 @@
+0
+starting imports
+finished imports
+False
+/depot-new/cms/top/mcnama20/TopSpinCorr-Run2-Entanglement/CMSSW_10_2_22/src/TopAnalysis/Configuration/analysis/diLeptonic/three_files/Nominal/ee_modified_root_1.root
+['lb_delta_eta', 'lbbar_delta_eta', 'lnu_delta_eta', 'lnubar_delta_eta', 'lbarb_delta_eta', 'lbarbbar_delta_eta', 'lbarnu_delta_eta', 'lbarnubar_delta_eta', 'bnu_delta_eta', 'bnubar_delta_eta', 'bbarnu_delta_eta', 'bbarnubar_delta_eta', 'lb_delta_phi', 'lbbar_delta_phi', 'lnu_delta_phi', 'lnubar_delta_phi', 'lbarb_delta_phi', 'lbarbbar_delta_phi', 'lbarnu_delta_phi', 'lbarnubar_delta_phi', 'bnu_delta_phi', 'bnubar_delta_phi', 'bbarnu_delta_phi', 'bbarnubar_delta_phi', 'wplusb_delta_eta', 'wplusbbar_delta_eta', 'wminusb_delta_eta', 'wminusbbar_delta_eta', 'wplusb_delta_phi', 'wplusbbar_delta_phi', 'wminusb_delta_phi', 'wminusbbar_delta_phi', 'top_eta', 'top_boosted_eta', 'tbar_eta', 'tbar_boosted_eta', 'ttbar_delta_eta', 'ttbar_eta', 'llbar_delta_eta', 'bbbar_delta_eta', 'nunubar_delta_eta', 'top_phi', 'tbar_phi', 'ttbar_phi', 'ttbar_delta_phi', 'llbar_phi', 'llbar_delta_phi', 'bbbar_phi', 'bbbar_delta_phi', 'nunubar_phi', 'nunubar_delta_phi', 'l_eta', 'lbar_eta', 'l_phi', 'lbar_phi', 'b_eta', 'bbar_eta', 'b_phi', 'bbar_phi', 'nu_eta', 'nubar_eta', 'nu_phi', 'nubar_phi', 'wplus_eta', 'wminus_eta', 'wplus_phi', 'wminus_phi', 'top_pt', 'tbar_pt', 'l_pt', 'b_pt', 'bbar_pt', 'nu_pt', 'nubar_pt', 'met_pt', 'ttbar_pt', 'ttbar_boosted_pt', 'wplus_pt', 'wminus_pt', 'ttbar_mass', 'production_mode', 'eventWeight', '__index__']
+num qqbar = 6324
+training (15367, 83)
+evaluating (3605, 83)
+done
+['lb_delta_eta', 'lbbar_delta_eta', 'lnu_delta_eta', 'lnubar_delta_eta', 'lbarb_delta_eta', 'lbarbbar_delta_eta', 'lbarnu_delta_eta', 'lbarnubar_delta_eta', 'bnu_delta_eta', 'bnubar_delta_eta', 'bbarnu_delta_eta', 'bbarnubar_delta_eta', 'lb_delta_phi', 'lbbar_delta_phi', 'lnu_delta_phi', 'lnubar_delta_phi', 'lbarb_delta_phi', 'lbarbbar_delta_phi', 'lbarnu_delta_phi', 'lbarnubar_delta_phi', 'bnu_delta_phi', 'bnubar_delta_phi', 'bbarnu_delta_phi', 'bbarnubar_delta_phi', 'wplusb_delta_eta', 'wplusbbar_delta_eta', 'wminusb_delta_eta', 'wminusbbar_delta_eta', 'wplusb_delta_phi', 'wplusbbar_delta_phi', 'wminusb_delta_phi', 'wminusbbar_delta_phi', 'top_eta', 'top_boosted_eta', 'tbar_eta', 'tbar_boosted_eta', 'ttbar_delta_eta', 'ttbar_eta', 'llbar_delta_eta', 'bbbar_delta_eta', 'nunubar_delta_eta', 'top_phi', 'tbar_phi', 'ttbar_phi', 'ttbar_delta_phi', 'llbar_phi', 'llbar_delta_phi', 'bbbar_phi', 'bbbar_delta_phi', 'nunubar_phi', 'nunubar_delta_phi', 'l_eta', 'lbar_eta', 'l_phi', 'lbar_phi', 'b_eta', 'bbar_eta', 'b_phi', 'bbar_phi', 'nu_eta', 'nubar_eta', 'nu_phi', 'nubar_phi', 'wplus_eta', 'wminus_eta', 'wplus_phi', 'wminus_phi', 'top_pt', 'tbar_pt', 'l_pt', 'b_pt', 'bbar_pt', 'nu_pt', 'nubar_pt', 'met_pt', 'ttbar_pt', 'ttbar_boosted_pt', 'wplus_pt', 'wminus_pt', 'ttbar_mass', 'production_mode', 'eventWeight', '__index__']
+num qqbar = 6324
+training (15367, 83)
+evaluating (3605, 83)
+loss is 262.73236
+val loss = tensor(2537.9121, grad_fn=<DotBackward>)
+new smallest loss is tensor(2537.9121, grad_fn=<DotBackward>)
+[2K/home/mcnama20/.conda/envs/cent7/5.1.0-py36/GANS_7/lib/python3.6/site-packages/torch/nn/_reduction.py:44: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-mcnama20'
+[2Kloss is 255.26259
+val loss = tensor(2467.4316, grad_fn=<DotBackward>)
+new smallest loss is tensor(2467.4316, grad_fn=<DotBackward>)
+loss is 244.25941
+val loss = tensor(2438.9023, grad_fn=<DotBackward>)
+new smallest loss is tensor(2438.9023, grad_fn=<DotBackward>)
+loss is 246.22607
+val loss = tensor(2429.5430, grad_fn=<DotBackward>)
+new smallest loss is tensor(2429.5430, grad_fn=<DotBackward>)
+loss is 246.41043
+val loss = tensor(2408.0476, grad_fn=<DotBackward>)
+new smallest loss is tensor(2408.0476, grad_fn=<DotBackward>)
+loss is 243.27951
+val loss = tensor(2411.1519, grad_fn=<DotBackward>)
+[2K[2Kloss is 243.9065
+val loss = tensor(2390.4688, grad_fn=<DotBackward>)
+new smallest loss is tensor(2390.4688, grad_fn=<DotBackward>)
+loss is 243.90416
+val loss = tensor(2413.4722, grad_fn=<DotBackward>)
+loss is 244.2811
+val loss = tensor(2378.0576, grad_fn=<DotBackward>)
+new smallest loss is tensor(2378.0576, grad_fn=<DotBackward>)
+loss is 250.01935
+val loss = tensor(2378.7769, grad_fn=<DotBackward>)
+loss is 238.01321
+val loss = tensor(2373.8235, grad_fn=<DotBackward>)
+new smallest loss is tensor(2373.8235, grad_fn=<DotBackward>)
+[2K[2Kloss is 235.91791
+val loss = tensor(2363.3423, grad_fn=<DotBackward>)
+new smallest loss is tensor(2363.3423, grad_fn=<DotBackward>)
+loss is 248.99713
+val loss = tensor(2360.3623, grad_fn=<DotBackward>)
+new smallest loss is tensor(2360.3623, grad_fn=<DotBackward>)
+loss is 232.41418
+val loss = tensor(2382.4287, grad_fn=<DotBackward>)
+loss is 246.87053
+val loss = tensor(2359.0437, grad_fn=<DotBackward>)
+new smallest loss is tensor(2359.0437, grad_fn=<DotBackward>)
+loss is 238.0092
+val loss = tensor(2359.7908, grad_fn=<DotBackward>)
+[2K[2Kloss is 244.90576
+val loss = tensor(2349.0210, grad_fn=<DotBackward>)
+new smallest loss is tensor(2349.0210, grad_fn=<DotBackward>)
+loss is 242.61562
+val loss = tensor(2357.6426, grad_fn=<DotBackward>)
+loss is 234.61919
+val loss = tensor(2336.4844, grad_fn=<DotBackward>)
+new smallest loss is tensor(2336.4844, grad_fn=<DotBackward>)
+loss is 231.77611
+val loss = tensor(2363.6511, grad_fn=<DotBackward>)
+loss is 242.15216
+val loss = tensor(2341.0884, grad_fn=<DotBackward>)
+[2K[2Kloss is 240.22505
+val loss = tensor(2372.5718, grad_fn=<DotBackward>)
+loss is 236.37488
+val loss = tensor(2328.9790, grad_fn=<DotBackward>)
+new smallest loss is tensor(2328.9790, grad_fn=<DotBackward>)
+loss is 243.39392
+val loss = tensor(2331.5544, grad_fn=<DotBackward>)
+loss is 227.33562
+val loss = tensor(2319.7896, grad_fn=<DotBackward>)
+new smallest loss is tensor(2319.7896, grad_fn=<DotBackward>)
+loss is 228.74316
+val loss = tensor(2333.6104, grad_fn=<DotBackward>)
+[2K[2Kloss is 233.98714
+val loss = tensor(2335.5801, grad_fn=<DotBackward>)
+loss is 231.89468
+val loss = tensor(2308.4155, grad_fn=<DotBackward>)
+new smallest loss is tensor(2308.4155, grad_fn=<DotBackward>)
+loss is 238.46214
+val loss = tensor(2315.8525, grad_fn=<DotBackward>)
+loss is 237.30249
+val loss = tensor(2326.1323, grad_fn=<DotBackward>)
+loss is 232.27103
+val loss = tensor(2309.9668, grad_fn=<DotBackward>)
+[2K[2Kloss is 224.36429
+val loss = tensor(2364.2476, grad_fn=<DotBackward>)
+loss is 221.82742
+val loss = tensor(2296.1406, grad_fn=<DotBackward>)
+new smallest loss is tensor(2296.1406, grad_fn=<DotBackward>)
+loss is 229.81018
+val loss = tensor(2300.9419, grad_fn=<DotBackward>)
+loss is 236.81895
+val loss = tensor(2294.0637, grad_fn=<DotBackward>)
+new smallest loss is tensor(2294.0637, grad_fn=<DotBackward>)
+loss is 235.96603
+val loss = tensor(2289.1045, grad_fn=<DotBackward>)
+new smallest loss is tensor(2289.1045, grad_fn=<DotBackward>)
+[2K[2Kloss is 215.93845
+val loss = tensor(2368.7070, grad_fn=<DotBackward>)
+loss is 233.0949
+val loss = tensor(2304.6707, grad_fn=<DotBackward>)
+loss is 239.72942
+val loss = tensor(2304.1604, grad_fn=<DotBackward>)
+loss is 226.72775
+val loss = tensor(2285.2598, grad_fn=<DotBackward>)
+new smallest loss is tensor(2285.2598, grad_fn=<DotBackward>)
+loss is 228.76096
+val loss = tensor(2296.9565, grad_fn=<DotBackward>)
+[2K[2Kloss is 231.72058
+val loss = tensor(2284.8528, grad_fn=<DotBackward>)
+new smallest loss is tensor(2284.8528, grad_fn=<DotBackward>)
+loss is 228.63934
+val loss = tensor(2319.6636, grad_fn=<DotBackward>)
+loss is 217.07828
+val loss = tensor(2275.7417, grad_fn=<DotBackward>)
+new smallest loss is tensor(2275.7417, grad_fn=<DotBackward>)
+loss is 220.01308
+val loss = tensor(2277.7971, grad_fn=<DotBackward>)
+loss is 230.38417
+val loss = tensor(2310.4768, grad_fn=<DotBackward>)
+[2K[2Kloss is 228.61177
+val loss = tensor(2272.5789, grad_fn=<DotBackward>)
+new smallest loss is tensor(2272.5789, grad_fn=<DotBackward>)
+loss is 228.57234
+val loss = tensor(2275.5049, grad_fn=<DotBackward>)
+loss is 225.68463
+val loss = tensor(2274.6963, grad_fn=<DotBackward>)
+loss is 225.77274
+val loss = tensor(2259.5547, grad_fn=<DotBackward>)
+new smallest loss is tensor(2259.5547, grad_fn=<DotBackward>)
+loss is 225.75723
+val loss = tensor(2292.7639, grad_fn=<DotBackward>)
+[2K[2Kloss is 225.76515
+val loss = tensor(2276.3367, grad_fn=<DotBackward>)
+loss is 227.68222
+val loss = tensor(2272.0515, grad_fn=<DotBackward>)
+loss is 219.1784
+val loss = tensor(2256.9006, grad_fn=<DotBackward>)
+new smallest loss is tensor(2256.9006, grad_fn=<DotBackward>)
+loss is 214.66191
+val loss = tensor(2254.7375, grad_fn=<DotBackward>)
+new smallest loss is tensor(2254.7375, grad_fn=<DotBackward>)
+loss is 222.00261
+val loss = tensor(2333.1135, grad_fn=<DotBackward>)
+[2K[2Kloss is 230.83276
+val loss = tensor(2257.9546, grad_fn=<DotBackward>)
+loss is 228.15393
+val loss = tensor(2263.1909, grad_fn=<DotBackward>)
+loss is 218.991
+val loss = tensor(2292.6514, grad_fn=<DotBackward>)
+loss is 220.64609
+val loss = tensor(2246.5854, grad_fn=<DotBackward>)
+new smallest loss is tensor(2246.5854, grad_fn=<DotBackward>)
+loss is 221.80766
+val loss = tensor(2265.2280, grad_fn=<DotBackward>)
+[2K[2Kloss is 222.32385
+val loss = tensor(2250.5713, grad_fn=<DotBackward>)
+loss is 224.89255
+val loss = tensor(2248.6060, grad_fn=<DotBackward>)
+loss is 222.53369
+val loss = tensor(2276.3303, grad_fn=<DotBackward>)
+loss is 228.51183
+val loss = tensor(2254.0996, grad_fn=<DotBackward>)
+loss is 201.37181
+val loss = tensor(2233.6025, grad_fn=<DotBackward>)
+new smallest loss is tensor(2233.6025, grad_fn=<DotBackward>)
+[2K[2Kloss is 218.75986
+val loss = tensor(2241.5081, grad_fn=<DotBackward>)
+loss is 206.36156
+val loss = tensor(2267.4863, grad_fn=<DotBackward>)
+loss is 218.18301
+val loss = tensor(2230.4609, grad_fn=<DotBackward>)
+new smallest loss is tensor(2230.4609, grad_fn=<DotBackward>)
+loss is 228.75916
+val loss = tensor(2298.9370, grad_fn=<DotBackward>)
+loss is 226.75926
+val loss = tensor(2223.3923, grad_fn=<DotBackward>)
+new smallest loss is tensor(2223.3923, grad_fn=<DotBackward>)
+[2K[2Kloss is 211.57275
+val loss = tensor(2262.0981, grad_fn=<DotBackward>)
+loss is 211.97891
+val loss = tensor(2235.2629, grad_fn=<DotBackward>)
+loss is 229.13202
+val loss = tensor(2243.4885, grad_fn=<DotBackward>)
+loss is 211.12329
+val loss = tensor(2239.9966, grad_fn=<DotBackward>)
+loss is 222.0473
+val loss = tensor(2244.6641, grad_fn=<DotBackward>)
+[2K[2Kloss is 224.64429
+val loss = tensor(2248.5330, grad_fn=<DotBackward>)
+loss is 216.71045
+val loss = tensor(2243.8132, grad_fn=<DotBackward>)
+loss is 217.69771
+val loss = tensor(2231.0896, grad_fn=<DotBackward>)
+loss is 221.59784
+val loss = tensor(2219.0635, grad_fn=<DotBackward>)
+new smallest loss is tensor(2219.0635, grad_fn=<DotBackward>)
+loss is 214.60173
+val loss = tensor(2254.4414, grad_fn=<DotBackward>)
+[2K[2Kloss is 214.36786
+val loss = tensor(2220.7966, grad_fn=<DotBackward>)
+loss is 226.79752
+val loss = tensor(2279.8591, grad_fn=<DotBackward>)
+loss is 227.05133
+val loss = tensor(2211.6362, grad_fn=<DotBackward>)
+new smallest loss is tensor(2211.6362, grad_fn=<DotBackward>)
+loss is 221.13617
+val loss = tensor(2222.9990, grad_fn=<DotBackward>)
+loss is 217.88129
+val loss = tensor(2214.8489, grad_fn=<DotBackward>)
+[2K[2Kloss is 216.68752
+val loss = tensor(2254.8630, grad_fn=<DotBackward>)
+loss is 224.24864
+val loss = tensor(2209.1826, grad_fn=<DotBackward>)
+new smallest loss is tensor(2209.1826, grad_fn=<DotBackward>)
+loss is 207.4961
+val loss = tensor(2248.2021, grad_fn=<DotBackward>)
+loss is 211.2938
+val loss = tensor(2221.1152, grad_fn=<DotBackward>)
+loss is 209.42053
+val loss = tensor(2215.0193, grad_fn=<DotBackward>)
+[2K[2Kloss is 218.94568
+val loss = tensor(2265.7920, grad_fn=<DotBackward>)
+loss is 210.44373
+val loss = tensor(2199.5586, grad_fn=<DotBackward>)
+new smallest loss is tensor(2199.5586, grad_fn=<DotBackward>)
+loss is 213.7167
+val loss = tensor(2227.3643, grad_fn=<DotBackward>)
+loss is 211.74731
+val loss = tensor(2199.9697, grad_fn=<DotBackward>)
+loss is 219.8278
+val loss = tensor(2223.1162, grad_fn=<DotBackward>)
+[2K[2Kloss is 202.3661
+val loss = tensor(2239.4956, grad_fn=<DotBackward>)
+loss is 205.57742
+val loss = tensor(2200.6685, grad_fn=<DotBackward>)
+loss is 215.215
+val loss = tensor(2219.2307, grad_fn=<DotBackward>)
+loss is 213.10281
+val loss = tensor(2223.6719, grad_fn=<DotBackward>)
+loss is 213.88452
+val loss = tensor(2240.7104, grad_fn=<DotBackward>)
+[2K[2Kloss is 213.46002
+val loss = tensor(2190.7793, grad_fn=<DotBackward>)
+new smallest loss is tensor(2190.7793, grad_fn=<DotBackward>)
+loss is 215.47482
+val loss = tensor(2207.2332, grad_fn=<DotBackward>)
+loss is 210.70245
+val loss = tensor(2203.2783, grad_fn=<DotBackward>)
+loss is 215.82819
+val loss = tensor(2225.4326, grad_fn=<DotBackward>)
+loss is 202.62561
+val loss = tensor(2227.1489, grad_fn=<DotBackward>)
+[2Ktwo_layer_classifier_with_weights-ee.py:182: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  figure = plt.figure()
+[2Kloss is 224.9622
+val loss = tensor(2173.5884, grad_fn=<DotBackward>)
+new smallest loss is tensor(2173.5884, grad_fn=<DotBackward>)
+loss is 218.25183
+val loss = tensor(2181.3799, grad_fn=<DotBackward>)
+loss is 216.56326
+val loss = tensor(2224.5835, grad_fn=<DotBackward>)
+loss is 222.19623
+val loss = tensor(2192.6309, grad_fn=<DotBackward>)
+loss is 214.0098
+val loss = tensor(2268.0986, grad_fn=<DotBackward>)
+[2K[2Kloss is 211.68985
+val loss = tensor(2174.9985, grad_fn=<DotBackward>)
+loss is 206.80902
+val loss = tensor(2208.2334, grad_fn=<DotBackward>)
+loss is 225.38452
+val loss = tensor(2202.5337, grad_fn=<DotBackward>)
+loss is 198.9653
+val loss = tensor(2191.3223, grad_fn=<DotBackward>)
+loss is 213.20477
+val loss = tensor(2230.2563, grad_fn=<DotBackward>)
+[2K[2Kloss is 216.76099
+val loss = tensor(2165.7607, grad_fn=<DotBackward>)
+new smallest loss is tensor(2165.7607, grad_fn=<DotBackward>)
+loss is 199.23322
+val loss = tensor(2157.5342, grad_fn=<DotBackward>)
+new smallest loss is tensor(2157.5342, grad_fn=<DotBackward>)
+loss is 219.13084
+val loss = tensor(2215.3140, grad_fn=<DotBackward>)
+loss is 217.32178
+val loss = tensor(2166.2666, grad_fn=<DotBackward>)
+loss is 208.5843
+val loss = tensor(2200.4739, grad_fn=<DotBackward>)
+[2K[2Kloss is 208.71765
+val loss = tensor(2225.9443, grad_fn=<DotBackward>)
+loss is 208.24245
+val loss = tensor(2226.6467, grad_fn=<DotBackward>)
+loss is 204.47105
+val loss = tensor(2170.5229, grad_fn=<DotBackward>)
+loss is 214.51389
+val loss = tensor(2178.5801, grad_fn=<DotBackward>)
+loss is 222.61304
+val loss = tensor(2212.2129, grad_fn=<DotBackward>)
+[2K[2Kloss is 205.00179
+val loss = tensor(2182.4048, grad_fn=<DotBackward>)
+loss is 207.2749
+val loss = tensor(2217.0703, grad_fn=<DotBackward>)
+loss is 203.5208
+val loss = tensor(2161.5132, grad_fn=<DotBackward>)
+loss is 208.50037
+val loss = tensor(2178.5156, grad_fn=<DotBackward>)
+loss is 211.74193
+val loss = tensor(2163.2297, grad_fn=<DotBackward>)
+[2K[2Kloss is 209.72723
+val loss = tensor(2184.5391, grad_fn=<DotBackward>)
+loss is 213.29556
+val loss = tensor(2262.6929, grad_fn=<DotBackward>)
+loss is 202.31735
+val loss = tensor(2145.3320, grad_fn=<DotBackward>)
+new smallest loss is tensor(2145.3320, grad_fn=<DotBackward>)
+loss is 208.93872
+val loss = tensor(2157.3950, grad_fn=<DotBackward>)
+loss is 213.62619
+val loss = tensor(2218.3579, grad_fn=<DotBackward>)
+[2K[2Kloss is 207.66722
+val loss = tensor(2146.3213, grad_fn=<DotBackward>)
+loss is 217.50513
+val loss = tensor(2301.6404, grad_fn=<DotBackward>)
+loss is 215.43939
+val loss = tensor(2156.8130, grad_fn=<DotBackward>)
+loss is 205.20721
+val loss = tensor(2188.7788, grad_fn=<DotBackward>)
+loss is 206.29196
+val loss = tensor(2155.9099, grad_fn=<DotBackward>)
+[2K[2Kloss is 204.50241
+val loss = tensor(2149.3269, grad_fn=<DotBackward>)
+loss is 210.49411
+val loss = tensor(2179.6628, grad_fn=<DotBackward>)
+loss is 211.37372
+val loss = tensor(2265.0474, grad_fn=<DotBackward>)
+loss is 197.74426
+val loss = tensor(2144.0110, grad_fn=<DotBackward>)
+new smallest loss is tensor(2144.0110, grad_fn=<DotBackward>)
+loss is 209.60864
+val loss = tensor(2167.8528, grad_fn=<DotBackward>)
+[2K[2Kloss is 206.2467
+val loss = tensor(2201.2864, grad_fn=<DotBackward>)
+loss is 206.87811
+val loss = tensor(2143.4917, grad_fn=<DotBackward>)
+new smallest loss is tensor(2143.4917, grad_fn=<DotBackward>)
+loss is 211.57329
+val loss = tensor(2184.3452, grad_fn=<DotBackward>)
+loss is 200.04669
+val loss = tensor(2233.2163, grad_fn=<DotBackward>)
+loss is 209.36542
+val loss = tensor(2158.0049, grad_fn=<DotBackward>)
+[2K[2Kloss is 196.06874
+val loss = tensor(2183.1228, grad_fn=<DotBackward>)
+loss is 209.15092
+val loss = tensor(2149.9385, grad_fn=<DotBackward>)
+loss is 211.61136
+val loss = tensor(2162.2715, grad_fn=<DotBackward>)
+loss is 181.3118
+val loss = tensor(2180.3716, grad_fn=<DotBackward>)
+loss is 203.3012
+val loss = tensor(2195.9229, grad_fn=<DotBackward>)
+[2K[2Kloss is 207.07788
+val loss = tensor(2165.9307, grad_fn=<DotBackward>)
+loss is 198.72002
+val loss = tensor(2139.3301, grad_fn=<DotBackward>)
+new smallest loss is tensor(2139.3301, grad_fn=<DotBackward>)
+loss is 196.91495
+val loss = tensor(2152.6138, grad_fn=<DotBackward>)
+loss is 197.52704
+val loss = tensor(2176.7886, grad_fn=<DotBackward>)
+loss is 206.86829
+val loss = tensor(2157.4436, grad_fn=<DotBackward>)
+[2K[2Kloss is 203.6939
+val loss = tensor(2192.3132, grad_fn=<DotBackward>)
+loss is 196.80437
+val loss = tensor(2160.5637, grad_fn=<DotBackward>)
+loss is 199.65657
+val loss = tensor(2145.7134, grad_fn=<DotBackward>)
+loss is 198.88329
+val loss = tensor(2134.7925, grad_fn=<DotBackward>)
+new smallest loss is tensor(2134.7925, grad_fn=<DotBackward>)
+loss is 189.68686
+val loss = tensor(2147.7068, grad_fn=<DotBackward>)
+[2K[2Kloss is 208.55774
+val loss = tensor(2227.0376, grad_fn=<DotBackward>)
+loss is 207.30145
+val loss = tensor(2172.7500, grad_fn=<DotBackward>)
+loss is 208.4442
+val loss = tensor(2135.1187, grad_fn=<DotBackward>)
+loss is 204.34024
+val loss = tensor(2146.7617, grad_fn=<DotBackward>)
+loss is 198.86804
+val loss = tensor(2134.4165, grad_fn=<DotBackward>)
+new smallest loss is tensor(2134.4165, grad_fn=<DotBackward>)
+[2K[2Kloss is 202.38472
+val loss = tensor(2213.7607, grad_fn=<DotBackward>)
+loss is 194.77023
+val loss = tensor(2145.1714, grad_fn=<DotBackward>)
+loss is 198.20724
+val loss = tensor(2164.5781, grad_fn=<DotBackward>)
+loss is 189.94598
+val loss = tensor(2124.0166, grad_fn=<DotBackward>)
+new smallest loss is tensor(2124.0166, grad_fn=<DotBackward>)
+loss is 201.65753
+val loss = tensor(2137.3730, grad_fn=<DotBackward>)
+[2K[2Kloss is 194.60315
+val loss = tensor(2144.0454, grad_fn=<DotBackward>)
+loss is 199.31549
+val loss = tensor(2133.3701, grad_fn=<DotBackward>)
+loss is 214.19217
+val loss = tensor(2191.2256, grad_fn=<DotBackward>)
+loss is 193.09123
+val loss = tensor(2127.1431, grad_fn=<DotBackward>)
+loss is 200.36539
+val loss = tensor(2144.5447, grad_fn=<DotBackward>)
+[2K[2Kloss is 202.17618
+val loss = tensor(2142.1777, grad_fn=<DotBackward>)
+loss is 201.70683
+val loss = tensor(2145.5493, grad_fn=<DotBackward>)
+loss is 198.68845
+val loss = tensor(2156.8174, grad_fn=<DotBackward>)
+loss is 202.29224
+val loss = tensor(2126.6680, grad_fn=<DotBackward>)
+loss is 193.84198
+val loss = tensor(2173.3503, grad_fn=<DotBackward>)
+[2K[2Kloss is 202.50327
+val loss = tensor(2137.8950, grad_fn=<DotBackward>)
+loss is 199.7875
+val loss = tensor(2164.5259, grad_fn=<DotBackward>)
+loss is 208.5185
+val loss = tensor(2159.2007, grad_fn=<DotBackward>)
+loss is 200.3241
+val loss = tensor(2178.8032, grad_fn=<DotBackward>)
+loss is 198.94485
+val loss = tensor(2136.9536, grad_fn=<DotBackward>)
+[2K[2Kloss is 191.38795
+val loss = tensor(2161.9395, grad_fn=<DotBackward>)
+loss is 197.60768
+val loss = tensor(2120.5430, grad_fn=<DotBackward>)
+new smallest loss is tensor(2120.5430, grad_fn=<DotBackward>)
+loss is 212.21396
+val loss = tensor(2125.6333, grad_fn=<DotBackward>)
+loss is 208.17729
+val loss = tensor(2133.7180, grad_fn=<DotBackward>)
+loss is 198.87445
+val loss = tensor(2117.3730, grad_fn=<DotBackward>)
+new smallest loss is tensor(2117.3730, grad_fn=<DotBackward>)
+[2K[2Kloss is 197.20796
+val loss = tensor(2140.9233, grad_fn=<DotBackward>)
+loss is 194.88104
+val loss = tensor(2246.2915, grad_fn=<DotBackward>)
+loss is 202.20023
+val loss = tensor(2089.7056, grad_fn=<DotBackward>)
+new smallest loss is tensor(2089.7056, grad_fn=<DotBackward>)
+loss is 190.32037
+val loss = tensor(2115.1797, grad_fn=<DotBackward>)
+loss is 205.58185
+val loss = tensor(2223.0400, grad_fn=<DotBackward>)
+[2K[2Kloss is 198.76042
+val loss = tensor(2154.9824, grad_fn=<DotBackward>)
+loss is 184.21004
+val loss = tensor(2139.7151, grad_fn=<DotBackward>)
+loss is 198.79982
+val loss = tensor(2111.1704, grad_fn=<DotBackward>)
+loss is 196.46523
+val loss = tensor(2141.1257, grad_fn=<DotBackward>)
+loss is 201.12756
+val loss = tensor(2128.5752, grad_fn=<DotBackward>)
+[2K[2Kloss is 196.65335
+val loss = tensor(2211.2095, grad_fn=<DotBackward>)
+loss is 189.69489
+val loss = tensor(2114.1099, grad_fn=<DotBackward>)
+loss is 198.10712
+val loss = tensor(2153.0308, grad_fn=<DotBackward>)
+loss is 199.55765
+val loss = tensor(2121.7339, grad_fn=<DotBackward>)
+loss is 199.91101
+val loss = tensor(2110.5898, grad_fn=<DotBackward>)
+[2K[2Kloss is 196.29445
+val loss = tensor(2123.5784, grad_fn=<DotBackward>)
+loss is 194.67615
+val loss = tensor(2094.2256, grad_fn=<DotBackward>)
+loss is 202.81253
+val loss = tensor(2263.8228, grad_fn=<DotBackward>)
+loss is 198.27536
+val loss = tensor(2147.5815, grad_fn=<DotBackward>)
+loss is 218.28246
+val loss = tensor(2157.2568, grad_fn=<DotBackward>)
+[2K[2Kloss is 188.25381
+val loss = tensor(2126.5054, grad_fn=<DotBackward>)
+loss is 190.16382
+val loss = tensor(2164.2485, grad_fn=<DotBackward>)
+loss is 200.44995
+val loss = tensor(2112.0439, grad_fn=<DotBackward>)
+loss is 196.87129
+val loss = tensor(2130.3706, grad_fn=<DotBackward>)
+loss is 196.3866
+val loss = tensor(2137.7480, grad_fn=<DotBackward>)
+[2K[2Kloss is 204.35948
+val loss = tensor(2119.5237, grad_fn=<DotBackward>)
+loss is 201.64877
+val loss = tensor(2090.6372, grad_fn=<DotBackward>)
+loss is 195.15305
+val loss = tensor(2166.1768, grad_fn=<DotBackward>)
+loss is 196.44171
+val loss = tensor(2108.3096, grad_fn=<DotBackward>)
+loss is 208.17862
+val loss = tensor(2167.8774, grad_fn=<DotBackward>)
+[2K[2Kloss is 192.9524
+val loss = tensor(2102.5405, grad_fn=<DotBackward>)
+loss is 206.85345
+val loss = tensor(2142.6206, grad_fn=<DotBackward>)
+loss is 199.94937
+val loss = tensor(2111.7920, grad_fn=<DotBackward>)
+loss is 195.2559
+val loss = tensor(2116.8677, grad_fn=<DotBackward>)
+loss is 185.20944
+val loss = tensor(2165.7290, grad_fn=<DotBackward>)
+[2K[2Kloss is 195.71555
+val loss = tensor(2149.2388, grad_fn=<DotBackward>)
+loss is 197.24086
+val loss = tensor(2097.6265, grad_fn=<DotBackward>)
+loss is 204.63834
+val loss = tensor(2133.6736, grad_fn=<DotBackward>)
+loss is 184.32812
+val loss = tensor(2134.0132, grad_fn=<DotBackward>)
+loss is 193.514
+val loss = tensor(2115.5254, grad_fn=<DotBackward>)
+[2K[2Kloss is 194.72672
+val loss = tensor(2148.3828, grad_fn=<DotBackward>)
+loss is 193.35417
+val loss = tensor(2090.6562, grad_fn=<DotBackward>)
+loss is 201.06247
+val loss = tensor(2112.2847, grad_fn=<DotBackward>)
+loss is 198.83517
+val loss = tensor(2086.1221, grad_fn=<DotBackward>)
+new smallest loss is tensor(2086.1221, grad_fn=<DotBackward>)
+loss is 192.8187
+val loss = tensor(2090.7520, grad_fn=<DotBackward>)
+[2K[2Kloss is 203.42883
+val loss = tensor(2126.5029, grad_fn=<DotBackward>)
+loss is 197.09091
+val loss = tensor(2220.2925, grad_fn=<DotBackward>)
+loss is 191.7498
+val loss = tensor(2105.9670, grad_fn=<DotBackward>)
+loss is 179.79132
+val loss = tensor(2152.9839, grad_fn=<DotBackward>)
+loss is 188.26868
+val loss = tensor(2167.3594, grad_fn=<DotBackward>)
+[2K[2Kloss is 190.44948
+val loss = tensor(2080.1357, grad_fn=<DotBackward>)
+new smallest loss is tensor(2080.1357, grad_fn=<DotBackward>)
+loss is 198.6883
+val loss = tensor(2127.9346, grad_fn=<DotBackward>)
+loss is 196.28445
+val loss = tensor(2106.0002, grad_fn=<DotBackward>)
+loss is 181.30328
+val loss = tensor(2113.4998, grad_fn=<DotBackward>)
+loss is 203.43365
+val loss = tensor(2135.7134, grad_fn=<DotBackward>)
+[2K[2Kloss is 197.10202
+val loss = tensor(2119.3469, grad_fn=<DotBackward>)
+loss is 198.16116
+val loss = tensor(2102.0239, grad_fn=<DotBackward>)
+loss is 182.15352
+val loss = tensor(2080.8967, grad_fn=<DotBackward>)
+loss is 205.68877
+val loss = tensor(2112.9956, grad_fn=<DotBackward>)
+loss is 191.55116
+val loss = tensor(2127.8809, grad_fn=<DotBackward>)
+[2K[2Kloss is 200.26312
+val loss = tensor(2172.5220, grad_fn=<DotBackward>)
+loss is 178.51357
+val loss = tensor(2099.4500, grad_fn=<DotBackward>)
+loss is 178.83339
+val loss = tensor(2115.3699, grad_fn=<DotBackward>)
+loss is 180.4423
+val loss = tensor(2090.0037, grad_fn=<DotBackward>)
+loss is 184.72694
+val loss = tensor(2115.6179, grad_fn=<DotBackward>)
+[2K[2Kloss is 190.50917
+val loss = tensor(2107.6226, grad_fn=<DotBackward>)
+loss is 196.42303
+val loss = tensor(2180.7896, grad_fn=<DotBackward>)
+loss is 184.65851
+val loss = tensor(2106.0349, grad_fn=<DotBackward>)
+loss is 184.51682
+val loss = tensor(2089.5488, grad_fn=<DotBackward>)
+loss is 187.34845
+val loss = tensor(2081.7676, grad_fn=<DotBackward>)
+[2K[2Kloss is 190.64934
+val loss = tensor(2104.6562, grad_fn=<DotBackward>)
+loss is 193.8687
+val loss = tensor(2086.7109, grad_fn=<DotBackward>)
+loss is 192.42635
+val loss = tensor(2125.7766, grad_fn=<DotBackward>)
+loss is 196.67096
+val loss = tensor(2181.5112, grad_fn=<DotBackward>)
+loss is 197.4591
+val loss = tensor(2096.2686, grad_fn=<DotBackward>)
+[2K[2Kloss is 194.90797
+val loss = tensor(2097.0889, grad_fn=<DotBackward>)
+loss is 195.55457
+val loss = tensor(2089.9624, grad_fn=<DotBackward>)
+loss is 197.61694
+val loss = tensor(2080.7720, grad_fn=<DotBackward>)
+loss is 198.50021
+val loss = tensor(2092.0649, grad_fn=<DotBackward>)
+loss is 201.90987
+val loss = tensor(2197.0784, grad_fn=<DotBackward>)
+[2K[2Kloss is 186.26085
+val loss = tensor(2094.9429, grad_fn=<DotBackward>)
+loss is 186.7714
+val loss = tensor(2092.5791, grad_fn=<DotBackward>)
+loss is 191.97437
+val loss = tensor(2095.0195, grad_fn=<DotBackward>)
+loss is 180.71342
+val loss = tensor(2087.7930, grad_fn=<DotBackward>)
+loss is 188.69794
+val loss = tensor(2076.7383, grad_fn=<DotBackward>)
+new smallest loss is tensor(2076.7383, grad_fn=<DotBackward>)
+[2K[2Kloss is 180.45378
+val loss = tensor(2092.8716, grad_fn=<DotBackward>)
+loss is 198.62305
+val loss = tensor(2133.1003, grad_fn=<DotBackward>)
+loss is 192.06198
+val loss = tensor(2109.8713, grad_fn=<DotBackward>)
+loss is 191.07544
+val loss = tensor(2093.7363, grad_fn=<DotBackward>)
+loss is 195.12067
+val loss = tensor(2103.4873, grad_fn=<DotBackward>)
+[2K[2Kloss is 189.7503
+val loss = tensor(2129.0488, grad_fn=<DotBackward>)
+loss is 200.14252
+val loss = tensor(2113.4507, grad_fn=<DotBackward>)
+loss is 188.69135
+val loss = tensor(2105.3318, grad_fn=<DotBackward>)
+loss is 200.41174
+val loss = tensor(2103.1353, grad_fn=<DotBackward>)
+loss is 189.41035
+val loss = tensor(2057.3584, grad_fn=<DotBackward>)
+new smallest loss is tensor(2057.3584, grad_fn=<DotBackward>)
+[2K[2Kloss is 194.00583
+val loss = tensor(2082.4849, grad_fn=<DotBackward>)
+loss is 187.72725
+val loss = tensor(2106.8516, grad_fn=<DotBackward>)
+loss is 183.19855
+val loss = tensor(2163.7974, grad_fn=<DotBackward>)
+loss is 184.47726
+val loss = tensor(2059.3325, grad_fn=<DotBackward>)
+loss is 194.47781
+val loss = tensor(2147.3335, grad_fn=<DotBackward>)
+[2K[2Kloss is 192.73755
+val loss = tensor(2055.3733, grad_fn=<DotBackward>)
+new smallest loss is tensor(2055.3733, grad_fn=<DotBackward>)
+loss is 180.13069
+val loss = tensor(2102.5413, grad_fn=<DotBackward>)
+loss is 190.70679
+val loss = tensor(2100.1069, grad_fn=<DotBackward>)
+loss is 191.6745
+val loss = tensor(2130.0952, grad_fn=<DotBackward>)
+loss is 189.49812
+val loss = tensor(2082.9219, grad_fn=<DotBackward>)
+[2K[2Kloss is 191.1424
+val loss = tensor(2079.4309, grad_fn=<DotBackward>)
+loss is 181.15329
+val loss = tensor(2085.9880, grad_fn=<DotBackward>)
+loss is 183.94846
+val loss = tensor(2085.1533, grad_fn=<DotBackward>)
+loss is 192.29575
+val loss = tensor(2134.4885, grad_fn=<DotBackward>)
+loss is 180.20012
+val loss = tensor(2101.0740, grad_fn=<DotBackward>)
+[2K[2Kloss is 187.77873
+val loss = tensor(2079.3604, grad_fn=<DotBackward>)
+loss is 186.68585
+val loss = tensor(2085.8472, grad_fn=<DotBackward>)
+loss is 189.21162
+val loss = tensor(2087.5916, grad_fn=<DotBackward>)
+loss is 188.20789
+val loss = tensor(2125.9717, grad_fn=<DotBackward>)
+loss is 207.83173
+val loss = tensor(2123.3071, grad_fn=<DotBackward>)
+[2K[2Kloss is 188.50368
+val loss = tensor(2103.2791, grad_fn=<DotBackward>)
+loss is 194.62796
+val loss = tensor(2071.0332, grad_fn=<DotBackward>)
+loss is 182.4771
+val loss = tensor(2077.8044, grad_fn=<DotBackward>)
+loss is 189.77884
+val loss = tensor(2054.4839, grad_fn=<DotBackward>)
+new smallest loss is tensor(2054.4839, grad_fn=<DotBackward>)
+loss is 199.2456
+val loss = tensor(2065.8550, grad_fn=<DotBackward>)
+[2K[2Kloss is 191.51035
+val loss = tensor(2169.5269, grad_fn=<DotBackward>)
+loss is 192.51984
+val loss = tensor(2108.2461, grad_fn=<DotBackward>)
+loss is 190.56064
+val loss = tensor(2090.6270, grad_fn=<DotBackward>)
+loss is 185.65115
+val loss = tensor(2066.8101, grad_fn=<DotBackward>)
+loss is 194.52809
+val loss = tensor(2071.6553, grad_fn=<DotBackward>)
+[2K[2Kloss is 186.79636
+val loss = tensor(2094.6099, grad_fn=<DotBackward>)
+loss is 185.67274
+val loss = tensor(2069.0474, grad_fn=<DotBackward>)
+loss is 189.46307
+val loss = tensor(2100.1460, grad_fn=<DotBackward>)
+loss is 179.97028
+val loss = tensor(2078.1133, grad_fn=<DotBackward>)
+loss is 168.54492
+val loss = tensor(2092.0842, grad_fn=<DotBackward>)
+[2K[2Kloss is 181.65448
+val loss = tensor(2054.0759, grad_fn=<DotBackward>)
+new smallest loss is tensor(2054.0759, grad_fn=<DotBackward>)
+loss is 192.46933
+val loss = tensor(2051.7437, grad_fn=<DotBackward>)
+new smallest loss is tensor(2051.7437, grad_fn=<DotBackward>)
+loss is 181.3234
+val loss = tensor(2078.7490, grad_fn=<DotBackward>)
+loss is 178.71756
+val loss = tensor(2100.5791, grad_fn=<DotBackward>)
+loss is 188.1081
+val loss = tensor(2124.6685, grad_fn=<DotBackward>)
+[2K[2Kloss is 174.69398
+val loss = tensor(2093.6201, grad_fn=<DotBackward>)
+loss is 184.71103
+val loss = tensor(2050.4309, grad_fn=<DotBackward>)
+new smallest loss is tensor(2050.4309, grad_fn=<DotBackward>)
+loss is 188.92624
+val loss = tensor(2077.3887, grad_fn=<DotBackward>)
+loss is 184.7799
+val loss = tensor(2064.6990, grad_fn=<DotBackward>)
+loss is 182.70107
+val loss = tensor(2083.1265, grad_fn=<DotBackward>)
+[2K[2Kloss is 178.31161
+val loss = tensor(2092.9482, grad_fn=<DotBackward>)
+loss is 172.27989
+val loss = tensor(2123.6206, grad_fn=<DotBackward>)
+loss is 180.28648
+val loss = tensor(2054.3948, grad_fn=<DotBackward>)
+loss is 191.6088
+val loss = tensor(2078.6597, grad_fn=<DotBackward>)
+loss is 184.96521
+val loss = tensor(2070.6924, grad_fn=<DotBackward>)
+[2K[2Kloss is 180.82918
+val loss = tensor(2105.0752, grad_fn=<DotBackward>)
+loss is 180.58208
+val loss = tensor(2075.0386, grad_fn=<DotBackward>)
+loss is 188.82147
+val loss = tensor(2101.8765, grad_fn=<DotBackward>)
+loss is 179.77164
+val loss = tensor(2049.6025, grad_fn=<DotBackward>)
+new smallest loss is tensor(2049.6025, grad_fn=<DotBackward>)
+loss is 179.44533
+val loss = tensor(2092.3101, grad_fn=<DotBackward>)
+[2K[2Kloss is 191.92212
+val loss = tensor(2057.7737, grad_fn=<DotBackward>)
+loss is 197.51276
+val loss = tensor(2107.8835, grad_fn=<DotBackward>)
+loss is 179.41
+val loss = tensor(2089.7600, grad_fn=<DotBackward>)
+loss is 174.17444
+val loss = tensor(2058.6758, grad_fn=<DotBackward>)
+loss is 186.62814
+val loss = tensor(2099.0918, grad_fn=<DotBackward>)
+[2K[2Kloss is 195.03076
+val loss = tensor(2060.5955, grad_fn=<DotBackward>)
+loss is 184.83244
+val loss = tensor(2097.7920, grad_fn=<DotBackward>)
+loss is 187.80219
+val loss = tensor(2064.1047, grad_fn=<DotBackward>)
+loss is 175.04782
+val loss = tensor(2075.5078, grad_fn=<DotBackward>)
+loss is 183.78142
+val loss = tensor(2122.9971, grad_fn=<DotBackward>)
+[2K[2Kloss is 180.83566
+val loss = tensor(2028.5750, grad_fn=<DotBackward>)
+new smallest loss is tensor(2028.5750, grad_fn=<DotBackward>)
+loss is 196.52542
+val loss = tensor(2068.5308, grad_fn=<DotBackward>)
+loss is 177.98466
+val loss = tensor(2075.0229, grad_fn=<DotBackward>)
+loss is 196.38849
+val loss = tensor(2110.4229, grad_fn=<DotBackward>)
+loss is 187.1899
+val loss = tensor(2065.7520, grad_fn=<DotBackward>)
+[2K[2Kloss is 183.0574
+val loss = tensor(2048.7583, grad_fn=<DotBackward>)
+loss is 184.91406
+val loss = tensor(2054.5989, grad_fn=<DotBackward>)
+loss is 189.81342
+val loss = tensor(2049.8440, grad_fn=<DotBackward>)
+loss is 182.33746
+val loss = tensor(2047.5231, grad_fn=<DotBackward>)
+loss is 183.9577
+val loss = tensor(2054.8381, grad_fn=<DotBackward>)
+[2K[2Kloss is 189.40195
+val loss = tensor(2132.8372, grad_fn=<DotBackward>)
+loss is 179.07506
+val loss = tensor(2087.4978, grad_fn=<DotBackward>)
+loss is 190.49127
+val loss = tensor(2100.1460, grad_fn=<DotBackward>)
+loss is 188.17125
+val loss = tensor(2055.0154, grad_fn=<DotBackward>)
+loss is 186.26608
+val loss = tensor(2063.3557, grad_fn=<DotBackward>)
+[2K[2Kloss is 182.66878
+val loss = tensor(2055.3062, grad_fn=<DotBackward>)
+loss is 192.13416
+val loss = tensor(2081.4851, grad_fn=<DotBackward>)
+loss is 192.05322
+val loss = tensor(2110.2073, grad_fn=<DotBackward>)
+loss is 183.1132
+val loss = tensor(2051.2598, grad_fn=<DotBackward>)
+loss is 177.0062
+val loss = tensor(2048.6277, grad_fn=<DotBackward>)
+[2K[2Kloss is 172.39432
+val loss = tensor(2044.6526, grad_fn=<DotBackward>)
+loss is 180.55817
+val loss = tensor(2038.2760, grad_fn=<DotBackward>)
+loss is 184.12067
+val loss = tensor(2040.0583, grad_fn=<DotBackward>)
+loss is 189.95422
+val loss = tensor(2146.3948, grad_fn=<DotBackward>)
+loss is 188.31543
+val loss = tensor(2040.5291, grad_fn=<DotBackward>)
+[2K[2Kloss is 185.00967
+val loss = tensor(2093.8574, grad_fn=<DotBackward>)
+loss is 181.18399
+val loss = tensor(2038.6038, grad_fn=<DotBackward>)
+loss is 172.8927
+val loss = tensor(2032.1050, grad_fn=<DotBackward>)
+loss is 172.69049
+val loss = tensor(2063.8184, grad_fn=<DotBackward>)
+loss is 188.01251
+val loss = tensor(2107.2390, grad_fn=<DotBackward>)
+[2K[2Kloss is 188.57938
+val loss = tensor(2053.3496, grad_fn=<DotBackward>)
+loss is 178.44897
+val loss = tensor(2065.4688, grad_fn=<DotBackward>)
+loss is 176.93506
+val loss = tensor(2030.6790, grad_fn=<DotBackward>)
+loss is 173.14458
+val loss = tensor(2063.9546, grad_fn=<DotBackward>)
+loss is 180.65613
+val loss = tensor(2060.2095, grad_fn=<DotBackward>)
+[2K[2Kloss is 194.47813
+val loss = tensor(2116.6963, grad_fn=<DotBackward>)
+loss is 186.29657
+val loss = tensor(2074.4934, grad_fn=<DotBackward>)
+loss is 180.97015
+val loss = tensor(2081.7844, grad_fn=<DotBackward>)
+loss is 193.29578
+val loss = tensor(2052.0828, grad_fn=<DotBackward>)
+loss is 179.6832
+val loss = tensor(2060.6072, grad_fn=<DotBackward>)
+[2K[2Kloss is 174.99158
+val loss = tensor(2054.8877, grad_fn=<DotBackward>)
+loss is 184.56091
+val loss = tensor(2092.5630, grad_fn=<DotBackward>)
+loss is 181.20285
+val loss = tensor(2110.4065, grad_fn=<DotBackward>)
+loss is 184.3561
+val loss = tensor(2079.5215, grad_fn=<DotBackward>)
+loss is 177.04553
+val loss = tensor(2036.6938, grad_fn=<DotBackward>)
+[2K[2Kloss is 176.42946
+val loss = tensor(2027.9923, grad_fn=<DotBackward>)
+new smallest loss is tensor(2027.9923, grad_fn=<DotBackward>)
+loss is 197.81479
+val loss = tensor(2016.1924, grad_fn=<DotBackward>)
+new smallest loss is tensor(2016.1924, grad_fn=<DotBackward>)
+loss is 192.19902
+val loss = tensor(2055.8591, grad_fn=<DotBackward>)
+loss is 188.83984
+val loss = tensor(2151.2236, grad_fn=<DotBackward>)
+loss is 188.3833
+val loss = tensor(2052.0662, grad_fn=<DotBackward>)
+[2K[2Kloss is 180.25041
+val loss = tensor(2061.4131, grad_fn=<DotBackward>)
+loss is 168.98697
+val loss = tensor(2015.6757, grad_fn=<DotBackward>)
+new smallest loss is tensor(2015.6757, grad_fn=<DotBackward>)
+loss is 183.05087
+val loss = tensor(2051.0537, grad_fn=<DotBackward>)
+loss is 184.59459
+val loss = tensor(2015.6550, grad_fn=<DotBackward>)
+new smallest loss is tensor(2015.6550, grad_fn=<DotBackward>)
+loss is 191.49628
+val loss = tensor(2117.8042, grad_fn=<DotBackward>)
+[2K[2Kloss is 184.6883
+val loss = tensor(2083.5972, grad_fn=<DotBackward>)
+loss is 192.53558
+val loss = tensor(2060.2637, grad_fn=<DotBackward>)
+loss is 183.97902
+val loss = tensor(2064.9167, grad_fn=<DotBackward>)
+loss is 176.45374
+val loss = tensor(2013.6805, grad_fn=<DotBackward>)
+new smallest loss is tensor(2013.6805, grad_fn=<DotBackward>)
+loss is 177.6444
+val loss = tensor(2050.4939, grad_fn=<DotBackward>)
+[2K[2Kloss is 186.36961
+val loss = tensor(2079.7935, grad_fn=<DotBackward>)
+loss is 181.90884
+val loss = tensor(2061.2202, grad_fn=<DotBackward>)
+loss is 170.96983
+val loss = tensor(2047.9528, grad_fn=<DotBackward>)
+loss is 179.52231
+val loss = tensor(2034.2686, grad_fn=<DotBackward>)
+loss is 174.69792
+val loss = tensor(2032.6438, grad_fn=<DotBackward>)
+[2K[2Kloss is 177.0662
+val loss = tensor(2068.1338, grad_fn=<DotBackward>)
+loss is 192.10825
+val loss = tensor(2047.8669, grad_fn=<DotBackward>)
+loss is 184.32455
+val loss = tensor(2069.1802, grad_fn=<DotBackward>)
+loss is 179.12955
+val loss = tensor(2065.6819, grad_fn=<DotBackward>)
+loss is 183.664
+val loss = tensor(2056.2495, grad_fn=<DotBackward>)
+[2K[2Kloss is 173.35477
+val loss = tensor(2071.8958, grad_fn=<DotBackward>)
+loss is 183.02022
+val loss = tensor(2058.5093, grad_fn=<DotBackward>)
+loss is 168.71652
+val loss = tensor(2042.7186, grad_fn=<DotBackward>)
+loss is 169.22543
+val loss = tensor(2049.8364, grad_fn=<DotBackward>)
+loss is 175.54422
+val loss = tensor(2040.8762, grad_fn=<DotBackward>)
+[2K[2Kloss is 176.71895
+val loss = tensor(2032.6506, grad_fn=<DotBackward>)
+loss is 179.2205
+val loss = tensor(2041.2035, grad_fn=<DotBackward>)
+loss is 175.40097
+val loss = tensor(2101.1011, grad_fn=<DotBackward>)
+loss is 179.0908
+val loss = tensor(2019.2032, grad_fn=<DotBackward>)
+loss is 169.89738
+val loss = tensor(2049.8752, grad_fn=<DotBackward>)
+[2K[2Kloss is 174.89853
+val loss = tensor(2033.9458, grad_fn=<DotBackward>)
+loss is 186.07382
+val loss = tensor(2067.0444, grad_fn=<DotBackward>)
+loss is 189.77417
+val loss = tensor(2031.8572, grad_fn=<DotBackward>)
+loss is 194.42621
+val loss = tensor(2055.7974, grad_fn=<DotBackward>)
+loss is 178.62552
+val loss = tensor(2079.9443, grad_fn=<DotBackward>)
+[2K[2Kloss is 183.02295
+val loss = tensor(2011.8079, grad_fn=<DotBackward>)
+new smallest loss is tensor(2011.8079, grad_fn=<DotBackward>)
+loss is 171.07175
+val loss = tensor(2014.4445, grad_fn=<DotBackward>)
+loss is 163.03308
+val loss = tensor(2039.4828, grad_fn=<DotBackward>)
+loss is 177.87282
+val loss = tensor(2065.5879, grad_fn=<DotBackward>)
+loss is 174.19162
+val loss = tensor(2075.1626, grad_fn=<DotBackward>)
+[2K[2Kloss is 181.27084
+val loss = tensor(2036.4031, grad_fn=<DotBackward>)
+loss is 167.92151
+val loss = tensor(2037.4180, grad_fn=<DotBackward>)
+loss is 173.00594
+val loss = tensor(2021.7339, grad_fn=<DotBackward>)
+loss is 188.2749
+val loss = tensor(2020.8406, grad_fn=<DotBackward>)
+loss is 184.84253
+val loss = tensor(2015.0433, grad_fn=<DotBackward>)
+[2K[2Kloss is 180.90823
+val loss = tensor(2103.1533, grad_fn=<DotBackward>)
+loss is 166.40375
+val loss = tensor(2103.1550, grad_fn=<DotBackward>)
+loss is 164.55502
+val loss = tensor(2046.4338, grad_fn=<DotBackward>)
+loss is 180.1488
+val loss = tensor(2028.2386, grad_fn=<DotBackward>)
+loss is 172.00864
+val loss = tensor(2040.7405, grad_fn=<DotBackward>)
+[2K[2Kloss is 164.45886
+val loss = tensor(1984.0818, grad_fn=<DotBackward>)
+new smallest loss is tensor(1984.0818, grad_fn=<DotBackward>)
+loss is 182.5563
+val loss = tensor(2007.1561, grad_fn=<DotBackward>)
+loss is 183.3581
+val loss = tensor(1989.8562, grad_fn=<DotBackward>)
+loss is 169.78545
+val loss = tensor(2019.2168, grad_fn=<DotBackward>)
+loss is 164.75243
+val loss = tensor(2167.3281, grad_fn=<DotBackward>)
+[2K[2Kloss is 166.58603
+val loss = tensor(2072.3931, grad_fn=<DotBackward>)
+loss is 172.6946
+val loss = tensor(2060.7209, grad_fn=<DotBackward>)
+loss is 187.33687
+val loss = tensor(2030.3853, grad_fn=<DotBackward>)
+loss is 180.41699
+val loss = tensor(1999.9607, grad_fn=<DotBackward>)
+loss is 171.62645
+val loss = tensor(2015.4644, grad_fn=<DotBackward>)
+[2K[2Kloss is 176.81409
+val loss = tensor(1979.5746, grad_fn=<DotBackward>)
+new smallest loss is tensor(1979.5746, grad_fn=<DotBackward>)
+loss is 165.34154
+val loss = tensor(2045.5264, grad_fn=<DotBackward>)
+loss is 178.47807
+val loss = tensor(2135.2075, grad_fn=<DotBackward>)
+loss is 179.73499
+val loss = tensor(2020.0292, grad_fn=<DotBackward>)
+loss is 177.14963
+val loss = tensor(2073.1624, grad_fn=<DotBackward>)
+[2K[2Kloss is 172.2839
+val loss = tensor(2005.6211, grad_fn=<DotBackward>)
+loss is 179.2981
+val loss = tensor(2004.9871, grad_fn=<DotBackward>)
+loss is 183.78464
+val loss = tensor(1984.1340, grad_fn=<DotBackward>)
+loss is 188.78406
+val loss = tensor(2065.3901, grad_fn=<DotBackward>)
+loss is 167.59885
+val loss = tensor(2086.4819, grad_fn=<DotBackward>)
+[2K[2Kloss is 174.66174
+val loss = tensor(2011.5745, grad_fn=<DotBackward>)
+loss is 169.42891
+val loss = tensor(2030.0212, grad_fn=<DotBackward>)
+loss is 175.81747
+val loss = tensor(1999.2170, grad_fn=<DotBackward>)
+loss is 165.75186
+val loss = tensor(1992.7095, grad_fn=<DotBackward>)
+loss is 175.28084
+val loss = tensor(2006.9932, grad_fn=<DotBackward>)
+[2K[2Kloss is 169.89575
+val loss = tensor(1993.5493, grad_fn=<DotBackward>)
+loss is 183.04765
+val loss = tensor(2122.9529, grad_fn=<DotBackward>)
+loss is 153.68263
+val loss = tensor(2009.4226, grad_fn=<DotBackward>)
+loss is 170.19003
+val loss = tensor(2058.8174, grad_fn=<DotBackward>)
+loss is 175.25653
+val loss = tensor(1989.3545, grad_fn=<DotBackward>)
+[2K[2Kloss is 179.8858
+val loss = tensor(2041.2651, grad_fn=<DotBackward>)
+loss is 183.86212
+val loss = tensor(2025.4325, grad_fn=<DotBackward>)
+loss is 167.03047
+val loss = tensor(2050.4397, grad_fn=<DotBackward>)
+loss is 185.07881
+val loss = tensor(2035.0383, grad_fn=<DotBackward>)
+loss is 177.37299
+val loss = tensor(2014.9954, grad_fn=<DotBackward>)
+[2K[2Kloss is 169.10574
+val loss = tensor(2052.2725, grad_fn=<DotBackward>)
+loss is 169.95609
+val loss = tensor(2041.5507, grad_fn=<DotBackward>)
+loss is 167.94882
+val loss = tensor(2042.1042, grad_fn=<DotBackward>)
+loss is 165.75714
+val loss = tensor(2035.9138, grad_fn=<DotBackward>)
+loss is 179.85065
+val loss = tensor(2050.2571, grad_fn=<DotBackward>)
+[2K[2Kloss is 174.70819
+val loss = tensor(2002.1609, grad_fn=<DotBackward>)
+loss is 164.91408
+val loss = tensor(2017.7178, grad_fn=<DotBackward>)
+loss is 168.06274
+val loss = tensor(2019.4958, grad_fn=<DotBackward>)
+loss is 177.58517
+val loss = tensor(2054.5984, grad_fn=<DotBackward>)
+loss is 175.55423
+val loss = tensor(2022.0233, grad_fn=<DotBackward>)
+[2K[2Kloss is 180.32573
+val loss = tensor(2036.4048, grad_fn=<DotBackward>)
+loss is 155.48581
+val loss = tensor(2050.7861, grad_fn=<DotBackward>)
+loss is 181.94955
+val loss = tensor(1996.5222, grad_fn=<DotBackward>)
+loss is 168.2685
+val loss = tensor(2027.4796, grad_fn=<DotBackward>)
+loss is 168.76047
+val loss = tensor(1984.0474, grad_fn=<DotBackward>)
+[2K[2Kloss is 174.1625
+val loss = tensor(2094.3535, grad_fn=<DotBackward>)
+loss is 169.91049
+val loss = tensor(2011.2524, grad_fn=<DotBackward>)
+loss is 172.795
+val loss = tensor(2056.4714, grad_fn=<DotBackward>)
+loss is 168.87912
+val loss = tensor(1997.9509, grad_fn=<DotBackward>)
+loss is 182.38983
+val loss = tensor(2020.6104, grad_fn=<DotBackward>)
+[2K[2Kloss is 163.29272
+val loss = tensor(1989.6598, grad_fn=<DotBackward>)
+loss is 175.52722
+val loss = tensor(2025.5242, grad_fn=<DotBackward>)
+loss is 182.00253
+val loss = tensor(2079.2461, grad_fn=<DotBackward>)
+loss is 162.38565
+val loss = tensor(2024.1517, grad_fn=<DotBackward>)
+loss is 170.74318
+val loss = tensor(2040.5269, grad_fn=<DotBackward>)
+[2K[2Kloss is 180.12404
+val loss = tensor(2008.1819, grad_fn=<DotBackward>)
+loss is 185.86493
+val loss = tensor(2007.9077, grad_fn=<DotBackward>)
+loss is 186.38594
+val loss = tensor(2012.3569, grad_fn=<DotBackward>)
+loss is 165.23451
+val loss = tensor(2058.2361, grad_fn=<DotBackward>)
+loss is 175.31395
+val loss = tensor(2032.5034, grad_fn=<DotBackward>)
+[2K[2Kloss is 182.27711
+val loss = tensor(2029.7881, grad_fn=<DotBackward>)
+loss is 172.61879
+val loss = tensor(2040.7334, grad_fn=<DotBackward>)
+loss is 174.45499
+val loss = tensor(1984.4111, grad_fn=<DotBackward>)
+loss is 161.0122
+val loss = tensor(2055.2781, grad_fn=<DotBackward>)
+loss is 175.53284
+val loss = tensor(2055.3552, grad_fn=<DotBackward>)
+[2K[2Kloss is 166.84882
+val loss = tensor(2024.4597, grad_fn=<DotBackward>)
+loss is 169.23265
+val loss = tensor(1996.0562, grad_fn=<DotBackward>)
+loss is 175.02228
+val loss = tensor(2006.4138, grad_fn=<DotBackward>)
+loss is 166.8642
+val loss = tensor(1965.4663, grad_fn=<DotBackward>)
+new smallest loss is tensor(1965.4663, grad_fn=<DotBackward>)
+loss is 165.08649
+val loss = tensor(2047.4874, grad_fn=<DotBackward>)
+[2K[2Kloss is 146.4465
+val loss = tensor(2029.7583, grad_fn=<DotBackward>)
+loss is 158.52376
+val loss = tensor(2010.9319, grad_fn=<DotBackward>)
+loss is 170.14455
+val loss = tensor(2000.6531, grad_fn=<DotBackward>)
+loss is 166.87134
+val loss = tensor(1982.1139, grad_fn=<DotBackward>)
+loss is 171.12308
+val loss = tensor(1994.5967, grad_fn=<DotBackward>)
+[2K[2Kloss is 175.08249
+val loss = tensor(2031.9165, grad_fn=<DotBackward>)
+loss is 174.77362
+val loss = tensor(2104.4771, grad_fn=<DotBackward>)
+loss is 173.7278
+val loss = tensor(2001.7521, grad_fn=<DotBackward>)
+loss is 167.58481
+val loss = tensor(2028.1130, grad_fn=<DotBackward>)
+loss is 175.37433
+val loss = tensor(1958.4136, grad_fn=<DotBackward>)
+new smallest loss is tensor(1958.4136, grad_fn=<DotBackward>)
+[2K[2Kloss is 170.13896
+val loss = tensor(2004.8483, grad_fn=<DotBackward>)
+loss is 170.22594
+val loss = tensor(2016.1780, grad_fn=<DotBackward>)
+loss is 176.39955
+val loss = tensor(2036.8285, grad_fn=<DotBackward>)
+loss is 171.23811
+val loss = tensor(2047.1077, grad_fn=<DotBackward>)
+loss is 166.73438
+val loss = tensor(2012.7538, grad_fn=<DotBackward>)
+[2K[2Kloss is 163.29144
+val loss = tensor(1991.8687, grad_fn=<DotBackward>)
+loss is 162.51888
+val loss = tensor(1977.5684, grad_fn=<DotBackward>)
+loss is 163.242
+val loss = tensor(1969.4675, grad_fn=<DotBackward>)
+loss is 172.27475
+val loss = tensor(1957.7020, grad_fn=<DotBackward>)
+new smallest loss is tensor(1957.7020, grad_fn=<DotBackward>)
+loss is 159.04083
+val loss = tensor(2013.2217, grad_fn=<DotBackward>)
+[2K[2Kloss is 180.33408
+val loss = tensor(2102.6687, grad_fn=<DotBackward>)
+loss is 170.51453
+val loss = tensor(1998.4788, grad_fn=<DotBackward>)
+loss is 160.55582
+val loss = tensor(2072.0029, grad_fn=<DotBackward>)
+loss is 164.47403
+val loss = tensor(1992.5493, grad_fn=<DotBackward>)
+loss is 157.80382
+val loss = tensor(1955.9409, grad_fn=<DotBackward>)
+new smallest loss is tensor(1955.9409, grad_fn=<DotBackward>)
+[2K[2Kloss is 166.93596
+val loss = tensor(1998.1775, grad_fn=<DotBackward>)
+loss is 172.44254
+val loss = tensor(2014.8054, grad_fn=<DotBackward>)
+loss is 171.67056
+val loss = tensor(2087.3931, grad_fn=<DotBackward>)
+loss is 178.18288
+val loss = tensor(1973.3947, grad_fn=<DotBackward>)
+loss is 166.88028
+val loss = tensor(2012.5505, grad_fn=<DotBackward>)
+[2K[2Kloss is 170.8564
+val loss = tensor(1965.2590, grad_fn=<DotBackward>)
+loss is 164.89438
+val loss = tensor(2012.0354, grad_fn=<DotBackward>)
+loss is 172.50633
+val loss = tensor(2034.8125, grad_fn=<DotBackward>)
+loss is 162.9902
+val loss = tensor(2079.9980, grad_fn=<DotBackward>)
+loss is 156.42824
+val loss = tensor(2005.2511, grad_fn=<DotBackward>)
+[2K[2Kloss is 160.90604
+val loss = tensor(1983.8379, grad_fn=<DotBackward>)
+loss is 160.17169
+val loss = tensor(1972.0715, grad_fn=<DotBackward>)
+loss is 168.59018
+val loss = tensor(1983.4509, grad_fn=<DotBackward>)
+loss is 176.95049
+val loss = tensor(2084.3804, grad_fn=<DotBackward>)
+loss is 167.28416
+val loss = tensor(1986.6598, grad_fn=<DotBackward>)
+[2K[2Kloss is 157.29889
+val loss = tensor(2048.5225, grad_fn=<DotBackward>)
+loss is 172.11526
+val loss = tensor(1962.9982, grad_fn=<DotBackward>)
+loss is 173.33032
+val loss = tensor(2007.5426, grad_fn=<DotBackward>)
+loss is 152.58603
+val loss = tensor(1966.8647, grad_fn=<DotBackward>)
+loss is 169.43515
+val loss = tensor(2062.4666, grad_fn=<DotBackward>)
+[2K[2Kloss is 173.40741
+val loss = tensor(2009.0573, grad_fn=<DotBackward>)
+loss is 161.4234
+val loss = tensor(2045.6865, grad_fn=<DotBackward>)
+loss is 165.07605
+val loss = tensor(1951.1575, grad_fn=<DotBackward>)
+new smallest loss is tensor(1951.1575, grad_fn=<DotBackward>)
+loss is 169.01779
+val loss = tensor(1987.3906, grad_fn=<DotBackward>)
+loss is 170.44533
+val loss = tensor(1961.5997, grad_fn=<DotBackward>)
+[2K[2Kloss is 179.90182
+val loss = tensor(2028.4629, grad_fn=<DotBackward>)
+loss is 171.02959
+val loss = tensor(2071.7129, grad_fn=<DotBackward>)
+loss is 170.37521
+val loss = tensor(2010.7888, grad_fn=<DotBackward>)
+loss is 162.35469
+val loss = tensor(2025.2690, grad_fn=<DotBackward>)
+loss is 162.25949
+val loss = tensor(1978.3743, grad_fn=<DotBackward>)
+[2K[2Kloss is 162.36732
+val loss = tensor(1970.0941, grad_fn=<DotBackward>)
+loss is 167.55305
+val loss = tensor(2030.1366, grad_fn=<DotBackward>)
+loss is 183.7174
+val loss = tensor(2019.1685, grad_fn=<DotBackward>)
+loss is 154.23665
+val loss = tensor(2027.2334, grad_fn=<DotBackward>)
+loss is 177.56964
+val loss = tensor(1969.5085, grad_fn=<DotBackward>)
+[2K[2Kloss is 168.17398
+val loss = tensor(1981.2288, grad_fn=<DotBackward>)
+loss is 173.44571
+val loss = tensor(1961.6527, grad_fn=<DotBackward>)
+loss is 159.85968
+val loss = tensor(1994.0803, grad_fn=<DotBackward>)
+loss is 153.2972
+val loss = tensor(2097.2041, grad_fn=<DotBackward>)
+loss is 165.17958
+val loss = tensor(1968.8843, grad_fn=<DotBackward>)
+[2K[2Kloss is 173.13318
+val loss = tensor(1982.4777, grad_fn=<DotBackward>)
+loss is 161.52698
+val loss = tensor(1975.8636, grad_fn=<DotBackward>)
+loss is 169.1535
+val loss = tensor(1995.1903, grad_fn=<DotBackward>)
+loss is 171.1484
+val loss = tensor(2018.3574, grad_fn=<DotBackward>)
+loss is 184.27528
+val loss = tensor(2047.9486, grad_fn=<DotBackward>)
+[2K[2Kloss is 170.86017
+val loss = tensor(2045.5967, grad_fn=<DotBackward>)
+loss is 167.43272
+val loss = tensor(1986.3450, grad_fn=<DotBackward>)
+loss is 168.27345
+val loss = tensor(1961.6292, grad_fn=<DotBackward>)
+loss is 166.41031
+val loss = tensor(1968.2888, grad_fn=<DotBackward>)
+loss is 158.607
+val loss = tensor(1948.6643, grad_fn=<DotBackward>)
+new smallest loss is tensor(1948.6643, grad_fn=<DotBackward>)
+[2K[2Kloss is 162.00157
+val loss = tensor(1980.7698, grad_fn=<DotBackward>)
+loss is 160.43408
+val loss = tensor(1971.3112, grad_fn=<DotBackward>)
+loss is 167.02885
+val loss = tensor(2189.7134, grad_fn=<DotBackward>)
+loss is 171.83694
+val loss = tensor(2003.9229, grad_fn=<DotBackward>)
+loss is 168.67482
+val loss = tensor(2016.3729, grad_fn=<DotBackward>)
+[2K[2Kloss is 163.86482
+val loss = tensor(1972.8145, grad_fn=<DotBackward>)
+loss is 162.51736
+val loss = tensor(1982.1178, grad_fn=<DotBackward>)
+loss is 171.39645
+val loss = tensor(1956.0464, grad_fn=<DotBackward>)
+loss is 174.31406
+val loss = tensor(2066.0085, grad_fn=<DotBackward>)
+loss is 173.77837
+val loss = tensor(2012.2537, grad_fn=<DotBackward>)
+[2K[2Kloss is 166.00217
+val loss = tensor(2009.7791, grad_fn=<DotBackward>)
+loss is 158.77534
+val loss = tensor(1979.2917, grad_fn=<DotBackward>)
+loss is 174.25113
+val loss = tensor(1968.5439, grad_fn=<DotBackward>)
+loss is 159.29794
+val loss = tensor(2006.0806, grad_fn=<DotBackward>)
+loss is 161.16524
+val loss = tensor(2044.7522, grad_fn=<DotBackward>)
+[2K[2Kloss is 159.03192
+val loss = tensor(2002.7290, grad_fn=<DotBackward>)
+loss is 174.51697
+val loss = tensor(1981.9927, grad_fn=<DotBackward>)
+loss is 169.23775
+val loss = tensor(1957.4258, grad_fn=<DotBackward>)
+loss is 172.64195
+val loss = tensor(1984.8536, grad_fn=<DotBackward>)
+loss is 166.28244
+val loss = tensor(2005.8562, grad_fn=<DotBackward>)
+[2K[2Kloss is 176.24889
+val loss = tensor(2019.3521, grad_fn=<DotBackward>)
+loss is 165.62973
+val loss = tensor(2011.9565, grad_fn=<DotBackward>)
+loss is 160.68997
+val loss = tensor(1957.3853, grad_fn=<DotBackward>)
+loss is 172.86388
+val loss = tensor(1966.9084, grad_fn=<DotBackward>)
+loss is 154.4219
+val loss = tensor(1957.9553, grad_fn=<DotBackward>)
+[2K[2Kloss is 160.32666
+val loss = tensor(2029.4097, grad_fn=<DotBackward>)
+loss is 159.15457
+val loss = tensor(2020.4156, grad_fn=<DotBackward>)
+loss is 152.18706
+val loss = tensor(1983.8187, grad_fn=<DotBackward>)
+loss is 172.3045
+val loss = tensor(2024.4135, grad_fn=<DotBackward>)
+loss is 161.34818
+val loss = tensor(1914.2957, grad_fn=<DotBackward>)
+new smallest loss is tensor(1914.2957, grad_fn=<DotBackward>)
+[2K[2Kloss is 170.83981
+val loss = tensor(1977.6788, grad_fn=<DotBackward>)
+loss is 164.5752
+val loss = tensor(1970.8999, grad_fn=<DotBackward>)
+loss is 172.91394
+val loss = tensor(2096.4175, grad_fn=<DotBackward>)
+loss is 183.43402
+val loss = tensor(1989.7156, grad_fn=<DotBackward>)
+loss is 171.05234
+val loss = tensor(2015.9122, grad_fn=<DotBackward>)
+[2K[2Kloss is 156.30893
+val loss = tensor(1953.7969, grad_fn=<DotBackward>)
+loss is 169.71976
+val loss = tensor(1969.1965, grad_fn=<DotBackward>)
+loss is 163.4868
+val loss = tensor(1935.5551, grad_fn=<DotBackward>)
+loss is 162.6938
+val loss = tensor(1982.8124, grad_fn=<DotBackward>)
+loss is 159.58745
+val loss = tensor(2026.7550, grad_fn=<DotBackward>)
+[2K[2Kloss is 173.99745
+val loss = tensor(1984.1648, grad_fn=<DotBackward>)
+loss is 159.9536
+val loss = tensor(2058.3923, grad_fn=<DotBackward>)
+loss is 153.3764
+val loss = tensor(1962.4707, grad_fn=<DotBackward>)
+loss is 160.28745
+val loss = tensor(1971.9304, grad_fn=<DotBackward>)
+loss is 162.75378
+val loss = tensor(1945.7775, grad_fn=<DotBackward>)
+[2K[2Kloss is 164.6035
+val loss = tensor(1990.3827, grad_fn=<DotBackward>)
+loss is 161.3743
+val loss = tensor(2037.1670, grad_fn=<DotBackward>)
+loss is 176.49347
+val loss = tensor(1983.8552, grad_fn=<DotBackward>)
+loss is 162.95453
+val loss = tensor(1990.8436, grad_fn=<DotBackward>)
+loss is 147.21
+val loss = tensor(1931.4546, grad_fn=<DotBackward>)
+[2K[2Kloss is 167.93637
+val loss = tensor(1986.1183, grad_fn=<DotBackward>)
+loss is 161.09448
+val loss = tensor(2007.3765, grad_fn=<DotBackward>)
+loss is 165.80188
+val loss = tensor(2011.2419, grad_fn=<DotBackward>)
+loss is 153.49008
+val loss = tensor(1970.1266, grad_fn=<DotBackward>)
+loss is 156.80502
+val loss = tensor(1961.2234, grad_fn=<DotBackward>)
+[2K[2Kloss is 149.47717
+val loss = tensor(1977.2627, grad_fn=<DotBackward>)
+loss is 162.09393
+val loss = tensor(2009.2072, grad_fn=<DotBackward>)
+loss is 166.70132
+val loss = tensor(2009.7983, grad_fn=<DotBackward>)
+loss is 162.96085
+val loss = tensor(1953.9470, grad_fn=<DotBackward>)
+loss is 169.7055
+val loss = tensor(1983.4670, grad_fn=<DotBackward>)
+[2K[2Kloss is 147.49184
+val loss = tensor(1963.9534, grad_fn=<DotBackward>)
+loss is 155.66168
+val loss = tensor(1941.8208, grad_fn=<DotBackward>)
+loss is 163.37926
+val loss = tensor(1990.0907, grad_fn=<DotBackward>)
+loss is 159.23398
+val loss = tensor(2023.4995, grad_fn=<DotBackward>)
+loss is 159.5129
+val loss = tensor(1991.2198, grad_fn=<DotBackward>)
+[2K[2Kloss is 155.39384
+val loss = tensor(1947.4385, grad_fn=<DotBackward>)
+loss is 163.45345
+val loss = tensor(1987.4509, grad_fn=<DotBackward>)
+loss is 164.65456
+val loss = tensor(1954.4612, grad_fn=<DotBackward>)
+loss is 163.75592
+val loss = tensor(2008.0479, grad_fn=<DotBackward>)
+loss is 161.37411
+val loss = tensor(2006.7347, grad_fn=<DotBackward>)
+[2K[2Kloss is 168.3883
+val loss = tensor(2000.1151, grad_fn=<DotBackward>)
+loss is 146.58777
+val loss = tensor(1966.0452, grad_fn=<DotBackward>)
+loss is 158.51491
+val loss = tensor(1992.7209, grad_fn=<DotBackward>)
+loss is 168.2912
+val loss = tensor(1949.9978, grad_fn=<DotBackward>)
+loss is 159.11679
+val loss = tensor(2012.9202, grad_fn=<DotBackward>)
+[2K[2Kloss is 157.94263
+val loss = tensor(1990.4098, grad_fn=<DotBackward>)
+loss is 158.79231
+val loss = tensor(1969.5266, grad_fn=<DotBackward>)
+loss is 155.93303
+val loss = tensor(1973.1122, grad_fn=<DotBackward>)
+loss is 141.66437
+val loss = tensor(1948.4822, grad_fn=<DotBackward>)
+loss is 172.33008
+val loss = tensor(1979.3956, grad_fn=<DotBackward>)
+[2K[2Kloss is 167.88704
+val loss = tensor(2013.8336, grad_fn=<DotBackward>)
+loss is 154.47339
+val loss = tensor(2016.0774, grad_fn=<DotBackward>)
+loss is 139.04257
+val loss = tensor(1981.0579, grad_fn=<DotBackward>)
+loss is 161.29532
+val loss = tensor(1976.8627, grad_fn=<DotBackward>)
+loss is 141.58891
+val loss = tensor(1933.6494, grad_fn=<DotBackward>)
+[2K[2Kloss is 157.57758
+val loss = tensor(1958.0381, grad_fn=<DotBackward>)
+loss is 147.76617
+val loss = tensor(1995.7686, grad_fn=<DotBackward>)
+loss is 158.21515
+val loss = tensor(2052.7759, grad_fn=<DotBackward>)
+loss is 165.63882
+val loss = tensor(1979.8257, grad_fn=<DotBackward>)
+loss is 160.49194
+val loss = tensor(1973.0073, grad_fn=<DotBackward>)
+[2K[2Kloss is 149.43732
+val loss = tensor(1931.8120, grad_fn=<DotBackward>)
+loss is 169.12003
+val loss = tensor(1945.5906, grad_fn=<DotBackward>)
+loss is 151.90198
+val loss = tensor(1932.5023, grad_fn=<DotBackward>)
+loss is 165.7352
+val loss = tensor(1997.8083, grad_fn=<DotBackward>)
+loss is 169.94649
+val loss = tensor(2065.8149, grad_fn=<DotBackward>)
+[2K[2Kloss is 160.2166
+val loss = tensor(1982.1765, grad_fn=<DotBackward>)
+loss is 156.52612
+val loss = tensor(1926.8208, grad_fn=<DotBackward>)
+loss is 159.53285
+val loss = tensor(1932.1340, grad_fn=<DotBackward>)
+loss is 161.02448
+val loss = tensor(1937.8961, grad_fn=<DotBackward>)
+loss is 156.21667
+val loss = tensor(1974.9656, grad_fn=<DotBackward>)
+[2K[2Kloss is 162.90298
+val loss = tensor(2032.0947, grad_fn=<DotBackward>)
+loss is 176.0997
+val loss = tensor(1982.0598, grad_fn=<DotBackward>)
+loss is 150.41643
+val loss = tensor(1998.9531, grad_fn=<DotBackward>)
+loss is 143.83392
+val loss = tensor(1960.9626, grad_fn=<DotBackward>)
+loss is 166.20293
+val loss = tensor(1923.3438, grad_fn=<DotBackward>)
+[2K[2Kloss is 162.34192
+val loss = tensor(1953.9098, grad_fn=<DotBackward>)
+loss is 161.47404
+val loss = tensor(1905.8949, grad_fn=<DotBackward>)
+new smallest loss is tensor(1905.8949, grad_fn=<DotBackward>)
+loss is 167.85983
+val loss = tensor(2017.0635, grad_fn=<DotBackward>)
+loss is 162.88411
+val loss = tensor(2021.8474, grad_fn=<DotBackward>)
+loss is 161.9238
+val loss = tensor(1965.6184, grad_fn=<DotBackward>)
+[2K[2Kloss is 167.45895
+val loss = tensor(2029.0059, grad_fn=<DotBackward>)
+loss is 164.19867
+val loss = tensor(1922.7600, grad_fn=<DotBackward>)
+loss is 158.49542
+val loss = tensor(1956.2865, grad_fn=<DotBackward>)
+loss is 161.66821
+val loss = tensor(1945.1565, grad_fn=<DotBackward>)
+loss is 149.98193
+val loss = tensor(1928.9769, grad_fn=<DotBackward>)
+[2K[2Kloss is 165.79565
+val loss = tensor(2073.3198, grad_fn=<DotBackward>)
+loss is 156.28085
+val loss = tensor(1986.8004, grad_fn=<DotBackward>)
+loss is 161.522
+val loss = tensor(1992.2759, grad_fn=<DotBackward>)
+loss is 160.60281
+val loss = tensor(1936.1672, grad_fn=<DotBackward>)
+loss is 155.7931
+val loss = tensor(1948.0807, grad_fn=<DotBackward>)
+[2K[2Kloss is 159.67032
+val loss = tensor(1923.5416, grad_fn=<DotBackward>)
+loss is 158.06932
+val loss = tensor(1919.4392, grad_fn=<DotBackward>)
+loss is 155.87303
+val loss = tensor(1951.9392, grad_fn=<DotBackward>)
+loss is 156.21121
+val loss = tensor(2059.0322, grad_fn=<DotBackward>)
+loss is 164.81749
+val loss = tensor(1948.9502, grad_fn=<DotBackward>)
+[2K[2Kloss is 152.30779
+val loss = tensor(1967.9685, grad_fn=<DotBackward>)
+loss is 155.97614
+val loss = tensor(1953.2037, grad_fn=<DotBackward>)
+loss is 154.22598
+val loss = tensor(1937.2411, grad_fn=<DotBackward>)
+loss is 169.19449
+val loss = tensor(1927.0435, grad_fn=<DotBackward>)
+loss is 154.45636
+val loss = tensor(2037.2665, grad_fn=<DotBackward>)
+[2K[2Kloss is 163.5676
+val loss = tensor(2005.7288, grad_fn=<DotBackward>)
+loss is 146.98784
+val loss = tensor(1961.4711, grad_fn=<DotBackward>)
+loss is 141.20381
+val loss = tensor(1947.7246, grad_fn=<DotBackward>)
+loss is 158.28262
+val loss = tensor(1936.9865, grad_fn=<DotBackward>)
+loss is 151.7919
+val loss = tensor(1927.2820, grad_fn=<DotBackward>)
+[2K[2Kloss is 151.50064
+val loss = tensor(2014.6021, grad_fn=<DotBackward>)
+loss is 152.90845
+val loss = tensor(2043.4897, grad_fn=<DotBackward>)
+loss is 159.62006
+val loss = tensor(1936.4476, grad_fn=<DotBackward>)
+loss is 153.91122
+val loss = tensor(1997.0122, grad_fn=<DotBackward>)
+loss is 156.30714
+val loss = tensor(1904.4779, grad_fn=<DotBackward>)
+new smallest loss is tensor(1904.4779, grad_fn=<DotBackward>)
+[2K[2Kloss is 143.89255
+val loss = tensor(1963.7589, grad_fn=<DotBackward>)
+loss is 164.63043
+val loss = tensor(1902.8048, grad_fn=<DotBackward>)
+new smallest loss is tensor(1902.8048, grad_fn=<DotBackward>)
+loss is 161.70782
+val loss = tensor(1979.3062, grad_fn=<DotBackward>)
+loss is 166.70218
+val loss = tensor(1998.0081, grad_fn=<DotBackward>)
+loss is 151.26051
+val loss = tensor(2004.8722, grad_fn=<DotBackward>)
+[2K[2Kloss is 148.3692
+val loss = tensor(1962.3538, grad_fn=<DotBackward>)
+loss is 175.82687
+val loss = tensor(1955.8770, grad_fn=<DotBackward>)
+loss is 159.37927
+val loss = tensor(1909.8101, grad_fn=<DotBackward>)
+loss is 167.22662
+val loss = tensor(1938.8787, grad_fn=<DotBackward>)
+loss is 144.16435
+val loss = tensor(1942.5555, grad_fn=<DotBackward>)
+[2K[2Kloss is 153.9021
+val loss = tensor(2046.6135, grad_fn=<DotBackward>)
+loss is 158.60474
+val loss = tensor(2002.2083, grad_fn=<DotBackward>)
+loss is 152.52538
+val loss = tensor(1943.7542, grad_fn=<DotBackward>)
+loss is 163.25165
+val loss = tensor(1964.6516, grad_fn=<DotBackward>)
+loss is 151.73842
+val loss = tensor(1923.2358, grad_fn=<DotBackward>)
+[2K[2Kloss is 160.44394
+val loss = tensor(1961.0405, grad_fn=<DotBackward>)
+loss is 165.934
+val loss = tensor(2005.2085, grad_fn=<DotBackward>)
+loss is 143.32999
+val loss = tensor(1958.4443, grad_fn=<DotBackward>)
+loss is 150.52322
+val loss = tensor(1952.0166, grad_fn=<DotBackward>)
+loss is 148.43652
+val loss = tensor(1945.4309, grad_fn=<DotBackward>)
+[2K[2Kloss is 155.91443
+val loss = tensor(1959.6406, grad_fn=<DotBackward>)
+loss is 154.75885
+val loss = tensor(1957.2682, grad_fn=<DotBackward>)
+loss is 153.17563
+val loss = tensor(2011.5741, grad_fn=<DotBackward>)
+loss is 168.6033
+val loss = tensor(1999.5308, grad_fn=<DotBackward>)
+loss is 155.83981
+val loss = tensor(1957.7800, grad_fn=<DotBackward>)
+[2K[2Kloss is 167.16077
+val loss = tensor(1961.0305, grad_fn=<DotBackward>)
+loss is 158.09908
+val loss = tensor(1953.3013, grad_fn=<DotBackward>)
+loss is 147.63753
+val loss = tensor(1919.5898, grad_fn=<DotBackward>)
+loss is 147.58492
+val loss = tensor(1973.0356, grad_fn=<DotBackward>)
+loss is 148.6849
+val loss = tensor(2041.9210, grad_fn=<DotBackward>)
+[2K[2Kloss is 154.22607
+val loss = tensor(1990.7373, grad_fn=<DotBackward>)
+loss is 144.08713
+val loss = tensor(1952.6920, grad_fn=<DotBackward>)
+loss is 160.45644
+val loss = tensor(1952.3708, grad_fn=<DotBackward>)
+loss is 149.08702
+val loss = tensor(1944.1726, grad_fn=<DotBackward>)
+loss is 156.48326
+val loss = tensor(1932.2058, grad_fn=<DotBackward>)
+[2K[2Kloss is 152.08597
+val loss = tensor(1974.0049, grad_fn=<DotBackward>)
+loss is 156.9577
+val loss = tensor(2021.6475, grad_fn=<DotBackward>)
+loss is 153.02734
+val loss = tensor(1936.6133, grad_fn=<DotBackward>)
+loss is 143.94403
+val loss = tensor(1971.0081, grad_fn=<DotBackward>)
+loss is 160.61655
+val loss = tensor(1922.5669, grad_fn=<DotBackward>)
+[2K[2Kloss is 147.95609
+val loss = tensor(1958.9219, grad_fn=<DotBackward>)
+loss is 146.94287
+val loss = tensor(1987.3671, grad_fn=<DotBackward>)
+loss is 157.91536
+val loss = tensor(1970.5190, grad_fn=<DotBackward>)
+loss is 150.34782
+val loss = tensor(1978.2118, grad_fn=<DotBackward>)
+loss is 155.3833
+val loss = tensor(1956.4438, grad_fn=<DotBackward>)
+[2K[2Kloss is 148.43452
+val loss = tensor(1966.7225, grad_fn=<DotBackward>)
+loss is 155.61017
+val loss = tensor(1939.1378, grad_fn=<DotBackward>)
+loss is 156.67816
+val loss = tensor(2002.4972, grad_fn=<DotBackward>)
+loss is 142.44824
+val loss = tensor(1948.3163, grad_fn=<DotBackward>)
+loss is 142.85336
+val loss = tensor(1967.4736, grad_fn=<DotBackward>)
+[2K[2Kloss is 157.43533
+val loss = tensor(1920.1666, grad_fn=<DotBackward>)
+loss is 157.70381
+val loss = tensor(1945.1680, grad_fn=<DotBackward>)
+loss is 145.92317
+val loss = tensor(1960.4622, grad_fn=<DotBackward>)
+loss is 173.25061
+val loss = tensor(2032.3833, grad_fn=<DotBackward>)
+loss is 162.65303
+val loss = tensor(1994.5801, grad_fn=<DotBackward>)
+[2K[2Kloss is 149.15225
+val loss = tensor(1927.9487, grad_fn=<DotBackward>)
+loss is 159.83643
+val loss = tensor(1945.2035, grad_fn=<DotBackward>)
+loss is 160.6383
+val loss = tensor(1906.4156, grad_fn=<DotBackward>)
+loss is 159.19482
+val loss = tensor(1981.4275, grad_fn=<DotBackward>)
+loss is 153.9654
+val loss = tensor(1957.0818, grad_fn=<DotBackward>)
+[2K[2Kloss is 148.58893
+val loss = tensor(1964.8884, grad_fn=<DotBackward>)
+loss is 161.1556
+val loss = tensor(1938.9500, grad_fn=<DotBackward>)
+loss is 157.87119
+val loss = tensor(1926.8850, grad_fn=<DotBackward>)
+loss is 152.29568
+val loss = tensor(1940.2415, grad_fn=<DotBackward>)
+loss is 150.81381
+val loss = tensor(1997.3513, grad_fn=<DotBackward>)
+[2K[2Kloss is 156.39679
+val loss = tensor(1996.0480, grad_fn=<DotBackward>)
+loss is 158.15991
+val loss = tensor(1947.7473, grad_fn=<DotBackward>)
+loss is 159.57187
+val loss = tensor(1932.4073, grad_fn=<DotBackward>)
+loss is 154.50172
+val loss = tensor(1956.3834, grad_fn=<DotBackward>)
+loss is 154.45715
+val loss = tensor(1906.5071, grad_fn=<DotBackward>)
+[2K[2Kloss is 161.44023
+val loss = tensor(2007.3234, grad_fn=<DotBackward>)
+loss is 165.2769
+val loss = tensor(1968.7240, grad_fn=<DotBackward>)
+loss is 159.54675
+val loss = tensor(1998.2058, grad_fn=<DotBackward>)
+loss is 144.12317
+val loss = tensor(1911.5391, grad_fn=<DotBackward>)
+loss is 151.38141
+val loss = tensor(1928.5386, grad_fn=<DotBackward>)
+[2K[2Kloss is 148.11823
+val loss = tensor(1929.9980, grad_fn=<DotBackward>)
+loss is 152.72876
+val loss = tensor(1917.1321, grad_fn=<DotBackward>)
+loss is 151.74606
+val loss = tensor(2074.7371, grad_fn=<DotBackward>)
+loss is 160.4631
+val loss = tensor(1945.8992, grad_fn=<DotBackward>)
+loss is 169.20053
+val loss = tensor(1990.9243, grad_fn=<DotBackward>)
+[2K[2Kloss is 148.00473
+val loss = tensor(1933.1212, grad_fn=<DotBackward>)
+loss is 159.81194
+val loss = tensor(1917.0984, grad_fn=<DotBackward>)
+loss is 143.94852
+val loss = tensor(1909.4630, grad_fn=<DotBackward>)
+loss is 145.09207
+val loss = tensor(1886.7061, grad_fn=<DotBackward>)
+new smallest loss is tensor(1886.7061, grad_fn=<DotBackward>)
+loss is 146.05199
+val loss = tensor(1910.1046, grad_fn=<DotBackward>)
+[2K[2Kloss is 155.44263
+val loss = tensor(1885.7963, grad_fn=<DotBackward>)
+new smallest loss is tensor(1885.7963, grad_fn=<DotBackward>)
+loss is 154.10284
+val loss = tensor(2162.8103, grad_fn=<DotBackward>)
+loss is 149.595
+val loss = tensor(1968.8956, grad_fn=<DotBackward>)
+loss is 157.56284
+val loss = tensor(1978.6610, grad_fn=<DotBackward>)
+loss is 138.76338
+val loss = tensor(1939.5343, grad_fn=<DotBackward>)
+[2K[2Kloss is 145.8301
+val loss = tensor(1915.0863, grad_fn=<DotBackward>)
+loss is 164.24982
+val loss = tensor(1917.4213, grad_fn=<DotBackward>)
+loss is 142.27844
+val loss = tensor(1909.6125, grad_fn=<DotBackward>)
+loss is 151.04764
+val loss = tensor(2069.1240, grad_fn=<DotBackward>)
+loss is 151.2724
+val loss = tensor(1980.4463, grad_fn=<DotBackward>)
+[2K[2Kloss is 157.78299
+val loss = tensor(1936.8737, grad_fn=<DotBackward>)
+loss is 158.9934
+val loss = tensor(1940.2600, grad_fn=<DotBackward>)
+loss is 156.59285
+val loss = tensor(1890.3551, grad_fn=<DotBackward>)
+loss is 154.11801
+val loss = tensor(1941.2051, grad_fn=<DotBackward>)
+loss is 158.43628
+val loss = tensor(1981.5179, grad_fn=<DotBackward>)
+[2K[2Kloss is 156.93243
+val loss = tensor(1955.4675, grad_fn=<DotBackward>)
+loss is 154.00961
+val loss = tensor(1999.5679, grad_fn=<DotBackward>)
+loss is 140.65921
+val loss = tensor(1897.5862, grad_fn=<DotBackward>)
+loss is 155.70244
+val loss = tensor(1935.9290, grad_fn=<DotBackward>)
+loss is 148.1807
+val loss = tensor(1893.6198, grad_fn=<DotBackward>)
+[2K[2Kloss is 147.71353
+val loss = tensor(1907.4968, grad_fn=<DotBackward>)
+loss is 164.4253
+val loss = tensor(1956.1470, grad_fn=<DotBackward>)
+loss is 164.76695
+val loss = tensor(2096.5234, grad_fn=<DotBackward>)
+loss is 161.52826
+val loss = tensor(1934.3765, grad_fn=<DotBackward>)
+loss is 159.87115
+val loss = tensor(1970.3766, grad_fn=<DotBackward>)
+[2K[2Kloss is 130.80092
+val loss = tensor(1923.4713, grad_fn=<DotBackward>)
+loss is 140.70001
+val loss = tensor(1944.5066, grad_fn=<DotBackward>)
+loss is 150.99704
+val loss = tensor(1913.8711, grad_fn=<DotBackward>)
+loss is 154.79657
+val loss = tensor(1970.4648, grad_fn=<DotBackward>)
+loss is 141.11075
+val loss = tensor(1974.0262, grad_fn=<DotBackward>)
+[2K[2Kloss is 158.17426
+val loss = tensor(1983.9479, grad_fn=<DotBackward>)
+loss is 160.30911
+val loss = tensor(1939.5828, grad_fn=<DotBackward>)
+loss is 155.70447
+val loss = tensor(1905.0300, grad_fn=<DotBackward>)
+loss is 153.11263
+val loss = tensor(1945.6681, grad_fn=<DotBackward>)
+loss is 134.46576
+val loss = tensor(1901.0736, grad_fn=<DotBackward>)
+[2K[2Kloss is 154.3029
+val loss = tensor(2011.0281, grad_fn=<DotBackward>)
+loss is 146.36201
+val loss = tensor(2010.6284, grad_fn=<DotBackward>)
+loss is 154.81967
+val loss = tensor(1954.3912, grad_fn=<DotBackward>)
+loss is 150.32024
+val loss = tensor(1949.5826, grad_fn=<DotBackward>)
+loss is 159.68233
+val loss = tensor(1876.9961, grad_fn=<DotBackward>)
+new smallest loss is tensor(1876.9961, grad_fn=<DotBackward>)
+[2K[2Kloss is 148.01706
+val loss = tensor(1962.7108, grad_fn=<DotBackward>)
+loss is 153.80312
+val loss = tensor(1932.0095, grad_fn=<DotBackward>)
+loss is 147.39517
+val loss = tensor(1994.1301, grad_fn=<DotBackward>)
+loss is 137.70749
+val loss = tensor(2021.8650, grad_fn=<DotBackward>)
+loss is 150.41693
+val loss = tensor(1899.6445, grad_fn=<DotBackward>)
+[2K[2Kloss is 142.93542
+val loss = tensor(1961.4448, grad_fn=<DotBackward>)
+loss is 148.43817
+val loss = tensor(1886.5413, grad_fn=<DotBackward>)
+loss is 155.4755
+val loss = tensor(1910.4548, grad_fn=<DotBackward>)
+loss is 154.92834
+val loss = tensor(1906.0885, grad_fn=<DotBackward>)
+loss is 156.45941
+val loss = tensor(1901.5483, grad_fn=<DotBackward>)
+[2K[2Kloss is 155.67174
+val loss = tensor(2040.9318, grad_fn=<DotBackward>)
+loss is 143.9992
+val loss = tensor(2004.1991, grad_fn=<DotBackward>)
+loss is 168.23932
+val loss = tensor(2070.2124, grad_fn=<DotBackward>)
+loss is 159.2111
+val loss = tensor(1911.9113, grad_fn=<DotBackward>)
+loss is 154.33151
+val loss = tensor(1960.6132, grad_fn=<DotBackward>)
+[2K[2Kloss is 145.65671
+val loss = tensor(1899.5895, grad_fn=<DotBackward>)
+loss is 142.50641
+val loss = tensor(1907.2982, grad_fn=<DotBackward>)
+loss is 156.34882
+val loss = tensor(1927.2189, grad_fn=<DotBackward>)
+loss is 142.10918
+val loss = tensor(2028.3025, grad_fn=<DotBackward>)
+loss is 143.5506
+val loss = tensor(1981.5287, grad_fn=<DotBackward>)
+[2K[2Kloss is 139.9403
+val loss = tensor(1969.8317, grad_fn=<DotBackward>)
+loss is 159.92848
+val loss = tensor(1895.3695, grad_fn=<DotBackward>)
+loss is 156.38281
+val loss = tensor(1939.7125, grad_fn=<DotBackward>)
+loss is 144.63156
+val loss = tensor(1885.1204, grad_fn=<DotBackward>)
+loss is 144.1486
+val loss = tensor(1975.9114, grad_fn=<DotBackward>)
+[2K[2Kloss is 145.78564
+val loss = tensor(2016.5530, grad_fn=<DotBackward>)
+loss is 159.91174
+val loss = tensor(1965.3435, grad_fn=<DotBackward>)
+loss is 150.52429
+val loss = tensor(1932.0364, grad_fn=<DotBackward>)
+loss is 143.9451
+val loss = tensor(1898.3384, grad_fn=<DotBackward>)
+loss is 140.26889
+val loss = tensor(1891.7236, grad_fn=<DotBackward>)
+[2K[2Kloss is 139.51523
+val loss = tensor(1906.6984, grad_fn=<DotBackward>)
+loss is 153.7552
+val loss = tensor(1961.0052, grad_fn=<DotBackward>)
+loss is 151.39749
+val loss = tensor(2073.5342, grad_fn=<DotBackward>)
+loss is 157.09102
+val loss = tensor(1948.3776, grad_fn=<DotBackward>)
+loss is 146.67383
+val loss = tensor(1886.6499, grad_fn=<DotBackward>)
+[2K[2Kloss is 140.74265
+val loss = tensor(1922.4529, grad_fn=<DotBackward>)
+loss is 156.66106
+val loss = tensor(1873.8745, grad_fn=<DotBackward>)
+new smallest loss is tensor(1873.8745, grad_fn=<DotBackward>)
+loss is 142.06808
+val loss = tensor(1933.8195, grad_fn=<DotBackward>)
+loss is 156.28615
+val loss = tensor(2048.4893, grad_fn=<DotBackward>)
+loss is 137.13719
+val loss = tensor(1967.6713, grad_fn=<DotBackward>)
+[2K[2Kloss is 138.62292
+val loss = tensor(1906.4464, grad_fn=<DotBackward>)
+loss is 148.57944
+val loss = tensor(1909.9246, grad_fn=<DotBackward>)
+loss is 139.30786
+val loss = tensor(1894.4370, grad_fn=<DotBackward>)
+loss is 142.6194
+val loss = tensor(1904.7832, grad_fn=<DotBackward>)
+loss is 137.63
+val loss = tensor(1966.7651, grad_fn=<DotBackward>)
+[2K[2Kloss is 137.8786
+val loss = tensor(2009.4612, grad_fn=<DotBackward>)
+loss is 145.2782
+val loss = tensor(1951.7069, grad_fn=<DotBackward>)
+loss is 149.96132
+val loss = tensor(1941.7679, grad_fn=<DotBackward>)
+loss is 157.68503
+val loss = tensor(1926.9519, grad_fn=<DotBackward>)
+loss is 144.4094
+val loss = tensor(1929.7583, grad_fn=<DotBackward>)
+[2K[2Kloss is 136.23557
+val loss = tensor(1891.3348, grad_fn=<DotBackward>)
+loss is 135.51855
+val loss = tensor(1988.8778, grad_fn=<DotBackward>)
+loss is 158.34991
+val loss = tensor(2000.9574, grad_fn=<DotBackward>)
+loss is 156.8781
+val loss = tensor(1966.3175, grad_fn=<DotBackward>)
+loss is 138.14343
+val loss = tensor(1925.7061, grad_fn=<DotBackward>)
+[2K[2Kloss is 152.76825
+val loss = tensor(1902.8556, grad_fn=<DotBackward>)
+loss is 149.2785
+val loss = tensor(1901.8774, grad_fn=<DotBackward>)
+loss is 154.92917
+val loss = tensor(1912.1967, grad_fn=<DotBackward>)
+loss is 161.35953
+val loss = tensor(1929.9417, grad_fn=<DotBackward>)
+loss is 150.10468
+val loss = tensor(2036.6462, grad_fn=<DotBackward>)
+[2K[2Kloss is 152.01201
+val loss = tensor(1978.0903, grad_fn=<DotBackward>)
+loss is 140.89966
+val loss = tensor(1924.5034, grad_fn=<DotBackward>)
+loss is 148.90697
+val loss = tensor(1896.8433, grad_fn=<DotBackward>)
+loss is 148.49442
+val loss = tensor(1928.1589, grad_fn=<DotBackward>)
+loss is 146.23172
+val loss = tensor(1918.6548, grad_fn=<DotBackward>)
+[2K[2Kloss is 145.13718
+val loss = tensor(1952.4188, grad_fn=<DotBackward>)
+loss is 150.1801
+val loss = tensor(1977.3141, grad_fn=<DotBackward>)
+loss is 144.53186
+val loss = tensor(1929.5347, grad_fn=<DotBackward>)
+loss is 143.07071
+val loss = tensor(1959.4855, grad_fn=<DotBackward>)
+loss is 137.9285
+val loss = tensor(1877.0060, grad_fn=<DotBackward>)
+[2K[2Kloss is 146.15417
+val loss = tensor(1926.6174, grad_fn=<DotBackward>)
+loss is 143.08536
+val loss = tensor(1911.3623, grad_fn=<DotBackward>)
+loss is 162.60345
+val loss = tensor(1962.9409, grad_fn=<DotBackward>)
+loss is 138.06494
+val loss = tensor(1986.0371, grad_fn=<DotBackward>)
+loss is 147.6571
+val loss = tensor(1939.3113, grad_fn=<DotBackward>)
+[2K[2Kloss is 142.22966
+val loss = tensor(1934.3110, grad_fn=<DotBackward>)
+loss is 148.21461
+val loss = tensor(1919.5391, grad_fn=<DotBackward>)
+loss is 160.48459
+val loss = tensor(1906.8376, grad_fn=<DotBackward>)
+loss is 155.79677
+val loss = tensor(1918.1094, grad_fn=<DotBackward>)
+loss is 153.86815
+val loss = tensor(1851.7633, grad_fn=<DotBackward>)
+new smallest loss is tensor(1851.7633, grad_fn=<DotBackward>)
+[2K[2Kloss is 145.28143
+val loss = tensor(1920.2234, grad_fn=<DotBackward>)
+loss is 154.07742
+val loss = tensor(1936.4957, grad_fn=<DotBackward>)
+loss is 175.31133
+val loss = tensor(2130.4268, grad_fn=<DotBackward>)
+loss is 156.27104
+val loss = tensor(1910.8076, grad_fn=<DotBackward>)
+loss is 146.16006
+val loss = tensor(1968.3217, grad_fn=<DotBackward>)
+[2K[2Kloss is 151.66641
+val loss = tensor(1950.1445, grad_fn=<DotBackward>)
+loss is 156.33963
+val loss = tensor(1926.6255, grad_fn=<DotBackward>)
+loss is 148.09824
+val loss = tensor(1901.5972, grad_fn=<DotBackward>)
+loss is 139.2009
+val loss = tensor(1911.7384, grad_fn=<DotBackward>)
+loss is 154.874
+val loss = tensor(1943.8118, grad_fn=<DotBackward>)
+[2K[2Kloss is 162.00052
+val loss = tensor(2003.8689, grad_fn=<DotBackward>)
+loss is 144.71553
+val loss = tensor(1928.8881, grad_fn=<DotBackward>)
+loss is 144.98845
+val loss = tensor(1903.9685, grad_fn=<DotBackward>)
+loss is 141.23035
+val loss = tensor(1897.1462, grad_fn=<DotBackward>)
+loss is 154.28943
+val loss = tensor(1889.5684, grad_fn=<DotBackward>)
+[2K[2Kloss is 159.09798
+val loss = tensor(1964.7004, grad_fn=<DotBackward>)
+loss is 142.62051
+val loss = tensor(2024.1936, grad_fn=<DotBackward>)
+loss is 149.89798
+val loss = tensor(1926.5483, grad_fn=<DotBackward>)
+loss is 136.65988
+val loss = tensor(1933.6167, grad_fn=<DotBackward>)
+loss is 131.77982
+val loss = tensor(1902.3947, grad_fn=<DotBackward>)
+[2K[2Kloss is 132.47562
+val loss = tensor(1883.8564, grad_fn=<DotBackward>)
+loss is 150.08081
+val loss = tensor(1900.5762, grad_fn=<DotBackward>)
+loss is 143.6052
+val loss = tensor(1896.4688, grad_fn=<DotBackward>)
+loss is 147.68878
+val loss = tensor(1999.6958, grad_fn=<DotBackward>)
+loss is 139.01501
+val loss = tensor(2034.3196, grad_fn=<DotBackward>)
+[2K[2Kloss is 153.26726
+val loss = tensor(1952.5652, grad_fn=<DotBackward>)
+loss is 152.9178
+val loss = tensor(1930.7256, grad_fn=<DotBackward>)
+loss is 142.2584
+val loss = tensor(1915.2761, grad_fn=<DotBackward>)
+loss is 142.68413
+val loss = tensor(1895.7230, grad_fn=<DotBackward>)
+loss is 146.5159
+val loss = tensor(1905.5593, grad_fn=<DotBackward>)
+[2K[2Kloss is 160.58514
+val loss = tensor(1970.0706, grad_fn=<DotBackward>)
+loss is 133.69647
+val loss = tensor(1996.3953, grad_fn=<DotBackward>)
+loss is 146.0469
+val loss = tensor(1921.8732, grad_fn=<DotBackward>)
+loss is 143.3077
+val loss = tensor(1936.0811, grad_fn=<DotBackward>)
+loss is 152.03178
+val loss = tensor(1843.6328, grad_fn=<DotBackward>)
+new smallest loss is tensor(1843.6328, grad_fn=<DotBackward>)
+[2K[2Kloss is 136.36087
+val loss = tensor(1926.4098, grad_fn=<DotBackward>)
+loss is 145.57861
+val loss = tensor(1872.2019, grad_fn=<DotBackward>)
+loss is 150.20285
+val loss = tensor(1965.0071, grad_fn=<DotBackward>)
+loss is 142.27818
+val loss = tensor(2021.4739, grad_fn=<DotBackward>)
+loss is 139.88983
+val loss = tensor(1948.9336, grad_fn=<DotBackward>)
+[2K[2Kloss is 143.4431
+val loss = tensor(1889.5948, grad_fn=<DotBackward>)
+loss is 140.59262
+val loss = tensor(1916.8613, grad_fn=<DotBackward>)
+loss is 143.33194
+val loss = tensor(1883.2222, grad_fn=<DotBackward>)
+loss is 146.14508
+val loss = tensor(1892.0343, grad_fn=<DotBackward>)
+loss is 142.20782
+val loss = tensor(1929.4231, grad_fn=<DotBackward>)
+[2K[2Kloss is 145.0043
+val loss = tensor(2038.9352, grad_fn=<DotBackward>)
+loss is 144.66765
+val loss = tensor(1955.6189, grad_fn=<DotBackward>)
+loss is 153.75739
+val loss = tensor(1869.6846, grad_fn=<DotBackward>)
+loss is 146.79442
+val loss = tensor(1898.6531, grad_fn=<DotBackward>)
+loss is 146.18011
+val loss = tensor(1848.0751, grad_fn=<DotBackward>)
+[2K[2Kloss is 134.60986
+val loss = tensor(1897.8496, grad_fn=<DotBackward>)
+loss is 146.45253
+val loss = tensor(1930.2782, grad_fn=<DotBackward>)
+loss is 133.94257
+val loss = tensor(2016.8627, grad_fn=<DotBackward>)
+loss is 149.35739
+val loss = tensor(1961.0150, grad_fn=<DotBackward>)
+loss is 140.29791
+val loss = tensor(1974.6669, grad_fn=<DotBackward>)
+[2K[2Kloss is 157.39168
+val loss = tensor(1883.0042, grad_fn=<DotBackward>)
+loss is 137.92525
+val loss = tensor(1917.6758, grad_fn=<DotBackward>)
+loss is 141.85797
+val loss = tensor(1899.9497, grad_fn=<DotBackward>)
+loss is 156.41193
+val loss = tensor(1851.2737, grad_fn=<DotBackward>)
+loss is 145.61345
+val loss = tensor(1886.4296, grad_fn=<DotBackward>)
+[2K[2Kloss is 141.10991
+val loss = tensor(1949.9200, grad_fn=<DotBackward>)
+loss is 151.04617
+val loss = tensor(2076.4395, grad_fn=<DotBackward>)
+loss is 129.0024
+val loss = tensor(1948.9153, grad_fn=<DotBackward>)
+loss is 133.84128
+val loss = tensor(1913.3567, grad_fn=<DotBackward>)
+loss is 143.52579
+val loss = tensor(1903.2395, grad_fn=<DotBackward>)
+[2K[2Kloss is 148.96402
+val loss = tensor(1903.8008, grad_fn=<DotBackward>)
+loss is 149.1749
+val loss = tensor(1891.5198, grad_fn=<DotBackward>)
+loss is 134.9654
+val loss = tensor(1905.6801, grad_fn=<DotBackward>)
+loss is 147.81502
+val loss = tensor(2062.7407, grad_fn=<DotBackward>)
+loss is 138.26929
+val loss = tensor(1928.4246, grad_fn=<DotBackward>)
+[2K[2Kloss is 135.87297
+val loss = tensor(1902.2777, grad_fn=<DotBackward>)
+loss is 155.73044
+val loss = tensor(1893.8953, grad_fn=<DotBackward>)
+loss is 141.44861
+val loss = tensor(1901.5005, grad_fn=<DotBackward>)
+loss is 164.87454
+val loss = tensor(1859.6831, grad_fn=<DotBackward>)
+loss is 144.19482
+val loss = tensor(1881.1973, grad_fn=<DotBackward>)
+[2K[2Kloss is 147.53973
+val loss = tensor(1873.3208, grad_fn=<DotBackward>)
+loss is 153.18042
+val loss = tensor(2025.8793, grad_fn=<DotBackward>)
+loss is 142.53305
+val loss = tensor(2040.9664, grad_fn=<DotBackward>)
+loss is 135.80981
+val loss = tensor(1897.5630, grad_fn=<DotBackward>)
+loss is 155.05298
+val loss = tensor(1950.7710, grad_fn=<DotBackward>)
+[2K[2Kloss is 145.4997
+val loss = tensor(1880.2841, grad_fn=<DotBackward>)
+loss is 145.08533
+val loss = tensor(1904.0405, grad_fn=<DotBackward>)
+loss is 149.4029
+val loss = tensor(1913.1355, grad_fn=<DotBackward>)
+loss is 145.12823
+val loss = tensor(1915.9541, grad_fn=<DotBackward>)
+loss is 152.5968
+val loss = tensor(2036.8743, grad_fn=<DotBackward>)
+[2K[2Kloss is 158.71199
+val loss = tensor(1972.2107, grad_fn=<DotBackward>)
+loss is 140.41783
+val loss = tensor(1935.3606, grad_fn=<DotBackward>)
+loss is 137.61656
+val loss = tensor(1885.4640, grad_fn=<DotBackward>)
+loss is 149.95212
+val loss = tensor(1897.8698, grad_fn=<DotBackward>)
+loss is 141.55377
+val loss = tensor(1900.6696, grad_fn=<DotBackward>)
+[2K[2Kloss is 144.6803
+val loss = tensor(1976.4309, grad_fn=<DotBackward>)
+loss is 138.06924
+val loss = tensor(1935.7689, grad_fn=<DotBackward>)
+loss is 144.7968
+val loss = tensor(1986.2141, grad_fn=<DotBackward>)
+loss is 143.93916
+val loss = tensor(1889.7556, grad_fn=<DotBackward>)
+loss is 145.26822
+val loss = tensor(1870.4563, grad_fn=<DotBackward>)
+[2K[2Kloss is 132.0552
+val loss = tensor(1890.0382, grad_fn=<DotBackward>)
+loss is 139.98584
+val loss = tensor(1908.1785, grad_fn=<DotBackward>)
+loss is 151.49121
+val loss = tensor(2029.5500, grad_fn=<DotBackward>)
+loss is 151.45442
+val loss = tensor(1927.8718, grad_fn=<DotBackward>)
+loss is 143.10748
+val loss = tensor(1885.4830, grad_fn=<DotBackward>)
+[2K[2Kloss is 142.56854
+val loss = tensor(1874.9415, grad_fn=<DotBackward>)
+loss is 141.39235
+val loss = tensor(1851.2590, grad_fn=<DotBackward>)
+loss is 139.87892
+val loss = tensor(1875.2100, grad_fn=<DotBackward>)
+loss is 146.78256
+val loss = tensor(2056.5620, grad_fn=<DotBackward>)
+loss is 145.88278
+val loss = tensor(1947.1394, grad_fn=<DotBackward>)
+[2K[2Kloss is 146.88762
+val loss = tensor(1919.5298, grad_fn=<DotBackward>)
+loss is 138.75854
+val loss = tensor(1876.2440, grad_fn=<DotBackward>)
+loss is 137.9961
+val loss = tensor(1881.9330, grad_fn=<DotBackward>)
+loss is 138.79788
+val loss = tensor(1844.1002, grad_fn=<DotBackward>)
+loss is 138.75662
+val loss = tensor(1863.7600, grad_fn=<DotBackward>)
+[2K[2Kloss is 149.9554
+val loss = tensor(1959.4419, grad_fn=<DotBackward>)
+loss is 133.97888
+val loss = tensor(2009.0381, grad_fn=<DotBackward>)
+loss is 128.16504
+val loss = tensor(1956.4391, grad_fn=<DotBackward>)
+loss is 144.6034
+val loss = tensor(1906.7112, grad_fn=<DotBackward>)
+loss is 141.42096
+val loss = tensor(1897.0114, grad_fn=<DotBackward>)
+[2K[2Kloss is 146.90706
+val loss = tensor(1910.0018, grad_fn=<DotBackward>)
+loss is 152.32083
+val loss = tensor(1959.2574, grad_fn=<DotBackward>)
+loss is 135.5324
+val loss = tensor(1934.9120, grad_fn=<DotBackward>)
+loss is 134.18417
+val loss = tensor(1937.2195, grad_fn=<DotBackward>)
+loss is 140.54132
+val loss = tensor(1904.5020, grad_fn=<DotBackward>)
+[2K[2Kloss is 149.98907
+val loss = tensor(1900.1738, grad_fn=<DotBackward>)
+loss is 151.01215
+val loss = tensor(1910.7390, grad_fn=<DotBackward>)
+loss is 145.20435
+val loss = tensor(1958.5868, grad_fn=<DotBackward>)
+loss is 145.26053
+val loss = tensor(1877.3490, grad_fn=<DotBackward>)
+loss is 139.07716
+val loss = tensor(1933.3756, grad_fn=<DotBackward>)
+[2K[2Kloss is 134.0184
+val loss = tensor(1889.8781, grad_fn=<DotBackward>)
+loss is 126.994095
+val loss = tensor(1930.3293, grad_fn=<DotBackward>)
+loss is 140.64027
+val loss = tensor(1929.1012, grad_fn=<DotBackward>)
+loss is 151.13629
+val loss = tensor(1922.2633, grad_fn=<DotBackward>)
+loss is 141.07507
+val loss = tensor(1961.8076, grad_fn=<DotBackward>)
+[2K[2Kloss is 135.0404
+val loss = tensor(1879.4824, grad_fn=<DotBackward>)
+loss is 142.72011
+val loss = tensor(1900.1282, grad_fn=<DotBackward>)
+loss is 138.50755
+val loss = tensor(1882.6299, grad_fn=<DotBackward>)
+loss is 153.82483
+val loss = tensor(1956.7532, grad_fn=<DotBackward>)
+loss is 134.8259
+val loss = tensor(1961.5706, grad_fn=<DotBackward>)
+[2K[2Kloss is 139.62738
+val loss = tensor(1923.4333, grad_fn=<DotBackward>)
+loss is 125.85484
+val loss = tensor(1893.2490, grad_fn=<DotBackward>)
+loss is 140.66629
+val loss = tensor(1880.0620, grad_fn=<DotBackward>)
+loss is 146.29694
+val loss = tensor(1900.4216, grad_fn=<DotBackward>)
+loss is 137.39314
+val loss = tensor(1864.3328, grad_fn=<DotBackward>)
+[2K[2Kloss is 127.5078
+val loss = tensor(2045.0872, grad_fn=<DotBackward>)
+loss is 142.12369
+val loss = tensor(1913.1271, grad_fn=<DotBackward>)
+loss is 142.52138
+val loss = tensor(1923.8546, grad_fn=<DotBackward>)
+loss is 141.44499
+val loss = tensor(1881.3091, grad_fn=<DotBackward>)
+loss is 128.50867
+val loss = tensor(1911.1744, grad_fn=<DotBackward>)
+[2K[2Kloss is 146.39302
+val loss = tensor(1869.3162, grad_fn=<DotBackward>)
+loss is 134.02406
+val loss = tensor(1937.0433, grad_fn=<DotBackward>)
+loss is 150.8229
+val loss = tensor(2002.3741, grad_fn=<DotBackward>)
+loss is 132.64574
+val loss = tensor(1917.5625, grad_fn=<DotBackward>)
+loss is 143.19254
+val loss = tensor(1919.9055, grad_fn=<DotBackward>)
+[2K[2Kloss is 149.16165
+val loss = tensor(1905.8628, grad_fn=<DotBackward>)
+loss is 138.78304
+val loss = tensor(1857.5239, grad_fn=<DotBackward>)
+loss is 134.91681
+val loss = tensor(1864.9948, grad_fn=<DotBackward>)
+loss is 146.56268
+val loss = tensor(1911.3516, grad_fn=<DotBackward>)
+loss is 148.5751
+val loss = tensor(2030.1704, grad_fn=<DotBackward>)
+[2K[2Kloss is 147.2856
+val loss = tensor(1924.8184, grad_fn=<DotBackward>)
+loss is 158.34659
+val loss = tensor(1886.7048, grad_fn=<DotBackward>)
+loss is 135.25653
+val loss = tensor(1917.3826, grad_fn=<DotBackward>)
+loss is 140.4075
+val loss = tensor(1860.3684, grad_fn=<DotBackward>)
+loss is 147.54866
+val loss = tensor(1857.5679, grad_fn=<DotBackward>)
+[2K[2Kloss is 131.9689
+val loss = tensor(1857.3647, grad_fn=<DotBackward>)
+loss is 150.80603
+val loss = tensor(2062.9692, grad_fn=<DotBackward>)
+loss is 143.42172
+val loss = tensor(1987.0659, grad_fn=<DotBackward>)
+loss is 131.64111
+val loss = tensor(1895.4275, grad_fn=<DotBackward>)
+loss is 138.13925
+val loss = tensor(1895.7083, grad_fn=<DotBackward>)
+[2K[2Kloss is 140.63858
+val loss = tensor(1879.0435, grad_fn=<DotBackward>)
+loss is 125.88118
+val loss = tensor(1847.9878, grad_fn=<DotBackward>)
+loss is 140.81137
+val loss = tensor(1880.1647, grad_fn=<DotBackward>)
+loss is 139.99225
+val loss = tensor(1842.5095, grad_fn=<DotBackward>)
+new smallest loss is tensor(1842.5095, grad_fn=<DotBackward>)
+loss is 140.46602
+val loss = tensor(2004.0526, grad_fn=<DotBackward>)
+[2K[2Kloss is 157.3165
+val loss = tensor(1966.2283, grad_fn=<DotBackward>)
+loss is 145.5484
+val loss = tensor(1967.7924, grad_fn=<DotBackward>)
+loss is 130.86072
+val loss = tensor(1891.5900, grad_fn=<DotBackward>)
+loss is 147.47226
+val loss = tensor(1898.0010, grad_fn=<DotBackward>)
+loss is 133.3104
+val loss = tensor(1863.1008, grad_fn=<DotBackward>)
+[2K[2Kloss is 143.62541
+val loss = tensor(1869.8943, grad_fn=<DotBackward>)
+loss is 137.3527
+val loss = tensor(1888.1506, grad_fn=<DotBackward>)
+loss is 145.1958
+val loss = tensor(1960.9534, grad_fn=<DotBackward>)
+loss is 133.03458
+val loss = tensor(1968.9568, grad_fn=<DotBackward>)
+loss is 133.12677
+val loss = tensor(1921.7909, grad_fn=<DotBackward>)
+[2K[2Kloss is 137.7265
+val loss = tensor(1908.5657, grad_fn=<DotBackward>)
+loss is 141.38815
+val loss = tensor(1894.8611, grad_fn=<DotBackward>)
+loss is 142.63826
+val loss = tensor(1881.8584, grad_fn=<DotBackward>)
+loss is 154.67896
+val loss = tensor(1936.9022, grad_fn=<DotBackward>)
+loss is 136.33478
+val loss = tensor(1924.8763, grad_fn=<DotBackward>)
+[2K[2Kloss is 135.6364
+val loss = tensor(1988.6978, grad_fn=<DotBackward>)
+loss is 144.051
+val loss = tensor(1884.6052, grad_fn=<DotBackward>)
+loss is 132.28217
+val loss = tensor(1936.2686, grad_fn=<DotBackward>)
+loss is 139.71823
+val loss = tensor(1884.2065, grad_fn=<DotBackward>)
+loss is 131.74551
+val loss = tensor(1916.1515, grad_fn=<DotBackward>)
+[2K[2Kloss is 131.67363
+val loss = tensor(1917.7628, grad_fn=<DotBackward>)
+loss is 138.27855
+val loss = tensor(1959.3257, grad_fn=<DotBackward>)
+loss is 145.25108
+val loss = tensor(1919.5884, grad_fn=<DotBackward>)
+loss is 151.26054
+val loss = tensor(1936.0066, grad_fn=<DotBackward>)
+loss is 137.4129
+val loss = tensor(1885.0334, grad_fn=<DotBackward>)
+[2K[2Kloss is 135.11118
+val loss = tensor(1872.0688, grad_fn=<DotBackward>)
+loss is 128.83127
+val loss = tensor(1908.6488, grad_fn=<DotBackward>)
+loss is 149.38142
+val loss = tensor(1956.5992, grad_fn=<DotBackward>)
+loss is 143.29123
+val loss = tensor(1932.2087, grad_fn=<DotBackward>)
+loss is 139.55328
+val loss = tensor(1949.2887, grad_fn=<DotBackward>)
+[2K[2Kloss is 135.30898
+val loss = tensor(1844.3020, grad_fn=<DotBackward>)
+loss is 133.95612
+val loss = tensor(1900.5676, grad_fn=<DotBackward>)
+loss is 142.86978
+val loss = tensor(1848.5214, grad_fn=<DotBackward>)
+loss is 140.30524
+val loss = tensor(1893.2936, grad_fn=<DotBackward>)
+loss is 148.63712
+val loss = tensor(2005.3315, grad_fn=<DotBackward>)
+[2K[2Kloss is 123.9864
+val loss = tensor(1967.5935, grad_fn=<DotBackward>)
+loss is 136.89804
+val loss = tensor(1895.6057, grad_fn=<DotBackward>)
+loss is 138.14017
+val loss = tensor(1908.5750, grad_fn=<DotBackward>)
+loss is 133.06042
+val loss = tensor(1870.6747, grad_fn=<DotBackward>)
+loss is 135.77518
+val loss = tensor(1846.1333, grad_fn=<DotBackward>)
+[2K[2Kloss is 138.72978
+val loss = tensor(1859.1954, grad_fn=<DotBackward>)
+loss is 151.26309
+val loss = tensor(1842.9741, grad_fn=<DotBackward>)
+loss is 133.2991
+val loss = tensor(2102.1611, grad_fn=<DotBackward>)
+loss is 140.35413
+val loss = tensor(1952.9237, grad_fn=<DotBackward>)
+loss is 136.74594
+val loss = tensor(1921.9792, grad_fn=<DotBackward>)
+[2K[2Kloss is 140.05049
+val loss = tensor(1879.9662, grad_fn=<DotBackward>)
+loss is 145.98572
+val loss = tensor(1892.2418, grad_fn=<DotBackward>)
+loss is 138.5918
+val loss = tensor(1904.0181, grad_fn=<DotBackward>)
+loss is 139.44412
+val loss = tensor(1867.4136, grad_fn=<DotBackward>)
+loss is 139.95018
+val loss = tensor(1882.9792, grad_fn=<DotBackward>)
+[2K[2Kloss is 142.4873
+val loss = tensor(2024.5496, grad_fn=<DotBackward>)
+loss is 143.53366
+val loss = tensor(1902.7819, grad_fn=<DotBackward>)
+loss is 139.28549
+val loss = tensor(1910.0554, grad_fn=<DotBackward>)
+loss is 132.98737
+val loss = tensor(1884.6195, grad_fn=<DotBackward>)
+loss is 133.12363
+val loss = tensor(1887.3698, grad_fn=<DotBackward>)
+[2K[2Kloss is 124.440155
+val loss = tensor(1882.0559, grad_fn=<DotBackward>)
+loss is 139.07144
+val loss = tensor(2009.3572, grad_fn=<DotBackward>)
+loss is 133.74011
+val loss = tensor(1946.7679, grad_fn=<DotBackward>)
+loss is 130.88492
+val loss = tensor(1907.4387, grad_fn=<DotBackward>)
+loss is 131.38324
+val loss = tensor(1877.0200, grad_fn=<DotBackward>)
+[2K[2Kloss is 132.00504
+val loss = tensor(1866.2812, grad_fn=<DotBackward>)
+loss is 138.18329
+val loss = tensor(1893.2343, grad_fn=<DotBackward>)
+loss is 136.28009
+val loss = tensor(1993.1744, grad_fn=<DotBackward>)
+loss is 147.51903
+val loss = tensor(1922.7485, grad_fn=<DotBackward>)
+loss is 131.62743
+val loss = tensor(1875.0187, grad_fn=<DotBackward>)
+[2K[2Kloss is 127.84431
+val loss = tensor(1872.2976, grad_fn=<DotBackward>)
+loss is 143.17207
+val loss = tensor(1844.8944, grad_fn=<DotBackward>)
+loss is 131.95868
+val loss = tensor(1924.9749, grad_fn=<DotBackward>)
+loss is 131.6849
+val loss = tensor(1998.7732, grad_fn=<DotBackward>)
+loss is 132.5923
+val loss = tensor(1877.9443, grad_fn=<DotBackward>)
+[2K[2Kloss is 135.0853
+val loss = tensor(1899.2960, grad_fn=<DotBackward>)
+loss is 125.829865
+val loss = tensor(1868.7083, grad_fn=<DotBackward>)
+loss is 132.2716
+val loss = tensor(1918.2633, grad_fn=<DotBackward>)
+loss is 140.15637
+val loss = tensor(1930.8794, grad_fn=<DotBackward>)
+loss is 130.82649
+val loss = tensor(1919.1306, grad_fn=<DotBackward>)
+[2K[2Kloss is 137.93622
+val loss = tensor(1872.4054, grad_fn=<DotBackward>)
+loss is 131.29099
+val loss = tensor(1898.3865, grad_fn=<DotBackward>)
+loss is 137.04532
+val loss = tensor(1892.4094, grad_fn=<DotBackward>)
+loss is 137.68466
+val loss = tensor(1895.3066, grad_fn=<DotBackward>)
+loss is 125.24251
+val loss = tensor(1952.6428, grad_fn=<DotBackward>)
+[2K[2Kloss is 146.37053
+val loss = tensor(1897.0271, grad_fn=<DotBackward>)
+loss is 124.73363
+val loss = tensor(1939.6658, grad_fn=<DotBackward>)
+loss is 140.70145
+val loss = tensor(1859.5635, grad_fn=<DotBackward>)
+loss is 135.80661
+val loss = tensor(1898.7944, grad_fn=<DotBackward>)
+loss is 127.405914
+val loss = tensor(1930.8177, grad_fn=<DotBackward>)
+[2K[2Kloss is 137.66753
+val loss = tensor(1915.3801, grad_fn=<DotBackward>)
+loss is 146.53418
+val loss = tensor(1909.5864, grad_fn=<DotBackward>)
+loss is 146.3348
+val loss = tensor(1886.9680, grad_fn=<DotBackward>)
+loss is 155.61151
+val loss = tensor(1935.9565, grad_fn=<DotBackward>)
+loss is 134.80693
+val loss = tensor(1964.9893, grad_fn=<DotBackward>)
+[2K[2Kloss is 129.5238
+val loss = tensor(1898.9741, grad_fn=<DotBackward>)
+loss is 138.61667
+val loss = tensor(1869.7789, grad_fn=<DotBackward>)
+loss is 144.73546
+val loss = tensor(1906.8848, grad_fn=<DotBackward>)
+loss is 140.46024
+val loss = tensor(1915.7253, grad_fn=<DotBackward>)
+loss is 122.6393
+val loss = tensor(1906.2744, grad_fn=<DotBackward>)
+[2K[2Kloss is 128.4909
+val loss = tensor(1871.1960, grad_fn=<DotBackward>)
+loss is 132.92113
+val loss = tensor(1874.3806, grad_fn=<DotBackward>)
+loss is 131.84207
+val loss = tensor(1931.8202, grad_fn=<DotBackward>)
+loss is 145.34525
+val loss = tensor(1926.9385, grad_fn=<DotBackward>)
+loss is 121.27178
+val loss = tensor(1915.2499, grad_fn=<DotBackward>)
+[2K[2Kloss is 142.6095
+val loss = tensor(1886.9844, grad_fn=<DotBackward>)
+loss is 135.60797
+val loss = tensor(1853.5483, grad_fn=<DotBackward>)
+loss is 142.75056
+val loss = tensor(1860.6816, grad_fn=<DotBackward>)
+loss is 150.0279
+val loss = tensor(1956.8999, grad_fn=<DotBackward>)
+loss is 147.9562
+val loss = tensor(1968.6125, grad_fn=<DotBackward>)
+[2K[2Kloss is 137.95255
+val loss = tensor(1886.7069, grad_fn=<DotBackward>)
+loss is 135.65718
+val loss = tensor(1872.6477, grad_fn=<DotBackward>)
+loss is 134.52806
+val loss = tensor(1834.3875, grad_fn=<DotBackward>)
+new smallest loss is tensor(1834.3875, grad_fn=<DotBackward>)
+loss is 122.4989
+val loss = tensor(1891.8291, grad_fn=<DotBackward>)
+loss is 142.1547
+val loss = tensor(1906.8036, grad_fn=<DotBackward>)
+[2K[2Kloss is 131.43883
+val loss = tensor(1961.5438, grad_fn=<DotBackward>)
+loss is 151.37714
+val loss = tensor(1925.0098, grad_fn=<DotBackward>)
+loss is 135.9747
+val loss = tensor(1871.8676, grad_fn=<DotBackward>)
+loss is 134.34134
+val loss = tensor(1852.5022, grad_fn=<DotBackward>)
+loss is 148.1088
+val loss = tensor(1892.6304, grad_fn=<DotBackward>)
+[2K[2Kloss is 153.90842
+val loss = tensor(1836.0823, grad_fn=<DotBackward>)
+loss is 133.00775
+val loss = tensor(1991.9509, grad_fn=<DotBackward>)
+loss is 136.44705
+val loss = tensor(1899.0242, grad_fn=<DotBackward>)
+loss is 129.24117
+val loss = tensor(1940.2466, grad_fn=<DotBackward>)
+loss is 123.99767
+val loss = tensor(1843.7080, grad_fn=<DotBackward>)
+[2K[2Kloss is 141.76596
+val loss = tensor(1889.5393, grad_fn=<DotBackward>)
+loss is 131.785
+val loss = tensor(1828.6250, grad_fn=<DotBackward>)
+new smallest loss is tensor(1828.6250, grad_fn=<DotBackward>)
+loss is 145.10556
+val loss = tensor(1873.9854, grad_fn=<DotBackward>)
+loss is 133.50142
+val loss = tensor(1980.2111, grad_fn=<DotBackward>)
+loss is 150.42368
+val loss = tensor(1932.2715, grad_fn=<DotBackward>)
+[2K[2Kloss is 134.34106
+val loss = tensor(1911.5596, grad_fn=<DotBackward>)
+loss is 133.77666
+val loss = tensor(1900.0796, grad_fn=<DotBackward>)
+loss is 136.64835
+val loss = tensor(1856.7428, grad_fn=<DotBackward>)
+loss is 128.95308
+val loss = tensor(1854.2007, grad_fn=<DotBackward>)
+loss is 141.93793
+val loss = tensor(1878.4987, grad_fn=<DotBackward>)
+[2K[2Kloss is 140.31934
+val loss = tensor(1831.7015, grad_fn=<DotBackward>)
+loss is 145.78403
+val loss = tensor(2030.1289, grad_fn=<DotBackward>)
+loss is 140.73686
+val loss = tensor(1959.6991, grad_fn=<DotBackward>)
+loss is 130.20316
+val loss = tensor(1913.6146, grad_fn=<DotBackward>)
+loss is 139.33812
+val loss = tensor(1874.2686, grad_fn=<DotBackward>)
+[2K[2Kloss is 137.00156
+val loss = tensor(1865.5259, grad_fn=<DotBackward>)
+loss is 144.5419
+val loss = tensor(1885.5122, grad_fn=<DotBackward>)
+loss is 129.2814
+val loss = tensor(1855.1960, grad_fn=<DotBackward>)
+loss is 148.54848
+val loss = tensor(1982.2993, grad_fn=<DotBackward>)
+loss is 135.19691
+val loss = tensor(1938.3950, grad_fn=<DotBackward>)
+[2K[2Kloss is 143.03807
+val loss = tensor(1846.9653, grad_fn=<DotBackward>)
+loss is 123.66865
+val loss = tensor(1888.9248, grad_fn=<DotBackward>)
+loss is 138.69975
+val loss = tensor(1853.3579, grad_fn=<DotBackward>)
+loss is 144.83482
+val loss = tensor(1888.9844, grad_fn=<DotBackward>)
+loss is 126.82509
+val loss = tensor(1984.7013, grad_fn=<DotBackward>)
+[2K[2Kloss is 126.260994
+val loss = tensor(1886.4585, grad_fn=<DotBackward>)
+loss is 134.88123
+val loss = tensor(1898.6372, grad_fn=<DotBackward>)
+loss is 140.89038
+val loss = tensor(1925.3208, grad_fn=<DotBackward>)
+loss is 123.16164
+val loss = tensor(1895.8933, grad_fn=<DotBackward>)
+loss is 135.84409
+val loss = tensor(1834.3396, grad_fn=<DotBackward>)
+[2K[2Kloss is 135.84247
+val loss = tensor(1931.0181, grad_fn=<DotBackward>)
+loss is 136.0038
+val loss = tensor(1954.9166, grad_fn=<DotBackward>)
+loss is 138.68295
+val loss = tensor(1897.0940, grad_fn=<DotBackward>)
+loss is 143.43262
+val loss = tensor(1894.7888, grad_fn=<DotBackward>)
+loss is 138.5859
+val loss = tensor(1848.5193, grad_fn=<DotBackward>)
+[2K[2Kloss is 126.378456
+val loss = tensor(1863.2792, grad_fn=<DotBackward>)
+loss is 137.03731
+val loss = tensor(1915.1204, grad_fn=<DotBackward>)
+loss is 126.25543
+val loss = tensor(1992.7856, grad_fn=<DotBackward>)
+loss is 147.29845
+val loss = tensor(1925.5565, grad_fn=<DotBackward>)
+loss is 133.82956
+val loss = tensor(1911.1396, grad_fn=<DotBackward>)
+[2K[2Kloss is 136.95093
+val loss = tensor(1892.8794, grad_fn=<DotBackward>)
+loss is 129.90288
+val loss = tensor(1876.3408, grad_fn=<DotBackward>)
+loss is 125.524376
+val loss = tensor(1883.1050, grad_fn=<DotBackward>)
+loss is 128.15417
+val loss = tensor(1879.8721, grad_fn=<DotBackward>)
+loss is 125.97985
+val loss = tensor(1948.6431, grad_fn=<DotBackward>)
+[2K[2Kloss is 131.39626
+val loss = tensor(1984.9868, grad_fn=<DotBackward>)
+loss is 132.20334
+val loss = tensor(1888.7924, grad_fn=<DotBackward>)
+loss is 127.9075
+val loss = tensor(1885.0067, grad_fn=<DotBackward>)
+loss is 119.42319
+val loss = tensor(1864.2151, grad_fn=<DotBackward>)
+loss is 130.21407
+val loss = tensor(1826.8071, grad_fn=<DotBackward>)
+new smallest loss is tensor(1826.8071, grad_fn=<DotBackward>)
+[2K[2Kloss is 123.0572
+val loss = tensor(1899.4353, grad_fn=<DotBackward>)
+loss is 140.6555
+val loss = tensor(1963.0239, grad_fn=<DotBackward>)
+loss is 143.23201
+val loss = tensor(1920.8486, grad_fn=<DotBackward>)
+loss is 149.37091
+val loss = tensor(1928.6042, grad_fn=<DotBackward>)
+loss is 122.7039
+val loss = tensor(1835.0161, grad_fn=<DotBackward>)
+[2K[2Kloss is 130.12604
+val loss = tensor(1855.8013, grad_fn=<DotBackward>)
+loss is 129.65134
+val loss = tensor(1881.6531, grad_fn=<DotBackward>)
+loss is 133.72668
+val loss = tensor(1821.8267, grad_fn=<DotBackward>)
+new smallest loss is tensor(1821.8267, grad_fn=<DotBackward>)
+loss is 136.22148
+val loss = tensor(1879.0612, grad_fn=<DotBackward>)
+loss is 126.49162
+val loss = tensor(2059.4885, grad_fn=<DotBackward>)
+[2K[2Kloss is 124.94435
+val loss = tensor(1944.8206, grad_fn=<DotBackward>)
+loss is 142.32513
+val loss = tensor(1885.7306, grad_fn=<DotBackward>)
+loss is 145.20407
+val loss = tensor(1883.9390, grad_fn=<DotBackward>)
+loss is 141.4768
+val loss = tensor(1848.9197, grad_fn=<DotBackward>)
+loss is 132.71344
+val loss = tensor(1847.2700, grad_fn=<DotBackward>)
+[2K[2Kloss is 140.10237
+val loss = tensor(1847.4633, grad_fn=<DotBackward>)
+loss is 132.22368
+val loss = tensor(1860.6873, grad_fn=<DotBackward>)
+loss is 134.91498
+val loss = tensor(2018.8105, grad_fn=<DotBackward>)
+loss is 125.502914
+val loss = tensor(1932.0591, grad_fn=<DotBackward>)
+loss is 128.64847
+val loss = tensor(1882.4705, grad_fn=<DotBackward>)
+[2K[2Kloss is 121.55162
+val loss = tensor(1858.8164, grad_fn=<DotBackward>)
+loss is 111.597115
+val loss = tensor(1831.4377, grad_fn=<DotBackward>)
+loss is 123.66224
+val loss = tensor(1846.8539, grad_fn=<DotBackward>)
+loss is 126.06083
+val loss = tensor(1812.8137, grad_fn=<DotBackward>)
+new smallest loss is tensor(1812.8137, grad_fn=<DotBackward>)
+loss is 139.84406
+val loss = tensor(1870.9725, grad_fn=<DotBackward>)
+[2K[2Kloss is 140.86334
+val loss = tensor(1987.2410, grad_fn=<DotBackward>)
+loss is 123.70048
+val loss = tensor(1953.1494, grad_fn=<DotBackward>)
+loss is 139.96866
+val loss = tensor(1911.2534, grad_fn=<DotBackward>)
+loss is 128.37231
+val loss = tensor(1884.8633, grad_fn=<DotBackward>)
+loss is 133.8014
+val loss = tensor(1850.1102, grad_fn=<DotBackward>)
+[2K[2Kloss is 136.64374
+val loss = tensor(1857.1570, grad_fn=<DotBackward>)
+loss is 127.53812
+val loss = tensor(1884.5010, grad_fn=<DotBackward>)
+loss is 138.73074
+val loss = tensor(1936.3359, grad_fn=<DotBackward>)
+loss is 134.80768
+val loss = tensor(1965.1091, grad_fn=<DotBackward>)
+loss is 134.98679
+val loss = tensor(1874.7412, grad_fn=<DotBackward>)
+[2K[2Kloss is 124.88077
+val loss = tensor(1887.3147, grad_fn=<DotBackward>)
+loss is 131.87589
+val loss = tensor(1876.5967, grad_fn=<DotBackward>)
+loss is 137.50964
+val loss = tensor(1884.0164, grad_fn=<DotBackward>)
+loss is 123.67662
+val loss = tensor(1925.9978, grad_fn=<DotBackward>)
+loss is 123.68181
+val loss = tensor(1877.7930, grad_fn=<DotBackward>)
+[2K[2Kloss is 128.70622
+val loss = tensor(1915.9332, grad_fn=<DotBackward>)
+loss is 127.345085
+val loss = tensor(1956.5160, grad_fn=<DotBackward>)
+loss is 122.45451
+val loss = tensor(1866.3784, grad_fn=<DotBackward>)
+loss is 127.90849
+val loss = tensor(1891.1333, grad_fn=<DotBackward>)
+loss is 135.99988
+val loss = tensor(1858.4221, grad_fn=<DotBackward>)
+[2K[2Kloss is 136.83583
+val loss = tensor(1916.5879, grad_fn=<DotBackward>)
+loss is 129.69667
+val loss = tensor(1907.3677, grad_fn=<DotBackward>)
+loss is 122.27895
+val loss = tensor(1871.5579, grad_fn=<DotBackward>)
+loss is 124.613945
+val loss = tensor(1889.8799, grad_fn=<DotBackward>)
+loss is 134.62386
+val loss = tensor(1834.5366, grad_fn=<DotBackward>)
+[2K[2Kloss is 141.86308
+val loss = tensor(1876.9099, grad_fn=<DotBackward>)
+loss is 130.2012
+val loss = tensor(1907.6121, grad_fn=<DotBackward>)
+loss is 138.0054
+val loss = tensor(1931.2015, grad_fn=<DotBackward>)
+loss is 136.2719
+val loss = tensor(1882.2173, grad_fn=<DotBackward>)
+loss is 125.16413
+val loss = tensor(1839.0820, grad_fn=<DotBackward>)
+[2K[2Kloss is 129.2572
+val loss = tensor(1858.3850, grad_fn=<DotBackward>)
+loss is 139.95831
+val loss = tensor(1918.8962, grad_fn=<DotBackward>)
+loss is 138.70038
+val loss = tensor(1903.9600, grad_fn=<DotBackward>)
+loss is 115.104614
+val loss = tensor(1899.0500, grad_fn=<DotBackward>)
+loss is 129.66931
+val loss = tensor(1894.4128, grad_fn=<DotBackward>)
+[2K[2Kloss is 133.51196
+val loss = tensor(1882.0734, grad_fn=<DotBackward>)
+loss is 152.13458
+val loss = tensor(1887.6208, grad_fn=<DotBackward>)
+loss is 115.63248
+val loss = tensor(1882.8114, grad_fn=<DotBackward>)
+loss is 133.12979
+val loss = tensor(1924.3652, grad_fn=<DotBackward>)
+loss is 133.5856
+val loss = tensor(1925.9966, grad_fn=<DotBackward>)
+[2K[2Kloss is 127.394394
+val loss = tensor(1895.4451, grad_fn=<DotBackward>)
+loss is 131.91016
+val loss = tensor(1913.1504, grad_fn=<DotBackward>)
+loss is 139.17522
+val loss = tensor(1881.3632, grad_fn=<DotBackward>)
+loss is 126.449936
+val loss = tensor(1884.1111, grad_fn=<DotBackward>)
+loss is 123.11555
+val loss = tensor(1851.4136, grad_fn=<DotBackward>)
+[2K[2Kloss is 138.29535
+val loss = tensor(1897.8560, grad_fn=<DotBackward>)
+loss is 138.73022
+val loss = tensor(1971.6145, grad_fn=<DotBackward>)
+loss is 129.83852
+val loss = tensor(1890.8983, grad_fn=<DotBackward>)
+loss is 133.36438
+val loss = tensor(1899.1023, grad_fn=<DotBackward>)
+loss is 126.76915
+val loss = tensor(1846.8629, grad_fn=<DotBackward>)
+[2K[2Kloss is 139.08029
+val loss = tensor(1873.3623, grad_fn=<DotBackward>)
+loss is 124.328766
+val loss = tensor(1938.6052, grad_fn=<DotBackward>)
+loss is 124.350204
+val loss = tensor(1852.9659, grad_fn=<DotBackward>)
+loss is 141.34311
+val loss = tensor(1919.3352, grad_fn=<DotBackward>)
+loss is 133.98956
+val loss = tensor(1868.8302, grad_fn=<DotBackward>)
+[2K[2Kloss is 133.0181
+val loss = tensor(1892.7490, grad_fn=<DotBackward>)
+loss is 132.98357
+val loss = tensor(1878.8463, grad_fn=<DotBackward>)
+loss is 129.85654
+val loss = tensor(1961.6553, grad_fn=<DotBackward>)
+loss is 132.54434
+val loss = tensor(1955.6543, grad_fn=<DotBackward>)
+loss is 135.7652
+val loss = tensor(1850.1077, grad_fn=<DotBackward>)
+[2K[2Kloss is 134.83484
+val loss = tensor(1847.5032, grad_fn=<DotBackward>)
+loss is 130.07526
+val loss = tensor(1852.0752, grad_fn=<DotBackward>)
+loss is 129.39963
+val loss = tensor(1873.5020, grad_fn=<DotBackward>)
+loss is 140.12117
+val loss = tensor(2019.0398, grad_fn=<DotBackward>)
+loss is 126.46032
+val loss = tensor(1912.8875, grad_fn=<DotBackward>)
+[2K[2Kloss is 121.49637
+val loss = tensor(1895.7886, grad_fn=<DotBackward>)
+loss is 126.89418
+val loss = tensor(1808.0814, grad_fn=<DotBackward>)
+new smallest loss is tensor(1808.0814, grad_fn=<DotBackward>)
+loss is 139.73828
+val loss = tensor(1857.6427, grad_fn=<DotBackward>)
+loss is 127.90053
+val loss = tensor(1828.1973, grad_fn=<DotBackward>)
+loss is 144.6908
+val loss = tensor(1934.3267, grad_fn=<DotBackward>)
+[2K[2Kloss is 131.50378
+val loss = tensor(1982.3270, grad_fn=<DotBackward>)
+loss is 134.78888
+val loss = tensor(1899.7599, grad_fn=<DotBackward>)
+loss is 124.279976
+val loss = tensor(1856.8215, grad_fn=<DotBackward>)
+loss is 128.99985
+val loss = tensor(1851.4192, grad_fn=<DotBackward>)
+loss is 131.5276
+val loss = tensor(1808.8579, grad_fn=<DotBackward>)
+[2K[2Kloss is 145.74744
+val loss = tensor(1820.5183, grad_fn=<DotBackward>)
+loss is 143.02287
+val loss = tensor(1906.0354, grad_fn=<DotBackward>)
+loss is 133.83978
+val loss = tensor(1998.8253, grad_fn=<DotBackward>)
+loss is 121.69817
+val loss = tensor(1892.2833, grad_fn=<DotBackward>)
+loss is 123.83536
+val loss = tensor(1850.9293, grad_fn=<DotBackward>)
+[2K[2Kloss is 118.91758
+val loss = tensor(1820.7527, grad_fn=<DotBackward>)
+loss is 129.7359
+val loss = tensor(1829.3801, grad_fn=<DotBackward>)
+loss is 129.34506
+val loss = tensor(1803.7581, grad_fn=<DotBackward>)
+new smallest loss is tensor(1803.7581, grad_fn=<DotBackward>)
+loss is 129.35843
+val loss = tensor(1838.7483, grad_fn=<DotBackward>)
+loss is 125.921936
+val loss = tensor(1982.6614, grad_fn=<DotBackward>)
+[2K[2Kloss is 126.30185
+val loss = tensor(1956.6423, grad_fn=<DotBackward>)
+loss is 129.45924
+val loss = tensor(1893.2800, grad_fn=<DotBackward>)
+loss is 138.95126
+val loss = tensor(1834.3132, grad_fn=<DotBackward>)
+loss is 122.96244
+val loss = tensor(1829.9659, grad_fn=<DotBackward>)
+loss is 133.23415
+val loss = tensor(1862.8192, grad_fn=<DotBackward>)
+[2K[2Kloss is 130.75302
+val loss = tensor(1911.3951, grad_fn=<DotBackward>)
+loss is 137.57785
+val loss = tensor(1958.3281, grad_fn=<DotBackward>)
+loss is 124.34985
+val loss = tensor(1870.4012, grad_fn=<DotBackward>)
+loss is 131.0655
+val loss = tensor(1858.5398, grad_fn=<DotBackward>)
+loss is 114.393364
+val loss = tensor(1866.0439, grad_fn=<DotBackward>)
+[2K[2Kloss is 129.78764
+val loss = tensor(1866.1046, grad_fn=<DotBackward>)
+loss is 136.0383
+val loss = tensor(1903.4202, grad_fn=<DotBackward>)
+loss is 124.87558
+val loss = tensor(1926.4912, grad_fn=<DotBackward>)
+loss is 122.82236
+val loss = tensor(1948.3408, grad_fn=<DotBackward>)
+loss is 131.21391
+val loss = tensor(1845.7910, grad_fn=<DotBackward>)
+[2K[2Kloss is 124.209625
+val loss = tensor(1866.9065, grad_fn=<DotBackward>)
+loss is 127.28017
+val loss = tensor(1854.0227, grad_fn=<DotBackward>)
+loss is 138.6395
+val loss = tensor(1834.7699, grad_fn=<DotBackward>)
+loss is 123.598206
+val loss = tensor(1836.2061, grad_fn=<DotBackward>)
+loss is 137.60846
+val loss = tensor(1950.6875, grad_fn=<DotBackward>)
+[2K[2Kloss is 142.82922
+val loss = tensor(2028.7938, grad_fn=<DotBackward>)
+loss is 138.22452
+val loss = tensor(1856.5020, grad_fn=<DotBackward>)
+loss is 140.47507
+val loss = tensor(1854.4231, grad_fn=<DotBackward>)
+loss is 128.84842
+val loss = tensor(1835.7095, grad_fn=<DotBackward>)
+loss is 144.58194
+val loss = tensor(1837.9692, grad_fn=<DotBackward>)
+[2K[2Kloss is 119.350006
+val loss = tensor(1862.3525, grad_fn=<DotBackward>)
+loss is 135.41782
+val loss = tensor(1929.3436, grad_fn=<DotBackward>)
+loss is 143.72469
+val loss = tensor(1970.5211, grad_fn=<DotBackward>)
+loss is 138.4506
+val loss = tensor(1899.7753, grad_fn=<DotBackward>)
+loss is 136.24371
+val loss = tensor(1910.3298, grad_fn=<DotBackward>)
+[2K[2Kloss is 140.18257
+val loss = tensor(1865.0460, grad_fn=<DotBackward>)
+loss is 124.75511
+val loss = tensor(1841.8645, grad_fn=<DotBackward>)
+loss is 118.239075
+val loss = tensor(1851.1938, grad_fn=<DotBackward>)
+loss is 134.53418
+val loss = tensor(1969.1968, grad_fn=<DotBackward>)
+loss is 144.51183
+val loss = tensor(1943.1162, grad_fn=<DotBackward>)
+[2K[2Kloss is 131.9674
+val loss = tensor(1889.0959, grad_fn=<DotBackward>)
+loss is 131.20409
+val loss = tensor(1850.8729, grad_fn=<DotBackward>)
+loss is 114.52393
+val loss = tensor(1846.8589, grad_fn=<DotBackward>)
+loss is 128.77408
+val loss = tensor(1861.6929, grad_fn=<DotBackward>)
+loss is 135.54489
+val loss = tensor(1883.0975, grad_fn=<DotBackward>)
+[2K[2Kloss is 113.54799
+val loss = tensor(1951.1038, grad_fn=<DotBackward>)
+loss is 128.67444
+val loss = tensor(1879.6129, grad_fn=<DotBackward>)
+loss is 117.238785
+val loss = tensor(1879.2400, grad_fn=<DotBackward>)
+loss is 133.00674
+val loss = tensor(1846.0785, grad_fn=<DotBackward>)
+loss is 128.76826
+val loss = tensor(1889.5546, grad_fn=<DotBackward>)
+[2K[2Kloss is 133.94153
+val loss = tensor(1908.5066, grad_fn=<DotBackward>)
+loss is 131.518
+val loss = tensor(1899.7085, grad_fn=<DotBackward>)
+loss is 116.46766
+val loss = tensor(1898.0852, grad_fn=<DotBackward>)
+loss is 125.30476
+val loss = tensor(1848.0837, grad_fn=<DotBackward>)
+loss is 116.34435
+val loss = tensor(1877.7196, grad_fn=<DotBackward>)
+[2K[2Kloss is 133.3588
+val loss = tensor(1851.9235, grad_fn=<DotBackward>)
+loss is 135.54375
+val loss = tensor(1903.7776, grad_fn=<DotBackward>)
+loss is 129.1372
+val loss = tensor(1878.4423, grad_fn=<DotBackward>)
+loss is 125.45078
+val loss = tensor(1886.4817, grad_fn=<DotBackward>)
+loss is 126.45276
+val loss = tensor(1898.1805, grad_fn=<DotBackward>)
+[2K[2Kloss is 121.853966
+val loss = tensor(1866.6539, grad_fn=<DotBackward>)
+loss is 138.35107
+val loss = tensor(1881.2549, grad_fn=<DotBackward>)
+loss is 124.72873
+val loss = tensor(1883.2815, grad_fn=<DotBackward>)
+loss is 143.58765
+val loss = tensor(1933.9749, grad_fn=<DotBackward>)
+loss is 127.10373
+val loss = tensor(1871.8768, grad_fn=<DotBackward>)
+[2K[2Kloss is 123.5945
+val loss = tensor(1855.7716, grad_fn=<DotBackward>)
+loss is 119.43474
+val loss = tensor(1846.7887, grad_fn=<DotBackward>)
+loss is 135.09488
+val loss = tensor(1835.3687, grad_fn=<DotBackward>)
+loss is 128.28201
+val loss = tensor(1850.9672, grad_fn=<DotBackward>)
+loss is 140.96954
+val loss = tensor(1925.0376, grad_fn=<DotBackward>)
+[2K[2Kloss is 135.74548
+val loss = tensor(1947.5615, grad_fn=<DotBackward>)
+loss is 115.6181
+val loss = tensor(1922.8081, grad_fn=<DotBackward>)
+loss is 126.03547
+val loss = tensor(1851.3682, grad_fn=<DotBackward>)
+loss is 127.59767
+val loss = tensor(1806.6243, grad_fn=<DotBackward>)
+loss is 114.85714
+val loss = tensor(1862.6526, grad_fn=<DotBackward>)
+[2K[2Kloss is 121.71481
+val loss = tensor(1866.9014, grad_fn=<DotBackward>)
+loss is 132.05847
+val loss = tensor(1972.3811, grad_fn=<DotBackward>)
+loss is 122.22995
+val loss = tensor(1906.5247, grad_fn=<DotBackward>)
+loss is 126.9451
+val loss = tensor(1890.4690, grad_fn=<DotBackward>)
+loss is 119.756256
+val loss = tensor(1846.3652, grad_fn=<DotBackward>)
+[2K[2Kloss is 100.923325
+val loss = tensor(1860.7385, grad_fn=<DotBackward>)
+loss is 141.08028
+val loss = tensor(1789.8154, grad_fn=<DotBackward>)
+new smallest loss is tensor(1789.8154, grad_fn=<DotBackward>)
+loss is 129.21303
+val loss = tensor(1862.9679, grad_fn=<DotBackward>)
+loss is 124.689285
+val loss = tensor(1987.5198, grad_fn=<DotBackward>)
+loss is 135.0996
+val loss = tensor(1954.9473, grad_fn=<DotBackward>)
+[2K[2Kloss is 126.96522
+val loss = tensor(1877.5459, grad_fn=<DotBackward>)
+loss is 120.664925
+val loss = tensor(1859.7684, grad_fn=<DotBackward>)
+loss is 115.33219
+val loss = tensor(1825.6163, grad_fn=<DotBackward>)
+loss is 126.58402
+val loss = tensor(1826.0845, grad_fn=<DotBackward>)
+loss is 121.994934
+val loss = tensor(1797.5453, grad_fn=<DotBackward>)
+[2K[2Kloss is 134.23645
+val loss = tensor(1932.6167, grad_fn=<DotBackward>)
+loss is 120.86018
+val loss = tensor(2038.3044, grad_fn=<DotBackward>)
+loss is 110.164
+val loss = tensor(1847.0488, grad_fn=<DotBackward>)
+loss is 135.96715
+val loss = tensor(1862.4722, grad_fn=<DotBackward>)
+loss is 116.95351
+val loss = tensor(1804.7212, grad_fn=<DotBackward>)
+[2K[2Kloss is 130.74861
+val loss = tensor(1818.4246, grad_fn=<DotBackward>)
+loss is 126.09004
+val loss = tensor(1847.6650, grad_fn=<DotBackward>)
+loss is 138.62671
+val loss = tensor(1968.4146, grad_fn=<DotBackward>)
+loss is 131.47389
+val loss = tensor(1934.6483, grad_fn=<DotBackward>)
+loss is 118.248215
+val loss = tensor(1881.8442, grad_fn=<DotBackward>)
+[2K[2Kloss is 120.874664
+val loss = tensor(1868.0435, grad_fn=<DotBackward>)
+loss is 130.1259
+val loss = tensor(1823.5101, grad_fn=<DotBackward>)
+loss is 135.17563
+val loss = tensor(1821.3057, grad_fn=<DotBackward>)
+loss is 139.86244
+val loss = tensor(1834.6394, grad_fn=<DotBackward>)
+loss is 139.7969
+val loss = tensor(1841.7146, grad_fn=<DotBackward>)
+[2K[2Kloss is 128.02934
+val loss = tensor(1989.4849, grad_fn=<DotBackward>)
+loss is 120.34728
+val loss = tensor(1892.9070, grad_fn=<DotBackward>)
+loss is 116.43925
+val loss = tensor(1869.8098, grad_fn=<DotBackward>)
+loss is 122.98313
+val loss = tensor(1842.6880, grad_fn=<DotBackward>)
+loss is 119.72876
+val loss = tensor(1817.7527, grad_fn=<DotBackward>)
+[2K[2Kloss is 120.54382
+val loss = tensor(1819.0352, grad_fn=<DotBackward>)
+loss is 123.8886
+val loss = tensor(1816.8284, grad_fn=<DotBackward>)
+loss is 137.56813
+val loss = tensor(1852.5686, grad_fn=<DotBackward>)
+loss is 127.1251
+val loss = tensor(2018.6500, grad_fn=<DotBackward>)
+loss is 121.36997
+val loss = tensor(1854.2000, grad_fn=<DotBackward>)
+[2K[2Kloss is 118.247505
+val loss = tensor(1931.6642, grad_fn=<DotBackward>)
+loss is 127.15744
+val loss = tensor(1810.2776, grad_fn=<DotBackward>)
+loss is 130.92795
+val loss = tensor(1831.6111, grad_fn=<DotBackward>)
+loss is 106.80862
+val loss = tensor(1843.3257, grad_fn=<DotBackward>)
+loss is 117.73439
+val loss = tensor(1877.5836, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.33215
+val loss = tensor(2018.8003, grad_fn=<DotBackward>)
+loss is 123.400406
+val loss = tensor(1867.5117, grad_fn=<DotBackward>)
+loss is 130.43536
+val loss = tensor(1873.2617, grad_fn=<DotBackward>)
+loss is 118.1083
+val loss = tensor(1809.9114, grad_fn=<DotBackward>)
+loss is 128.52365
+val loss = tensor(1846.9148, grad_fn=<DotBackward>)
+[2K[2Kloss is 127.611084
+val loss = tensor(1857.7209, grad_fn=<DotBackward>)
+loss is 114.3611
+val loss = tensor(1873.1704, grad_fn=<DotBackward>)
+loss is 110.43859
+val loss = tensor(1965.6543, grad_fn=<DotBackward>)
+loss is 130.34163
+val loss = tensor(1888.6124, grad_fn=<DotBackward>)
+loss is 124.03107
+val loss = tensor(1882.2529, grad_fn=<DotBackward>)
+[2K[2Kloss is 123.17746
+val loss = tensor(1840.1525, grad_fn=<DotBackward>)
+loss is 122.28114
+val loss = tensor(1859.6172, grad_fn=<DotBackward>)
+loss is 145.46619
+val loss = tensor(1839.9761, grad_fn=<DotBackward>)
+loss is 118.39031
+val loss = tensor(1899.4487, grad_fn=<DotBackward>)
+loss is 129.9487
+val loss = tensor(1959.8020, grad_fn=<DotBackward>)
+[2K[2Kloss is 125.57059
+val loss = tensor(1888.4359, grad_fn=<DotBackward>)
+loss is 116.822235
+val loss = tensor(1867.8324, grad_fn=<DotBackward>)
+loss is 131.66797
+val loss = tensor(1852.9233, grad_fn=<DotBackward>)
+loss is 121.76351
+val loss = tensor(1836.1680, grad_fn=<DotBackward>)
+loss is 132.25356
+val loss = tensor(1800.5447, grad_fn=<DotBackward>)
+[2K[2Kloss is 125.206116
+val loss = tensor(1815.9083, grad_fn=<DotBackward>)
+loss is 128.58014
+val loss = tensor(1839.5068, grad_fn=<DotBackward>)
+loss is 121.244156
+val loss = tensor(2139.2297, grad_fn=<DotBackward>)
+loss is 129.09853
+val loss = tensor(1897.4683, grad_fn=<DotBackward>)
+loss is 126.183914
+val loss = tensor(1948.9742, grad_fn=<DotBackward>)
+[2K[2Kloss is 119.938034
+val loss = tensor(1882.6536, grad_fn=<DotBackward>)
+loss is 125.92715
+val loss = tensor(1815.9263, grad_fn=<DotBackward>)
+loss is 110.92914
+val loss = tensor(1822.2738, grad_fn=<DotBackward>)
+loss is 125.7155
+val loss = tensor(1833.0581, grad_fn=<DotBackward>)
+loss is 131.13144
+val loss = tensor(1916.0516, grad_fn=<DotBackward>)
+[2K[2Kloss is 126.32962
+val loss = tensor(1939.2207, grad_fn=<DotBackward>)
+loss is 109.910805
+val loss = tensor(1870.8579, grad_fn=<DotBackward>)
+loss is 117.499596
+val loss = tensor(1841.9840, grad_fn=<DotBackward>)
+loss is 115.97272
+val loss = tensor(1851.0088, grad_fn=<DotBackward>)
+loss is 138.86441
+val loss = tensor(1797.9235, grad_fn=<DotBackward>)
+[2K[2Kloss is 113.925514
+val loss = tensor(1825.6218, grad_fn=<DotBackward>)
+loss is 134.97095
+val loss = tensor(1808.4136, grad_fn=<DotBackward>)
+loss is 120.15912
+val loss = tensor(1903.6670, grad_fn=<DotBackward>)
+loss is 134.7283
+val loss = tensor(2036.5303, grad_fn=<DotBackward>)
+loss is 135.44388
+val loss = tensor(1879.3726, grad_fn=<DotBackward>)
+[2K[2Kloss is 132.0404
+val loss = tensor(1881.5681, grad_fn=<DotBackward>)
+loss is 131.18994
+val loss = tensor(1853.3851, grad_fn=<DotBackward>)
+loss is 132.93561
+val loss = tensor(1860.3159, grad_fn=<DotBackward>)
+loss is 125.29577
+val loss = tensor(1799.8563, grad_fn=<DotBackward>)
+loss is 132.5698
+val loss = tensor(1900.9586, grad_fn=<DotBackward>)
+[2K[2Kloss is 132.2372
+val loss = tensor(1916.7413, grad_fn=<DotBackward>)
+loss is 133.75461
+val loss = tensor(1940.6709, grad_fn=<DotBackward>)
+loss is 125.645355
+val loss = tensor(1930.3119, grad_fn=<DotBackward>)
+loss is 123.24191
+val loss = tensor(1874.1436, grad_fn=<DotBackward>)
+loss is 124.055435
+val loss = tensor(1817.8290, grad_fn=<DotBackward>)
+[2K[2Kloss is 130.14764
+val loss = tensor(1842.7625, grad_fn=<DotBackward>)
+loss is 116.878876
+val loss = tensor(1803.8518, grad_fn=<DotBackward>)
+loss is 127.97151
+val loss = tensor(1949.5330, grad_fn=<DotBackward>)
+loss is 120.96996
+val loss = tensor(1958.5835, grad_fn=<DotBackward>)
+loss is 121.25819
+val loss = tensor(1860.8193, grad_fn=<DotBackward>)
+[2K[2Kloss is 128.76253
+val loss = tensor(1840.4855, grad_fn=<DotBackward>)
+loss is 122.32506
+val loss = tensor(1839.3076, grad_fn=<DotBackward>)
+loss is 130.25523
+val loss = tensor(1814.8379, grad_fn=<DotBackward>)
+loss is 134.37222
+val loss = tensor(1870.0205, grad_fn=<DotBackward>)
+loss is 121.3123
+val loss = tensor(1957.4752, grad_fn=<DotBackward>)
+[2K[2Kloss is 126.04216
+val loss = tensor(1935.2051, grad_fn=<DotBackward>)
+loss is 123.93975
+val loss = tensor(1903.2389, grad_fn=<DotBackward>)
+loss is 122.20819
+val loss = tensor(1860.3254, grad_fn=<DotBackward>)
+loss is 115.91403
+val loss = tensor(1832.4788, grad_fn=<DotBackward>)
+loss is 125.044525
+val loss = tensor(1840.2793, grad_fn=<DotBackward>)
+[2K[2Kloss is 137.89948
+val loss = tensor(1793.9888, grad_fn=<DotBackward>)
+loss is 126.162346
+val loss = tensor(1890.9525, grad_fn=<DotBackward>)
+loss is 140.9965
+val loss = tensor(2028.9515, grad_fn=<DotBackward>)
+loss is 111.10979
+val loss = tensor(1889.8829, grad_fn=<DotBackward>)
+loss is 124.34976
+val loss = tensor(1850.9152, grad_fn=<DotBackward>)
+[2K[2Kloss is 121.28494
+val loss = tensor(1813.7234, grad_fn=<DotBackward>)
+loss is 122.28151
+val loss = tensor(1794.3999, grad_fn=<DotBackward>)
+loss is 124.624115
+val loss = tensor(1841.9775, grad_fn=<DotBackward>)
+loss is 129.89804
+val loss = tensor(1934.7745, grad_fn=<DotBackward>)
+loss is 137.65858
+val loss = tensor(1940.3595, grad_fn=<DotBackward>)
+[2K[2Kloss is 118.05431
+val loss = tensor(1843.9116, grad_fn=<DotBackward>)
+loss is 138.41748
+val loss = tensor(1819.7744, grad_fn=<DotBackward>)
+loss is 126.41851
+val loss = tensor(1816.4778, grad_fn=<DotBackward>)
+loss is 118.32721
+val loss = tensor(1833.6111, grad_fn=<DotBackward>)
+loss is 127.00307
+val loss = tensor(1906.5414, grad_fn=<DotBackward>)
+[2K[2Kloss is 126.96642
+val loss = tensor(2008.8152, grad_fn=<DotBackward>)
+loss is 133.20914
+val loss = tensor(1826.3574, grad_fn=<DotBackward>)
+loss is 137.60794
+val loss = tensor(1848.4655, grad_fn=<DotBackward>)
+loss is 117.96271
+val loss = tensor(1840.7949, grad_fn=<DotBackward>)
+loss is 116.17079
+val loss = tensor(1819.7793, grad_fn=<DotBackward>)
+[2K[2Kloss is 125.065796
+val loss = tensor(1790.1818, grad_fn=<DotBackward>)
+loss is 115.443565
+val loss = tensor(1805.8223, grad_fn=<DotBackward>)
+loss is 119.85865
+val loss = tensor(1859.1602, grad_fn=<DotBackward>)
+loss is 133.17966
+val loss = tensor(1983.0366, grad_fn=<DotBackward>)
+loss is 125.542175
+val loss = tensor(1948.0255, grad_fn=<DotBackward>)
+[2K[2Kloss is 131.52808
+val loss = tensor(1870.4805, grad_fn=<DotBackward>)
+loss is 121.34981
+val loss = tensor(1809.1749, grad_fn=<DotBackward>)
+loss is 113.89319
+val loss = tensor(1831.9832, grad_fn=<DotBackward>)
+loss is 135.94795
+val loss = tensor(1824.8802, grad_fn=<DotBackward>)
+loss is 116.32119
+val loss = tensor(1934.7505, grad_fn=<DotBackward>)
+[2K[2Kloss is 123.3764
+val loss = tensor(1930.9169, grad_fn=<DotBackward>)
+loss is 120.31515
+val loss = tensor(1829.1691, grad_fn=<DotBackward>)
+loss is 120.17223
+val loss = tensor(1865.5350, grad_fn=<DotBackward>)
+loss is 116.089554
+val loss = tensor(1831.2594, grad_fn=<DotBackward>)
+loss is 116.06009
+val loss = tensor(1827.7476, grad_fn=<DotBackward>)
+[2K[2Kloss is 123.54029
+val loss = tensor(1818.5415, grad_fn=<DotBackward>)
+loss is 116.87729
+val loss = tensor(1786.8306, grad_fn=<DotBackward>)
+new smallest loss is tensor(1786.8306, grad_fn=<DotBackward>)
+loss is 127.793144
+val loss = tensor(1819.8530, grad_fn=<DotBackward>)
+loss is 120.43806
+val loss = tensor(1986.0344, grad_fn=<DotBackward>)
+loss is 122.40454
+val loss = tensor(1946.3096, grad_fn=<DotBackward>)
+[2K[2Kloss is 106.11752
+val loss = tensor(1932.3270, grad_fn=<DotBackward>)
+loss is 122.51573
+val loss = tensor(1862.2844, grad_fn=<DotBackward>)
+loss is 108.992294
+val loss = tensor(1864.3401, grad_fn=<DotBackward>)
+loss is 131.98338
+val loss = tensor(1862.1711, grad_fn=<DotBackward>)
+loss is 120.63553
+val loss = tensor(1902.6953, grad_fn=<DotBackward>)
+[2K[2Kloss is 135.16754
+val loss = tensor(1884.6401, grad_fn=<DotBackward>)
+loss is 115.55925
+val loss = tensor(1957.9506, grad_fn=<DotBackward>)
+loss is 132.44559
+val loss = tensor(1889.3152, grad_fn=<DotBackward>)
+loss is 127.29692
+val loss = tensor(1832.3748, grad_fn=<DotBackward>)
+loss is 121.455414
+val loss = tensor(1835.3708, grad_fn=<DotBackward>)
+[2K[2Kloss is 129.30911
+val loss = tensor(1854.1912, grad_fn=<DotBackward>)
+loss is 123.88845
+val loss = tensor(1928.4248, grad_fn=<DotBackward>)
+loss is 125.81242
+val loss = tensor(1877.9706, grad_fn=<DotBackward>)
+loss is 123.91526
+val loss = tensor(1907.9655, grad_fn=<DotBackward>)
+loss is 143.83302
+val loss = tensor(1826.9161, grad_fn=<DotBackward>)
+[2K[2Kloss is 119.48517
+val loss = tensor(1816.1307, grad_fn=<DotBackward>)
+loss is 139.81136
+val loss = tensor(1896.8510, grad_fn=<DotBackward>)
+loss is 133.24121
+val loss = tensor(1900.1224, grad_fn=<DotBackward>)
+loss is 128.28471
+val loss = tensor(1947.2838, grad_fn=<DotBackward>)
+loss is 124.9514
+val loss = tensor(1862.0931, grad_fn=<DotBackward>)
+[2K[2Kloss is 105.90184
+val loss = tensor(1811.0454, grad_fn=<DotBackward>)
+loss is 125.221146
+val loss = tensor(1816.3770, grad_fn=<DotBackward>)
+loss is 120.40332
+val loss = tensor(1814.2163, grad_fn=<DotBackward>)
+loss is 126.555786
+val loss = tensor(1803.4858, grad_fn=<DotBackward>)
+loss is 134.87283
+val loss = tensor(2089.3904, grad_fn=<DotBackward>)
+[2K[2Kloss is 121.780785
+val loss = tensor(1891.6836, grad_fn=<DotBackward>)
+loss is 116.37212
+val loss = tensor(1832.6393, grad_fn=<DotBackward>)
+loss is 128.4613
+val loss = tensor(1840.7388, grad_fn=<DotBackward>)
+loss is 115.05812
+val loss = tensor(1789.1924, grad_fn=<DotBackward>)
+loss is 121.33489
+val loss = tensor(1801.1885, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.693954
+val loss = tensor(1810.8806, grad_fn=<DotBackward>)
+loss is 127.061935
+val loss = tensor(1902.0088, grad_fn=<DotBackward>)
+loss is 127.63874
+val loss = tensor(1969.2009, grad_fn=<DotBackward>)
+loss is 117.397995
+val loss = tensor(1894.1426, grad_fn=<DotBackward>)
+loss is 119.75786
+val loss = tensor(1847.4314, grad_fn=<DotBackward>)
+[2K[2Kloss is 115.64935
+val loss = tensor(1815.6187, grad_fn=<DotBackward>)
+loss is 122.52076
+val loss = tensor(1782.9927, grad_fn=<DotBackward>)
+new smallest loss is tensor(1782.9927, grad_fn=<DotBackward>)
+loss is 109.06448
+val loss = tensor(1789.6792, grad_fn=<DotBackward>)
+loss is 123.27593
+val loss = tensor(1793.2639, grad_fn=<DotBackward>)
+loss is 119.55379
+val loss = tensor(1816.7083, grad_fn=<DotBackward>)
+[2K[2Kloss is 128.2111
+val loss = tensor(2000.0931, grad_fn=<DotBackward>)
+loss is 117.88353
+val loss = tensor(1886.6052, grad_fn=<DotBackward>)
+loss is 113.0519
+val loss = tensor(1903.5503, grad_fn=<DotBackward>)
+loss is 130.97435
+val loss = tensor(1836.7327, grad_fn=<DotBackward>)
+loss is 111.19928
+val loss = tensor(1859.3719, grad_fn=<DotBackward>)
+[2K[2Kloss is 122.3822
+val loss = tensor(1802.3330, grad_fn=<DotBackward>)
+loss is 131.41971
+val loss = tensor(1853.5425, grad_fn=<DotBackward>)
+loss is 116.21817
+val loss = tensor(1887.9338, grad_fn=<DotBackward>)
+loss is 123.145134
+val loss = tensor(1974.0831, grad_fn=<DotBackward>)
+loss is 124.6754
+val loss = tensor(1905.5817, grad_fn=<DotBackward>)
+[2K[2Kloss is 123.30652
+val loss = tensor(1842.6575, grad_fn=<DotBackward>)
+loss is 125.65887
+val loss = tensor(1855.1807, grad_fn=<DotBackward>)
+loss is 141.56914
+val loss = tensor(1799.0452, grad_fn=<DotBackward>)
+loss is 114.55694
+val loss = tensor(1788.9536, grad_fn=<DotBackward>)
+loss is 122.76575
+val loss = tensor(1826.0470, grad_fn=<DotBackward>)
+[2K[2Kloss is 131.88037
+val loss = tensor(1915.0471, grad_fn=<DotBackward>)
+loss is 117.62729
+val loss = tensor(1945.1423, grad_fn=<DotBackward>)
+loss is 124.996315
+val loss = tensor(1918.0127, grad_fn=<DotBackward>)
+loss is 119.18535
+val loss = tensor(1838.8743, grad_fn=<DotBackward>)
+loss is 122.9045
+val loss = tensor(1849.3933, grad_fn=<DotBackward>)
+[2K[2Kloss is 127.94031
+val loss = tensor(1834.1801, grad_fn=<DotBackward>)
+loss is 116.801956
+val loss = tensor(1834.3447, grad_fn=<DotBackward>)
+loss is 115.66518
+val loss = tensor(1917.7480, grad_fn=<DotBackward>)
+loss is 101.32735
+val loss = tensor(1911.0056, grad_fn=<DotBackward>)
+loss is 113.94856
+val loss = tensor(1899.0812, grad_fn=<DotBackward>)
+[2K[2Kloss is 126.270546
+val loss = tensor(1839.9055, grad_fn=<DotBackward>)
+loss is 128.56989
+val loss = tensor(1846.4302, grad_fn=<DotBackward>)
+loss is 120.185265
+val loss = tensor(1813.2961, grad_fn=<DotBackward>)
+loss is 107.734375
+val loss = tensor(1846.0199, grad_fn=<DotBackward>)
+loss is 122.510376
+val loss = tensor(1918.1982, grad_fn=<DotBackward>)
+[2K[2Kloss is 136.2887
+val loss = tensor(1896.7847, grad_fn=<DotBackward>)
+loss is 130.11533
+val loss = tensor(1837.2653, grad_fn=<DotBackward>)
+loss is 125.2025
+val loss = tensor(1856.0916, grad_fn=<DotBackward>)
+loss is 110.23732
+val loss = tensor(1847.8361, grad_fn=<DotBackward>)
+loss is 124.705475
+val loss = tensor(1823.3936, grad_fn=<DotBackward>)
+[2K[2Kloss is 126.416725
+val loss = tensor(1883.9688, grad_fn=<DotBackward>)
+loss is 114.12458
+val loss = tensor(1897.4011, grad_fn=<DotBackward>)
+loss is 121.2472
+val loss = tensor(1899.3168, grad_fn=<DotBackward>)
+loss is 126.013885
+val loss = tensor(1854.2383, grad_fn=<DotBackward>)
+loss is 136.2718
+val loss = tensor(1851.1166, grad_fn=<DotBackward>)
+[2K[2Kloss is 120.2737
+val loss = tensor(1812.4727, grad_fn=<DotBackward>)
+loss is 113.25147
+val loss = tensor(1851.0222, grad_fn=<DotBackward>)
+loss is 129.0939
+val loss = tensor(1783.5017, grad_fn=<DotBackward>)
+loss is 114.26617
+val loss = tensor(1861.9664, grad_fn=<DotBackward>)
+loss is 136.40437
+val loss = tensor(2011.8567, grad_fn=<DotBackward>)
+[2K[2Kloss is 113.28752
+val loss = tensor(1918.1033, grad_fn=<DotBackward>)
+loss is 138.85948
+val loss = tensor(1964.1284, grad_fn=<DotBackward>)
+loss is 122.57895
+val loss = tensor(1874.5454, grad_fn=<DotBackward>)
+loss is 117.21106
+val loss = tensor(1845.1294, grad_fn=<DotBackward>)
+loss is 125.33584
+val loss = tensor(1801.2957, grad_fn=<DotBackward>)
+[2K[2Kloss is 120.19137
+val loss = tensor(1830.0298, grad_fn=<DotBackward>)
+loss is 117.55279
+val loss = tensor(1809.2478, grad_fn=<DotBackward>)
+loss is 118.47156
+val loss = tensor(1824.6570, grad_fn=<DotBackward>)
+loss is 125.76056
+val loss = tensor(1971.0686, grad_fn=<DotBackward>)
+loss is 123.632484
+val loss = tensor(1939.4471, grad_fn=<DotBackward>)
+[2K[2Kloss is 137.23871
+val loss = tensor(1938.1570, grad_fn=<DotBackward>)
+loss is 125.62862
+val loss = tensor(1824.6914, grad_fn=<DotBackward>)
+loss is 123.22628
+val loss = tensor(1886.3564, grad_fn=<DotBackward>)
+loss is 120.94105
+val loss = tensor(1819.1980, grad_fn=<DotBackward>)
+loss is 135.64355
+val loss = tensor(1860.6138, grad_fn=<DotBackward>)
+[2K[2Kloss is 106.55942
+val loss = tensor(1951.7924, grad_fn=<DotBackward>)
+loss is 110.17972
+val loss = tensor(1842.1067, grad_fn=<DotBackward>)
+loss is 101.80606
+val loss = tensor(1858.5698, grad_fn=<DotBackward>)
+loss is 118.05505
+val loss = tensor(1856.9326, grad_fn=<DotBackward>)
+loss is 124.16945
+val loss = tensor(1831.3809, grad_fn=<DotBackward>)
+[2K[2Kloss is 112.17724
+val loss = tensor(1857.4204, grad_fn=<DotBackward>)
+loss is 97.71705
+val loss = tensor(1853.4482, grad_fn=<DotBackward>)
+loss is 139.17705
+val loss = tensor(1942.5979, grad_fn=<DotBackward>)
+loss is 123.618
+val loss = tensor(1910.5901, grad_fn=<DotBackward>)
+loss is 118.24341
+val loss = tensor(1868.8976, grad_fn=<DotBackward>)
+[2K[2Kloss is 118.58156
+val loss = tensor(1819.3335, grad_fn=<DotBackward>)
+loss is 127.90201
+val loss = tensor(1859.2368, grad_fn=<DotBackward>)
+loss is 114.0872
+val loss = tensor(1837.9927, grad_fn=<DotBackward>)
+loss is 129.38687
+val loss = tensor(1913.2468, grad_fn=<DotBackward>)
+loss is 116.14167
+val loss = tensor(1885.2986, grad_fn=<DotBackward>)
+[2K[2Kloss is 113.36179
+val loss = tensor(1908.2927, grad_fn=<DotBackward>)
+loss is 122.49376
+val loss = tensor(1813.8599, grad_fn=<DotBackward>)
+loss is 130.815
+val loss = tensor(1795.3970, grad_fn=<DotBackward>)
+loss is 133.16878
+val loss = tensor(1810.1534, grad_fn=<DotBackward>)
+loss is 117.44078
+val loss = tensor(1860.6732, grad_fn=<DotBackward>)
+[2K[2Kloss is 135.36238
+val loss = tensor(1978.9919, grad_fn=<DotBackward>)
+loss is 118.18446
+val loss = tensor(1864.9830, grad_fn=<DotBackward>)
+loss is 120.62288
+val loss = tensor(1872.2251, grad_fn=<DotBackward>)
+loss is 113.2314
+val loss = tensor(1814.1440, grad_fn=<DotBackward>)
+loss is 109.05785
+val loss = tensor(1834.0188, grad_fn=<DotBackward>)
+[2K[2Kloss is 117.62496
+val loss = tensor(1810.3191, grad_fn=<DotBackward>)
+loss is 123.9668
+val loss = tensor(1950.9813, grad_fn=<DotBackward>)
+loss is 120.52049
+val loss = tensor(1893.3923, grad_fn=<DotBackward>)
+loss is 108.00171
+val loss = tensor(1870.1844, grad_fn=<DotBackward>)
+loss is 117.11427
+val loss = tensor(1866.5090, grad_fn=<DotBackward>)
+[2K[2Kloss is 119.26752
+val loss = tensor(1817.0905, grad_fn=<DotBackward>)
+loss is 129.23328
+val loss = tensor(1824.1997, grad_fn=<DotBackward>)
+loss is 133.65823
+val loss = tensor(1869.9614, grad_fn=<DotBackward>)
+loss is 118.27754
+val loss = tensor(1921.8368, grad_fn=<DotBackward>)
+loss is 115.183624
+val loss = tensor(1915.8167, grad_fn=<DotBackward>)
+[2K[2Kloss is 115.528
+val loss = tensor(1904.8936, grad_fn=<DotBackward>)
+loss is 123.6794
+val loss = tensor(1838.0468, grad_fn=<DotBackward>)
+loss is 119.93931
+val loss = tensor(1807.0605, grad_fn=<DotBackward>)
+loss is 119.76062
+val loss = tensor(1820.9810, grad_fn=<DotBackward>)
+loss is 104.43436
+val loss = tensor(1871.2733, grad_fn=<DotBackward>)
+[2K[2Kloss is 119.30455
+val loss = tensor(1865.1091, grad_fn=<DotBackward>)
+loss is 132.76523
+val loss = tensor(1965.5486, grad_fn=<DotBackward>)
+loss is 120.547935
+val loss = tensor(1870.1299, grad_fn=<DotBackward>)
+loss is 129.74985
+val loss = tensor(1885.3785, grad_fn=<DotBackward>)
+loss is 126.02575
+val loss = tensor(1839.1086, grad_fn=<DotBackward>)
+[2K[2Kloss is 141.58554
+val loss = tensor(1824.6024, grad_fn=<DotBackward>)
+loss is 121.17255
+val loss = tensor(1825.9573, grad_fn=<DotBackward>)
+loss is 118.5506
+val loss = tensor(1814.6998, grad_fn=<DotBackward>)
+loss is 120.00833
+val loss = tensor(1834.0404, grad_fn=<DotBackward>)
+loss is 133.63675
+val loss = tensor(2000.8553, grad_fn=<DotBackward>)
+[2K[2Kloss is 129.17339
+val loss = tensor(1923.7578, grad_fn=<DotBackward>)
+loss is 105.13485
+val loss = tensor(1933.8088, grad_fn=<DotBackward>)
+loss is 111.24785
+val loss = tensor(1807.0002, grad_fn=<DotBackward>)
+loss is 122.92634
+val loss = tensor(1904.7495, grad_fn=<DotBackward>)
+loss is 98.73532
+val loss = tensor(1790.6099, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.94437
+val loss = tensor(1869.3862, grad_fn=<DotBackward>)
+loss is 118.27398
+val loss = tensor(1846.8303, grad_fn=<DotBackward>)
+loss is 123.4543
+val loss = tensor(1987.9270, grad_fn=<DotBackward>)
+loss is 116.87938
+val loss = tensor(1886.6541, grad_fn=<DotBackward>)
+loss is 129.48407
+val loss = tensor(1903.7466, grad_fn=<DotBackward>)
+[2K[2Kloss is 119.462746
+val loss = tensor(1811.6138, grad_fn=<DotBackward>)
+loss is 120.54695
+val loss = tensor(1873.6284, grad_fn=<DotBackward>)
+loss is 115.36731
+val loss = tensor(1799.4834, grad_fn=<DotBackward>)
+loss is 120.5633
+val loss = tensor(1855.0253, grad_fn=<DotBackward>)
+loss is 121.52542
+val loss = tensor(1952.4432, grad_fn=<DotBackward>)
+[2K[2Kloss is 118.10712
+val loss = tensor(1928.7345, grad_fn=<DotBackward>)
+loss is 113.44745
+val loss = tensor(1875.6704, grad_fn=<DotBackward>)
+loss is 119.27042
+val loss = tensor(1856.7581, grad_fn=<DotBackward>)
+loss is 118.71579
+val loss = tensor(1813.7477, grad_fn=<DotBackward>)
+loss is 115.882706
+val loss = tensor(1831.8961, grad_fn=<DotBackward>)
+[2K[2Kloss is 115.24606
+val loss = tensor(1886.2007, grad_fn=<DotBackward>)
+loss is 123.282455
+val loss = tensor(1910.2433, grad_fn=<DotBackward>)
+loss is 120.311455
+val loss = tensor(1881.5093, grad_fn=<DotBackward>)
+loss is 139.10365
+val loss = tensor(1903.6177, grad_fn=<DotBackward>)
+loss is 130.89142
+val loss = tensor(1822.9663, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.7254
+val loss = tensor(1818.6477, grad_fn=<DotBackward>)
+loss is 109.60724
+val loss = tensor(1821.6827, grad_fn=<DotBackward>)
+loss is 118.69335
+val loss = tensor(1833.5785, grad_fn=<DotBackward>)
+loss is 140.4098
+val loss = tensor(1915.7661, grad_fn=<DotBackward>)
+loss is 134.37897
+val loss = tensor(1915.2244, grad_fn=<DotBackward>)
+[2K[2Kloss is 110.10205
+val loss = tensor(1927.2085, grad_fn=<DotBackward>)
+loss is 100.65828
+val loss = tensor(1826.9512, grad_fn=<DotBackward>)
+loss is 119.53017
+val loss = tensor(1810.2533, grad_fn=<DotBackward>)
+loss is 108.19665
+val loss = tensor(1841.8333, grad_fn=<DotBackward>)
+loss is 122.747986
+val loss = tensor(1774.2289, grad_fn=<DotBackward>)
+new smallest loss is tensor(1774.2289, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.54178
+val loss = tensor(1805.7913, grad_fn=<DotBackward>)
+loss is 113.39451
+val loss = tensor(1955.8730, grad_fn=<DotBackward>)
+loss is 127.61001
+val loss = tensor(1954.9116, grad_fn=<DotBackward>)
+loss is 116.91825
+val loss = tensor(1917.2749, grad_fn=<DotBackward>)
+loss is 110.72482
+val loss = tensor(1812.5797, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.77771
+val loss = tensor(1870.2905, grad_fn=<DotBackward>)
+loss is 133.374
+val loss = tensor(1823.6785, grad_fn=<DotBackward>)
+loss is 114.19971
+val loss = tensor(1839.8480, grad_fn=<DotBackward>)
+loss is 115.45636
+val loss = tensor(1976.4836, grad_fn=<DotBackward>)
+loss is 112.78461
+val loss = tensor(1821.5693, grad_fn=<DotBackward>)
+[2K[2Kloss is 112.58057
+val loss = tensor(1904.9624, grad_fn=<DotBackward>)
+loss is 117.02133
+val loss = tensor(1845.9983, grad_fn=<DotBackward>)
+loss is 111.11667
+val loss = tensor(1821.2659, grad_fn=<DotBackward>)
+loss is 113.08986
+val loss = tensor(1868.1436, grad_fn=<DotBackward>)
+loss is 106.93691
+val loss = tensor(1810.2102, grad_fn=<DotBackward>)
+[2K[2Kloss is 113.64732
+val loss = tensor(1914.7534, grad_fn=<DotBackward>)
+loss is 114.868195
+val loss = tensor(1917.9811, grad_fn=<DotBackward>)
+loss is 123.33285
+val loss = tensor(1867.0734, grad_fn=<DotBackward>)
+loss is 125.34426
+val loss = tensor(1844.9629, grad_fn=<DotBackward>)
+loss is 118.96216
+val loss = tensor(1803.8033, grad_fn=<DotBackward>)
+[2K[2Kloss is 104.45652
+val loss = tensor(1860.4438, grad_fn=<DotBackward>)
+loss is 118.92677
+val loss = tensor(1889.7867, grad_fn=<DotBackward>)
+loss is 112.47024
+val loss = tensor(1901.0237, grad_fn=<DotBackward>)
+loss is 118.27386
+val loss = tensor(1903.1984, grad_fn=<DotBackward>)
+loss is 108.02478
+val loss = tensor(1864.5698, grad_fn=<DotBackward>)
+[2K[2Kloss is 122.26596
+val loss = tensor(1838.8557, grad_fn=<DotBackward>)
+loss is 132.3139
+val loss = tensor(1845.8582, grad_fn=<DotBackward>)
+loss is 126.13562
+val loss = tensor(1887.9875, grad_fn=<DotBackward>)
+loss is 116.995804
+val loss = tensor(1897.2567, grad_fn=<DotBackward>)
+loss is 114.40019
+val loss = tensor(1860.8419, grad_fn=<DotBackward>)
+[2K[2Kloss is 122.62739
+val loss = tensor(1833.3499, grad_fn=<DotBackward>)
+loss is 114.57178
+val loss = tensor(1839.9956, grad_fn=<DotBackward>)
+loss is 128.52742
+val loss = tensor(1823.7747, grad_fn=<DotBackward>)
+loss is 125.07471
+val loss = tensor(1951.5984, grad_fn=<DotBackward>)
+loss is 116.05607
+val loss = tensor(1855.0398, grad_fn=<DotBackward>)
+[2K[2Kloss is 112.85214
+val loss = tensor(1862.9832, grad_fn=<DotBackward>)
+loss is 111.46726
+val loss = tensor(1832.7428, grad_fn=<DotBackward>)
+loss is 114.51541
+val loss = tensor(1842.8798, grad_fn=<DotBackward>)
+loss is 111.59386
+val loss = tensor(1831.5822, grad_fn=<DotBackward>)
+loss is 111.75774
+val loss = tensor(1844.3828, grad_fn=<DotBackward>)
+[2K[2Kloss is 125.48016
+val loss = tensor(1908.3792, grad_fn=<DotBackward>)
+loss is 119.95378
+val loss = tensor(1921.7388, grad_fn=<DotBackward>)
+loss is 93.897484
+val loss = tensor(1820.5763, grad_fn=<DotBackward>)
+loss is 108.19705
+val loss = tensor(1833.8656, grad_fn=<DotBackward>)
+loss is 122.19316
+val loss = tensor(1791.0631, grad_fn=<DotBackward>)
+[2K[2Kloss is 112.44664
+val loss = tensor(1804.5808, grad_fn=<DotBackward>)
+loss is 103.35742
+val loss = tensor(1805.1837, grad_fn=<DotBackward>)
+loss is 117.58617
+val loss = tensor(1952.2581, grad_fn=<DotBackward>)
+loss is 106.098564
+val loss = tensor(1891.0408, grad_fn=<DotBackward>)
+loss is 127.85092
+val loss = tensor(1858.6833, grad_fn=<DotBackward>)
+[2K[2Kloss is 124.77424
+val loss = tensor(1845.7327, grad_fn=<DotBackward>)
+loss is 121.5786
+val loss = tensor(1829.4673, grad_fn=<DotBackward>)
+loss is 112.909515
+val loss = tensor(1836.2361, grad_fn=<DotBackward>)
+loss is 107.73184
+val loss = tensor(1812.2292, grad_fn=<DotBackward>)
+loss is 126.1013
+val loss = tensor(1932.8596, grad_fn=<DotBackward>)
+[2K[2Kloss is 129.5346
+val loss = tensor(1916.2832, grad_fn=<DotBackward>)
+loss is 121.331245
+val loss = tensor(1888.0516, grad_fn=<DotBackward>)
+loss is 113.36545
+val loss = tensor(1851.2927, grad_fn=<DotBackward>)
+loss is 125.60022
+val loss = tensor(1814.1973, grad_fn=<DotBackward>)
+loss is 110.530495
+val loss = tensor(1825.7551, grad_fn=<DotBackward>)
+[2K[2Kloss is 115.15344
+val loss = tensor(1789.2550, grad_fn=<DotBackward>)
+loss is 109.38713
+val loss = tensor(1833.4307, grad_fn=<DotBackward>)
+loss is 123.63541
+val loss = tensor(1990.5017, grad_fn=<DotBackward>)
+loss is 121.74397
+val loss = tensor(1924.9878, grad_fn=<DotBackward>)
+loss is 122.423355
+val loss = tensor(1841.2416, grad_fn=<DotBackward>)
+[2K[2Kloss is 115.06238
+val loss = tensor(1808.6737, grad_fn=<DotBackward>)
+loss is 113.01555
+val loss = tensor(1815.2947, grad_fn=<DotBackward>)
+loss is 106.71936
+val loss = tensor(1806.3015, grad_fn=<DotBackward>)
+loss is 117.62691
+val loss = tensor(1793.3964, grad_fn=<DotBackward>)
+loss is 117.59355
+val loss = tensor(1843.7979, grad_fn=<DotBackward>)
+[2K[2Kloss is 109.5883
+val loss = tensor(2002.0837, grad_fn=<DotBackward>)
+loss is 125.74798
+val loss = tensor(1904.1743, grad_fn=<DotBackward>)
+loss is 118.55775
+val loss = tensor(1876.1920, grad_fn=<DotBackward>)
+loss is 117.88512
+val loss = tensor(1837.2063, grad_fn=<DotBackward>)
+loss is 129.15279
+val loss = tensor(1828.0657, grad_fn=<DotBackward>)
+[2K[2Kloss is 112.16003
+val loss = tensor(1807.4631, grad_fn=<DotBackward>)
+loss is 119.815704
+val loss = tensor(1851.2394, grad_fn=<DotBackward>)
+loss is 105.30026
+val loss = tensor(1989.0338, grad_fn=<DotBackward>)
+loss is 111.80223
+val loss = tensor(1864.1736, grad_fn=<DotBackward>)
+loss is 109.60227
+val loss = tensor(1839.4111, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.14957
+val loss = tensor(1830.8986, grad_fn=<DotBackward>)
+loss is 126.38718
+val loss = tensor(1809.1448, grad_fn=<DotBackward>)
+loss is 110.85838
+val loss = tensor(1822.7200, grad_fn=<DotBackward>)
+loss is 114.113464
+val loss = tensor(1893.8263, grad_fn=<DotBackward>)
+loss is 124.197495
+val loss = tensor(1929.9354, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.55371
+val loss = tensor(1875.8646, grad_fn=<DotBackward>)
+loss is 107.14708
+val loss = tensor(1818.4181, grad_fn=<DotBackward>)
+loss is 112.468704
+val loss = tensor(1808.9236, grad_fn=<DotBackward>)
+loss is 123.86776
+val loss = tensor(1789.1058, grad_fn=<DotBackward>)
+loss is 113.82605
+val loss = tensor(1818.1909, grad_fn=<DotBackward>)
+[2K[2Kloss is 114.79539
+val loss = tensor(1945.6993, grad_fn=<DotBackward>)
+loss is 100.610664
+val loss = tensor(1878.7952, grad_fn=<DotBackward>)
+loss is 116.981125
+val loss = tensor(1851.4783, grad_fn=<DotBackward>)
+loss is 108.718124
+val loss = tensor(1780.7362, grad_fn=<DotBackward>)
+loss is 125.04819
+val loss = tensor(1827.7848, grad_fn=<DotBackward>)
+[2K[2Kloss is 114.51542
+val loss = tensor(1796.8906, grad_fn=<DotBackward>)
+loss is 118.91566
+val loss = tensor(1898.2773, grad_fn=<DotBackward>)
+loss is 116.15132
+val loss = tensor(1935.5662, grad_fn=<DotBackward>)
+loss is 123.62079
+val loss = tensor(1853.0667, grad_fn=<DotBackward>)
+loss is 114.51613
+val loss = tensor(1856.2014, grad_fn=<DotBackward>)
+[2K[2Kloss is 119.118256
+val loss = tensor(1823.6746, grad_fn=<DotBackward>)
+loss is 120.19327
+val loss = tensor(1849.8486, grad_fn=<DotBackward>)
+loss is 104.646805
+val loss = tensor(1791.1655, grad_fn=<DotBackward>)
+loss is 120.3642
+val loss = tensor(1842.5549, grad_fn=<DotBackward>)
+loss is 112.10459
+val loss = tensor(1891.6995, grad_fn=<DotBackward>)
+[2K[2Kloss is 125.23479
+val loss = tensor(1925.6677, grad_fn=<DotBackward>)
+loss is 126.60042
+val loss = tensor(1883.3574, grad_fn=<DotBackward>)
+loss is 124.94001
+val loss = tensor(1806.4766, grad_fn=<DotBackward>)
+loss is 111.15282
+val loss = tensor(1842.6970, grad_fn=<DotBackward>)
+loss is 103.43489
+val loss = tensor(1771.9316, grad_fn=<DotBackward>)
+new smallest loss is tensor(1771.9316, grad_fn=<DotBackward>)
+[2K[2Kloss is 114.84317
+val loss = tensor(1812.1309, grad_fn=<DotBackward>)
+loss is 116.963425
+val loss = tensor(1816.4210, grad_fn=<DotBackward>)
+loss is 127.69343
+val loss = tensor(1998.2155, grad_fn=<DotBackward>)
+loss is 116.27845
+val loss = tensor(1913.1433, grad_fn=<DotBackward>)
+loss is 115.98416
+val loss = tensor(1878.5430, grad_fn=<DotBackward>)
+[2K[2Kloss is 126.10513
+val loss = tensor(1842.4432, grad_fn=<DotBackward>)
+loss is 114.27954
+val loss = tensor(1819.7301, grad_fn=<DotBackward>)
+loss is 131.23311
+val loss = tensor(1845.7849, grad_fn=<DotBackward>)
+loss is 121.34083
+val loss = tensor(1820.5166, grad_fn=<DotBackward>)
+loss is 124.49216
+val loss = tensor(1947.1499, grad_fn=<DotBackward>)
+[2K[2Kloss is 119.438576
+val loss = tensor(1912.7831, grad_fn=<DotBackward>)
+loss is 132.44992
+val loss = tensor(1848.4773, grad_fn=<DotBackward>)
+loss is 114.29381
+val loss = tensor(1839.8346, grad_fn=<DotBackward>)
+loss is 105.11857
+val loss = tensor(1840.3533, grad_fn=<DotBackward>)
+loss is 114.12587
+val loss = tensor(1856.7012, grad_fn=<DotBackward>)
+[2K[2Kloss is 110.26367
+val loss = tensor(1842.6614, grad_fn=<DotBackward>)
+loss is 107.87759
+val loss = tensor(1886.0538, grad_fn=<DotBackward>)
+loss is 122.287674
+val loss = tensor(1908.3329, grad_fn=<DotBackward>)
+loss is 123.42609
+val loss = tensor(1833.6011, grad_fn=<DotBackward>)
+loss is 112.34488
+val loss = tensor(1898.6422, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.725266
+val loss = tensor(1821.6985, grad_fn=<DotBackward>)
+loss is 117.47192
+val loss = tensor(1803.5383, grad_fn=<DotBackward>)
+loss is 121.72533
+val loss = tensor(1869.9304, grad_fn=<DotBackward>)
+loss is 124.84478
+val loss = tensor(1909.8235, grad_fn=<DotBackward>)
+loss is 120.63464
+val loss = tensor(1847.0500, grad_fn=<DotBackward>)
+[2K[2Kloss is 108.64397
+val loss = tensor(1844.5945, grad_fn=<DotBackward>)
+loss is 111.63139
+val loss = tensor(1813.3706, grad_fn=<DotBackward>)
+loss is 109.75698
+val loss = tensor(1842.7341, grad_fn=<DotBackward>)
+loss is 115.02672
+val loss = tensor(1823.8408, grad_fn=<DotBackward>)
+loss is 126.26877
+val loss = tensor(1980.1239, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.23197
+val loss = tensor(1869.8721, grad_fn=<DotBackward>)
+loss is 127.17034
+val loss = tensor(1917.2510, grad_fn=<DotBackward>)
+loss is 109.006485
+val loss = tensor(1808.5667, grad_fn=<DotBackward>)
+loss is 127.782166
+val loss = tensor(1824.1145, grad_fn=<DotBackward>)
+loss is 113.77557
+val loss = tensor(1788.5623, grad_fn=<DotBackward>)
+[2K[2Kloss is 108.485855
+val loss = tensor(1846.4775, grad_fn=<DotBackward>)
+loss is 104.53267
+val loss = tensor(1933.9507, grad_fn=<DotBackward>)
+loss is 110.881516
+val loss = tensor(1940.7102, grad_fn=<DotBackward>)
+loss is 120.190094
+val loss = tensor(1817.0227, grad_fn=<DotBackward>)
+loss is 108.365204
+val loss = tensor(1788.5483, grad_fn=<DotBackward>)
+[2K[2Kloss is 107.37394
+val loss = tensor(1796.9978, grad_fn=<DotBackward>)
+loss is 123.25858
+val loss = tensor(1790.0530, grad_fn=<DotBackward>)
+loss is 117.87691
+val loss = tensor(1874.6187, grad_fn=<DotBackward>)
+loss is 112.52251
+val loss = tensor(1985.1638, grad_fn=<DotBackward>)
+loss is 121.26907
+val loss = tensor(1872.7260, grad_fn=<DotBackward>)
+[2K[2Kloss is 106.25578
+val loss = tensor(1823.6096, grad_fn=<DotBackward>)
+loss is 109.331825
+val loss = tensor(1808.4385, grad_fn=<DotBackward>)
+loss is 110.8801
+val loss = tensor(1751.9177, grad_fn=<DotBackward>)
+new smallest loss is tensor(1751.9177, grad_fn=<DotBackward>)
+loss is 113.45642
+val loss = tensor(1804.3726, grad_fn=<DotBackward>)
+loss is 113.20781
+val loss = tensor(1783.5813, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.270096
+val loss = tensor(1953.5145, grad_fn=<DotBackward>)
+loss is 114.227234
+val loss = tensor(1976.7805, grad_fn=<DotBackward>)
+loss is 108.806625
+val loss = tensor(1826.1586, grad_fn=<DotBackward>)
+loss is 109.16702
+val loss = tensor(1828.4785, grad_fn=<DotBackward>)
+loss is 112.71894
+val loss = tensor(1815.3792, grad_fn=<DotBackward>)
+[2K[2Kloss is 110.77248
+val loss = tensor(1792.1567, grad_fn=<DotBackward>)
+loss is 108.30025
+val loss = tensor(1887.8243, grad_fn=<DotBackward>)
+loss is 118.360794
+val loss = tensor(1886.0366, grad_fn=<DotBackward>)
+loss is 115.863205
+val loss = tensor(1897.4049, grad_fn=<DotBackward>)
+loss is 123.28131
+val loss = tensor(1872.9758, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.483215
+val loss = tensor(1781.3876, grad_fn=<DotBackward>)
+loss is 133.50829
+val loss = tensor(1824.5902, grad_fn=<DotBackward>)
+loss is 119.11955
+val loss = tensor(1762.9982, grad_fn=<DotBackward>)
+loss is 92.77798
+val loss = tensor(1828.5669, grad_fn=<DotBackward>)
+loss is 111.134384
+val loss = tensor(1926.3431, grad_fn=<DotBackward>)
+[2K[2Kloss is 104.387436
+val loss = tensor(1922.3198, grad_fn=<DotBackward>)
+loss is 115.275055
+val loss = tensor(1915.7782, grad_fn=<DotBackward>)
+loss is 107.01511
+val loss = tensor(1805.8070, grad_fn=<DotBackward>)
+loss is 128.90756
+val loss = tensor(1856.8198, grad_fn=<DotBackward>)
+loss is 128.79904
+val loss = tensor(1752.5873, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.84273
+val loss = tensor(1806.6743, grad_fn=<DotBackward>)
+loss is 107.999146
+val loss = tensor(1922.7390, grad_fn=<DotBackward>)
+loss is 108.46424
+val loss = tensor(1925.4431, grad_fn=<DotBackward>)
+loss is 119.15636
+val loss = tensor(1892.5452, grad_fn=<DotBackward>)
+loss is 110.00572
+val loss = tensor(1850.6719, grad_fn=<DotBackward>)
+[2K[2Kloss is 107.5677
+val loss = tensor(1785.5793, grad_fn=<DotBackward>)
+loss is 116.83792
+val loss = tensor(1861.6379, grad_fn=<DotBackward>)
+loss is 122.82498
+val loss = tensor(1790.9728, grad_fn=<DotBackward>)
+loss is 105.027435
+val loss = tensor(1892.1672, grad_fn=<DotBackward>)
+loss is 114.72957
+val loss = tensor(1951.1091, grad_fn=<DotBackward>)
+[2K[2Kloss is 117.784454
+val loss = tensor(1809.6238, grad_fn=<DotBackward>)
+loss is 107.52672
+val loss = tensor(1816.2328, grad_fn=<DotBackward>)
+loss is 117.51172
+val loss = tensor(1814.8489, grad_fn=<DotBackward>)
+loss is 113.04262
+val loss = tensor(1752.9197, grad_fn=<DotBackward>)
+loss is 110.18773
+val loss = tensor(1795.1951, grad_fn=<DotBackward>)
+[2K[2Kloss is 112.5522
+val loss = tensor(1968.9265, grad_fn=<DotBackward>)
+loss is 118.89192
+val loss = tensor(1921.2834, grad_fn=<DotBackward>)
+loss is 120.51806
+val loss = tensor(1893.7738, grad_fn=<DotBackward>)
+loss is 119.62471
+val loss = tensor(1820.6078, grad_fn=<DotBackward>)
+loss is 107.38095
+val loss = tensor(1803.7996, grad_fn=<DotBackward>)
+[2K[2Kloss is 117.91237
+val loss = tensor(1771.4182, grad_fn=<DotBackward>)
+loss is 117.24938
+val loss = tensor(1796.6035, grad_fn=<DotBackward>)
+loss is 121.21283
+val loss = tensor(1801.7000, grad_fn=<DotBackward>)
+loss is 124.399956
+val loss = tensor(1938.8560, grad_fn=<DotBackward>)
+loss is 123.26338
+val loss = tensor(2007.2864, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.34611
+val loss = tensor(1849.6707, grad_fn=<DotBackward>)
+loss is 126.230255
+val loss = tensor(1780.8237, grad_fn=<DotBackward>)
+loss is 110.72476
+val loss = tensor(1843.8385, grad_fn=<DotBackward>)
+loss is 113.10222
+val loss = tensor(1780.0615, grad_fn=<DotBackward>)
+loss is 110.14713
+val loss = tensor(1858.2712, grad_fn=<DotBackward>)
+[2K[2Kloss is 117.82874
+val loss = tensor(1925.4944, grad_fn=<DotBackward>)
+loss is 108.07518
+val loss = tensor(1877.3336, grad_fn=<DotBackward>)
+loss is 117.17017
+val loss = tensor(1845.4839, grad_fn=<DotBackward>)
+loss is 91.25873
+val loss = tensor(1796.0227, grad_fn=<DotBackward>)
+loss is 113.50976
+val loss = tensor(1789.4639, grad_fn=<DotBackward>)
+[2K[2Kloss is 110.61392
+val loss = tensor(1802.1217, grad_fn=<DotBackward>)
+loss is 110.13885
+val loss = tensor(1898.6360, grad_fn=<DotBackward>)
+loss is 117.835144
+val loss = tensor(1918.6411, grad_fn=<DotBackward>)
+loss is 120.49907
+val loss = tensor(1835.7341, grad_fn=<DotBackward>)
+loss is 106.01332
+val loss = tensor(1805.7969, grad_fn=<DotBackward>)
+[2K[2Kloss is 114.29364
+val loss = tensor(1811.0410, grad_fn=<DotBackward>)
+loss is 117.75227
+val loss = tensor(1778.8250, grad_fn=<DotBackward>)
+loss is 124.84805
+val loss = tensor(1851.0377, grad_fn=<DotBackward>)
+loss is 113.11931
+val loss = tensor(1850.1896, grad_fn=<DotBackward>)
+loss is 108.15829
+val loss = tensor(1978.0938, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.422935
+val loss = tensor(1877.0958, grad_fn=<DotBackward>)
+loss is 110.180466
+val loss = tensor(1842.8848, grad_fn=<DotBackward>)
+loss is 111.10269
+val loss = tensor(1821.1042, grad_fn=<DotBackward>)
+loss is 112.1976
+val loss = tensor(1790.8759, grad_fn=<DotBackward>)
+loss is 119.89702
+val loss = tensor(1781.0621, grad_fn=<DotBackward>)
+[2K[2Kloss is 114.163445
+val loss = tensor(1861.2485, grad_fn=<DotBackward>)
+loss is 120.74341
+val loss = tensor(1926.4003, grad_fn=<DotBackward>)
+loss is 99.140785
+val loss = tensor(1930.4883, grad_fn=<DotBackward>)
+loss is 105.87277
+val loss = tensor(1889.0813, grad_fn=<DotBackward>)
+loss is 113.635895
+val loss = tensor(1856.5422, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.3002
+val loss = tensor(1805.5876, grad_fn=<DotBackward>)
+loss is 114.60174
+val loss = tensor(1775.8245, grad_fn=<DotBackward>)
+loss is 109.49145
+val loss = tensor(1838.1866, grad_fn=<DotBackward>)
+loss is 117.445816
+val loss = tensor(1739.0856, grad_fn=<DotBackward>)
+new smallest loss is tensor(1739.0856, grad_fn=<DotBackward>)
+loss is 99.279655
+val loss = tensor(1808.5642, grad_fn=<DotBackward>)
+[2K[2Kloss is 100.12256
+val loss = tensor(1980.3772, grad_fn=<DotBackward>)
+loss is 116.34459
+val loss = tensor(2037.4487, grad_fn=<DotBackward>)
+loss is 107.79581
+val loss = tensor(1875.5654, grad_fn=<DotBackward>)
+loss is 114.25782
+val loss = tensor(1906.1479, grad_fn=<DotBackward>)
+loss is 100.89247
+val loss = tensor(1825.8506, grad_fn=<DotBackward>)
+[2K[2Kloss is 106.050995
+val loss = tensor(1826.0291, grad_fn=<DotBackward>)
+loss is 109.85445
+val loss = tensor(1819.7939, grad_fn=<DotBackward>)
+loss is 116.70293
+val loss = tensor(1780.5883, grad_fn=<DotBackward>)
+loss is 116.84013
+val loss = tensor(1789.1738, grad_fn=<DotBackward>)
+loss is 106.32506
+val loss = tensor(1804.2256, grad_fn=<DotBackward>)
+[2K[2Kloss is 126.51872
+val loss = tensor(1837.6042, grad_fn=<DotBackward>)
+loss is 113.78064
+val loss = tensor(2135.2686, grad_fn=<DotBackward>)
+loss is 101.501465
+val loss = tensor(1853.4672, grad_fn=<DotBackward>)
+loss is 104.59714
+val loss = tensor(1924.3074, grad_fn=<DotBackward>)
+loss is 100.99814
+val loss = tensor(1815.1395, grad_fn=<DotBackward>)
+[2K[2Kloss is 121.56546
+val loss = tensor(1788.8536, grad_fn=<DotBackward>)
+loss is 106.956375
+val loss = tensor(1754.3241, grad_fn=<DotBackward>)
+loss is 111.76797
+val loss = tensor(1781.1394, grad_fn=<DotBackward>)
+loss is 104.31044
+val loss = tensor(1770.2509, grad_fn=<DotBackward>)
+loss is 98.32277
+val loss = tensor(1823.2557, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.54314
+val loss = tensor(2102.0300, grad_fn=<DotBackward>)
+loss is 111.972176
+val loss = tensor(1810.9175, grad_fn=<DotBackward>)
+loss is 111.08247
+val loss = tensor(1889.2423, grad_fn=<DotBackward>)
+loss is 113.17169
+val loss = tensor(1839.5950, grad_fn=<DotBackward>)
+loss is 106.6582
+val loss = tensor(1802.9281, grad_fn=<DotBackward>)
+[2K[2Kloss is 97.14624
+val loss = tensor(1759.2091, grad_fn=<DotBackward>)
+loss is 111.56825
+val loss = tensor(1809.4963, grad_fn=<DotBackward>)
+loss is 123.92808
+val loss = tensor(1915.9950, grad_fn=<DotBackward>)
+loss is 116.51073
+val loss = tensor(2061.1147, grad_fn=<DotBackward>)
+loss is 124.05434
+val loss = tensor(1823.7189, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.2816
+val loss = tensor(1899.0359, grad_fn=<DotBackward>)
+loss is 101.274994
+val loss = tensor(1779.9858, grad_fn=<DotBackward>)
+loss is 115.987404
+val loss = tensor(1804.3004, grad_fn=<DotBackward>)
+loss is 115.32879
+val loss = tensor(1737.0842, grad_fn=<DotBackward>)
+new smallest loss is tensor(1737.0842, grad_fn=<DotBackward>)
+loss is 110.707085
+val loss = tensor(1821.5322, grad_fn=<DotBackward>)
+[2K[2Kloss is 99.481735
+val loss = tensor(1866.0134, grad_fn=<DotBackward>)
+loss is 107.42198
+val loss = tensor(2023.9158, grad_fn=<DotBackward>)
+loss is 103.41356
+val loss = tensor(1866.3127, grad_fn=<DotBackward>)
+loss is 104.51113
+val loss = tensor(1820.4158, grad_fn=<DotBackward>)
+loss is 125.74458
+val loss = tensor(1828.6862, grad_fn=<DotBackward>)
+[2K[2Kloss is 107.45904
+val loss = tensor(1823.7781, grad_fn=<DotBackward>)
+loss is 115.91106
+val loss = tensor(1836.2266, grad_fn=<DotBackward>)
+loss is 117.84619
+val loss = tensor(1861.5309, grad_fn=<DotBackward>)
+loss is 104.92172
+val loss = tensor(1928.5085, grad_fn=<DotBackward>)
+loss is 100.10648
+val loss = tensor(1836.6085, grad_fn=<DotBackward>)
+[2K[2Kloss is 131.32535
+val loss = tensor(1887.5784, grad_fn=<DotBackward>)
+loss is 103.20191
+val loss = tensor(1833.8571, grad_fn=<DotBackward>)
+loss is 112.21153
+val loss = tensor(1858.4523, grad_fn=<DotBackward>)
+loss is 113.818886
+val loss = tensor(1859.5447, grad_fn=<DotBackward>)
+loss is 108.191315
+val loss = tensor(1823.0109, grad_fn=<DotBackward>)
+[2K[2Kloss is 119.89946
+val loss = tensor(2000.0944, grad_fn=<DotBackward>)
+loss is 109.76014
+val loss = tensor(1863.1621, grad_fn=<DotBackward>)
+loss is 119.89259
+val loss = tensor(1855.1318, grad_fn=<DotBackward>)
+loss is 120.55611
+val loss = tensor(1773.2404, grad_fn=<DotBackward>)
+loss is 97.57429
+val loss = tensor(1792.2736, grad_fn=<DotBackward>)
+[2K[2Kloss is 117.440475
+val loss = tensor(1769.7659, grad_fn=<DotBackward>)
+loss is 131.12933
+val loss = tensor(1856.7373, grad_fn=<DotBackward>)
+loss is 119.065956
+val loss = tensor(2019.9868, grad_fn=<DotBackward>)
+loss is 106.32396
+val loss = tensor(1873.1140, grad_fn=<DotBackward>)
+loss is 113.42424
+val loss = tensor(1830.1194, grad_fn=<DotBackward>)
+[2K[2Kloss is 100.21843
+val loss = tensor(1793.7190, grad_fn=<DotBackward>)
+loss is 112.52321
+val loss = tensor(1846.9861, grad_fn=<DotBackward>)
+loss is 116.05503
+val loss = tensor(1852.3555, grad_fn=<DotBackward>)
+loss is 107.68522
+val loss = tensor(1888.2822, grad_fn=<DotBackward>)
+loss is 99.74794
+val loss = tensor(1890.2773, grad_fn=<DotBackward>)
+[2K[2Kloss is 109.24831
+val loss = tensor(1884.0587, grad_fn=<DotBackward>)
+loss is 110.68445
+val loss = tensor(1849.4615, grad_fn=<DotBackward>)
+loss is 101.33426
+val loss = tensor(1811.5542, grad_fn=<DotBackward>)
+loss is 118.09859
+val loss = tensor(1824.8273, grad_fn=<DotBackward>)
+loss is 110.51251
+val loss = tensor(1821.7397, grad_fn=<DotBackward>)
+[2K[2Kloss is 123.90053
+val loss = tensor(1938.7745, grad_fn=<DotBackward>)
+loss is 111.36203
+val loss = tensor(1875.1113, grad_fn=<DotBackward>)
+loss is 114.21431
+val loss = tensor(1843.6462, grad_fn=<DotBackward>)
+loss is 102.15742
+val loss = tensor(1783.5715, grad_fn=<DotBackward>)
+loss is 112.75979
+val loss = tensor(1819.0223, grad_fn=<DotBackward>)
+[2K[2Kloss is 100.629974
+val loss = tensor(1807.8378, grad_fn=<DotBackward>)
+loss is 110.64751
+val loss = tensor(1857.1636, grad_fn=<DotBackward>)
+loss is 111.29849
+val loss = tensor(2010.2538, grad_fn=<DotBackward>)
+loss is 110.01494
+val loss = tensor(1899.7896, grad_fn=<DotBackward>)
+loss is 117.777435
+val loss = tensor(1933.8583, grad_fn=<DotBackward>)
+[2K[2Kloss is 114.23253
+val loss = tensor(1798.2406, grad_fn=<DotBackward>)
+loss is 105.48828
+val loss = tensor(1840.7942, grad_fn=<DotBackward>)
+loss is 103.23869
+val loss = tensor(1809.5625, grad_fn=<DotBackward>)
+loss is 107.9258
+val loss = tensor(1814.4312, grad_fn=<DotBackward>)
+loss is 111.25788
+val loss = tensor(1928.2437, grad_fn=<DotBackward>)
+[2K[2Kloss is 114.29379
+val loss = tensor(1932.3424, grad_fn=<DotBackward>)
+loss is 118.97325
+val loss = tensor(1865.1569, grad_fn=<DotBackward>)
+loss is 116.36069
+val loss = tensor(1840.8000, grad_fn=<DotBackward>)
+loss is 101.405716
+val loss = tensor(1809.0428, grad_fn=<DotBackward>)
+loss is 101.51365
+val loss = tensor(1833.3546, grad_fn=<DotBackward>)
+[2K[2Kloss is 102.00287
+val loss = tensor(1810.7563, grad_fn=<DotBackward>)
+loss is 113.370804
+val loss = tensor(1880.7827, grad_fn=<DotBackward>)
+loss is 106.80997
+val loss = tensor(2000.7944, grad_fn=<DotBackward>)
+loss is 100.11214
+val loss = tensor(1833.7351, grad_fn=<DotBackward>)
+loss is 94.93005
+val loss = tensor(1840.6990, grad_fn=<DotBackward>)
+[2K[2Kloss is 123.70455
+val loss = tensor(1771.9993, grad_fn=<DotBackward>)
+loss is 106.206314
+val loss = tensor(1743.2461, grad_fn=<DotBackward>)
+loss is 110.9975
+val loss = tensor(1798.4852, grad_fn=<DotBackward>)
+loss is 112.62994
+val loss = tensor(1758.9630, grad_fn=<DotBackward>)
+loss is 106.65611
+val loss = tensor(1797.3812, grad_fn=<DotBackward>)
+[2K[2Kloss is 100.31287
+val loss = tensor(1973.6377, grad_fn=<DotBackward>)
+loss is 103.113525
+val loss = tensor(1909.5115, grad_fn=<DotBackward>)
+loss is 112.65145
+val loss = tensor(1941.2051, grad_fn=<DotBackward>)
+loss is 111.183
+val loss = tensor(1838.7249, grad_fn=<DotBackward>)
+loss is 113.07335
+val loss = tensor(1855.2854, grad_fn=<DotBackward>)
+[2K[2Kloss is 119.899124
+val loss = tensor(1786.5632, grad_fn=<DotBackward>)
+loss is 105.68252
+val loss = tensor(1843.1777, grad_fn=<DotBackward>)
+loss is 111.118256
+val loss = tensor(1813.2131, grad_fn=<DotBackward>)
+loss is 111.08409
+val loss = tensor(1849.3770, grad_fn=<DotBackward>)
+loss is 121.105934
+val loss = tensor(2036.1986, grad_fn=<DotBackward>)
+[2K[2Kloss is 104.96036
+val loss = tensor(1842.1445, grad_fn=<DotBackward>)
+loss is 90.28633
+val loss = tensor(1875.1021, grad_fn=<DotBackward>)
+loss is 111.26644
+val loss = tensor(1772.4265, grad_fn=<DotBackward>)
+loss is 112.32402
+val loss = tensor(1827.1421, grad_fn=<DotBackward>)
+loss is 117.1337
+val loss = tensor(1773.5237, grad_fn=<DotBackward>)
+[2K[2Kloss is 99.96243
+val loss = tensor(1780.5764, grad_fn=<DotBackward>)
+loss is 96.22916
+val loss = tensor(1806.6791, grad_fn=<DotBackward>)
+loss is 87.91852
+val loss = tensor(2151.4355, grad_fn=<DotBackward>)
+loss is 108.19478
+val loss = tensor(1765.4940, grad_fn=<DotBackward>)
+loss is 112.48602
+val loss = tensor(2004.2393, grad_fn=<DotBackward>)
+[2K[2Kloss is 120.13732
+val loss = tensor(1781.2775, grad_fn=<DotBackward>)
+loss is 109.94922
+val loss = tensor(1859.4658, grad_fn=<DotBackward>)
+loss is 112.235504
+val loss = tensor(1791.9934, grad_fn=<DotBackward>)
+loss is 114.53786
+val loss = tensor(1823.7815, grad_fn=<DotBackward>)
+loss is 107.29013
+val loss = tensor(2000.1469, grad_fn=<DotBackward>)
+[2K[2Kloss is 109.86627
+val loss = tensor(1928.3378, grad_fn=<DotBackward>)
+loss is 105.84987
+val loss = tensor(1894.3435, grad_fn=<DotBackward>)
+loss is 111.11464
+val loss = tensor(1810.8330, grad_fn=<DotBackward>)
+loss is 111.54043
+val loss = tensor(1822.1777, grad_fn=<DotBackward>)
+loss is 115.26986
+val loss = tensor(1803.3086, grad_fn=<DotBackward>)
+[2K[2Kloss is 104.48488
+val loss = tensor(1786.8809, grad_fn=<DotBackward>)
+loss is 117.054276
+val loss = tensor(1848.9095, grad_fn=<DotBackward>)
+loss is 101.43239
+val loss = tensor(1965.1340, grad_fn=<DotBackward>)
+loss is 117.929184
+val loss = tensor(1959.6488, grad_fn=<DotBackward>)
+loss is 104.81893
+val loss = tensor(1871.9320, grad_fn=<DotBackward>)
+[2K[2Kloss is 121.1709
+val loss = tensor(1856.6267, grad_fn=<DotBackward>)
+loss is 107.78295
+val loss = tensor(1794.0063, grad_fn=<DotBackward>)
+loss is 125.292725
+val loss = tensor(1821.2764, grad_fn=<DotBackward>)
+loss is 113.27739
+val loss = tensor(1771.5146, grad_fn=<DotBackward>)
+loss is 108.3546
+val loss = tensor(1798.3644, grad_fn=<DotBackward>)
+[2K[2Kloss is 108.90912
+val loss = tensor(1902.7637, grad_fn=<DotBackward>)
+loss is 106.17114
+val loss = tensor(2053.5786, grad_fn=<DotBackward>)
+loss is 114.98134
+val loss = tensor(1840.2749, grad_fn=<DotBackward>)
+loss is 113.48305
+val loss = tensor(1869.7485, grad_fn=<DotBackward>)
+loss is 118.062164
+val loss = tensor(1785.2428, grad_fn=<DotBackward>)
+[2K[2Kloss is 101.47601
+val loss = tensor(1771.7753, grad_fn=<DotBackward>)
+loss is 117.09741
+val loss = tensor(1803.5511, grad_fn=<DotBackward>)
+loss is 122.236725
+val loss = tensor(1805.0256, grad_fn=<DotBackward>)
+loss is 117.145065
+val loss = tensor(1977.8688, grad_fn=<DotBackward>)
+loss is 109.77015
+val loss = tensor(1875.2681, grad_fn=<DotBackward>)
+[2K[2Kloss is 95.04242
+val loss = tensor(1890.5424, grad_fn=<DotBackward>)
+loss is 108.15082
+val loss = tensor(1825.3589, grad_fn=<DotBackward>)
+loss is 115.54839
+val loss = tensor(1834.3622, grad_fn=<DotBackward>)
+loss is 108.37097
+val loss = tensor(1811.6995, grad_fn=<DotBackward>)
+loss is 109.95216
+val loss = tensor(1801.6418, grad_fn=<DotBackward>)
+[2K[2Kloss is 100.919395
+val loss = tensor(1834.4790, grad_fn=<DotBackward>)
+loss is 123.5525
+val loss = tensor(1991.9382, grad_fn=<DotBackward>)
+loss is 120.80322
+val loss = tensor(1938.3641, grad_fn=<DotBackward>)
+loss is 112.60828
+val loss = tensor(1924.6705, grad_fn=<DotBackward>)
+loss is 119.15636
+val loss = tensor(1818.3601, grad_fn=<DotBackward>)
+[2K[2Kloss is 100.08336
+val loss = tensor(1828.2202, grad_fn=<DotBackward>)
+loss is 110.64905
+val loss = tensor(1785.3010, grad_fn=<DotBackward>)
+loss is 118.51323
+val loss = tensor(1853.7732, grad_fn=<DotBackward>)
+loss is 113.80078
+val loss = tensor(1938.3169, grad_fn=<DotBackward>)
+loss is 117.14131
+val loss = tensor(1916.0989, grad_fn=<DotBackward>)
+[2K[2Kloss is 125.53001
+val loss = tensor(1852.6265, grad_fn=<DotBackward>)
+loss is 115.90384
+val loss = tensor(1812.8997, grad_fn=<DotBackward>)
+loss is 121.8759
+val loss = tensor(1803.7023, grad_fn=<DotBackward>)
+loss is 117.88219
+val loss = tensor(1802.3424, grad_fn=<DotBackward>)
+loss is 107.674515
+val loss = tensor(1766.6768, grad_fn=<DotBackward>)
+[2K[2Kloss is 108.701706
+val loss = tensor(1858.8872, grad_fn=<DotBackward>)
+loss is 112.83741
+val loss = tensor(1986.4901, grad_fn=<DotBackward>)
+loss is 111.351585
+val loss = tensor(1934.1964, grad_fn=<DotBackward>)
+loss is 99.86394
+val loss = tensor(1904.6641, grad_fn=<DotBackward>)
+loss is 123.650856
+val loss = tensor(1815.7708, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.51021
+val loss = tensor(1797.3599, grad_fn=<DotBackward>)
+loss is 113.95233
+val loss = tensor(1829.1731, grad_fn=<DotBackward>)
+loss is 107.10587
+val loss = tensor(1864.3103, grad_fn=<DotBackward>)
+loss is 108.74028
+val loss = tensor(1934.3116, grad_fn=<DotBackward>)
+loss is 113.600266
+val loss = tensor(1806.4628, grad_fn=<DotBackward>)
+[2K[2Kloss is 98.909904
+val loss = tensor(1873.7607, grad_fn=<DotBackward>)
+loss is 112.435394
+val loss = tensor(1788.3105, grad_fn=<DotBackward>)
+loss is 101.96415
+val loss = tensor(1788.7759, grad_fn=<DotBackward>)
+loss is 112.65331
+val loss = tensor(1861.9205, grad_fn=<DotBackward>)
+loss is 114.27855
+val loss = tensor(1919.4171, grad_fn=<DotBackward>)
+[2K[2Kloss is 103.281876
+val loss = tensor(1912.1849, grad_fn=<DotBackward>)
+loss is 114.14948
+val loss = tensor(1867.0530, grad_fn=<DotBackward>)
+loss is 107.37208
+val loss = tensor(1856.1688, grad_fn=<DotBackward>)
+loss is 111.89998
+val loss = tensor(1804.2529, grad_fn=<DotBackward>)
+loss is 117.56641
+val loss = tensor(1766.3525, grad_fn=<DotBackward>)
+[2K[2Kloss is 92.83513
+val loss = tensor(1761.0723, grad_fn=<DotBackward>)
+loss is 109.68506
+val loss = tensor(1785.1030, grad_fn=<DotBackward>)
+loss is 120.01708
+val loss = tensor(1924.3633, grad_fn=<DotBackward>)
+loss is 102.73107
+val loss = tensor(1963.1437, grad_fn=<DotBackward>)
+loss is 115.252594
+val loss = tensor(1924.7197, grad_fn=<DotBackward>)
+[2K[2Kloss is 118.1342
+val loss = tensor(1821.0927, grad_fn=<DotBackward>)
+loss is 109.46457
+val loss = tensor(1805.3826, grad_fn=<DotBackward>)
+loss is 107.25778
+val loss = tensor(1830.3931, grad_fn=<DotBackward>)
+loss is 110.59199
+val loss = tensor(1759.3740, grad_fn=<DotBackward>)
+loss is 114.45882
+val loss = tensor(1808.4575, grad_fn=<DotBackward>)
+[2K[2Kloss is 109.62858
+val loss = tensor(1919.6509, grad_fn=<DotBackward>)
+loss is 114.87309
+val loss = tensor(1951.0081, grad_fn=<DotBackward>)
+loss is 110.12452
+val loss = tensor(1861.1632, grad_fn=<DotBackward>)
+loss is 122.07086
+val loss = tensor(1834.8054, grad_fn=<DotBackward>)
+loss is 110.62827
+val loss = tensor(1842.5707, grad_fn=<DotBackward>)
+[2K[2Kloss is 96.78792
+val loss = tensor(1758.4688, grad_fn=<DotBackward>)
+loss is 99.57597
+val loss = tensor(1801.9258, grad_fn=<DotBackward>)
+loss is 103.60129
+val loss = tensor(1755.7249, grad_fn=<DotBackward>)
+loss is 109.13398
+val loss = tensor(2061.1182, grad_fn=<DotBackward>)
+loss is 108.4008
+val loss = tensor(1792.7493, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.91618
+val loss = tensor(1911.4998, grad_fn=<DotBackward>)
+loss is 104.741234
+val loss = tensor(1761.8872, grad_fn=<DotBackward>)
+loss is 106.57783
+val loss = tensor(1825.6361, grad_fn=<DotBackward>)
+loss is 114.882034
+val loss = tensor(1768.0646, grad_fn=<DotBackward>)
+loss is 97.44299
+val loss = tensor(1738.5044, grad_fn=<DotBackward>)
+[2K[2Kloss is 110.81097
+val loss = tensor(1919.4753, grad_fn=<DotBackward>)
+loss is 112.82002
+val loss = tensor(2002.5221, grad_fn=<DotBackward>)
+loss is 108.300606
+val loss = tensor(1903.8774, grad_fn=<DotBackward>)
+loss is 97.143654
+val loss = tensor(1825.2667, grad_fn=<DotBackward>)
+loss is 124.208405
+val loss = tensor(1831.8384, grad_fn=<DotBackward>)
+[2K[2Kloss is 105.9447
+val loss = tensor(1754.7549, grad_fn=<DotBackward>)
+loss is 109.16199
+val loss = tensor(1759.0291, grad_fn=<DotBackward>)
+loss is 109.63642
+val loss = tensor(1812.0377, grad_fn=<DotBackward>)
+loss is 115.3026
+val loss = tensor(1868.5500, grad_fn=<DotBackward>)
+loss is 117.699356
+val loss = tensor(2090.1787, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.27807
+val loss = tensor(1825.2706, grad_fn=<DotBackward>)
+loss is 109.11395
+val loss = tensor(1845.4519, grad_fn=<DotBackward>)
+loss is 115.858894
+val loss = tensor(1789.8135, grad_fn=<DotBackward>)
+loss is 108.955185
+val loss = tensor(1829.4556, grad_fn=<DotBackward>)
+loss is 112.74117
+val loss = tensor(1833.6481, grad_fn=<DotBackward>)
+[2K[2Kloss is 95.01485
+val loss = tensor(1835.9945, grad_fn=<DotBackward>)
+loss is 98.87833
+val loss = tensor(1913.8743, grad_fn=<DotBackward>)
+loss is 105.29274
+val loss = tensor(1831.3792, grad_fn=<DotBackward>)
+loss is 108.763435
+val loss = tensor(1848.7998, grad_fn=<DotBackward>)
+loss is 109.35477
+val loss = tensor(1809.3047, grad_fn=<DotBackward>)
+[2K[2Kloss is 104.346504
+val loss = tensor(1816.4249, grad_fn=<DotBackward>)
+loss is 108.01518
+val loss = tensor(1886.8098, grad_fn=<DotBackward>)
+loss is 108.53659
+val loss = tensor(1868.3262, grad_fn=<DotBackward>)
+loss is 103.114624
+val loss = tensor(1896.2925, grad_fn=<DotBackward>)
+loss is 107.870346
+val loss = tensor(1851.7097, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.9215
+val loss = tensor(1812.4700, grad_fn=<DotBackward>)
+loss is 126.55907
+val loss = tensor(1823.8400, grad_fn=<DotBackward>)
+loss is 108.527054
+val loss = tensor(1801.8983, grad_fn=<DotBackward>)
+loss is 115.9315
+val loss = tensor(1932.7411, grad_fn=<DotBackward>)
+loss is 107.539406
+val loss = tensor(1809.0828, grad_fn=<DotBackward>)
+[2K[2Kloss is 110.64281
+val loss = tensor(1906.1621, grad_fn=<DotBackward>)
+loss is 100.65227
+val loss = tensor(1734.2072, grad_fn=<DotBackward>)
+new smallest loss is tensor(1734.2072, grad_fn=<DotBackward>)
+loss is 117.28452
+val loss = tensor(1867.9856, grad_fn=<DotBackward>)
+loss is 104.7857
+val loss = tensor(1811.1543, grad_fn=<DotBackward>)
+loss is 101.39936
+val loss = tensor(1895.0259, grad_fn=<DotBackward>)
+[2K[2Kloss is 98.552124
+val loss = tensor(1891.4939, grad_fn=<DotBackward>)
+loss is 99.42308
+val loss = tensor(1851.0992, grad_fn=<DotBackward>)
+loss is 108.00971
+val loss = tensor(1834.1951, grad_fn=<DotBackward>)
+loss is 109.054016
+val loss = tensor(1790.3787, grad_fn=<DotBackward>)
+loss is 87.60191
+val loss = tensor(1771.3201, grad_fn=<DotBackward>)
+[2K[2Kloss is 100.50889
+val loss = tensor(1834.5474, grad_fn=<DotBackward>)
+loss is 125.25694
+val loss = tensor(1969.7981, grad_fn=<DotBackward>)
+loss is 91.06559
+val loss = tensor(1910.0358, grad_fn=<DotBackward>)
+loss is 101.83833
+val loss = tensor(1784.2579, grad_fn=<DotBackward>)
+loss is 107.96188
+val loss = tensor(1786.2100, grad_fn=<DotBackward>)
+[2K[2Kloss is 101.89787
+val loss = tensor(1759.5442, grad_fn=<DotBackward>)
+loss is 117.00902
+val loss = tensor(1807.7524, grad_fn=<DotBackward>)
+loss is 115.46627
+val loss = tensor(1844.9014, grad_fn=<DotBackward>)
+loss is 109.66483
+val loss = tensor(1956.6245, grad_fn=<DotBackward>)
+loss is 123.68924
+val loss = tensor(1843.2335, grad_fn=<DotBackward>)
+[2K[2Kloss is 110.61665
+val loss = tensor(1815.1533, grad_fn=<DotBackward>)
+loss is 107.98341
+val loss = tensor(1804.6697, grad_fn=<DotBackward>)
+loss is 102.93303
+val loss = tensor(1791.7424, grad_fn=<DotBackward>)
+loss is 111.68217
+val loss = tensor(1823.7402, grad_fn=<DotBackward>)
+loss is 106.41596
+val loss = tensor(1938.4031, grad_fn=<DotBackward>)
+[2K[2Kloss is 122.11116
+val loss = tensor(1810.4983, grad_fn=<DotBackward>)
+loss is 127.90727
+val loss = tensor(1843.0276, grad_fn=<DotBackward>)
+loss is 99.337814
+val loss = tensor(1836.3154, grad_fn=<DotBackward>)
+loss is 106.935814
+val loss = tensor(1798.0432, grad_fn=<DotBackward>)
+loss is 116.92015
+val loss = tensor(1863.1052, grad_fn=<DotBackward>)
+[2K[2Kloss is 109.51579
+val loss = tensor(1873.1494, grad_fn=<DotBackward>)
+loss is 105.32889
+val loss = tensor(1856.3149, grad_fn=<DotBackward>)
+loss is 109.04036
+val loss = tensor(1882.7568, grad_fn=<DotBackward>)
+loss is 88.38411
+val loss = tensor(1844.7451, grad_fn=<DotBackward>)
+loss is 109.9902
+val loss = tensor(1767.8936, grad_fn=<DotBackward>)
+[2K[2Kloss is 99.07963
+val loss = tensor(1827.2213, grad_fn=<DotBackward>)
+loss is 118.89884
+val loss = tensor(1831.7578, grad_fn=<DotBackward>)
+loss is 111.84942
+val loss = tensor(1911.1803, grad_fn=<DotBackward>)
+loss is 106.26398
+val loss = tensor(1883.3232, grad_fn=<DotBackward>)
+loss is 106.4077
+val loss = tensor(1864.6520, grad_fn=<DotBackward>)
+[2K[2Kloss is 116.87074
+val loss = tensor(1794.8916, grad_fn=<DotBackward>)
+loss is 107.91435
+val loss = tensor(1845.4856, grad_fn=<DotBackward>)
+loss is 101.54732
+val loss = tensor(1780.5205, grad_fn=<DotBackward>)
+loss is 101.141846
+val loss = tensor(1844.7659, grad_fn=<DotBackward>)
+loss is 102.57391
+val loss = tensor(1946.2637, grad_fn=<DotBackward>)
+[2K[2Kloss is 110.91824
+val loss = tensor(1875.7405, grad_fn=<DotBackward>)
+loss is 95.98257
+val loss = tensor(1853.2236, grad_fn=<DotBackward>)
+loss is 102.33354
+val loss = tensor(1812.5348, grad_fn=<DotBackward>)
+loss is 107.23528
+val loss = tensor(1756.9647, grad_fn=<DotBackward>)
+loss is 102.691536
+val loss = tensor(1798.6406, grad_fn=<DotBackward>)
+[2K[2Kloss is 102.59036
+val loss = tensor(1894.3837, grad_fn=<DotBackward>)
+loss is 94.97569
+val loss = tensor(1881.3352, grad_fn=<DotBackward>)
+loss is 112.25543
+val loss = tensor(1871.5620, grad_fn=<DotBackward>)
+loss is 108.77821
+val loss = tensor(1788.5817, grad_fn=<DotBackward>)
+loss is 104.8319
+val loss = tensor(1761.4131, grad_fn=<DotBackward>)
+[2K[2Kloss is 104.48102
+val loss = tensor(1802.8229, grad_fn=<DotBackward>)
+loss is 104.22825
+val loss = tensor(1766.4204, grad_fn=<DotBackward>)
+loss is 107.9334
+val loss = tensor(2012.3999, grad_fn=<DotBackward>)
+loss is 112.49046
+val loss = tensor(1831.4100, grad_fn=<DotBackward>)
+loss is 106.18045
+val loss = tensor(1870.4912, grad_fn=<DotBackward>)
+[2K[2Kloss is 105.36715
+val loss = tensor(1727.9607, grad_fn=<DotBackward>)
+new smallest loss is tensor(1727.9607, grad_fn=<DotBackward>)
+loss is 98.93487
+val loss = tensor(1800.1560, grad_fn=<DotBackward>)
+loss is 111.78584
+val loss = tensor(1773.9150, grad_fn=<DotBackward>)
+loss is 101.58088
+val loss = tensor(1769.3889, grad_fn=<DotBackward>)
+loss is 83.69879
+val loss = tensor(1756.3992, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.03946
+val loss = tensor(1739.4135, grad_fn=<DotBackward>)
+loss is 105.36306
+val loss = tensor(1807.0432, grad_fn=<DotBackward>)
+loss is 120.59472
+val loss = tensor(2273.8970, grad_fn=<DotBackward>)
+loss is 107.05008
+val loss = tensor(1774.5830, grad_fn=<DotBackward>)
+loss is 104.66112
+val loss = tensor(1962.2861, grad_fn=<DotBackward>)
+[2K[2Kloss is 93.24655
+val loss = tensor(1763.0569, grad_fn=<DotBackward>)
+loss is 101.22354
+val loss = tensor(1799.1925, grad_fn=<DotBackward>)
+loss is 102.29857
+val loss = tensor(1777.1499, grad_fn=<DotBackward>)
+loss is 110.262955
+val loss = tensor(1745.9907, grad_fn=<DotBackward>)
+loss is 106.11072
+val loss = tensor(1884.8257, grad_fn=<DotBackward>)
+[2K[2Kloss is 113.552574
+val loss = tensor(1953.1042, grad_fn=<DotBackward>)
+loss is 109.68208
+val loss = tensor(1886.7745, grad_fn=<DotBackward>)
+loss is 92.37103
+val loss = tensor(1798.4125, grad_fn=<DotBackward>)
+loss is 115.00873
+val loss = tensor(1793.0396, grad_fn=<DotBackward>)
+loss is 105.317184
+val loss = tensor(1760.0051, grad_fn=<DotBackward>)
+[2K[2Kloss is 115.02583
+val loss = tensor(1784.3119, grad_fn=<DotBackward>)
+loss is 109.17558
+val loss = tensor(1860.6309, grad_fn=<DotBackward>)
+loss is 100.14118
+val loss = tensor(2003.9504, grad_fn=<DotBackward>)
+loss is 102.18902
+val loss = tensor(1860.9811, grad_fn=<DotBackward>)
+loss is 97.38098
+val loss = tensor(1790.7704, grad_fn=<DotBackward>)
+[2K[2Kloss is 91.47846
+val loss = tensor(1781.1724, grad_fn=<DotBackward>)
+loss is 104.96697
+val loss = tensor(1770.8676, grad_fn=<DotBackward>)
+loss is 107.73001
+val loss = tensor(1769.6500, grad_fn=<DotBackward>)
+loss is 103.32309
+val loss = tensor(1725.6849, grad_fn=<DotBackward>)
+new smallest loss is tensor(1725.6849, grad_fn=<DotBackward>)
+loss is 103.07466
+val loss = tensor(1785.9780, grad_fn=<DotBackward>)
+[2K[2Kloss is 112.93369
+val loss = tensor(2139.6284, grad_fn=<DotBackward>)
+loss is 98.17994
+val loss = tensor(1849.6936, grad_fn=<DotBackward>)
+loss is 105.004486
+val loss = tensor(1823.1216, grad_fn=<DotBackward>)
+loss is 102.85654
+val loss = tensor(1793.9780, grad_fn=<DotBackward>)
+loss is 100.38529
+val loss = tensor(1767.8719, grad_fn=<DotBackward>)
+[2K[2Kloss is 95.24577
+val loss = tensor(1749.8658, grad_fn=<DotBackward>)
+loss is 74.90233
+val loss = tensor(1830.5912, grad_fn=<DotBackward>)
+loss is 111.47654
+val loss = tensor(1884.9282, grad_fn=<DotBackward>)
+loss is 108.67482
+val loss = tensor(1936.7146, grad_fn=<DotBackward>)
+loss is 107.28589
+val loss = tensor(1865.2129, grad_fn=<DotBackward>)
+[2K[2Kloss is 99.72412
+val loss = tensor(1801.0657, grad_fn=<DotBackward>)
+loss is 103.68359
+val loss = tensor(1773.1805, grad_fn=<DotBackward>)
+loss is 100.42549
+val loss = tensor(1797.2186, grad_fn=<DotBackward>)
+loss is 95.40167
+val loss = tensor(1750.5933, grad_fn=<DotBackward>)
+loss is 89.72618
+val loss = tensor(1800.8726, grad_fn=<DotBackward>)
+[2K[2Kloss is 111.24831
+val loss = tensor(1892.7826, grad_fn=<DotBackward>)
+loss is 101.594574
+val loss = tensor(1995.4652, grad_fn=<DotBackward>)
+loss is 90.32118
+val loss = tensor(1786.9008, grad_fn=<DotBackward>)
+loss is 111.526184
+val loss = tensor(1831.2535, grad_fn=<DotBackward>)
+loss is 106.573395
+val loss = tensor(1788.6493, grad_fn=<DotBackward>)
+[2K[2Kloss is 93.94028
+val loss = tensor(1768.0948, grad_fn=<DotBackward>)
+loss is 102.513565
+val loss = tensor(1800.2681, grad_fn=<DotBackward>)
+loss is 97.521225
+val loss = tensor(1869.0315, grad_fn=<DotBackward>)
+loss is 110.091385
+val loss = tensor(1921.4867, grad_fn=<DotBackward>)
+loss is 99.4478
+val loss = tensor(1783.9062, grad_fn=<DotBackward>)
+[2K[2Kloss is 94.10469
+val loss = tensor(1795.4763, grad_fn=<DotBackward>)
+loss is 107.204636
+val loss = tensor(1749.2781, grad_fn=<DotBackward>)
+loss is 96.51393
+val loss = tensor(1810.6361, grad_fn=<DotBackward>)
+loss is 98.6535
+val loss = tensor(1695.1006, grad_fn=<DotBackward>)
+new smallest loss is tensor(1695.1006, grad_fn=<DotBackward>)
+loss is 94.21373
+val loss = tensor(1853.9583, grad_fn=<DotBackward>)
+[2K[2Kloss is 117.06451
+val loss = tensor(2027.2639, grad_fn=<DotBackward>)
+loss is 107.335625
+val loss = tensor(1861.3696, grad_fn=<DotBackward>)
+loss is 106.972435
+val loss = tensor(1849.6670, grad_fn=<DotBackward>)
+loss is 86.704765
+val loss = tensor(1736.9169, grad_fn=<DotBackward>)
+loss is 105.88389
+val loss = tensor(1801.9697, grad_fn=<DotBackward>)
+[2K[2Kloss is 119.520805
+val loss = tensor(1730.6467, grad_fn=<DotBackward>)
+loss is 85.0073
+val loss = tensor(1764.1909, grad_fn=<DotBackward>)
+loss is 105.83313
+val loss = tensor(1830.3430, grad_fn=<DotBackward>)
+loss is 98.00238
+val loss = tensor(1945.7134, grad_fn=<DotBackward>)
+loss is 111.68872
+val loss = tensor(1940.9839, grad_fn=<DotBackward>)
+[2K[2Kloss is 109.47585
+val loss = tensor(1821.6998, grad_fn=<DotBackward>)
+loss is 101.82802
+val loss = tensor(1808.1744, grad_fn=<DotBackward>)
+loss is 100.85762
+val loss = tensor(1729.1880, grad_fn=<DotBackward>)
+loss is 107.81309
+val loss = tensor(1756.4685, grad_fn=<DotBackward>)
+loss is 109.03046
+val loss = tensor(1738.7585, grad_fn=<DotBackward>)
+[2K[2Kloss is 114.23872
+val loss = tensor(1796.0718, grad_fn=<DotBackward>)
+loss is 116.92251
+val loss = tensor(1943.2258, grad_fn=<DotBackward>)
+loss is 116.743484
+val loss = tensor(1879.1792, grad_fn=<DotBackward>)
+loss is 109.79881
+val loss = tensor(1895.1503, grad_fn=<DotBackward>)
+loss is 106.08833
+val loss = tensor(1725.5205, grad_fn=<DotBackward>)
+[2K[2Kloss is 95.20415
+val loss = tensor(1821.9460, grad_fn=<DotBackward>)
+loss is 100.00868
+val loss = tensor(1776.0483, grad_fn=<DotBackward>)
+loss is 107.11551
+val loss = tensor(1853.5564, grad_fn=<DotBackward>)
+loss is 104.758415
+val loss = tensor(1922.0947, grad_fn=<DotBackward>)
+loss is 102.132965
+val loss = tensor(1919.7903, grad_fn=<DotBackward>)
+[2K[2Kloss is 117.674706
+val loss = tensor(1816.6132, grad_fn=<DotBackward>)
+loss is 108.80685
+val loss = tensor(1789.3633, grad_fn=<DotBackward>)
+loss is 109.33714
+val loss = tensor(1762.7078, grad_fn=<DotBackward>)
+loss is 104.58301
+val loss = tensor(1780.4510, grad_fn=<DotBackward>)
+loss is 97.238235
+val loss = tensor(1776.5668, grad_fn=<DotBackward>)
+[2K[2Kloss is 86.75624
+val loss = tensor(1894.4861, grad_fn=<DotBackward>)
+loss is 101.93024
+val loss = tensor(1943.7889, grad_fn=<DotBackward>)
+loss is 90.90847
+val loss = tensor(1897.5483, grad_fn=<DotBackward>)
+loss is 100.29492
+val loss = tensor(1788.9553, grad_fn=<DotBackward>)
+loss is 106.54401
+val loss = tensor(1805.9115, grad_fn=<DotBackward>)
+[2K[2Kloss is 92.8111
+val loss = tensor(1759.6030, grad_fn=<DotBackward>)
+loss is 97.92956
+val loss = tensor(1762.7695, grad_fn=<DotBackward>)
+loss is 101.67416
+val loss = tensor(1804.2384, grad_fn=<DotBackward>)
+loss is 122.21834
+val loss = tensor(2074.0669, grad_fn=<DotBackward>)
+loss is 103.50028
+val loss = tensor(1879.2380, grad_fn=<DotBackward>)
+[2K[2Kloss is 103.774734
+val loss = tensor(1902.6425, grad_fn=<DotBackward>)
+loss is 105.37494
+val loss = tensor(1754.4998, grad_fn=<DotBackward>)
+loss is 107.840805
+val loss = tensor(1808.1310, grad_fn=<DotBackward>)
+loss is 103.31227
+val loss = tensor(1772.6169, grad_fn=<DotBackward>)
+loss is 104.25055
+val loss = tensor(1778.0283, grad_fn=<DotBackward>)
+[2K[2Kloss is 98.295044
+val loss = tensor(1952.9146, grad_fn=<DotBackward>)
+loss is 113.04674
+val loss = tensor(1910.7537, grad_fn=<DotBackward>)
+loss is 102.989746
+val loss = tensor(1892.9103, grad_fn=<DotBackward>)
+loss is 106.98568
+val loss = tensor(1837.5459, grad_fn=<DotBackward>)
+loss is 104.670425
+val loss = tensor(1785.1462, grad_fn=<DotBackward>)
+[2K[2Kloss is 81.556625
+val loss = tensor(1766.6215, grad_fn=<DotBackward>)
+loss is 105.68356
+val loss = tensor(1761.3097, grad_fn=<DotBackward>)
+loss is 107.52706
+val loss = tensor(1783.0991, grad_fn=<DotBackward>)
+loss is 95.15102
+val loss = tensor(1889.5864, grad_fn=<DotBackward>)
+loss is 77.16209
+val loss = tensor(2048.7744, grad_fn=<DotBackward>)
+[2K[2Kloss is 106.919205
+val loss = tensor(1894.3984, grad_fn=<DotBackward>)
+loss is 94.348465
+val loss = tensor(1793.9082, grad_fn=<DotBackward>)
+loss is 74.71225
+val loss = tensor(1799.4668, grad_fn=<DotBackward>)
+loss is 97.22959
+val loss = tensor(1779.6750, grad_fn=<DotBackward>)
+loss is 93.44554
+val loss = tensor(1809.8689, grad_fn=<DotBackward>)
+[2K[2Kloss is 96.128174
+val loss = tensor(1981.6768, grad_fn=<DotBackward>)
+loss is 109.21343
+val loss = tensor(1822.9282, grad_fn=<DotBackward>)
+loss is 103.921326
+val loss = tensor(1821.6211, grad_fn=<DotBackward>)
+loss is 104.166
+val loss = tensor(1814.3901, grad_fn=<DotBackward>)
+loss is 94.144135
+val loss = tensor(1808.5364, grad_fn=<DotBackward>)
+[2K[2Kloss is 109.31526
+val loss = tensor(1813.4822, grad_fn=<DotBackward>)
+loss is 104.72418
+val loss = tensor(1890.1091, grad_fn=<DotBackward>)
+loss is 104.73023
+val loss = tensor(1850.5366, grad_fn=<DotBackward>)
+loss is 104.84216
+val loss = tensor(1878.9241, grad_fn=<DotBackward>)
+loss is 108.070694
+val loss = tensor(1800.9214, grad_fn=<DotBackward>)
+[2K[2Kloss is 104.79935
+val loss = tensor(1805.4907, grad_fn=<DotBackward>)
+loss is 102.7655
+val loss = tensor(1773.9258, grad_fn=<DotBackward>)
+loss is 104.44371
+val loss = tensor(1830.1912, grad_fn=<DotBackward>)
+loss is 108.64892
+val loss = tensor(1917.8494, grad_fn=<DotBackward>)
+loss is 102.885254
+val loss = tensor(1912.6013, grad_fn=<DotBackward>)
+[2K[2Kloss is 110.12526
+val loss = tensor(1823.8916, grad_fn=<DotBackward>)
+loss is 98.62285
+val loss = tensor(1830.3813, grad_fn=<DotBackward>)
+loss is 93.62871
+val loss = tensor(1758.8148, grad_fn=<DotBackward>)
+loss is 117.11673
+val loss = tensor(1850.4250, grad_fn=<DotBackward>)
+loss is 92.105865
+val loss = tensor(1785.3989, grad_fn=<DotBackward>)
+[2K[2Kloss is 106.97917
+val loss = tensor(1897.4004, grad_fn=<DotBackward>)
+loss is 112.93083
+val loss = tensor(1951.5706, grad_fn=<DotBackward>)
+loss is 98.847046
+val loss = tensor(1835.0786, grad_fn=<DotBackward>)
+loss is 108.40781
+val loss = tensor(1852.6892, grad_fn=<DotBackward>)
+loss is 83.95622
+val loss = tensor(1771.6287, grad_fn=<DotBackward>)
+[2K[2Kloss is 104.151825
+val loss = tensor(1733.0773, grad_fn=<DotBackward>)
+loss is 104.80353
+val loss = tensor(1812.5217, grad_fn=<DotBackward>)
+loss is 101.87433
+val loss = tensor(1826.8492, grad_fn=<DotBackward>)
+loss is 115.35216
+val loss = tensor(2016.6841, grad_fn=<DotBackward>)

@@ -30,7 +30,7 @@ def CorrMtx(df, dropDuplicates = True):
                 square=True,
                 linewidth=.5, cbar_kws={"shrink": .5}, ax=ax, vmin=-1, vmax=1)
         plt.title('Correlation matrix for input features', fontsize=30)
-        plt.savefig('ip_features_corr.pdf')
+        plt.savefig('./results/ip_features_corr.pdf')
     else:
         hm = sns.heatmap(df, cmap=cmap, 
                 square=True,
