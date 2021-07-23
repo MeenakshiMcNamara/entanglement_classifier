@@ -34,7 +34,13 @@ class ProductionModeDataset(Dataset):
         :param train (boolean): tells whether we are training or evaluating
     """
     
-    def __init__(self, root, split=True, normalize=True, remove=True, train=True):
+    def __init__(self, root, split=True, normalize=True, remove=True, train=True, correlation_cut=-1.0):
+        # load a correlation cut if it exists:
+        to_remove = np.array(())
+        if correlation_cut > 0:
+            to_remove = np.load("../analysis_code/results/inputs_to_remove_cut_" + str(correlation_cut) + ".npy")
+            print("loaded correlations... shape is " + str(to_remove.shape))
+        
         self.events = uproot.open(root)
         self.training = train
         #self.events = self.events['Events']
@@ -54,6 +60,14 @@ class ProductionModeDataset(Dataset):
         print(data_list)
     
         self.events_array = np.transpose(self.events_array)   # turn to columns of data
+
+        if to_remove.shape[0] > 0:
+            self.events_array = np.delete(self.events_array, to_remove, 1)
+            to_remove = np.sort(to_remove)
+            for i in range(len(to_remove)):
+                to_remove[i] -= i
+                data_list.pop(to_remove[i])
+
         
         if remove:
             """
@@ -87,7 +101,8 @@ class ProductionModeDataset(Dataset):
             print("num qqbar = " + str(num_qqbar))
             # remove the extra gg and other
             max_len = len(self.events_array[:,0])
-            self.events_array = np.delete(self.events_array, list(range(num_qqbar, first)) +                                           list(range(max_len - (max_len - (last + 1) -num_qqbar), max_len)), 0)
+            self.events_array = np.delete(self.events_array, list(range(num_qqbar, first)) + \
+                                          list(range(max_len - (max_len - (last + 1) -num_qqbar), max_len)), 0)
             
         # normalize here
             #print(len(self.events_array[:,0]))
@@ -141,5 +156,3 @@ class ProductionModeDataset(Dataset):
     
     def get_eval_data(self):
         return self.eval_array
-
-
