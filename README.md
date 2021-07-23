@@ -2,7 +2,7 @@
 The main purpose of this repo is to create a neural network classifier for determining ttbar production mode between gg, qqbar, and other. Below is a short description of the organizational scheme of the repo:
 
 
-
+*****
 The saved models after runs are in /models note that they are saved separately by the number of layers in the netowork, and that I created a folder in /two_layers for older versions that are no longer relevent. In the future, optimizer states will also be saved in /models.
 
 The code which can be used to analyze the results and look for correlations is in /analysis_code. This includes confusion matrices, correlation matrices, and both the derivative and permutation methods of determining importance, as well as any other code used to analyze the data from runs. Results from analysis go into the /results subfolder. Try to keep these as organized as possible by making any relavent subfolders in it to group together information. Note that I have put copies of the files (including ones for running stuff in parallel) in a separate (less organized) subfolder.
