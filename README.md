@@ -1,7 +1,7 @@
 # entanglement_classifier
 The main purpose of this repo is to create a neural network classifier for determining ttbar production mode between gg, qqbar, and other. Below is a short description of the organizational scheme of the repo:
 
-################################################################################################################################################################################
+
 
 The saved models after runs are in /models note that they are saved separately by the number of layers in the netowork, and that I created a folder in /two_layers for older versions that are no longer relevent. In the future, optimizer states will also be saved in /models.
 
