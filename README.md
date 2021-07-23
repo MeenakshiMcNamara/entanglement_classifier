@@ -15,6 +15,6 @@ slurm submission scripts (used for submitting jobs to run on the clusters) are i
 
 /data contains the numpy array data for the training loss and validation loss.
 
-/<insert number>_layer_classifiers contain the code which creates and runs the classifiers. Put older versions you want to save in subdirectories to keep things organized.
+/[insert number]_layer_classifiers contain the code which creates and runs the classifiers. Put older versions you want to save in subdirectories to keep things organized.
 
 /data_adders contains the code for generating the root files and data frames with the event data being trained on.
