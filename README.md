@@ -9,7 +9,7 @@ The code which can be used to analyze the results and look for correlations is i
 
 slurm submission scripts (used for submitting jobs to run on the clusters) are in /slurm_submission_scripts. Use a variant of the `sbatch  -A long --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 submissions.sub` command to run them (note that 4 hours is the max for scholar gpu sessions). To view your slurm jobs use `squeue -u <username>` and to cancel jobs use `scancel <jobid>`.
 
-/code_to_import contains python files which are only used when imported in a variety of places. At the moment these are the dataset_preprocessing and Classifier_module. Note that to use these in a sister folder you should use `import sys` and `sys.path.append("<path to entanglement_classifier directory>")` and then append `code_to_import` to file name in import.
+/code_to_import contains python files which are only used when imported in a variety of places. At the moment these are the dataset_preprocessing and Classifier_module. Note that to use these in a sister folder you should use `import sys` and `sys.path.append("<path to entanglement_classifier directory>")` and then prepend `code_to_import` to file name in import.
 
 /slurm_output should contain all the outputs that you probably don't care about anymore, but want to keep just in case.
 
