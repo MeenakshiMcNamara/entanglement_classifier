@@ -156,3 +156,6 @@ class ProductionModeDataset(Dataset):
     
     def get_eval_data(self):
         return self.eval_array
+    
+    def get_training_data(self):
+        return self.train_array

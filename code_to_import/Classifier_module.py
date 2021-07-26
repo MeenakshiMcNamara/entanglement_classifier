@@ -73,11 +73,11 @@ class Three_Layer_Classifier(nn.Module):
     """
     classifier layers
     """
-    def __init__(self):
+    def __init__(self, input_size=opt.input_size):
         super(Three_Layer_Classifier, self).__init__()   # Just uses the module constructor with name Discriminator 
 
         self.model = nn.Sequential(
-            nn.Linear(opt.input_size, 512),   # first layer
+            nn.Linear(input_size, 512),   # first layer
             nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
             nn.Linear(512, 256),
             nn.LeakyReLU(0.2, inplace=True),
