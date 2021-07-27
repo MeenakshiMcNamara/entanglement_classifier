@@ -11,4 +11,4 @@ host=`hostname -s`
 echo $CUDA_VISIBLE_DEVICES
 
 # Run on the first available GPU
-python three_layer_classifier.py --channel="mumu" --cut=0.8 0
+python three_layer_classifier.py --channel="mumu" --cut=0.8

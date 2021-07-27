@@ -47,6 +47,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--channel", type=str, default="ee", help="The channel type (ee, emu or mumu). Default is ee")
 parser.add_argument("--cut",type=float, default=-1.0, help="The correlation cut being used. Default is -1, and negative cuts are not applied")
 parser.add_argument("--version",type=int, default=-1, help="Version number of this type of run. Default is -1 which results in no number applied")
+parser.add_argument("--cut_version", type=int, default=-1, help="This is the version for the type of cut. If negative then not applied")
 args = parser.parse_args()
 print(args)
 
@@ -83,10 +84,14 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     # add version information if included
     if args.version > 0:
         model_name += str(args.version)
+                    
+    # add cut version to model name if included in args
+    if args.cut_version > 0:
+        model_name += "cutV" + str(args.cut_version)
     
     # load data object so we can access validation and training data    
     if correlation_cut > 0:
-        data = ProductionModeDataset(file, correlation_cut=correlation_cut)
+        data = ProductionModeDataset(file, correlation_cut=correlation_cut, cut_version=args.cut_version)
     else:
         data = ProductionModeDataset(file)
         
@@ -103,14 +108,14 @@ if opt.correlation_cut > 0:
     dataloader = torch.utils.data.DataLoader(
         opt.data,
         batch_size=opt.batch_size, drop_last=True,
-        shuffle=True,
+        shuffle=True
     )
 else:
     os.makedirs("../data/three_layers/", exist_ok=True)
     dataloader = torch.utils.data.DataLoader(
         opt.data,
         batch_size=opt.batch_size, drop_last=True,
-        shuffle=True,
+        shuffle=True
     )
 print('done')
 

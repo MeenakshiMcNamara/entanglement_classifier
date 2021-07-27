@@ -31,15 +31,24 @@ class ProductionModeDataset(Dataset):
         :param split (boolean): tells whether to split into training and eval
         :param normalize (boolean): tells whether to normalize data
         :param remove (boolean): tells whether we should remove excess data for non-qqbar events or duplicate qqbar
-        :param train (boolean): tells whether we are training or evaluating
+        :param train (boolean): tells whether we are training or evaluating (probably not needed)
+        :param correlation_cut(float): if positive, removes values correlated more than the correlation cut. Requires existing 
+                                analysis of the given cut so that data can be loaded
+        : param cut_version(int): if positive, loads the specific cut version (otherwise loads unnumbere OG version)
     """
     
-    def __init__(self, root, split=True, normalize=True, remove=True, train=True, correlation_cut=-1.0):
+    def __init__(self, root, split=True, normalize=True, remove=True, train=True, correlation_cut=-1.0, cut_version=-1):
         # load a correlation cut if it exists:
-        to_remove = np.array(())
+        to_remove = np.array(())  # initialize the array of inputs to remove because of cut as empty
         if correlation_cut > 0:
-            to_remove = np.load("../analysis_code/results/inputs_to_remove_cut_" + str(correlation_cut) + ".npy")
-            print("loaded correlations... shape is " + str(to_remove.shape))
+            # load the inputs which must be removed due to cut if positive
+            if cut_version > 0:
+                to_remove = np.load("../analysis_code/results/inputs_to_remove_cut_" + str(correlation_cut)\
+                                    + "v" + str(cut_version) + ".npy")
+                print("loaded correlations... shape is " + str(to_remove.shape))
+            else:
+                to_remove = np.load("../analysis_code/results/inputs_to_remove_cut_" + str(correlation_cut) + ".npy")
+                print("loaded correlations... shape is " + str(to_remove.shape))
         
         self.events = uproot.open(root)
         self.training = train

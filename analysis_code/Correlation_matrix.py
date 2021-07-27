@@ -2,7 +2,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 import seaborn as sns
 
-def CorrMtx(df, dropDuplicates = True):
+def CorrMtx(df, dropDuplicates = True, title = "Correlation matrix for input features"):
     # Your dataset is already a correlation matrix.
     # If you have a dateset where you need to include the calculation
     # of a correlation matrix, just uncomment the line below:
@@ -29,8 +29,8 @@ def CorrMtx(df, dropDuplicates = True):
         hm = sns.heatmap(df, mask=mask, cmap=cmap, 
                 square=True,
                 linewidth=.5, cbar_kws={"shrink": .5}, ax=ax, vmin=-1, vmax=1)
-        plt.title('Correlation matrix for input features', fontsize=30)
-        plt.savefig('./results/ip_features_corr.pdf')
+        plt.title(title, fontsize=30)
+        plt.savefig(title + '.pdf')
     else:
         hm = sns.heatmap(df, cmap=cmap, 
                 square=True,

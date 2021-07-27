@@ -1,4 +1,7 @@
-
+"""
+This file contains the classes which will be imported so that we can load modules for analysis. We can either continue to add additional
+classes as more network archetectures are produced, or we can add an input to the initialization of a single Classifier class (e.g. __init__(self, num_layers) and then construct the number of layers based on that
+"""
 # coding: utf-8
 
 # In[ ]:
