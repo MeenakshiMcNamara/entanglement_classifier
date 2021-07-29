@@ -3,8 +3,8 @@ In order to do this, you must be in the `/dileptonic` directory in one of the cl
 1.	Run  `cmsenv`. I recommend adding both the path to the most used directory (`/dileptonic` for me) and this command to your .bash_profile/ whatever you have.
 2.	From inside `/dileptonic`, run `./scripts/compileAll.sh` if you have made any changes to the C++ code which you want to include in the run.
 3.	**First time on ntuple only:** Run the btags scripts.
-    a.  ***Warning:*** The btag scripts will run using the same commands as the normal analysis commands if the file in '/selectionRoot_2016' doesn’t exist. Make sure you use th entire dataset if running btags.
-    b.	Recommended commands are 
+    1.  ***Warning:*** The btag scripts will run using the same commands as the normal analysis commands if the file in '/selectionRoot_2016' doesn’t exist. Make sure you use th entire dataset if running btags.
+    1.	Recommended commands are 
     `nohup ./install/bin/load_Analysis -f ttbarsignalplustau_fromDilepton_TuneCP5.root -c ee -s Nominal &> nohuplogs/BTag_ee.out &
      nohup ./install/bin/load_Analysis -f ttbarsignalplustau_fromDilepton_TuneCP5.root -c emu -s Nominal &> nohuplogs/BTag_emu.out &
      nohup ./install/bin/load_Analysis -f ttbarsignalplustau_fromDilepton_TuneCP5.root -c mumu -s Nominal &> nohuplogs/BTag_mumu.out &`
