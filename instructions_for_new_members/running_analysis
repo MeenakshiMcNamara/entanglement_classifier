@@ -1,0 +1,8 @@
+How to run analysis (examples using 2016 pre-ultralegacy)
+1.	Run  `cmsenv` (I recommend adding both the path to the most used directory, `/dileptonic` for me, and this command to your .bash_profile/ whatever you have)
+2.	From inside `/dileptonic`, run `./scripts/compileAll.sh` if you have made any changes to the C++ code which you want to include in the run.
+3.	First time on ntuple only: Run the btags scripts and then ‘cp -r selectionRoot_2016/BtagEff_2016 .`
+a.	The btag scripts will run using the same commands as the normal analysis commands if the file in ‘/selectionRoot_2016’ doesn’t exist. Make sure you use the entire dataset if running btags
+b.	Recommended commands are 
+4.	Run the analysis scripts
+a.	
