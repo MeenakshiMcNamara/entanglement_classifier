@@ -12,7 +12,8 @@ In order to do this, you must be in the `/dileptonic` directory in one of the cl
           
         The `nohup` argument causes the `./install/bin/load_Analysis` script to run in the background, `-f` specifies the ntuple to use, `-c` specifies the channel as ee, emu or mumu (this document does not explain how to implement tau), and `nohuplogs/BTag_[channel].out` is the output file for the log. You might consider putting these commands in a bash script (usually a file ending in .sh) using `#!/bin/bash` at the beginning of the file to speed the process of running these commands.
     2.   Run `cp -r selectionRoot_2016/BtagEff_2016 .` after it has finished (you can check if a background process has finished by running `top` which shows the running programs using the most resources and `ps aux | grap [username]` to see all processes you have running. Check for anything with `./install/bin/load_Analysis`.)
-4.	Run the analysis scripts. (Please read the above warning). Simarly to the Btag scripts, run the following (which I recommend putting in a bash script).  
+4.  **First time or after changes only:** Compile everything using `./scripts/compileAll.sh` (this takes a while to run, so you might want to use `nohup`).
+5.	Run the analysis scripts. (Please read the above warning). Simarly to the Btag scripts, run the following (which I recommend putting in a bash script).  
   
     `nohup ./install/bin/load_Analysis -f ttbarsignalplustau_fromDilepton_TuneCP5.root -m spinCorr -c ee &> nohuplogs/SpinCorr_ttbarsignalplustau_ee.out &  
     #nohup ./install/bin/load_Analysis -f ttbarsignalplustau.root -m spinCorr -c ee --signalviatau &> nohuplogs/SpinCorr_ttbarsignalviatau_ee.out &  
@@ -23,6 +24,7 @@ In order to do this, you must be in the `/dileptonic` directory in one of the cl
       
     The only difference is where the output is saved to ensure you can debug both the BTag and ananlysis. The lines which are commented out are for tau, which is beyond the scope of the document.
     1.    To cancel jobs, run `kill -9 [job-id]`.
+    2.    You can add a `--maxEvents <num>` argument to only run the analysis on a limited number of events. This is especially useful for testing, but can also be used in other situations.
   
 -------------------------------------------------------------------
   
