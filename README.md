@@ -19,4 +19,4 @@ slurm submission scripts (used for submitting jobs to run on the clusters) are i
 
 /data_adders contains the code for generating the root files and data frames with the event data being used for training.
 
-/instructions_for_new_members contains documents with useful information and instructions for people new to the framework.
+/useful_instructions contains documents with useful information and instructions for people new to the framework.
