@@ -75,7 +75,7 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     correlation_cut = args.cut   # this is the correlation cut... If negative then no cut is applied
     
     # the root_path leads to the folder with the root files being used for data
-    root_path = "/depot-new/cms/top/mcnama20/TopSpinCorr-Run2-Entanglement/CMSSW_10_2_22/src/TopAnalysis/Configuration/analysis/diLeptonic/three_files/Nominal"
+    root_path = "/depot/cms/top/mcnama20/TopSpinCorr-Run2-Entanglement/CMSSW_10_2_22/src/TopAnalysis/Configuration/analysis/diLeptonic/three_files/Nominal"
 
     file = root_path + "/" + args.channel + "_modified_root_1.root"   # this is the data root file loaded into the dataloader
     
@@ -140,13 +140,17 @@ class Classifier(nn.Module):
 
         self.model = nn.Sequential(
             nn.Linear(input_size, 512),   # first layer
+            nn.BatchNorm1d(512),   # batch normalization
             nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
             nn.Linear(512, 256),
+            nn.BatchNorm1d(256),# batch normalization
             nn.LeakyReLU(0.2, inplace=True),
             nn.Linear(256, 3),
+            nn.BatchNorm1d(3),  # batch normalization
             nn.LeakyReLU(0.2, inplace=True)
         )
-
+        
+        
     def forward(self, input):
         """
         applies model to input and attempts to classify
