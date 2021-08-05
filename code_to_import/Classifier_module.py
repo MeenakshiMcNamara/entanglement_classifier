@@ -76,17 +76,31 @@ class Three_Layer_Classifier(nn.Module):
     """
     classifier layers
     """
-    def __init__(self, input_size=opt.input_size):
+    def __init__(self, input_size=opt.input_size, batch_norm=True):
         super(Three_Layer_Classifier, self).__init__()   # Just uses the module constructor with name Discriminator 
-
-        self.model = nn.Sequential(
-            nn.Linear(input_size, 512),   # first layer
-            nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
-            nn.Linear(512, 256),
-            nn.LeakyReLU(0.2, inplace=True),
-            nn.Linear(256, 3),
-            nn.LeakyReLU(0.2, inplace=True)
-        )
+        
+        if batch_norm:
+            self.model = nn.Sequential(
+                nn.Linear(input_size, 512),   # first layer
+                nn.BatchNorm1d(512),   # batch normalization
+                nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
+                nn.Linear(512, 256),
+                nn.BatchNorm1d(256),# batch normalization
+                nn.LeakyReLU(0.2, inplace=True),
+                nn.Linear(256, 3),
+                nn.BatchNorm1d(3),  # batch normalization
+                nn.LeakyReLU(0.2, inplace=True)
+            )
+            
+        else:
+            self.model = nn.Sequential(
+                nn.Linear(input_size, 512),   # first layer
+                nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
+                nn.Linear(512, 256),
+                nn.LeakyReLU(0.2, inplace=True),
+                nn.Linear(256, 3),
+                nn.LeakyReLU(0.2, inplace=True)
+            )
 
     def forward(self, input):
         """
