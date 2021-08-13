@@ -44,10 +44,17 @@ print(torch.cuda.is_available())
 # In[28]:
 ################# Load Command Line Arguments ########################################################
 parser = argparse.ArgumentParser()
+
 parser.add_argument("--channel", type=str, default="ee", help="The channel type (ee, emu or mumu). Default is ee")
+
 parser.add_argument("--cut",type=float, default=-1.0, help="The correlation cut being used. Default is -1, and negative cuts are not applied")
+
 parser.add_argument("--version",type=int, default=-1, help="Version number of this type of run. Default is -1 which results in no number applied")
+
 parser.add_argument("--cut_version", type=int, default=-1, help="This is the version for the type of cut. If negative then not applied")
+
+parser.add_argument("--weight", type=str, default="false", help="This determines whether weights and negative weights are applied. Possible inputs are 'false', 'true', and 'no-neg'")
+
 args = parser.parse_args()
 print(args)
 
@@ -68,19 +75,23 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     batch_size = 5000   # the training set is broken up into batches, 
                         # this sets the size of each batch
     
-    lr = 0.001   # learning rate (how much to change based on error)
+    lr = 0.0001   # learning rate (how much to change based on error)
     b1 = 0.9   # Used for Adam. Exponential decay rate for the first moment
     b2 = 0.999   # Used for Adam. Exponential decay rate for the second moment estimates (gradient squared)
         
     correlation_cut = args.cut   # this is the correlation cut... If negative then no cut is applied
+    
+    weight_cmd = args.weight   # could also be "false" and "no-neg".
+                          # This determines whether weights and negative weights are used
     
     # the root_path leads to the folder with the root files being used for data
     root_path = "/depot/cms/top/mcnama20/TopSpinCorr-Run2-Entanglement/CMSSW_10_2_22/src/TopAnalysis/Configuration/analysis/diLeptonic/three_files/Nominal"
 
     file = root_path + "/" + args.channel + "_modified_root_1.root"   # this is the data root file loaded into the dataloader
     
-    model_name = "threeLayerModel_" + args.channel + "_corrCut_" + str(correlation_cut) # this is the model name. 
-                                                                          # Change it when running a new model
+    # this is the model name. Change it when running a new model
+    model_name = "threeLayerModel_" + args.channel + "_corrCut_" + str(correlation_cut)  + "_weights_" + weight_cmd
+                    
     # add version information if included
     if args.version > 0:
         model_name += str(args.version)
@@ -179,14 +190,22 @@ if cuda:
 validation_data = opt.data.get_eval_data()
 
 w_val = validation_data[:,input_size + 1]
-w_val = Variable(torch.from_numpy(w_val).type(torch.FloatTensor))
 target_val = validation_data[:,input_size]
 target_val = Variable(torch.from_numpy(target_val).type(torch.LongTensor))
 y_val = np.transpose(validation_data)
 y_val = np.delete(y_val, [input_size, input_size + 1, input_size + 2], 0)
 y_val = np.transpose(y_val)
 val_data = Variable(torch.from_numpy(y_val).type(torch.Tensor))
+                    
+# replace all negative weighted events with zero if the weight_cmd says to
+if opt.weight_cmd == "no-neg":
+    w_val[w_val < 0] = 0
 
+# remove weighting (aka, set all to 1) if weight_cmd says to
+if opt.weight_cmd == "false":
+    w_val = np.ones(w_val.shape)
+    
+w_val = Variable(torch.from_numpy(w_val).type(torch.FloatTensor))
 
 # In[33]:
 
@@ -242,6 +261,16 @@ for epoch in range(opt.n_epochs):   # Loop through all epochs
         x = np.delete(x, [variable_len-3, variable_len-2, variable_len-1], 0)
         x = np.transpose(x)
         batch = Variable(x.type(torch.Tensor))   # Variable is a wrapper for the Tensor x was just made into
+                    
+        # replace all negative weighted events with zero if the weight_cmd says to
+        if opt.weight_cmd == "no-neg":
+            weight[weight < 0] = 0
+        
+        # remove weighting (aka, set all to 1) if weight_cmd says to
+        if opt.weight_cmd == "false":
+            weight = np.ones(weight.shape)
+            weight = Variable(torch.from_numpy(weight).type(torch.FloatTensor))
+
 
         # ---------------------
         #  Train Classifier
