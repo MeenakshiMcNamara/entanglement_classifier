@@ -6,6 +6,8 @@ Because this does everything we want, I am going to move the other versions into
 If you want to add a version to the run then it will also take the version as a command line argument and it will be appended to the model name and everything saved which uses the model name. I will only leave one submission script in this directory, but you can find (and use by moving into this directory) other submission scripts so this can be run in parallel.
 """
 
+# TODO: add more so continuing training works!!!!
+
 # coding: utf-8
 
 # In[26]:
@@ -55,6 +57,8 @@ parser.add_argument("--cut_version", type=int, default=-1, help="This is the ver
 
 parser.add_argument("--weight", type=str, default="false", help="This determines whether weights and negative weights are applied. Possible inputs are 'false', 'true', and 'no-neg'")
 
+parser.add_argument("--drop", type=float, default=0.0, help="The chance of any given hidden node being dropped")
+
 args = parser.parse_args()
 print(args)
 
@@ -81,6 +85,8 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
         
     correlation_cut = args.cut   # this is the correlation cut... If negative then no cut is applied
     
+    drop = args.drop   # percentage of nodes which will be dropped each time
+    
     weight_cmd = args.weight   # could also be "false" and "no-neg".
                           # This determines whether weights and negative weights are used
     
@@ -90,7 +96,7 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     file = root_path + "/" + args.channel + "_modified_root_1.root"   # this is the data root file loaded into the dataloader
     
     # this is the model name. Change it when running a new model
-    model_name = "threeLayerModel_" + args.channel + "_corrCut_" + str(correlation_cut)  + "_weights_" + weight_cmd
+    model_name = "threeLayerModel_" + args.channel + "_corrCut_" + str(correlation_cut)  + "_weights_" + weight_cmd + "_drop_" + str(drop)
                     
     # add version information if included
     if args.version > 0:
@@ -152,14 +158,14 @@ class Classifier(nn.Module):
         self.model = nn.Sequential(
             nn.Linear(input_size, 512),   # first layer
             nn.BatchNorm1d(512),   # batch normalization
+            nn.Dropout(opt.drop),   # add dropout
             nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
             nn.Linear(512, 256),
+            nn.Dropout(opt.drop),   # add dropout
             nn.BatchNorm1d(256),# batch normalization
             nn.LeakyReLU(0.2, inplace=True),
-            nn.Linear(256, 3),
-            nn.BatchNorm1d(3),  # batch normalization
-            nn.LeakyReLU(0.2, inplace=True)
-        )
+            nn.Linear(256, 3),   # last layer
+            nn.LeakyReLU(0.2, inplace=True))
         
         
     def forward(self, input):
@@ -282,7 +288,7 @@ for epoch in range(opt.n_epochs):   # Loop through all epochs
 
         # Calculate loss 
         loss_l = criterion(output, target) # loss_l is a vector with the loss for each event in the batch
-        loss = torch.dot(weight,loss_l)   # we take the dot product with the weights to calculate the final loss
+        loss = torch.dot(weight,loss_l)/(loss_l.shape[0])   # we take the dot product with the weights to calculate the final loss
         loss.backward()   # Do back propagation 
         optimizer.step()   # Update parameters based on gradients for individuals
         batches_done += 1  # increase the number of batches in the counter
@@ -297,7 +303,7 @@ for epoch in range(opt.n_epochs):   # Loop through all epochs
         
         
         out = classifier(val_data)   # run classifier on validation data to see how good it is
-        loss_val = torch.dot(w_val, criterion(out, target_val))   # calculate the validation loss
+        loss_val = torch.dot(w_val, criterion(out, target_val))/(target_val.shape[0])   # calculate the validation loss
         loss_val_array = np.append(loss_val_array, loss_val.detach().numpy()) # append the validation loss to its array
         
         if small_loss > loss_val:   # compare to see if the loss has decreased

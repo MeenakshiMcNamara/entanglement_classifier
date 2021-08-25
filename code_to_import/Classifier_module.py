@@ -76,10 +76,10 @@ class Three_Layer_Classifier(nn.Module):
     """
     classifier layers
     """
-    def __init__(self, input_size=opt.input_size, batch_norm=True):
+    def __init__(self, input_size=opt.input_size, batch_norm=True, drop=True, drop_val=0.0):
         super(Three_Layer_Classifier, self).__init__()   # Just uses the module constructor with name Discriminator 
         
-        if batch_norm:
+        if batch_norm and not drop:
             self.model = nn.Sequential(
                 nn.Linear(input_size, 512),   # first layer
                 nn.BatchNorm1d(512),   # batch normalization
@@ -92,11 +92,25 @@ class Three_Layer_Classifier(nn.Module):
                 nn.LeakyReLU(0.2, inplace=True)
             )
             
-        else:
+        elif not batch_norm:
             self.model = nn.Sequential(
                 nn.Linear(input_size, 512),   # first layer
                 nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
                 nn.Linear(512, 256),
+                nn.LeakyReLU(0.2, inplace=True),
+                nn.Linear(256, 3),
+                nn.LeakyReLU(0.2, inplace=True)
+            )
+            
+        elif drop:   # assuming batch_norm always true with drop
+            self.model = nn.Sequential(
+                nn.Linear(input_size, 512),   # first layer
+                nn.BatchNorm1d(512),   # batch normalization
+                nn.Dropout(drop_val),   # add dropout
+                nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
+                nn.Linear(512, 256),
+                nn.Dropout(drop_val),   # add dropout
+                nn.BatchNorm1d(256),# batch normalization
                 nn.LeakyReLU(0.2, inplace=True),
                 nn.Linear(256, 3),
                 nn.LeakyReLU(0.2, inplace=True)
