@@ -59,6 +59,8 @@ parser.add_argument("--weight", type=str, default="false", help="This determines
 
 parser.add_argument("--drop", type=float, default=0.0, help="The chance of any given hidden node being dropped")
 
+parser.add_argument("--input", type=str, default="all", help="The input types for model. At the moment all, lorentz, and spinCorr are options")
+
 args = parser.parse_args()
 print(args)
 
@@ -92,8 +94,15 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     
     # the root_path leads to the folder with the root files being used for data
     root_path = "/depot/cms/top/mcnama20/TopSpinCorr-Run2-Entanglement/CMSSW_10_2_22/src/TopAnalysis/Configuration/analysis/diLeptonic/three_files/Nominal"
-
-    file = root_path + "/" + args.channel + "_modified_root_1.root"   # this is the data root file loaded into the dataloader
+    
+    # this is the data root file loaded into the dataloader
+    file = root_path + "/" + args.channel
+    if args.input == "all":
+        file += "_modified_root_1.root"   
+    elif args.input == "lorentz":
+        file += "_modified_root_1_lorentzvectors.root"
+    elif args.input == "spinCorr":
+        file +="_modified_root_1_spinCorr.root"
     
     # this is the model name. Change it when running a new model
     model_name = "threeLayerModel_" + args.channel + "_corrCut_" + str(correlation_cut)  + "_weights_" + weight_cmd + "_drop_" + str(drop)
@@ -105,6 +114,10 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     # add cut version to model name if included in args
     if args.cut_version > 0:
         model_name += "cutV" + str(args.cut_version)
+        
+    # add input type. Can be "all", "lorentz" and "spinCorr"
+    if args.input != "all":
+        model_name += "_" + args.input
     
     # load data object so we can access validation and training data    
     if correlation_cut > 0:
