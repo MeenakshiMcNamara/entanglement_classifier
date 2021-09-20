@@ -59,7 +59,9 @@ parser.add_argument("--weight", type=str, default="false", help="This determines
 
 parser.add_argument("--drop", type=float, default=0.0, help="The chance of any given hidden node being dropped")
 
-parser.add_argument("--input", type=str, default="all", help="The input types for model. At the moment all, lorentz, and spinCorr are options")
+parser.add_argument("--input", type=str, default="all", help="The input types for model. At the moment all, lorentz, lorentzdelta, and spinCorr are options, lorentzgen")
+
+parser.add_argument("--includes_qg", type=bool, default=True, help="This is a boolean which determines whether we include qg production mode events")
 
 args = parser.parse_args()
 print(args)
@@ -81,6 +83,11 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     batch_size = 5000   # the training set is broken up into batches, 
                         # this sets the size of each batch
     
+    # this is the number of outputs for the neural network
+    output_num = 3
+    if not args.includes_qg:
+        output_num = 2
+    
     lr = 0.0001   # learning rate (how much to change based on error)
     b1 = 0.9   # Used for Adam. Exponential decay rate for the first moment
     b2 = 0.999   # Used for Adam. Exponential decay rate for the second moment estimates (gradient squared)
@@ -91,6 +98,8 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     
     weight_cmd = args.weight   # could also be "false" and "no-neg".
                           # This determines whether weights and negative weights are used
+    
+    qg_cmd = args.includes_qg   # this is a boolean which determines if qg is included (true) or excluded (false)
     
     # the root_path leads to the folder with the root files being used for data
     root_path = "/depot/cms/top/mcnama20/TopSpinCorr-Run2-Entanglement/CMSSW_10_2_22/src/TopAnalysis/Configuration/analysis/diLeptonic/three_files/Nominal"
@@ -103,6 +112,10 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
         file += "_modified_root_1_lorentzvectors.root"
     elif args.input == "spinCorr":
         file +="_modified_root_1_spinCorr.root"
+    elif args.input == "lorentzdelta":
+        file += "_modified_root_1_lorentzvectorsdelta.root"
+    elif args.input == "lorentzgen":
+        file += "_modified_root_1_lorentzvectorsdelta.root"
     
     # this is the model name. Change it when running a new model
     model_name = "threeLayerModel_" + args.channel + "_corrCut_" + str(correlation_cut)  + "_weights_" + weight_cmd + "_drop_" + str(drop)
@@ -118,12 +131,15 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     # add input type. Can be "all", "lorentz" and "spinCorr"
     if args.input != "all":
         model_name += "_" + args.input
+        
+    if not args.includes_qg:
+        model_name += "_NoQG"
     
     # load data object so we can access validation and training data    
     if correlation_cut > 0:
-        data = ProductionModeDataset(file, correlation_cut=correlation_cut, cut_version=args.cut_version)
+        data = ProductionModeDataset(file, correlation_cut=correlation_cut, cut_version=args.cut_version, include_qg = qg_cmd)
     else:
-        data = ProductionModeDataset(file)
+        data = ProductionModeDataset(file, include_qg = qg_cmd)
         
 
 print("The model in this run is " + opt.model_name)   # this will make slurm output easier to identify
@@ -177,7 +193,7 @@ class Classifier(nn.Module):
             nn.Dropout(opt.drop),   # add dropout
             nn.BatchNorm1d(256),# batch normalization
             nn.LeakyReLU(0.2, inplace=True),
-            nn.Linear(256, 3),   # last layer
+            nn.Linear(256, opt.output_num),   # last layer
             nn.LeakyReLU(0.2, inplace=True))
         
         

@@ -35,9 +35,11 @@ class ProductionModeDataset(Dataset):
         :param correlation_cut(float): if positive, removes values correlated more than the correlation cut. Requires existing 
                                 analysis of the given cut so that data can be loaded
         : param cut_version(int): if positive, loads the specific cut version (otherwise loads unnumbere OG version)
+        : param include_qg (boolean): default true. If false then remove stuff with production mode 2
     """
     
-    def __init__(self, root, split=True, normalize=True, remove=True, train=True, correlation_cut=-1.0, cut_version=-1):
+    def __init__(self, root, split=True, normalize=True, remove=True, train=True, correlation_cut=-1.0, cut_version=-1, 
+                include_qg = True):
         # load a correlation cut if it exists:
         to_remove = np.array(())  # initialize the array of inputs to remove because of cut as empty
         if correlation_cut > 0:
@@ -110,8 +112,22 @@ class ProductionModeDataset(Dataset):
             print("num qqbar = " + str(num_qqbar))
             # remove the extra gg and other
             max_len = len(self.events_array[:,0])
-            self.events_array = np.delete(self.events_array, list(range(num_qqbar, first)) + \
-                                          list(range(max_len - (max_len - (last + 1) -num_qqbar), max_len)), 0)
+            if include_qg:
+                """
+                keep every production mode but remove excess events beyond qqbar amount
+                """ 
+                self.events_array = np.delete(self.events_array, list(range(num_qqbar, first)) + \
+                                              list(range(max_len - (max_len - (last + 1) -num_qqbar), max_len)), 0)
+                
+            elif not include_qg:
+                """
+                Here we remove all quark-gluon events if we don't want them
+                """
+                self.events_array = np.delete(self.events_array, list(range(num_qqbar, first)) + \
+                                             list(range(last, max_len)), 0)
+                
+            #self.events_array = np.delete(self.events_array, list(range(num_qqbar, first)) + \
+             #                             list(range(max_len - (max_len - (last + 1) -num_qqbar), max_len)), 0)
             
         # normalize here
             #print(len(self.events_array[:,0]))
