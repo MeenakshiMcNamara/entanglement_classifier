@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 /models/bad
 __pycache__
+/data/three_layers/train_val_datasets

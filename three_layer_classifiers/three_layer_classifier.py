@@ -61,10 +61,12 @@ parser.add_argument("--drop", type=float, default=0.0, help="The chance of any g
 
 parser.add_argument("--input", type=str, default="all", help="The input types for model. At the moment all, lorentz, lorentzdelta, and spinCorr are options, lorentzgen")
 
-parser.add_argument("--includes_qg", type=bool, default=True, help="This is a boolean which determines whether we include qg production mode events")
+parser.add_argument("--includes_qg", type=str, default="true", help="This is a boolean which determines whether we include qg production mode events")
 
 args = parser.parse_args()
 print(args)
+
+print("The input for --includes_gq was " + args.includes_qg)
 
 
 ######################## THIS CLASS INCLUDES ALL THE VARIABLES YOU WANT TO CONFIGURE #################################
@@ -85,7 +87,7 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     
     # this is the number of outputs for the neural network
     output_num = 3
-    if not args.includes_qg:
+    if args.includes_qg != "true":
         output_num = 2
     
     lr = 0.0001   # learning rate (how much to change based on error)
@@ -99,7 +101,7 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     weight_cmd = args.weight   # could also be "false" and "no-neg".
                           # This determines whether weights and negative weights are used
     
-    qg_cmd = args.includes_qg   # this is a boolean which determines if qg is included (true) or excluded (false)
+    qg_cmd = (args.includes_qg == "true")   # this is a boolean which determines if qg is included (true) or excluded (false)
     
     # the root_path leads to the folder with the root files being used for data
     root_path = "/depot/cms/top/mcnama20/TopSpinCorr-Run2-Entanglement/CMSSW_10_2_22/src/TopAnalysis/Configuration/analysis/diLeptonic/three_files/Nominal"
@@ -119,7 +121,7 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     
     # this is the model name. Change it when running a new model
     model_name = "threeLayerModel_" + args.channel + "_corrCut_" + str(correlation_cut)  + "_weights_" + weight_cmd + "_drop_" + str(drop)
-                    
+    
     # add version information if included
     if args.version > 0:
         model_name += str(args.version)
@@ -132,8 +134,11 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
     if args.input != "all":
         model_name += "_" + args.input
         
-    if not args.includes_qg:
-        model_name += "_NoQG"
+    if not qg_cmd:
+        model_name += "_no_qg"
+    
+    
+    print(model_name)
     
     # load data object so we can access validation and training data    
     if correlation_cut > 0:
