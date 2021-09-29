@@ -76,7 +76,7 @@ class Three_Layer_Classifier(nn.Module):
     """
     classifier layers
     """
-    def __init__(self, input_size=opt.input_size, batch_norm=True, drop=True, drop_val=0.0):
+    def __init__(self, input_size=opt.input_size, number_of_classes=3, batch_norm=True, drop=True, drop_val=0.0):
         super(Three_Layer_Classifier, self).__init__()   # Just uses the module constructor with name Discriminator 
         
         if batch_norm and not drop:
@@ -87,8 +87,8 @@ class Three_Layer_Classifier(nn.Module):
                 nn.Linear(512, 256),
                 nn.BatchNorm1d(256),# batch normalization
                 nn.LeakyReLU(0.2, inplace=True),
-                nn.Linear(256, 3),
-                nn.BatchNorm1d(3),  # batch normalization
+                nn.Linear(256, number_of_classes),
+                nn.BatchNorm1d(number_of_classes),  # batch normalization
                 nn.LeakyReLU(0.2, inplace=True)
             )
             
@@ -98,7 +98,7 @@ class Three_Layer_Classifier(nn.Module):
                 nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
                 nn.Linear(512, 256),
                 nn.LeakyReLU(0.2, inplace=True),
-                nn.Linear(256, 3),
+                nn.Linear(256, number_of_classes),
                 nn.LeakyReLU(0.2, inplace=True)
             )
             
@@ -112,7 +112,7 @@ class Three_Layer_Classifier(nn.Module):
                 nn.Dropout(drop_val),   # add dropout
                 nn.BatchNorm1d(256),# batch normalization
                 nn.LeakyReLU(0.2, inplace=True),
-                nn.Linear(256, 3),
+                nn.Linear(256, number_of_classes),
                 nn.LeakyReLU(0.2, inplace=True)
             )
 
