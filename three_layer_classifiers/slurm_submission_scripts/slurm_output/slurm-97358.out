@@ -1,0 +1,3 @@
+0
+/var/spool/slurm/job97358/slurm_script: line 14: 65275 Killed                  python three_layer_classifier.py --channel=emu --cut=-1 --weight=true --drop=0.5 --input="lorentzdelta"
+slurmstepd: error: Detected 1 oom-kill event(s) in step 97358.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

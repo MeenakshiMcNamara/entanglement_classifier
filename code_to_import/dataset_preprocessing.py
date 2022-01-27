@@ -137,6 +137,72 @@ class ProductionModeDataset(Dataset):
             #max_a = []
             #range_a = []
             #update_a = []
+        if not remove:
+            """
+            Here is where we duplicate qqbar data so that qqbar and gg events are equally represented in the analysis
+            """
+            # find index of production_mode:
+            np.random.shuffle(self.events_array)
+            index = 0
+            for i in range(len(data_list)):
+                if data_list[i] == "production_mode":
+                    index = i
+                    break
+                    
+            # sort events array by production mode
+            self.events_array = self.events_array[np.argsort(self.events_array[:, index])]           
+            
+            ############## find first and last index with production mode 1 #########################
+            first = 0  # this will be the first index with qqbar
+            last = 0   # this will be the last index with qqbar
+            found_first = False   # a flag which allows us to stop looking for first once found
+            
+            for i in range(len(self.events_array[:,index])):
+                if not found_first:
+                    if self.events_array[i ,index] == 1:
+                        first = i
+                        found_first = True
+                
+                if self.events_array[i,index] == 2:
+                    last = i - 1
+                    break
+            #######################################################################################
+            num_qqbar = last + 1 - first  # this is the total number of qqbar events
+            print("num qqbar = " + str(num_qqbar))
+            
+            num_gg = first - 1
+            print("num gg is " + str(num_gg))
+            
+            max_len = len(self.events_array[:,0])
+            #########################################################################
+            new_events = [self.events_array[first + np.mod(loop, num_qqbar),:] for loop in range(num_gg - num_qqbar)]
+            new_events = np.array(new_events)
+            print("there were this many new events " + str(len(new_events)))
+            self.events_array = np.vstack([self.events_array, new_events])
+            print("new total length is " + str(len(self.events_array[:,index])))
+            print(self.events_array)
+            
+            ####################### remove the extra gg and other #############################################
+            
+            
+            if include_qg:
+                """
+                keep every production mode but remove excess events beyond qqbar amount
+                """ 
+                self.events_array = np.delete(self.events_array, list(range(num_qqbar, first)) + \
+                                              list(range(max_len - (max_len - (last + 1) -num_qqbar), max_len)), 0)
+                
+            elif not include_qg:
+                """
+                Here we remove all quark-gluon events if we don't want them
+                """
+                self.events_array = np.delete(self.events_array, list(range(last + 1,max_len)),0)
+                print("range is " + str(range(last + 1,max_len)))
+                
+            print("final total length is " + str(len(self.events_array)))
+            
+            #################################################################################################
+
         if normalize:
             for i in range(len(self.events_array[0,:])-3):#the last three is subtracted, thust not there any more
                 ori_a = self.events_array[:,i]#original number
@@ -144,9 +210,10 @@ class ProductionModeDataset(Dataset):
                 min_a = np.min(self.events_array[:,i])#min
                 max_a = np.max(self.events_array[:,i])#max
                 range_a = max_a - min_a #range
-                #print('range =',range_a)
-                self.events_array[:, i] = (ori_a - min_a) / (range_a) #normalized list. i dont know what to do with it.
-#                 print('normalized =', np.max(self.events_array[:,i]))
+         
+                if range_a > 0:
+                    self.events_array[:, i] = (ori_a - min_a) / (range_a)
+
                 
             # normalize the weights here:
             n = len(self.events_array[0,:])-2

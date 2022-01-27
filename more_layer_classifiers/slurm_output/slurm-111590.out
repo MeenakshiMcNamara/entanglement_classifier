@@ -1,0 +1,15 @@
+0
+False
+Namespace(channel='ee', cut=-1.0, cut_version=-1, drop=0.2, includes_qg='False', input='lorentzdelta_gen', version=-1, weight='true')
+The input for --includes_gq was False
+fiveLayerModel_ee_corrCut_-1.0_weights_true_drop_0.2_lorentzdelta_gen_no_qgbatch_2000
+['gen_l_eta', 'gen_lbar_eta', 'gen_l_phi', 'gen_lbar_phi', 'gen_l_pt', 'gen_lbar_pt', 'gen_l_mass', 'gen_lbar_mass', 'gen_b_eta', 'gen_bbar_eta', 'gen_b_phi', 'gen_bbar_phi', 'gen_b_pt', 'gen_bbar_pt', 'gen_b_mass', 'gen_bbar_mass', 'gen_llbar_delta_eta', 'gen_bbbar_delta_eta', 'gen_lbbar_delta_eta', 'gen_blbar_delta_eta', 'gen_lb_delta_eta', 'gen_bbarlbar_delta_eta', 'gen_llbar_delta_phi', 'gen_bbbar_delta_phi', 'gen_lbbar_delta_phi', 'gen_blbar_delta_phi', 'gen_lb_delta_phi', 'gen_bbarlbar_delta_phi', 'production_mode', 'eventWeight', '__index__']
+num qqbar = 52908
+training (85710, 31)
+evaluating (20105, 31)
+Traceback (most recent call last):
+  File "five_layer_classifier.py", line 78, in <module>
+    class opt():   # Class used for optimizers in the future. Defines all variables and stuff needed.
+  File "five_layer_classifier.py", line 160, in opt
+    model += "_layerordergood"
+NameError: name 'model' is not defined

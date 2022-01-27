@@ -22,6 +22,8 @@ import torch.nn as nn
 import torch.nn.functional as F   # NOTE: I don't think this is used
 import torch.autograd as autograd
 import torch
+from dgl.nn import GraphConv
+import dgl
 
 
 
@@ -72,6 +74,54 @@ class Classifier(nn.Module):
         """
         output = self.model(input)   # Classifies the input (at location) as gg (0) qqbar (1) or other (2)
         return output
+    
+class Two_Layer_Classifier(nn.Module):
+    """
+    classifier layers
+    """
+    def __init__(self, input_size=opt.input_size, number_of_classes=3, batch_norm=True, drop=True, drop_val=0.0):
+        super(Two_Layer_Classifier, self).__init__()   # Just uses the module constructor with name Discriminator 
+        
+        if batch_norm and not drop:
+            self.model = nn.Sequential(
+                nn.Linear(input_size, 256),   # first layer
+                nn.BatchNorm1d(256),   # batch normalization
+                nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
+                nn.Linear(512, 256),
+                nn.BatchNorm1d(256),# batch normalization
+                nn.LeakyReLU(0.2, inplace=True),
+                nn.Linear(256, number_of_classes),
+                nn.BatchNorm1d(number_of_classes),  # batch normalization
+                nn.LeakyReLU(0.2, inplace=True)
+            )
+            
+        elif not batch_norm:
+            self.model = nn.Sequential(
+                nn.Linear(input_size, 256),   # first layer
+                nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
+                nn.Linear(256, number_of_classes),
+                nn.LeakyReLU(0.2, inplace=True)
+            )
+            
+        elif drop:   # assuming batch_norm always true with drop
+            self.model = nn.Sequential(
+                nn.Linear(input_size, 256),   # first layer
+                nn.BatchNorm1d(256),   # batch normalization
+                nn.Dropout(drop_val),   # add dropout
+                nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
+                nn.Linear(256, number_of_classes),
+                nn.LeakyReLU(0.2, inplace=True)
+            )
+
+    def forward(self, input):
+        """
+        applies model to input and attempts to classify
+        """
+        output = self.model(input)   # Classifies the input (at location) as gg (0) qqbar (1) or other (2)
+        return output
+
+
+    
 class Three_Layer_Classifier(nn.Module):
     """
     classifier layers
@@ -123,3 +173,63 @@ class Three_Layer_Classifier(nn.Module):
         output = self.model(input)   # Classifies the input (at location) as gg (0) qqbar (1) or other (2)
         return output
 
+class Five_Layer_Classifier(nn.Module):
+    """
+    classifier layers
+    """
+    def __init__(self, input_size=opt.input_size, number_of_classes=3, batch_norm=True, drop=True, drop_val=0.0):
+        super(Five_Layer_Classifier, self).__init__()   # Just uses the module constructor with name Discriminator 
+
+        self.model = nn.Sequential(
+            nn.Linear(input_size, 64),   # first layer
+            nn.BatchNorm1d(64),   # batch normalization
+            nn.LeakyReLU(0.2, inplace=True),   # apply leaky relu to layer
+            nn.Dropout(drop_val),   # add dropout
+            
+            nn.Linear(64, 128),
+            nn.BatchNorm1d(128),# batch normalization
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Dropout(drop_val),   # add dropout
+            
+            nn.Linear(128, 128),
+            nn.BatchNorm1d(128),# batch normalization
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Dropout(drop_val),   # add dropout
+            
+            nn.Linear(128, 64),
+            nn.BatchNorm1d(64),# batch normalization
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Dropout(drop_val),   # add dropout
+            
+            nn.Linear(64, number_of_classes),   # last layer
+            nn.LeakyReLU(0.2, inplace=True))
+        
+        
+        
+    def forward(self, input):
+        """
+        applies model to input and attempts to classify
+        """
+        output = self.model(input)   # Classifies the input (at location) as gg (0) qqbar (1) or other (2)
+        return output
+    
+    
+
+class GCN4Layers(nn.Module):
+    def __init__(self, in_feats, num_classes):
+        super(GCN4Layers, self).__init__()
+        self.conv1 = GraphConv(in_feats, 128)
+        self.conv2 = GraphConv(128, 64)
+        self.conv3 = GraphConv(64, 32)
+        self.conv4 = GraphConv(32, num_classes)
+
+    def forward(self, g, in_feat):
+        h = self.conv1(g, in_feat)
+        h = F.relu(h)
+        h = self.conv2(g, h)
+        h = F.relu(h)
+        h = self.conv3(g,h)
+        h = F.relu(h)
+        h = self.conv4(g,h)
+        g.ndata['h'] = h
+        return dgl.mean_nodes(g, 'h')

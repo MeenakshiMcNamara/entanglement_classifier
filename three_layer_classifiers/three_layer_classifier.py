@@ -116,8 +116,14 @@ class opt():   # Class used for optimizers in the future. Defines all variables 
         file +="_modified_root_1_spinCorr.root"
     elif args.input == "lorentzdelta":
         file += "_modified_root_1_lorentzvectorsdelta.root"
-    elif args.input == "lorentzgen":
-        file += "_modified_root_1_lorentzvectorsdelta.root"
+    #elif args.input == "lorentzgen":
+     #   file += "_modified_root_1_lorentzvectorsdelta_gen.root"
+    elif args.input == "lorentz_mttbar":
+        file += "_modified_root_1_lorentzvectors_mttbar_mass.root"
+    elif args.input == "lorentz_delta2":
+        file += "__modified_root_1_lorentzvectorsdelta_version2.root"
+    elif args.input == "lorentzdelta_gen":
+        file += "_modified_root_1_lorentzvectorsdelta_gen.root"
     
     # this is the model name. Change it when running a new model
     model_name = "threeLayerModel_" + args.channel + "_corrCut_" + str(correlation_cut)  + "_weights_" + weight_cmd + "_drop_" + str(drop)

@@ -1,0 +1,5 @@
+0
+usage: three_layer_classifier.py [-h] [--channel CHANNEL] [--cut CUT]
+                                 [--version VERSION]
+three_layer_classifier.py: error: unrecognized arguments: 0
+False

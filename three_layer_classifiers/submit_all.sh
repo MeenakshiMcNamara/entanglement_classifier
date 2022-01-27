@@ -4,9 +4,20 @@
 
 cp slurm_submission_scripts/* .
 
-sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 mumu_lorentz_submissions_weighted_drop_0.5_no_qg.sub
-sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 emu_lorentz_submissions_weighted_drop_0.5_no_qg.sub
-sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 ee_lorentz_submissions_weighted_drop_0.5_no_qg.sub
+sbatch -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 ee_lorentzdelta_gen_submissions_weighted_drop_0.2_no_qg.sub
+sbatch -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 ee_lorentzdelta_gen_submissions_weighted_drop_0.5_no_qg.sub
+#sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 mumu_lorentz_mttbar_submissions_weighted_drop_0.2_no_qg.sub
+#sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 emu_lorentz_mttbar_submissions_weighted_drop_0.2_no_qg.sub
+#sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 ee_lorentz_mttbar_submissions_weighted_drop_0.2_no_qg.sub
+
+#sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 mumu_lorentz_mttbar_submissions_weighted_drop_0.5_no_qg.sub
+#sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 emu_lorentz_mttbar_submissions_weighted_drop_0.5_no_qg.sub
+#sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 ee_lorentz_mttbar_submissions_weighted_drop_0.5_no_qg.sub
+
+
+#sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 mumu_lorentz_submissions_weighted_drop_0.5_no_qg.sub
+#sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 emu_lorentz_submissions_weighted_drop_0.5_no_qg.sub
+#sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 ee_lorentz_submissions_weighted_drop_0.5_no_qg.sub
 
 #sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 mumu_lorentz_submissions_weighted_drop_0.2_no_qg.sub
 #sbatch  -A scholar --nodes=1 --gres=gpu:1 --gpus=1 -t 04:00:00 emu_lorentz_submissions_weighted_drop_0.2_no_qg.sub

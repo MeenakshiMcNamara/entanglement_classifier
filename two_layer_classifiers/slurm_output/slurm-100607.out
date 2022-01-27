@@ -1,0 +1,18 @@
+0
+False
+Namespace(channel='ee', cut=-1.0, cut_version=-1, drop=0.2, includes_qg='False', input='lorentz_mttbar', version=-1, weight='true')
+The input for --includes_gq was False
+twoLayerModel_ee_corrCut_-1.0_weights_true_drop_0.2_lorentz_mttbar_no_qg
+['l_eta', 'lbar_eta', 'l_phi', 'lbar_phi', 'l_pt', 'lbar_pt', 'l_mass', 'lbar_mass', 'b_eta', 'bbar_eta', 'b_phi', 'bbar_phi', 'b_pt', 'bbar_pt', 'b_mass', 'bbar_mass', 'ttbar_mass', 'production_mode', 'eventWeight', '__index__']
+num qqbar = 52908
+training (85710, 20)
+evaluating (20105, 20)
+The model in this run is twoLayerModel_ee_corrCut_-1.0_weights_true_drop_0.2_lorentz_mttbar_no_qg
+done
+Traceback (most recent call last):
+  File "two_layer_classifier.py", line 180, in <module>
+    np.save("../data/two_layers/train_val_datasets/training_dataset_" + opt.model_name + ".npy", opt.data.get_training_data())
+  File "<__array_function__ internals>", line 6, in save
+  File "/home/mcnama20/.conda/envs/cent7/5.1.0-py36/GANS_7/lib/python3.6/site-packages/numpy/lib/npyio.py", line 524, in save
+    file_ctx = open(file, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: '../data/two_layers/train_val_datasets/training_dataset_twoLayerModel_ee_corrCut_-1.0_weights_true_drop_0.2_lorentz_mttbar_no_qg.npy'

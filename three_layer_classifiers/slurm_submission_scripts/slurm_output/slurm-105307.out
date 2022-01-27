@@ -1,0 +1,23 @@
+0
+False
+Namespace(channel='ee', cut=-1.0, cut_version=-1, drop=0.5, includes_qg='true', input='lorentzdelta_gen', version=-1, weight='true')
+The input for --includes_gq was true
+threeLayerModel_ee_corrCut_-1.0_weights_true_drop_0.5_lorentzdelta_gen
+['l_eta', 'lbar_eta', 'l_phi', 'lbar_phi', 'l_pt', 'lbar_pt', 'l_mass', 'lbar_mass', 'b_eta', 'bbar_eta', 'b_phi', 'bbar_phi', 'b_pt', 'bbar_pt', 'b_mass', 'bbar_mass', 'llbar_delta_eta', 'bbbar_delta_eta', 'lbbar_delta_eta', 'blbar_delta_eta', 'lb_delta_eta', 'bbarlbar_delta_eta', 'llbar_delta_phi', 'bbbar_delta_phi', 'lbbar_delta_phi', 'blbar_delta_phi', 'lb_delta_phi', 'bbarlbar_delta_phi', 'production_mode', 'eventWeight', '__index__']
+num qqbar = 52908
+training (128566, 31)
+evaluating (30158, 31)
+The model in this run is threeLayerModel_ee_corrCut_-1.0_weights_true_drop_0.5_lorentzdelta_gen
+done
+Traceback (most recent call last):
+  File "three_layer_classifier.py", line 330, in <module>
+    loss_l = criterion(output, target) # loss_l is a vector with the loss for each event in the batch
+  File "/home/mcnama20/.conda/envs/cent7/5.1.0-py36/GANS_7/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/mcnama20/.conda/envs/cent7/5.1.0-py36/GANS_7/lib/python3.6/site-packages/torch/nn/modules/loss.py", line 962, in forward
+    ignore_index=self.ignore_index, reduction=self.reduction)
+  File "/home/mcnama20/.conda/envs/cent7/5.1.0-py36/GANS_7/lib/python3.6/site-packages/torch/nn/functional.py", line 2468, in cross_entropy
+    return nll_loss(log_softmax(input, 1), target, weight, None, ignore_index, None, reduction)
+  File "/home/mcnama20/.conda/envs/cent7/5.1.0-py36/GANS_7/lib/python3.6/site-packages/torch/nn/functional.py", line 2264, in nll_loss
+    ret = torch._C._nn.nll_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index)
+IndexError: Target 2 is out of bounds.
